@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Show Report in the WebViewer", "Show Report in the WebViewer\Show Report in the WebViewer.csproj", "{9FEB55C3-D713-49EF-B8B8-DDA74AF6F87C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebViewer with Scroll Bars", "WebViewer with Scroll Bars\WebViewer with Scroll Bars.csproj", "{DE8AE865-FF5D-4710-ABEB-66D5625DF688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runtime Report Creation", "Runtime Report Creation\Runtime Report Creation.csproj", "{2E671286-9975-431E-AA48-1D85F646BB11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Export Report from Code", "Export Report from Code\Export Report from Code.csproj", "{09F8449B-CB90-458F-B0B7-BB1E1C5218BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localizing WebViewer", "Localizing WebViewer\Localizing WebViewer.csproj", "{03A02CBB-B970-4765-B5A7-3D7B082D30CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using WebDesigner", "Using WebDesigner\Using WebDesigner.csproj", "{A26D639A-4CBF-4C0F-A38A-95FBCCD15553}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localizing WebDesigner", "Localizing WebDesigner\Localizing WebDesigner.csproj", "{5E377215-A2C1-4BBD-BAD2-8304009940E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using Variables in Report", "Using Variables in Report\Using Variables in Report.csproj", "{8520C5CE-23E4-42DE-9504-043182508366}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globalized Reports", "Globalized Reports\Globalized Reports.csproj", "{27770520-E088-4AD4-B9CD-CE686CBE9400}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FEB55C3-D713-49EF-B8B8-DDA74AF6F87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FEB55C3-D713-49EF-B8B8-DDA74AF6F87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FEB55C3-D713-49EF-B8B8-DDA74AF6F87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FEB55C3-D713-49EF-B8B8-DDA74AF6F87C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE8AE865-FF5D-4710-ABEB-66D5625DF688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8AE865-FF5D-4710-ABEB-66D5625DF688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8AE865-FF5D-4710-ABEB-66D5625DF688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8AE865-FF5D-4710-ABEB-66D5625DF688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E671286-9975-431E-AA48-1D85F646BB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E671286-9975-431E-AA48-1D85F646BB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E671286-9975-431E-AA48-1D85F646BB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E671286-9975-431E-AA48-1D85F646BB11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09F8449B-CB90-458F-B0B7-BB1E1C5218BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F8449B-CB90-458F-B0B7-BB1E1C5218BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F8449B-CB90-458F-B0B7-BB1E1C5218BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F8449B-CB90-458F-B0B7-BB1E1C5218BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A02CBB-B970-4765-B5A7-3D7B082D30CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A02CBB-B970-4765-B5A7-3D7B082D30CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A02CBB-B970-4765-B5A7-3D7B082D30CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A02CBB-B970-4765-B5A7-3D7B082D30CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26D639A-4CBF-4C0F-A38A-95FBCCD15553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26D639A-4CBF-4C0F-A38A-95FBCCD15553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26D639A-4CBF-4C0F-A38A-95FBCCD15553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26D639A-4CBF-4C0F-A38A-95FBCCD15553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E377215-A2C1-4BBD-BAD2-8304009940E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E377215-A2C1-4BBD-BAD2-8304009940E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E377215-A2C1-4BBD-BAD2-8304009940E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E377215-A2C1-4BBD-BAD2-8304009940E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8520C5CE-23E4-42DE-9504-043182508366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8520C5CE-23E4-42DE-9504-043182508366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8520C5CE-23E4-42DE-9504-043182508366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8520C5CE-23E4-42DE-9504-043182508366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27770520-E088-4AD4-B9CD-CE686CBE9400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27770520-E088-4AD4-B9CD-CE686CBE9400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27770520-E088-4AD4-B9CD-CE686CBE9400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27770520-E088-4AD4-B9CD-CE686CBE9400}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
