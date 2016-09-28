@@ -4,20 +4,20 @@
 
 #Overview
 This repository has some examples (Visual Studio Projects) each in different folders:
-* Customize the WebViewer
-* Customize the WebViewerFx
+* Customize the Viewer
+* Customize the ViewerFx
 * Export Report from Code
 * Globalized Reports
 * Load and Save Report in the DesignerFx
-* Localizing WebDesigner
-* Localizing WebViewer
+* Localizing the Designer
+* Localizing the Viewer
 * Runtime Report Creation
-* Show Report in the WebViewer
-* Show Report in the WebViewerFx
+* Show Report in the Viewer
+* Show Report in the ViewerFx
+* Using the Designer
+* Using the DesignerFx
 * Using Variables in the Report
-* Using WebDesigner
-* Using WebDesignerFx
-* WebViewer with Scroll Bars
+* Web Viewer with Scroll Bars
 
 
 They are all combined in a Visual Studio solution (.sln-file).
