@@ -17,9 +17,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using WebDesigner", "Using 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localizing WebDesigner", "Localizing WebDesigner\Localizing WebDesigner.csproj", "{5E377215-A2C1-4BBD-BAD2-8304009940E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using Variables in Report", "Using Variables in Report\Using Variables in Report.csproj", "{8520C5CE-23E4-42DE-9504-043182508366}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using Variables in the Report", "Using Variables in the Report\Using Variables in the Report.csproj", "{8520C5CE-23E4-42DE-9504-043182508366}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globalized Reports", "Globalized Reports\Globalized Reports.csproj", "{27770520-E088-4AD4-B9CD-CE686CBE9400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customize the WebViewer", "Customize the WebViewer\Customize the WebViewer.csproj", "{F262B38D-1A97-43F1-8430-726AE930FA73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Show Report in the WebViewerFx", "Show Report in the WebViewerFx\Show Report in the WebViewerFx.csproj", "{2CD2D8A2-A28E-4CC7-9CED-B07994F7100A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customize the WebViewerFx", "Customize the WebViewerFx\Customize the WebViewerFx.csproj", "{F32BC869-31EA-4229-BBFE-579D60D013C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using WebDesignerFx", "Using WebDesignerFx\Using WebDesignerFx.csproj", "{1797FBEA-0A2D-47E6-AF30-640CFEA1200F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Load and Save Report in the DesignerFx", "Load and Save Report in the DesignerFx\Load and Save Report in the DesignerFx.csproj", "{427BB2AA-41EA-4589-ADB1-BE30955D2208}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +73,26 @@ Global
 		{27770520-E088-4AD4-B9CD-CE686CBE9400}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27770520-E088-4AD4-B9CD-CE686CBE9400}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27770520-E088-4AD4-B9CD-CE686CBE9400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F262B38D-1A97-43F1-8430-726AE930FA73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F262B38D-1A97-43F1-8430-726AE930FA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F262B38D-1A97-43F1-8430-726AE930FA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F262B38D-1A97-43F1-8430-726AE930FA73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CD2D8A2-A28E-4CC7-9CED-B07994F7100A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD2D8A2-A28E-4CC7-9CED-B07994F7100A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD2D8A2-A28E-4CC7-9CED-B07994F7100A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CD2D8A2-A28E-4CC7-9CED-B07994F7100A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F32BC869-31EA-4229-BBFE-579D60D013C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32BC869-31EA-4229-BBFE-579D60D013C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32BC869-31EA-4229-BBFE-579D60D013C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32BC869-31EA-4229-BBFE-579D60D013C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1797FBEA-0A2D-47E6-AF30-640CFEA1200F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1797FBEA-0A2D-47E6-AF30-640CFEA1200F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1797FBEA-0A2D-47E6-AF30-640CFEA1200F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1797FBEA-0A2D-47E6-AF30-640CFEA1200F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{427BB2AA-41EA-4589-ADB1-BE30955D2208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{427BB2AA-41EA-4589-ADB1-BE30955D2208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{427BB2AA-41EA-4589-ADB1-BE30955D2208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{427BB2AA-41EA-4589-ADB1-BE30955D2208}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
