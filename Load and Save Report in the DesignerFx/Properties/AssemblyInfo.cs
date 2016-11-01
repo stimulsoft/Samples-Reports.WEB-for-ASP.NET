@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("_01.Show_Report_in_the_WebViewer")]
+[assembly: AssemblyTitle("Load_and_Save_Report_in_the_DesignerFx")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("_01.Show_Report_in_the_WebViewer")]
+[assembly: AssemblyProduct("Load_and_Save_Report_in_the_DesignerFx")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
