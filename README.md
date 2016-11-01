@@ -12,7 +12,7 @@ This repository has some examples (Visual Studio Projects) each in different fol
 * Load and Save Report in the DesignerFx
 * Localizing the Designer
 * Localizing the Viewer
-* Print and Export Report from Code
+* Print Report from Code
 * Runtime Report Creation
 * Show Report in the Viewer
 * Show Report in the ViewerFx

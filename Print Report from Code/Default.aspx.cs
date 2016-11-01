@@ -3,7 +3,7 @@ using Stimulsoft.Report.Web;
 using System;
 using System.Data;
 
-namespace Print_and_Export_Report_from_Code
+namespace Print_Report_from_Code
 {
     public partial class Default : System.Web.UI.Page
     {
@@ -26,18 +26,18 @@ namespace Print_and_Export_Report_from_Code
             return report;
         }
 
-        protected void ButtonPrint_Click(object sender, EventArgs e)
+        protected void ButtonPrintPdf_Click(object sender, EventArgs e)
         {
             StiReport report = this.GetReport();
 
-            StiReportResponse.PrintAsHtml(report);
+            StiReportResponse.PrintAsPdf(report);
         }
 
-        protected void ButtonExport_Click(object sender, EventArgs e)
+        protected void ButtonPrintHtml_Click(object sender, EventArgs e)
         {
             StiReport report = this.GetReport();
-
-            StiReportResponse.ResponseAsPdf(report);
+            
+            StiReportResponse.PrintAsHtml(report);
         }
     }
 }

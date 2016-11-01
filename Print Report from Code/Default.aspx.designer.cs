@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Print_and_Export_Report_from_Code {
+namespace Print_Report_from_Code {
     
     
     public partial class Default {
@@ -22,21 +22,21 @@ namespace Print_and_Export_Report_from_Code {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// ButtonPrint control.
+        /// ButtonPrintPDF control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonPrint;
+        protected global::System.Web.UI.WebControls.Button ButtonPrintPDF;
         
         /// <summary>
-        /// ButtonExport control.
+        /// ButtonPrintHTML control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonExport;
+        protected global::System.Web.UI.WebControls.Button ButtonPrintHTML;
     }
 }
