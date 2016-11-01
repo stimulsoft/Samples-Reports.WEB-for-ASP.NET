@@ -4,6 +4,7 @@
 
 #Overview
 This repository has some examples (Visual Studio Projects) each in different folders:
+* Custom Button on the Toolbar of the Viewer
 * Customize the Viewer
 * Customize the ViewerFx
 * Export Report from Code
@@ -11,6 +12,7 @@ This repository has some examples (Visual Studio Projects) each in different fol
 * Load and Save Report in the DesignerFx
 * Localizing the Designer
 * Localizing the Viewer
+* Print and Export Report from Code
 * Runtime Report Creation
 * Show Report in the Viewer
 * Show Report in the ViewerFx

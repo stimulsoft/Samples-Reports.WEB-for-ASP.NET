@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using the DesignerFx", "Usi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Load and Save Report in the DesignerFx", "Load and Save Report in the DesignerFx\Load and Save Report in the DesignerFx.csproj", "{427BB2AA-41EA-4589-ADB1-BE30955D2208}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Button on the Toolbar of the Viewer", "Custom Button on the Toolbar of the Viewer\Custom Button on the Toolbar of the Viewer.csproj", "{0D1D2226-CC55-48EF-A335-7E7D07FBFFB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Print and Export Report from Code", "Print and Export Report from Code\Print and Export Report from Code.csproj", "{5F3E7735-0A8A-4A8B-A50C-E2BE24B06005}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{427BB2AA-41EA-4589-ADB1-BE30955D2208}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{427BB2AA-41EA-4589-ADB1-BE30955D2208}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{427BB2AA-41EA-4589-ADB1-BE30955D2208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D1D2226-CC55-48EF-A335-7E7D07FBFFB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D1D2226-CC55-48EF-A335-7E7D07FBFFB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D1D2226-CC55-48EF-A335-7E7D07FBFFB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D1D2226-CC55-48EF-A335-7E7D07FBFFB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F3E7735-0A8A-4A8B-A50C-E2BE24B06005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3E7735-0A8A-4A8B-A50C-E2BE24B06005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F3E7735-0A8A-4A8B-A50C-E2BE24B06005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F3E7735-0A8A-4A8B-A50C-E2BE24B06005}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
