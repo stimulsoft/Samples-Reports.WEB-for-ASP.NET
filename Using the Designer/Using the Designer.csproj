@@ -79,7 +79,7 @@
   <ItemGroup>
     <Content Include="Data\Demo.xml" />
     <Content Include="packages.config" />
-    <Content Include="Designer.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="Data\Demo.xsc">
       <DependentUpon>Demo.xsd</DependentUpon>
     </Content>
@@ -100,7 +100,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Default.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -111,20 +110,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Demo.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Designer.aspx.cs">
-      <DependentUpon>Designer.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Designer.aspx.designer.cs">
-      <DependentUpon>Designer.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

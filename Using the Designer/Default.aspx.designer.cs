@@ -10,7 +10,7 @@
 namespace Using_the_Designer {
     
     
-    public partial class Default {
+    public partial class Report {
         
         /// <summary>
         /// form1 control.
@@ -22,21 +22,12 @@ namespace Using_the_Designer {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// DropDownListLang control.
+        /// StiMobileDesigner1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownListLang;
-        
-        /// <summary>
-        /// ButtonShowDesigner control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonShowDesigner;
+        protected global::Stimulsoft.Report.MobileDesign.StiMobileDesigner StiMobileDesigner1;
     }
 }

@@ -46,7 +46,7 @@ namespace Load_and_Save_Report_in_the_DesignerFx
         protected void StiWebDesigner1_SaveReport(object sender, StiWebDesigner.StiSaveReportEventArgs e)
         {
             // Web Designer return StiReport object in the e.Report property
-            //var reportString = e.Report.SaveToString();
+            var reportString = e.Report.SaveToString();
 
             // You can set the error code which will be displayed by the designer after saving
             // -1: default value, the message is not displayed
@@ -54,11 +54,11 @@ namespace Load_and_Save_Report_in_the_DesignerFx
             //e.ErrorCode = 1;
 
             // Also you can set the custom message, it will be displayed after saving
-            //e.ErrorString = "Your report has been saved";
+            e.ErrorString = "Your report has been saved";
         }
 
         // DataSet for preview report in Web Designer
-        protected void StiWebDesigner1_GetPreviewDataSet(object sender, StiWebDesigner.StiPreviewDataSetEventArgs e)
+        protected void StiWebDesigner1_PreviewReport(object sender, StiWebDesigner.StiPreviewReportEventArgs e)
         {
             string applicationDirectory = HttpContext.Current.Server.MapPath(string.Empty);
 
@@ -66,7 +66,7 @@ namespace Load_and_Save_Report_in_the_DesignerFx
             data.ReadXml(applicationDirectory + "\\Data\\Demo.xml");
             data.ReadXmlSchema(applicationDirectory + "\\Data\\Demo.xsd");
 
-            e.PreviewDataSet = data;
+            e.Report.RegData(data);
         }
     }
 }

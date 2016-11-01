@@ -11,8 +11,8 @@
     <form id="form1" runat="server">
     <div>
         <cc1:StiMobileDesigner ID="StiMobileDesigner1" runat="server"
-            oncreatereport="StiMobileDesigner1_CreateReport" 
-            onloadreport="StiMobileDesigner1_GetDataSetOnLoad"/>
+            OnCreateReport="StiMobileDesigner1_CreateReport"
+            OnPreviewReport="StiMobileDesigner1_PreviewReport" />
     </div>
     </form>
 </body>

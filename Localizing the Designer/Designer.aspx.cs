@@ -17,13 +17,7 @@ namespace Localizing_the_Designer
                 StiMobileDesigner1.Report = report;
             }
         }
-
-        protected void StiMobileDesigner1_SaveReport(object sender, Stimulsoft.Report.MobileDesign.StiMobileDesigner.StiSaveReportEventArgs e)
-        {
-            StiReport report = e.Report;
-            report.Save(Server.MapPath(@"Reports\" + report.ReportName + ".mrt"));
-        }
-
+        
         protected void StiMobileDesigner1_CreateReport(object sender, Stimulsoft.Report.MobileDesign.StiMobileDesigner.StiCreateReportEventArgs e)
         {
             DataSet data = new DataSet();
@@ -34,14 +28,13 @@ namespace Localizing_the_Designer
             e.Report.Dictionary.Synchronize();
         }
 
-        protected void StiMobileDesigner1_GetDataSetOnLoad(object sender, Stimulsoft.Report.MobileDesign.StiMobileDesigner.StiLoadReportEventArgs e)
+        protected void StiMobileDesigner1_PreviewReport(object sender, Stimulsoft.Report.MobileDesign.StiMobileDesigner.StiPreviewReportEventArgs e)
         {
             DataSet data = new DataSet();
             data.ReadXmlSchema(Server.MapPath(@"Data\Demo.xsd"));
             data.ReadXml(Server.MapPath(@"Data\Demo.xml"));
 
             e.Report.RegData(data);
-            e.Report.Dictionary.Synchronize();
         }
     }
 }

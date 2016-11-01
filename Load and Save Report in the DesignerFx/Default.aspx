@@ -21,8 +21,8 @@
     <form id="form1" runat="server">
     <div>
         <cc1:StiWebDesigner ID="StiWebDesigner1" runat="server" 
-            onsavereport="StiWebDesigner1_SaveReport" 
-            ongetpreviewdataset="StiWebDesigner1_GetPreviewDataSet" />
+            OnSaveReport="StiWebDesigner1_SaveReport" 
+            OnPreviewReport="StiWebDesigner1_PreviewReport" />
         <table>
             <tr>
                 <td class="style2">
