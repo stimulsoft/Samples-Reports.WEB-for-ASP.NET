@@ -7,6 +7,13 @@ namespace Export_Report_from_Code
 {
     public partial class Default : System.Web.UI.Page
     {
+        static Default()
+        {
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+        }
+
         protected void ButtonExport_Click(object sender, EventArgs e)
         {
             StiReport report = new StiReport();

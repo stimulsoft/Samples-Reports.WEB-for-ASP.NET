@@ -10,7 +10,7 @@
 namespace Using_Variables_in_the_Report {
     
     
-    public partial class Report1 {
+    public partial class Report {
         
         /// <summary>
         /// formViewer control.

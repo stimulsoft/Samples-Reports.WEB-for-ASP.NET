@@ -5,8 +5,15 @@ using System.Web.UI;
 
 namespace Localizing_the_Designer
 {
-    public partial class Report : System.Web.UI.Page
+    public partial class Designer : System.Web.UI.Page
     {
+        static Designer()
+        {
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+        }
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Page != null && !Page.IsPostBack)

@@ -10,7 +10,7 @@
 namespace Using_the_Designer {
     
     
-    public partial class Report {
+    public partial class Default {
         
         /// <summary>
         /// form1 control.

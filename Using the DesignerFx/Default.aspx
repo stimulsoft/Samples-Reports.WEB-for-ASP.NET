@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Using_the_DesignerFx.Default" %>
-<%@ Register assembly="Stimulsoft.Report.WebDesign" namespace="Stimulsoft.Report.Web" tagprefix="cc1" %>
+<%@ Register assembly="Stimulsoft.Report.Web" namespace="Stimulsoft.Report.Web" tagprefix="cc1" %>
 
 <!DOCTYPE html>
 
@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <cc1:StiWebDesigner ID="StiWebDesigner1" runat="server" />
+        <cc1:StiWebDesignerFx ID="StiWebDesignerFx1" runat="server" />
     </div>
     </form>
 </body>

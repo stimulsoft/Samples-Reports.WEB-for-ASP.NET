@@ -10,7 +10,7 @@
 namespace Localizing_the_Designer {
     
     
-    public partial class Report {
+    public partial class Designer {
         
         /// <summary>
         /// form1 control.

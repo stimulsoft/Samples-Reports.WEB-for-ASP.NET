@@ -11,6 +11,7 @@
     <form id="form1" runat="server">
         <cc1:StiWebViewer ID="StiWebViewer1" runat="server"
             Width="1000px" Height="800px"
+            Theme="Office2013VeryDarkGrayPurple"
             ScrollBarsMode="true" ToolBarBackColor="LightGray" ZoomPercent="150"
             ShowExportToBmp="false" ShowExportToPcx="false" ShowExportToSvg="false" ShowExportToSvgz="false"
             ShowExportToPng="false" ShowExportToGif="false" ShowExportToSylk="false" ShowExportToMetafile="false" 

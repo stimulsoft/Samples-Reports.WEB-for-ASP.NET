@@ -8,6 +8,13 @@ namespace Runtime_Report_Creation
 {
     public partial class Report : System.Web.UI.Page
     {
+        static Report()
+        {
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+        }
+
         protected void Page_Load(object sender, EventArgs e)
         {
             DataSet data = new DataSet();

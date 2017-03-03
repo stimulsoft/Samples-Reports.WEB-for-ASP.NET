@@ -6,6 +6,13 @@ namespace Customize_the_ViewerFx
 {
     public partial class Default : System.Web.UI.Page
     {
+        static Default()
+        {
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+        }
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -14,13 +21,15 @@ namespace Customize_the_ViewerFx
         protected void StiWebViewerFx1_GetReport(object sender, Stimulsoft.Report.Web.StiReportDataEventArgs e)
         {
             string reportPath = Server.MapPath("Reports/SimpleList.mrt");
-            e.Report = new StiReport();
-            e.Report.Load(reportPath);
+            StiReport report = new StiReport();
+            report.Load(reportPath);
 
             string dataPath = Server.MapPath("Data/Demo.xml");
             DataSet data = new DataSet();
             data.ReadXml(dataPath);
-            e.Report.RegData(data);
+            report.RegData(data);
+
+            e.Report = report;
         }
     }
 }

@@ -41,17 +41,49 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Stimulsoft.Base">
-      <HintPath>..\Bin\Stimulsoft.Base.dll</HintPath>
+    <Reference Include="LibExcel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Web.2016.3.10\lib\net40\LibExcel.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Stimulsoft.Report">
-      <HintPath>..\Bin\Stimulsoft.Report.dll</HintPath>
+    <Reference Include="Stimulsoft.Base, Version=2016.3.10.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Web.2016.3.10\lib\net40\Stimulsoft.Base.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Web">
-      <HintPath>..\Bin\Stimulsoft.Report.Web.dll</HintPath>
+    <Reference Include="Stimulsoft.Report, Version=2016.3.10.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Web.2016.3.10\lib\net40\Stimulsoft.Report.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Stimulsoft.Report.WebDesign">
-      <HintPath>..\Bin\Stimulsoft.Report.WebDesign.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Check, Version=2016.3.10.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Web.2016.3.10\lib\net40\Stimulsoft.Report.Check.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Helper, Version=2016.3.10.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Web.2016.3.10\lib\net40\Stimulsoft.Report.Helper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Mobile, Version=2016.3.10.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Web.2016.3.10\lib\net40\Stimulsoft.Report.Mobile.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.MobileDesign, Version=2016.3.10.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Web.2016.3.10\lib\net40\Stimulsoft.Report.MobileDesign.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Mvc, Version=2016.3.10.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Web.2016.3.10\lib\net40\Stimulsoft.Report.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.MvcMobile, Version=2016.3.10.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Web.2016.3.10\lib\net40\Stimulsoft.Report.MvcMobile.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Web, Version=2016.3.10.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Web.2016.3.10\lib\net40\Stimulsoft.Report.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.WebDesign, Version=2016.3.10.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Web.2016.3.10\lib\net40\Stimulsoft.Report.WebDesign.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
