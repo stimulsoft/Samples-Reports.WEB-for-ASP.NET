@@ -1,4 +1,4 @@
-# ASP.NET WebForms samples for Stimulsoft Reports.Web
+# ASP.NET WebForms C# samples for Stimulsoft Reports.Web
 
 #### This repository contains the source code of the examples of usage Stimulsoft Reports.Web reporting tool in the ASP.NET WebForms applications, using C# code and HTML5/Flash components.
 
