@@ -19,6 +19,8 @@ This repository has some examples (Visual Studio Projects) each in different fol
 * Using the Designer
 * Using the DesignerFx
 * Using Variables in the Report
+* Web Demo
+* Web DemoFx
 * Web Viewer with Scroll Bars
 
 
