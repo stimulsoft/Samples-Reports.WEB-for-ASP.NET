@@ -2,7 +2,7 @@
 
 #### This repository contains the source code of the examples of usage Stimulsoft Reports.Web reporting tool in the ASP.NET WebForms applications, using C# code and HTML5/Flash components.
 
-#Overview
+# Overview
 This repository has some examples (Visual Studio Projects) each in different folders:
 * Custom Button on the Toolbar of the Viewer
 * Customize the Viewer
@@ -32,10 +32,10 @@ In order to start simply open the Visual Studio solution file in the IDE Visual 
 # About Stimulsoft Reports.Web
 Stimulsoft Reports.Web is a reporting tool designed to create and render reports in Web. Stimulsoft Reports.Web will provide the complete cycle of report designing, starting with report templates and ending with showing them in a browser. And this can be done without closing a web browser. Stimulsoft Reports.Web is the first reporting tool that allows you to edit reports directly in Web.
 
-You can try the [Live Demo](http://demo.stimulsoft.com)
+You can try the [Live Demo](http://demo.stimulsoft.com/#Net)
 
 Read more about [Stimulsoft Reports.Web](https://www.stimulsoft.com/en/products/reports-web)
 
-[Free Download](https://www.stimulsoft.com/en/downloads/reports-web)
+[Free Download](https://www.stimulsoft.com/en/downloads)
 
 [NuGet](https://www.nuget.org/packages/Stimulsoft.Reports.Web)
