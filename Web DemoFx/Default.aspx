@@ -1,5 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Web_DemoFx.Default" %>
 <%@ Register assembly="Stimulsoft.Report.Web" namespace="Stimulsoft.Report.Web" tagprefix="cc1" %>
+<%@ Register assembly="Stimulsoft.Report.WebDesign" namespace="Stimulsoft.Report.Web" tagprefix="cc2" %>
 
 <!DOCTYPE html>
 
@@ -13,7 +14,7 @@
 </head>
 <body>
     <form id="Form1" runat="server" style="width: 100%; height: 100%;">
-        <cc1:StiWebDesignerFx ID="StiWebDesignerFx1" runat="server" Visible="false" OnPreviewReport="StiWebViewerFx1_GetReportData" OnExit="StiWebDesignerFx1_Exit" />
+        <cc2:StiWebDesignerFx ID="StiWebDesignerFx1" runat="server" Visible="false" OnPreviewReport="StiWebViewerFx1_GetReportData" OnExit="StiWebDesignerFx1_Exit" />
         <table cellpadding="0" cellspacing="0" style="width: 100%; height: 100%;">
             <tr>
                 <td style="width: 100px; height: 100%; vertical-align: top;">

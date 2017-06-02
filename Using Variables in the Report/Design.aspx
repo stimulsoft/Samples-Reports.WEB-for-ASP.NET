@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Design.aspx.cs" Inherits="Using_Variables_in_the_Report.Design" %>
-<%@ Register Assembly="Stimulsoft.Report.MobileDesign" Namespace="Stimulsoft.Report.MobileDesign" TagPrefix="cc1" %>
+<%@ Register Assembly="Stimulsoft.Report.WebDesign" Namespace="Stimulsoft.Report.Web" TagPrefix="cc1" %>
 
 <!DOCTYPE html>
 
@@ -10,7 +10,7 @@
 <body>
     <form id="formDesigner" runat="server">
     <div>
-        <cc1:StiMobileDesigner ID="StiMobileDesigner1" runat="server" />
+        <cc1:StiWebDesigner ID="StiWebDesigner1" runat="server" />
     </div>
     </form>
 </body>

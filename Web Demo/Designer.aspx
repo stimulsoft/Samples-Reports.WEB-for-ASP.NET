@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Designer.aspx.cs" Inherits="Web_Demo.Designer" %>
-<%@ Register Assembly="Stimulsoft.Report.MobileDesign" Namespace="Stimulsoft.Report.MobileDesign" TagPrefix="cc1" %>
+<%@ Register Assembly="Stimulsoft.Report.WebDesign" Namespace="Stimulsoft.Report.Web" TagPrefix="cc1" %>
 
 <!DOCTYPE html>
 
@@ -10,10 +10,10 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <cc1:StiMobileDesigner ID="StiMobileDesigner1" runat="server" ShowFileMenuExit="true"
-            OnPreviewReport="StiMobileDesigner1_PreviewReport"
-            OnSaveReport="StiMobileDesigner1_SaveReport"
-            OnExit="StiMobileDesigner1_Exit" />
+        <cc1:StiWebDesigner ID="StiWebDesigner1" runat="server" ShowFileMenuExit="true"
+            OnPreviewReport="StiWebDesigner1_PreviewReport"
+            OnSaveReport="StiWebDesigner1_SaveReport"
+            OnExit="StiWebDesigner1_Exit" />
     </div>
     </form>
 </body>

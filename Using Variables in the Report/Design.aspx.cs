@@ -15,12 +15,9 @@ namespace Using_Variables_in_the_Report
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Page != null && !Page.IsPostBack)
-            {
-                StiReport report = new StiReport();
-                report.Load(Server.MapPath(@"Reports\Variables.mrt"));
-                StiMobileDesigner1.Report = report;
-            }
+            StiReport report = new StiReport();
+            report.Load(Server.MapPath(@"Reports\Variables.mrt"));
+            StiWebDesigner1.Report = report;
         }
     }
 }

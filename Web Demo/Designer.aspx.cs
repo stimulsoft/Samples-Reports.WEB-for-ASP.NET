@@ -1,16 +1,13 @@
 ﻿using Stimulsoft.Report;
-using Stimulsoft.Report.MobileDesign;
+using Stimulsoft.Report.Web;
 using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
 using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace Web_Demo
 {
-    public partial class Designer : System.Web.UI.Page
+    public partial class Designer : Page
     {
         private static string AppDirectory = HttpContext.Current.Server.MapPath(string.Empty);
 
@@ -23,19 +20,16 @@ namespace Web_Demo
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Page != null && !Page.IsPostBack)
-            {
-                // Get the report name fror URL query
-                string keyValue = Page.Request.QueryString.Get("reportname");
-                if (keyValue == null) keyValue = "SimpleList";
+            // Get the report name fror URL query
+            string keyValue = Page.Request.QueryString.Get("reportname");
+            if (keyValue == null) keyValue = "SimpleList";
 
-                var report = new StiReport();
-                report.Load(string.Format("{0}\\ReportTemplates\\{1}.mrt", AppDirectory, keyValue));
-                StiMobileDesigner1.Report = report;
-            }
+            var report = new StiReport();
+            report.Load(string.Format("{0}\\ReportTemplates\\{1}.mrt", AppDirectory, keyValue));
+            StiWebDesigner1.Report = report;
         }
 
-        protected void StiMobileDesigner1_PreviewReport(object sender, StiMobileDesigner.StiPreviewReportEventArgs e)
+        protected void StiWebDesigner1_PreviewReport(object sender, StiReportDataEventArgs e)
         {
             var data = new DataSet();
             data.ReadXmlSchema(AppDirectory + "\\Data\\Demo.xsd");
@@ -44,7 +38,7 @@ namespace Web_Demo
             e.Report.RegData(data);
         }
 
-        protected void StiMobileDesigner1_SaveReport(object sender, StiMobileDesigner.StiSaveReportEventArgs e)
+        protected void StiWebDesigner1_SaveReport(object sender, StiSaveReportEventArgs e)
         {
             StiReport report = e.Report;
 
@@ -54,7 +48,7 @@ namespace Web_Demo
             // ...
         }
 
-        protected void StiMobileDesigner1_Exit(object sender, StiMobileDesigner.StiExitEventArgs e)
+        protected void StiWebDesigner1_Exit(object sender, StiReportDataEventArgs e)
         {
             string keyValue = Page.Request.QueryString.Get("reportname");
             if (keyValue == null) keyValue = "SimpleList";

@@ -1,5 +1,5 @@
 ﻿using Stimulsoft.Report;
-using Stimulsoft.Report.MobileDesign;
+using Stimulsoft.Report.Web;
 using System;
 using System.Data;
 using System.Web.UI;
@@ -17,15 +17,12 @@ namespace Using_the_Designer
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Page != null && !Page.IsPostBack)
-            {
-                StiReport report = new StiReport();
-                report.Load(Server.MapPath(@"Reports\Invoice.mrt"));
-                StiMobileDesigner1.Report = report;
-            }
+            StiReport report = new StiReport();
+            report.Load(Server.MapPath(@"Reports\Invoice.mrt"));
+            StiWebDesigner1.Report = report;
         }
         
-        protected void StiMobileDesigner1_CreateReport(object sender, StiMobileDesigner.StiCreateReportEventArgs e)
+        protected void StiWebDesigner1_CreateReport(object sender, StiReportDataEventArgs e)
         {
             DataSet data = new DataSet();
             data.ReadXmlSchema(Server.MapPath(@"Data\Demo.xsd"));
@@ -35,7 +32,7 @@ namespace Using_the_Designer
             e.Report.Dictionary.Synchronize();
         }
 
-        protected void StiMobileDesigner1_PreviewReport(object sender, StiMobileDesigner.StiPreviewReportEventArgs e)
+        protected void StiWebDesigner1_PreviewReport(object sender, StiReportDataEventArgs e)
         {
             DataSet data = new DataSet();
             data.ReadXmlSchema(Server.MapPath(@"Data\Demo.xsd"));
@@ -44,7 +41,7 @@ namespace Using_the_Designer
             e.Report.RegData(data);
         }
 
-        protected void StiMobileDesigner1_SaveReport(object sender, StiMobileDesigner.StiSaveReportEventArgs e)
+        protected void StiWebDesigner1_SaveReport(object sender, StiSaveReportEventArgs e)
         {
             StiReport report = e.Report;
             report.Save(Server.MapPath(@"Reports\" + report.ReportName + ".mrt"));

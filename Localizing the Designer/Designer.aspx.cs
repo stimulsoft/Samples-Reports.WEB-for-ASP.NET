@@ -1,11 +1,12 @@
 ﻿using Stimulsoft.Report;
+using Stimulsoft.Report.Web;
 using System;
 using System.Data;
 using System.Web.UI;
 
 namespace Localizing_the_Designer
 {
-    public partial class Designer : System.Web.UI.Page
+    public partial class Designer : Page
     {
         static Designer()
         {
@@ -16,16 +17,15 @@ namespace Localizing_the_Designer
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Page != null && !Page.IsPostBack)
-            {
-                StiReport report = new StiReport();
-                StiMobileDesigner1.GlobalizationFile = String.Format("Localization/{0}.xml", (string)Session["lang"]);
-                report.Load(Server.MapPath(@"Reports\Invoice.mrt"));
-                StiMobileDesigner1.Report = report;
-            }
+            StiWebDesigner1.Localization = string.Format("Localization/{0}.xml", (string)Session["lang"]);
+
+            StiReport report = new StiReport();
+            report.Load(Server.MapPath(@"Reports\Invoice.mrt"));
+
+            StiWebDesigner1.Report = report;
         }
         
-        protected void StiMobileDesigner1_CreateReport(object sender, Stimulsoft.Report.MobileDesign.StiMobileDesigner.StiCreateReportEventArgs e)
+        protected void StiWebDesigner1_CreateReport(object sender, StiReportDataEventArgs e)
         {
             DataSet data = new DataSet();
             data.ReadXmlSchema(Server.MapPath(@"Data\Demo.xsd"));
@@ -35,7 +35,7 @@ namespace Localizing_the_Designer
             e.Report.Dictionary.Synchronize();
         }
 
-        protected void StiMobileDesigner1_PreviewReport(object sender, Stimulsoft.Report.MobileDesign.StiMobileDesigner.StiPreviewReportEventArgs e)
+        protected void StiWebDesigner1_PreviewReport(object sender, StiReportDataEventArgs e)
         {
             DataSet data = new DataSet();
             data.ReadXmlSchema(Server.MapPath(@"Data\Demo.xsd"));

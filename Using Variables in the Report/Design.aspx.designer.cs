@@ -22,12 +22,12 @@ namespace Using_Variables_in_the_Report {
         protected global::System.Web.UI.HtmlControls.HtmlForm formDesigner;
         
         /// <summary>
-        /// StiMobileDesigner1 control.
+        /// StiWebDesigner1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Stimulsoft.Report.MobileDesign.StiMobileDesigner StiMobileDesigner1;
+        protected global::Stimulsoft.Report.Web.StiWebDesigner StiWebDesigner1;
     }
 }
