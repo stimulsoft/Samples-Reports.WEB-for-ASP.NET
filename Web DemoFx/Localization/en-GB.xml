@@ -863,7 +863,7 @@
     <ShowDescription>Show Description</ShowDescription>
     <SLPreview>Silverlight Preview</SLPreview>
     <title>Designer</title>
-    <WebPreview>Web Preview</WebPreview>
+    <WebPreview>Flash Preview</WebPreview>
   </FormDesigner>
   <FormDictionaryDesigner>
     <Actions>Actions</Actions>
@@ -1748,7 +1748,7 @@
     <ReportAbuse>Report Abuse:</ReportAbuse>
     <RetrievingInformation>Retrieving information...</RetrievingInformation>
     <Tags>Tags:</Tags>
-    <Title>Download Data Adapter</Title>
+    <Title>Data Adapter from NuGet</Title>
     <ViewLicense>View License</ViewLicense>
   </NuGet>
   <Panels>

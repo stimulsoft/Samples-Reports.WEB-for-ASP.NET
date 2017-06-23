@@ -3844,6 +3844,8 @@ contexto do painel de propriedades.</qnConfiguration>
     <CheckIssuesAdditionalDescription>Verifique o relatório de erros e imprecisões encontrar nele.</CheckIssuesAdditionalDescription>
     <CheckIssuesDescription>Inspecionar documento</CheckIssuesDescription>
     <EncryptWithPassword>Criptografar com senha</EncryptWithPassword>
+    <EncryptWithPasswordAdditionalDescription>Definir a senha para impedir o trabalho não autorizado com o documento.</EncryptWithPasswordAdditionalDescription>
+    <EncryptWithPasswordDescription>Proteger documento</EncryptWithPasswordDescription>
     <Info>Informações</Info>
     <ReportOptions>Opções de relatório</ReportOptions>
     <ReportOptionsAdditionalDescription>Setup básicas de informações e parâmetros no relatório.</ReportOptionsAdditionalDescription>

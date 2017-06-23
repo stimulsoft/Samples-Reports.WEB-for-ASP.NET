@@ -8,21 +8,26 @@
     <Page>Lapas</Page>
     <PageOf>iš</PageOf>
     <PreviousPage>Ankstesnis lapas</PreviousPage>
+    <PrintContinue>Clicca Stampa per continuare</PrintContinue>
     <PrintReport>Spausdinti ataskaitą</PrintReport>
+    <PrintToXps>Stampa in XPS</PrintToXps>
     <SaveReport>Išsaugoti ataskaita</SaveReport>
     <WholeReport>Visa ataskaita</WholeReport>
   </A_WebViewer>
   <Adapters>
     <AdapterBusinessObjects>Duomenys iš Business Objects</AdapterBusinessObjects>
+    <AdapterConnection>Dati da {0}</AdapterConnection>
     <AdapterDataTables>Duomenys iš DataSet, DataTables</AdapterDataTables>
     <AdapterDataViews>Duomenys iš DataViews</AdapterDataViews>
     <AdapterEnumerables>Duomenys iš Enumerable Sources</AdapterEnumerables>
     <AdapterFirebirdConnection>Duomenys iš Firebird prisijungimo</AdapterFirebirdConnection>
-    <AdapterOdbcConnection>Duomenys iš Odbc prisijungimo</AdapterOdbcConnection>
-    <AdapterOleDbConnection>Duomenys iš OleDb prisijungimo</AdapterOleDbConnection>
+    <AdapterOdbcConnection>Duomenys iš ODBC prisijungimo</AdapterOdbcConnection>
+    <AdapterOleDbConnection>Duomenys iš OLE DB prisijungimo</AdapterOleDbConnection>
     <AdapterOracleConnection>Duomenys iš Oracle prisijungimo</AdapterOracleConnection>
+    <AdapterOracleODPConnection>Dati da connessione Oracle ODP.NET </AdapterOracleODPConnection>
     <AdapterPostgreSQLConnection>Duomenys iš PostgreSQL prisijungimo</AdapterPostgreSQLConnection>
-    <AdapterSqlConnection>Duomenys iš Sql prisijungimo</AdapterSqlConnection>
+    <AdapterSqlConnection>Duomenys iš SQL prisijungimo</AdapterSqlConnection>
+    <AdapterTeradataConnection>Dati da connessione Teradata </AdapterTeradataConnection>
     <AdapterUserSources>Duomenys iš User Sources</AdapterUserSources>
     <AdapterVirtualTables>Duomenys iš virtualių lentelių</AdapterVirtualTables>
   </Adapters>
@@ -41,12 +46,71 @@
     <Print>Atspausdinti</Print>
     <QuickPrint>Stampa Rapida</QuickPrint>
     <Remove>Pašalinti</Remove>
+    <RemoveAll>Rimuovi tutto</RemoveAll>
     <Rename>Pervadinti</Rename>
     <RestoreDefaults>Nustatyti pagal nutylėjimą</RestoreDefaults>
+    <Reverse>Inverti</Reverse>
     <Save>Išsaugoti</Save>
+    <SaveCopy>Salva una copia</SaveCopy>
+    <SetAll>Imposta tutti</SetAll>
+    <Submit>Invia</Submit>
     <Test>Testas</Test>
     <Up>Aukštyn</Up>
   </Buttons>
+  <Chart>
+    <Bubble>Bollea</Bubble>
+    <Candlestick>Candlestick</Candlestick>
+    <Financial>Finanziario</Financial>
+    <Funnel>Imbuto</Funnel>
+    <LabelCloseValueDataColumn>Colonna valore di chiusura:</LabelCloseValueDataColumn>
+    <LabelEndValueDataColumn>Calonna valore finale:</LabelEndValueDataColumn>
+    <LabelHighValueDataColumn>Colonna massimo:</LabelHighValueDataColumn>
+    <LabelLowValueDataColumn>Colonna minimo:</LabelLowValueDataColumn>
+    <LabelOpenValueDataColumn>Colonna valore di apertura:</LabelOpenValueDataColumn>
+    <Radar>Radar</Radar>
+    <RadarArea>Zona radar</RadarArea>
+    <RadarLine>Linea radar</RadarLine>
+    <RadarPoint>Punto radar</RadarPoint>
+    <Range>Intervallo</Range>
+    <RangeBar>Barra intervallo</RangeBar>
+    <SplineRange>Intervallo spline</SplineRange>
+    <SteppedRange>Intervallo gradino</SteppedRange>
+    <Stock>Azione</Stock>
+  </Chart>
+  <Cloud>
+    <AccountSettings>Impostazioni account</AccountSettings>
+    <Cancel>Annulla</Cancel>
+    <Collection>Galleria</Collection>
+    <Create>Crea</Create>
+    <CreateNewCollection>Crea nuova galleria</CreateNewCollection>
+    <DeleteFile>Cancella File</DeleteFile>
+    <labelCollectionName>Nome galleria:</labelCollectionName>
+    <labelFileName>Nome file:</labelFileName>
+    <labelPassword>Password:</labelPassword>
+    <labelUserName>User Name:</labelUserName>
+    <Login>Login</Login>
+    <Open>Apri</Open>
+    <OpenFile>Apri File</OpenFile>
+    <OperationCreate>Crea '{0}'</OperationCreate>
+    <OperationDelete>Cancella '{0}' dal Server</OperationDelete>
+    <OperationDownload>Scarica dal server</OperationDownload>
+    <OperationGetList>Ottieni un elenco di files dal server</OperationGetList>
+    <OperationLogin>Login al Server</OperationLogin>
+    <OperationRename>Rinomina '{0}' a '{1}'</OperationRename>
+    <OperationUpload>Carica '{0}' sul server</OperationUpload>
+    <page>Pagina</page>
+    <questionOpenThisFile>Sei sicuro di voler aprire il file '{0}' ?</questionOpenThisFile>
+    <questionOverrideItem>Vuoi veramente sovrascrivere l'elemento '{0}' ?</questionOverrideItem>
+    <questionRemoveItem>Vuoi veramente rimuovere l'elemento '{0}' ?</questionRemoveItem>
+    <RefreshList>Aggiorna elenco</RefreshList>
+    <ReportDocumentFormatNotRecognized>'{0}' non è un report visualizzabile!</ReportDocumentFormatNotRecognized>
+    <ReportTemplateFormatNotRecognized>'{0}' non è un modello di report!</ReportTemplateFormatNotRecognized>
+    <Root>Radice</Root>
+    <Save>Salva</Save>
+    <SaveAccountSettings>Salva impostazioni account</SaveAccountSettings>
+    <SaveFile>Salva file</SaveFile>
+    <ShowAllFiles>Mostra tutti i files</ShowAllFiles>
+  </Cloud>
   <Components>
     <StiBarCode>Barkodas</StiBarCode>
     <StiChart>Grafikas</StiChart>
@@ -72,6 +136,7 @@
     <StiDataBand>Duomenys</StiDataBand>
     <StiEmptyBand>Tuščia skiltis</StiEmptyBand>
     <StiFooterBand>Apačia</StiFooterBand>
+    <StiGauge>Indicatore</StiGauge>
     <StiGroupFooterBand>Grupės viršus</StiGroupFooterBand>
     <StiGroupHeaderBand>Grupės apačia</StiGroupHeaderBand>
     <StiHeaderBand>Viršus</StiHeaderBand>
@@ -91,14 +156,35 @@
     <StiZipCode>Zip kodas</StiZipCode>
   </Components>
   <Database>
+    <Database>{0} Connessione</Database>
     <DatabaseFirebird>Firebird prisijungimas</DatabaseFirebird>
     <DatabaseOdbc>Odbc prisijungimas</DatabaseOdbc>
     <DatabaseOleDb>OleDB prisijungimas</DatabaseOleDb>
     <DatabaseOracle>Oracle prisijungimas</DatabaseOracle>
+    <DatabaseOracleODP>Connessione Oracle ODP.NET</DatabaseOracleODP>
     <DatabasePostgreSQL>PostgreSQL prisijungimas</DatabasePostgreSQL>
     <DatabaseSql>Sql prisijungimas</DatabaseSql>
+    <DatabaseTeradata>Connessione Teradata</DatabaseTeradata>
     <DatabaseXml>Xml duomenys</DatabaseXml>
   </Database>
+  <DesignerFx>
+    <CanNotLoadThisReportTemplate>Impossibile caricare questo modello di report.</CanNotLoadThisReportTemplate>
+    <CloseDataSourceEditor>Vuoi chiudere l'editor di origini dati?</CloseDataSourceEditor>
+    <CloseEditor>Vuoi chiudere l'editor?</CloseEditor>
+    <ConnectionError>Errore di connessione</ConnectionError>
+    <ConnectionSuccessfull>Connessione effettuata con successo</ConnectionSuccessfull>
+    <ExportingReport>Esportazione report</ExportingReport>
+    <LoadingCode>Caricamento codice</LoadingCode>
+    <LoadingData>Caricamento dati</LoadingData>
+    <LoadingImages>Caricamento immagini</LoadingImages>
+    <LoadingLanguage>Caricamento lingua</LoadingLanguage>
+    <RetrieveError>Errore nel recupero colonne</RetrieveError>
+    <RetrievingColumns>Recupero colonne</RetrievingColumns>
+    <SavingConfiguration>Salvataggio configurazione</SavingConfiguration>
+    <SavingReport>Salvataggio report</SavingReport>
+    <TestConnection>Test di connessione</TestConnection>
+    <TextNotFound>Il testo specificato non è stato trovato. Testo : {0}</TextNotFound>
+  </DesignerFx>
   <Dialogs>
     <StiButtonControl>Mygtukas</StiButtonControl>
     <StiCheckBoxControl>Varnelė</StiCheckBoxControl>
@@ -143,6 +229,7 @@
     <SearchHiddenText>Paslėptas tekstas</SearchHiddenText>
     <SearchUp>Ieškoti &amp;aukštyn</SearchUp>
     <SelectionOnly>Tik tai kas &amp;pažymėta</SelectionOnly>
+    <ShowAutoGeneratedCode>Mostra codice auto generato</ShowAutoGeneratedCode>
     <ShowLineNumbers>Rodyti eilučių numerius</ShowLineNumbers>
     <StopOutlining>&amp;Nepiešti kontūrų</StopOutlining>
     <titleFind>Rasti</titleFind>
@@ -157,25 +244,36 @@
     <ContainerIsNotValidForComponent>{0} konteineris netinkamas komponentei {1}.</ContainerIsNotValidForComponent>
     <DataNotFound>Duomenys nerasti.</DataNotFound>
     <Error>Klaida!</Error>
+    <ErrorsList>Elenco errori</ErrorsList>
     <FieldRequire>Laukas "{0}" turi būti užpildytas.</FieldRequire>
     <FileNotFound>Failas "{0}" nerastas.</FileNotFound>
     <IdentifierIsNotValid>Identifikatoriaus '{0}' reikšmė neteisinga.</IdentifierIsNotValid>
     <ImpossibleFindDataSource>Neįmanoma rasti duomenų šaltinį.</ImpossibleFindDataSource>
-    <NameExists>Komponentė pavadinta '{0}' jau yra. Komponentės privalo turėti unikalius vardus (didž./maž. raidės neskiriamos).</NameExists>
+    <NameExists>Komponentė pavadinta '{0}' jau yra. Komponentės privalo turėti unikalius vardus.</NameExists>
     <NoServices>Nerasti servisai '{0}'</NoServices>
     <NotAssign>Nenurodytas duomenų šaltinis.</NotAssign>
     <NotCorrectFormat>La stringa di Input non è in un formato corretto.</NotCorrectFormat>
     <RelationsNotFound>Nerasti sąryšiai.</RelationsNotFound>
+    <ReportCannotBeSaveDueToErrors>Il report non può essere salvato a causa di errori!</ReportCannotBeSaveDueToErrors>
     <ServiceNotFound>'{0}' servisas nerastas.</ServiceNotFound>
     <StopBeforePage>Ataskaitos generavimas sustabdytas! Pasiektas lapas {0}. Ši funkcija nustatoma savybe Report.StopBeforePage. Norėdami išjungti šią funkciją nustatykite savybės reikšmę 0.</StopBeforePage>
     <StopFactor>Ataskaitos generavimas sustabdytas! Greičiausiai, ataskaita pateko į begalinį ciklą. Pasiektas lapo numeris {0}. Ši funkcija nustatoma savybe Report.StopBeforePage. Norėdami išjungti šią funkciją nustatykite savybės reikšmę 0.</StopFactor>
   </Errors>
   <Export>
+    <AllBands>Tutte le bande</AllBands>
+    <BandsFilter>Filtro delle bande:</BandsFilter>
     <CodePage>Kodo puslapis:</CodePage>
     <Color>Spalva</Color>
     <Compressed>Suspaustas</Compressed>
+    <ContinuousPages>Pagine continue</ContinuousPages>
+    <DataAndHeadersFooters>Dati e intestazioni/Piè di pagina</DataAndHeadersFooters>
+    <DataOnly>Solo dati</DataOnly>
+    <DigitalSignatureCertificateNotSelected>Il certificato non è selezionato</DigitalSignatureCertificateNotSelected>
+    <DigitalSignatureError>Errore nella fase di firma digitale</DigitalSignatureError>
     <EmbeddedFonts>Prijungti šriftus</EmbeddedFonts>
     <Encoding>Kodavimas:</Encoding>
+    <EncryptionError>Errore nella fase di crittografia</EncryptionError>
+    <EscapeCodes>Codici di escape</EscapeCodes>
     <ExportMode>Eksportavimo režimas:</ExportMode>
     <ExportModeFrame>Rėmelis</ExportModeFrame>
     <ExportModeTabbedText>Tekstas atskirtas tabuliacija</ExportModeTabbedText>
@@ -188,6 +286,7 @@
     <ExportTypeExcelFile>Microsoft Excel failas...</ExportTypeExcelFile>
     <ExportTypeExcelXmlFile>Microsoft Excel Xml failas...</ExportTypeExcelXmlFile>
     <ExportTypeGifFile>GIF paveikslėlis...</ExportTypeGifFile>
+    <ExportTypeHtml5File>File HTML5...</ExportTypeHtml5File>
     <ExportTypeHtmlFile>HTML failas...</ExportTypeHtmlFile>
     <ExportTypeJpegFile>JPEG paveikslėlis...</ExportTypeJpegFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
@@ -207,6 +306,8 @@
     <MonochromeDitheringType>Tipo Dithering Monocromatico:</MonochromeDitheringType>
     <MoreSettings>Daugiau nustatymų</MoreSettings>
     <OpenAfterExport>Eksportavus atidaryti</OpenAfterExport>
+    <PdfACompliance>Conformità PDF/A</PdfACompliance>
+    <RemoveEmptySpaceAtBottom>Rimuovi spazi vuoti in fondo alla pagina</RemoveEmptySpaceAtBottom>
     <Separator>Skirtukas:</Separator>
     <Settings>Nustatymai</Settings>
     <StandardPDFFonts>Standartiniai PDF šriftai</StandardPDFFonts>
@@ -219,6 +320,7 @@
     <TxtDrawBorder>Piešti rėmelį</TxtDrawBorder>
     <TxtKillSpaceLines>Panaikinti tarpus tarp eilučių</TxtKillSpaceLines>
     <TxtPutFeedPageCode>Žymėti puslapio pabaigą</TxtPutFeedPageCode>
+    <UseEscapeCodes>Usa codici di escape</UseEscapeCodes>
     <X>X:</X>
     <Y>Y:</Y>
     <Zoom>Priartinti:</Zoom>
@@ -239,6 +341,7 @@
     <HtmlFiles>HTML failai (*.html)|*.html</HtmlFiles>
     <JpegFiles>JPEG paveikslėliai (*.jpeg)|*.jpeg</JpegFiles>
     <LanguageFiles>{0} failai (*.{1})|*.{2}</LanguageFiles>
+    <LanguageForSilverlightFiles>{0} files per Silverlight reports (*.{1})|*.{2}</LanguageForSilverlightFiles>
     <PageFiles>Puslapių failai (*.pg)|*.pg</PageFiles>
     <PdfFiles>Adobe PDF failai (*.pdf)|*.pdf</PdfFiles>
     <PngFiles>PNG paveikslėliai (*.png)|*.png</PngFiles>
@@ -301,24 +404,31 @@
   <FormDatabaseEdit>
     <ConnectionString>Prisijungimo eilutė:</ConnectionString>
     <DatabaseName>Duomenų bazės pavadinimas:</DatabaseName>
+    <EditConnection>Modifica {0} Connessione</EditConnection>
     <FirebirdEdit>Redaguoti Firebird prisijungimas</FirebirdEdit>
     <FirebirdNew>Naujas Firebird prisijungimas</FirebirdNew>
-    <OdbcEdit>Redaguoti Odbc prisijungimas</OdbcEdit>
+    <NewConnection>Nuova {0} Connessione</NewConnection>
+    <OdbcEdit>Redaguoti ODBC prisijungimas</OdbcEdit>
     <OdbcNew>Naujas Odbc prisijungimas</OdbcNew>
-    <OleDbEdit>Redaguoti OleDb prisijungimas</OleDbEdit>
-    <OleDbNew>Naujas OleDb prisijungimas</OleDbNew>
+    <OleDbEdit>Redaguoti OLE DB prisijungimas</OleDbEdit>
+    <OleDbNew>Naujas OLE DB prisijungimas</OleDbNew>
     <OracleEdit>Redaguoti Oracle prisijungimas</OracleEdit>
     <OracleNew>Naujas Oracle prisijungimas</OracleNew>
+    <OracleODPEdit>Modifica connessione Oracle ODP.NET</OracleODPEdit>
+    <OracleODPNew>Nuova connessione Oracle ODP.NET</OracleODPNew>
     <PathData>Kelias iki XML duomenų</PathData>
     <PathSchema>Kelias iki XSD schemos:</PathSchema>
     <PostgreSQLEdit>Redaguoti PostgreSQL prisijungimas</PostgreSQLEdit>
     <PostgreSQLNew>Naujas PostgreSQL prisijungimas</PostgreSQLNew>
-    <SqlEdit>Redaguoti Sql prisijungimas</SqlEdit>
-    <SqlNew>Naujas Sql prisijungimas</SqlNew>
-    <XmlEdit>Redaguoti Xml Data</XmlEdit>
-    <XmlNew>Naujas Xml Data</XmlNew>
+    <SqlEdit>Redaguoti SQL prisijungimas</SqlEdit>
+    <SqlNew>Naujas SQL prisijungimas</SqlNew>
+    <TeradataEdit>Modifica connessione Teradata</TeradataEdit>
+    <TeradataNew>Nuova connessione Teradata</TeradataNew>
+    <XmlEdit>Redaguoti XML Data</XmlEdit>
+    <XmlNew>Naujas XML Data</XmlNew>
   </FormDatabaseEdit>
   <FormDesigner>
+    <Others>Kitos</Others>
     <Code>Kodas</Code>
     <CompilingReport>Ataskaitos kompiliavimas</CompilingReport>
     <LocalizePropertyGrid>Lokalizuoti savybes</LocalizePropertyGrid>
@@ -326,9 +436,12 @@
     <Pages>Puslapiai</Pages>
     <Preview>Peržiūra</Preview>
     <PropertyChange>Savybės '{0}' keitimas</PropertyChange>
+    <RTPreview>Anteprima WinRT</RTPreview>
     <SetupToolbox>Įrankių juostos nustatymai</SetupToolbox>
     <ShowDescription>Rodyti aprašą</ShowDescription>
+    <SLPreview>Anteprima Silverlight</SLPreview>
     <title>Komponuotojas</title>
+    <WebPreview>Anteprima web</WebPreview>
   </FormDesigner>
   <FormDictionaryDesigner>
     <Actions>Veiksmai</Actions>
@@ -353,6 +466,7 @@
     <DictionarySaveAs>Išsaugoti žodyną kaip...</DictionarySaveAs>
     <EditQuery>Redaguoti užklausą</EditQuery>
     <ExecutedSQLStatementSuccessfully>SQL sakinys sėkmingai įvykdytas</ExecutedSQLStatementSuccessfully>
+    <ExpressionNew>Nuova espressione</ExpressionNew>
     <ImportRelations>Importuoti sąryšius</ImportRelations>
     <MarkUsedItems>Pažymėti naudotus</MarkUsedItems>
     <NewBusinessObject>Nuovo Business Object</NewBusinessObject>
@@ -368,6 +482,7 @@
     <Synchronize>Sinchronizuoti</Synchronize>
     <SynchronizeHint>Sinchronizuoja Data Store ir žodyno turinį</SynchronizeHint>
     <title>Žodyno komponuotojas</title>
+    <ValueNew>Nuovo valore</ValueNew>
     <VariableEdit>Redaguoti kintamąjį</VariableEdit>
     <VariableNew>Naujas kintamasis</VariableNew>
     <ViewData>Peržiūrėti duomenis</ViewData>
@@ -414,6 +529,12 @@
     <UseGroupSeparator>Naudoti grupės skirtuką</UseGroupSeparator>
     <UseLocalSetting>Naudoti vietinius nustatymus</UseLocalSetting>
   </FormFormatEditor>
+  <FormGlobalizationEditor>
+    <GetCulture>Ricevi impostazioni di localizzazione dal report</GetCulture>
+    <qnGetCulture>Vuoi veramente ricevere impostazioni di localizzazione dal report e sovrascrivere le impostazioni di localizzazione correnti?</qnGetCulture>
+    <qnSetCulture>Vuoi veramente fissare le impostazioni localizzazione ai componenti del report?</qnSetCulture>
+    <SetCulture>Fissa le impostazioni di localizzazione del report</SetCulture>
+  </FormGlobalizationEditor>
   <FormOptions>
     <Default>Pagal nutylėjimą</Default>
     <Drawing>Piešimas</Drawing>
@@ -481,11 +602,18 @@
   </FormServicesConfigurator>
   <FormStyleDesigner>
     <Add>Pridėti stilių</Add>
+    <ApplyStyleCollectionToReportComponents>Applica una raccolta di stili ai componenti del report</ApplyStyleCollectionToReportComponents>
+    <ApplyStyles>Applica stili</ApplyStyles>
+    <CreateStyleCollection>Crea una raccolta di stili</CreateStyleCollection>
     <CurrentStyle>Dabartinis stilius</CurrentStyle>
+    <GetStyle>Seleziona uno stile dai componenti selezionati</GetStyle>
     <Open>Atidaryti stilių</Open>
+    <qnApplyStyleCollection>Vuoi veramente applicare la raccolta di stili ai componenti del report?</qnApplyStyleCollection>
     <Remove>Pašalinti stilių</Remove>
+    <RemoveExistingStyles>Rimuovi lo stile esistente</RemoveExistingStyles>
     <Save>Išsaugoti stilių</Save>
     <Style>Stilius</Style>
+    <StyleCollectionsNotFound>Raccolta di stili non trovata!</StyleCollectionsNotFound>
     <title>Stilių redaktorius</title>
   </FormStyleDesigner>
   <FormTipOfTheDay>
@@ -495,6 +623,7 @@
     <title>Dienos patarimas...</title>
   </FormTipOfTheDay>
   <FormTitles>
+    <ChartWizardForm>Autocomposizione grafico</ChartWizardForm>
     <ConditionEditorForm>Sąlyga</ConditionEditorForm>
     <ContainerSelectForm>Pasirinkti konteinerį</ContainerSelectForm>
     <DataAdapterServiceSelectForm>Pasirinkti duomenų tipą</DataAdapterServiceSelectForm>
@@ -515,11 +644,14 @@
     <SystemTextEditor>Sisteminio teksto redaktorius</SystemTextEditor>
     <TextEditorForm>Teksto redaktorius</TextEditorForm>
     <ViewDataForm>Duomenų peržiūra</ViewDataForm>
+    <ViewerApplication>Visualizzatore di report</ViewerApplication>
   </FormTitles>
   <FormViewer>
     <Bookmarks>Žymės</Bookmarks>
     <Close>Uždaryti</Close>
     <CollapseAll>Sutraukti visus</CollapseAll>
+    <CompressedDocumentFile>Documento compresso</CompressedDocumentFile>
+    <EncryptedDocumentFile>File criptato</EncryptedDocumentFile>
     <ExpandAll>Išskleisti visus</ExpandAll>
     <Export>Eksportuoti...</Export>
     <FirstPage>Pirmas lapas</FirstPage>
@@ -532,6 +664,7 @@
     <PageNofM>{0} iš {1}</PageNofM>
     <PageNumber>Lapo numeris</PageNumber>
     <PageSize>Lapo dydis...</PageSize>
+    <Parameters>Parametri</Parameters>
     <PrevPage>Ankstesnis lapas</PrevPage>
     <Print>Spausdinti...</Print>
     <qnPageDelete>Ar tikrai norite ištrinti lapą?</qnPageDelete>
@@ -555,11 +688,16 @@
     <FindWhat>Ką rasti:</FindWhat>
     <title>Rasti</title>
   </FormViewerFind>
+  <Gui>
+    <monthcalendar_clearbutton>Cancella</monthcalendar_clearbutton>
+    <monthcalendar_todaybutton>Oggi</monthcalendar_todaybutton>
+  </Gui>
   <Help>
     <Help1>Paspauskite F4 norėdami persijungti į žodyno medį. Spauskite Control + Enter norėdami uždaryti redaktorių.</Help1>
     <Help2>Paspauskite F4 norėdami persijungti į redaktorių. Spauskite Insert norėdami įterpti žodyno elementą.</Help2>
   </Help>
   <HelpDesigner>
+    <CopyToClipboard>Copia negli appunti</CopyToClipboard>
     <menuCheckIssues>Controlla nel report per trovare errori, avvertimenti e suggerimenti.</menuCheckIssues>
     <menuDesignerOptions>Imposta opzioni del report designer.</menuDesignerOptions>
     <menuFAQPage>Vai alla pagina web con le risposte alle domande frequenti.</menuFAQPage>
@@ -576,6 +714,7 @@
     <menuSupport>Vai alla pagina di supporto per chiedere informazioni.</menuSupport>
   </HelpDesigner>
   <HelpViewer>
+    <Parameters>Mostra il pannello dei parametri che viene usato durante il rendering del report.</Parameters>
     <ToolEditor>Questo strumento ti permette di editare i contenuti di componenti di testo direttamente dal visualizzatore report.</ToolEditor>
   </HelpViewer>
   <MainMenu>
@@ -584,6 +723,7 @@
     <menuContextDesign>Redaguoti...</menuContextDesign>
     <menuContextTextFormat>Teksto stilius...</menuContextTextFormat>
     <menuEdit>&amp;Redaguoti</menuEdit>
+    <menuEditBusinessObjectFromDataSetNew>Nuovo Business Object da DataSet...</menuEditBusinessObjectFromDataSetNew>
     <menuEditBusinessObjectNew>Nuovo Business Object...</menuEditBusinessObjectNew>
     <menuEditCalcColumnNew>Naujas sakičiuojamas stulpelis...</menuEditCalcColumnNew>
     <menuEditCantRedo>Negalima pakartoti</menuEditCantRedo>
@@ -625,11 +765,15 @@
     <menuFilePageOpen>Atidaryti lapą...</menuFilePageOpen>
     <menuFilePageSaveAs>Išsaugoti lapą kaip...</menuFilePageSaveAs>
     <menuFilePageSetup>Lapo nustatymai...</menuFilePageSetup>
+    <menuFileRecentLocations>File recenti</menuFileRecentLocations>
     <menuFileReportNew>&amp;Nauja ataskaita...</menuFileReportNew>
     <menuFileReportOpen>&amp;Atidaryti ataskaitą...</menuFileReportOpen>
+    <menuFileReportOpenFromGoogleDocs>Apri report da Google Docs...</menuFileReportOpenFromGoogleDocs>
     <menuFileReportPreview>&amp;Peržiūra</menuFileReportPreview>
     <menuFileReportSave>&amp;Išsaugoti ataskaitą</menuFileReportSave>
+    <menuFileSave>&amp;Išsaugoti</menuFileSave>
     <menuFileReportSaveAs>Išsaugoti ataskaitą &amp;kaip...</menuFileReportSaveAs>
+    <menuFileReportSaveAsToGoogleDocs>Salva report in Google Docs...</menuFileReportSaveAsToGoogleDocs>
     <menuFileReportSetup>Ataskaitos &amp;nustatymai...</menuFileReportSetup>
     <menuFileSaveAs>Išsaugoti kaip...</menuFileSaveAs>
     <menuHelp>&amp;Pagalba</menuHelp>
@@ -673,9 +817,14 @@
     <Properties>Savybės</Properties>
     <ReportTree>Ataskaitos medis</ReportTree>
   </Panels>
+  <PlacementComponent>
+    <MoveLeftFreeSpace>Sposta un elemento sul lato sinistro dello spazio libero, aumentando l'altezza dell'elemento fino l'altezza dello spazio libero.</MoveLeftFreeSpace>
+    <MoveRightFreeSpace>Sposta un elemento sul lato destro dello spazio libero, aumentando l'altezza dell'elemento fino l'altezza dello spazio libero.</MoveRightFreeSpace>
+  </PlacementComponent>
   <PropertyCategory>
     <AppearanceCategory>Apipavidalinimas</AppearanceCategory>
     <BehaviorCategory>Elgesys</BehaviorCategory>
+    <CellCategory>Cella</CellCategory>
     <ColorsCategory>Spalvos</ColorsCategory>
     <ColumnsCategory>Stulpeliai</ColumnsCategory>
     <ControlCategory>Valdymas</ControlCategory>
@@ -695,7 +844,12 @@
     <PrintEventsCategory>Spausdinimo įvykiai</PrintEventsCategory>
     <RenderEventsCategory>Atvaizdavimo įvykiai</RenderEventsCategory>
     <ReportStopCategory>Ataskaitos sustabdymas</ReportStopCategory>
+    <ValueCloseCategory>Valore chiusra</ValueCloseCategory>
     <ValueEventsCategory>Reikšmės</ValueEventsCategory>
+    <ValueHighCategory>Valore massimo</ValueHighCategory>
+    <ValueLowCategory>Valore minimo</ValueLowCategory>
+    <ValueOpenCategory>Valore apertura</ValueOpenCategory>
+    <WeightCategory>Peso</WeightCategory>
   </PropertyCategory>
   <PropertyColor>
     <AliceBlue>Akvarelės mėlyna</AliceBlue>
@@ -910,6 +1064,9 @@
     <StiAngleAngle270>Kampas - 270 laipsnių</StiAngleAngle270>
     <StiAngleAngle45>Kampas - 45 laipsnių</StiAngleAngle45>
     <StiAngleAngle90>Kampas - 90 laipsnių</StiAngleAngle90>
+    <StiArrowStyleArc>Arco</StiArrowStyleArc>
+    <StiArrowStyleArcAndCircle>Arco e cerchio</StiArrowStyleArcAndCircle>
+    <StiArrowStyleCircle>Cerchio</StiArrowStyleCircle>
     <StiBorderSidesAll>Visi</StiBorderSidesAll>
     <StiBorderSidesBottom>Apačioje</StiBorderSidesBottom>
     <StiBorderSidesLeft>Kairėje</StiBorderSidesLeft>
@@ -926,19 +1083,46 @@
     <StiBorderStyleSunken>Pažemintas</StiBorderStyleSunken>
     <StiBorderStyleSunkenInner>Pažemintas vidinis</StiBorderStyleSunkenInner>
     <StiBorderStyleSunkenOuter>Pažemintas išorinis</StiBorderStyleSunkenOuter>
+    <StiCalculationModeCompilation>Compilato</StiCalculationModeCompilation>
+    <StiCalculationModeInterpretation>Interpretato</StiCalculationModeInterpretation>
+    <StiCapStyleArrow>Freccia</StiCapStyleArrow>
+    <StiCapStyleDiamond>Diamante</StiCapStyleDiamond>
+    <StiCapStyleNone>Nessuno</StiCapStyleNone>
+    <StiCapStyleOpen>Aperto</StiCapStyleOpen>
+    <StiCapStyleOval>Ovale</StiCapStyleOval>
+    <StiCapStyleSquare>Quadrato</StiCapStyleSquare>
+    <StiCapStyleStealth>Nascosto</StiCapStyleStealth>
     <StiCheckStyleCheck>Paukščiukas</StiCheckStyleCheck>
     <StiCheckStyleCross>Kryželis</StiCheckStyleCross>
     <StiCheckSumNo>Ne</StiCheckSumNo>
     <StiCheckSumYes>Taip</StiCheckSumYes>
+    <StiColorScaleTypeColor2>2-Scala di colore</StiColorScaleTypeColor2>
+    <StiColorScaleTypeColor3>3-Scala di colore</StiColorScaleTypeColor3>
     <StiColumnDirectionAcrossThenDown>Išilgai po to žemyn</StiColumnDirectionAcrossThenDown>
     <StiColumnDirectionDownThenAcross>Žemyn po to išilgai</StiColumnDirectionDownThenAcross>
+    <StiDateTimeTypeDate>Data</StiDateTimeTypeDate>
+    <StiDateTimeTypeDateAndTime>Data e ora</StiDateTimeTypeDateAndTime>
+    <StiDateTimeTypeTime>Ora</StiDateTimeTypeTime>
+    <StiEanSupplementTypeFiveDigit>FiveDigit</StiEanSupplementTypeFiveDigit>
+    <StiEanSupplementTypeNone>Nessuno</StiEanSupplementTypeNone>
+    <StiEanSupplementTypeTwoDigit>TwoDigit</StiEanSupplementTypeTwoDigit>
     <StiEmptySizeModeAlignFooterToBottom>Lygiuoti apačią su lapo apačia</StiEmptySizeModeAlignFooterToBottom>
     <StiEmptySizeModeAlignFooterToTop>Lygiuoti apačią su puslapio viršumi</StiEmptySizeModeAlignFooterToTop>
     <StiEmptySizeModeDecreaseLastRow>Sumažinti paskutinę eilutę</StiEmptySizeModeDecreaseLastRow>
     <StiEmptySizeModeIncreaseLastRow>Padidinti paskutinę eilutę</StiEmptySizeModeIncreaseLastRow>
+    <StiFilterEngineReportEngine>Motore del report</StiFilterEngineReportEngine>
+    <StiFilterEngineSQLQuery>SQL Query</StiFilterEngineSQLQuery>
     <StiHorAlignmentCenter>Centre</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Kairėje</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Dešinėje</StiHorAlignmentRight>
+    <StiKeepDetailsKeepDetailsTogether>Mantenere i dettagli insieme</StiKeepDetailsKeepDetailsTogether>
+    <StiKeepDetailsKeepFirstDetailTogether>Mantenere il primo dettaglio insieme</StiKeepDetailsKeepFirstDetailTogether>
+    <StiKeepDetailsKeepFirstRowTogether>Mantieni la prima riga insieme</StiKeepDetailsKeepFirstRowTogether>
+    <StiKeepDetailsNone>Nessuno</StiKeepDetailsNone>
+    <StiMarkerTypeStar8>Star 8</StiMarkerTypeStar8>
+    <StiNestedFactorHigh>Alto</StiNestedFactorHigh>
+    <StiNestedFactorLow>Basso</StiNestedFactorLow>
+    <StiNestedFactorNormal>Normale</StiNestedFactorNormal>
     <StiPageOrientationLandscape>Gulsčias</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Portretas</StiPageOrientationPortrait>
     <StiPenStyleDash>Brūkšnys</StiPenStyleDash>
@@ -947,19 +1131,40 @@
     <StiPenStyleDot>Taškas</StiPenStyleDot>
     <StiPenStyleNone>Nėra</StiPenStyleNone>
     <StiPenStyleSolid>Vientisas</StiPenStyleSolid>
+    <StiPlesseyCheckSumModulo10>Modulo10</StiPlesseyCheckSumModulo10>
+    <StiPlesseyCheckSumModulo11>Modulo11</StiPlesseyCheckSumModulo11>
     <StiPlesseyCheckSumNone>Nėra</StiPlesseyCheckSumNone>
     <StiPrintOnEvenOddPagesTypeIgnore>Ignoruoti</StiPrintOnEvenOddPagesTypeIgnore>
     <StiPrintOnEvenOddPagesTypePrintOnEvenPages>Spausdinti lyginiuose lapuose</StiPrintOnEvenOddPagesTypePrintOnEvenPages>
     <StiPrintOnEvenOddPagesTypePrintOnOddPages>Spausdinti nelyginiuose lapuose</StiPrintOnEvenOddPagesTypePrintOnOddPages>
+    <StiProcessAtEndOfPage>FineDellaPagina</StiProcessAtEndOfPage>
+    <StiProcessAtEndOfReport>FineDelReport</StiProcessAtEndOfReport>
+    <StiProcessAtNone>Nessuno</StiProcessAtNone>
+    <StiProcessingDuplicatesTypeBasedOnTagHide>Nascondi basato sul tag</StiProcessingDuplicatesTypeBasedOnTagHide>
+    <StiProcessingDuplicatesTypeBasedOnTagMerge>Unisci basata sul tag</StiProcessingDuplicatesTypeBasedOnTagMerge>
+    <StiProcessingDuplicatesTypeBasedOnTagRemoveText>Rimuovi basato sul tag</StiProcessingDuplicatesTypeBasedOnTagRemoveText>
+    <StiProcessingDuplicatesTypeBasedOnValueAndTagHide>Nascondi basato su valore e tag</StiProcessingDuplicatesTypeBasedOnValueAndTagHide>
+    <StiProcessingDuplicatesTypeBasedOnValueAndTagMerge>Unisci basata su valore e tag</StiProcessingDuplicatesTypeBasedOnValueAndTagMerge>
+    <StiProcessingDuplicatesTypeBasedOnValueRemoveText>Rimuovi basato su valore testo</StiProcessingDuplicatesTypeBasedOnValueRemoveText>
+    <StiProcessingDuplicatesTypeGlobalBasedOnValueAndTagHide>Nascondi tutto basato su valore e tag</StiProcessingDuplicatesTypeGlobalBasedOnValueAndTagHide>
+    <StiProcessingDuplicatesTypeGlobalBasedOnValueAndTagMerge>Uniscu tutto basato su valore e tag</StiProcessingDuplicatesTypeGlobalBasedOnValueAndTagMerge>
+    <StiProcessingDuplicatesTypeGlobalBasedOnValueRemoveText>Rimuovi tutto basato su valore testo</StiProcessingDuplicatesTypeGlobalBasedOnValueRemoveText>
+    <StiRadarStyleXFCircle>Cerchio</StiRadarStyleXFCircle>
+    <StiRadarStyleXFPolygon>Poligono</StiRadarStyleXFPolygon>
     <StiReportUnitTypeCentimeters>Centimetrai</StiReportUnitTypeCentimeters>
     <StiReportUnitTypeHundredthsOfInch>Šimtosios colio dalys</StiReportUnitTypeHundredthsOfInch>
     <StiReportUnitTypeInches>Coliai</StiReportUnitTypeInches>
     <StiReportUnitTypeMillimeters>Milimetrai</StiReportUnitTypeMillimeters>
     <StiReportUnitTypePixels>Ekrano taškai</StiReportUnitTypePixels>
+    <StiSeriesLabelsValueTypeTag>Tag</StiSeriesLabelsValueTypeTag>
+    <StiSeriesLabelsValueTypeWeight>Peso</StiSeriesLabelsValueTypeWeight>
     <StiShapeDirectionDown>Žemyn</StiShapeDirectionDown>
     <StiShapeDirectionLeft>Į kairę</StiShapeDirectionLeft>
     <StiShapeDirectionRight>Į dešinę</StiShapeDirectionRight>
     <StiShapeDirectionUp>Aukštyn</StiShapeDirectionUp>
+    <StiShowXAxisBoth>Entrambi</StiShowXAxisBoth>
+    <StiShowXAxisBottom>Basso</StiShowXAxisBottom>
+    <StiShowXAxisCenter>Centro</StiShowXAxisCenter>
     <StiShowYAxisBoth>Entrambi</StiShowYAxisBoth>
     <StiShowYAxisCenter>Centro</StiShowYAxisCenter>
     <StiShowYAxisLeft>Sinistra</StiShowYAxisLeft>
@@ -968,10 +1173,36 @@
     <StiSortDirectionNone>Nerūšiuoti</StiSortDirectionNone>
     <StiSortType>pagal rodomą reikšmę</StiSortType>
     <StiSortTypeByValue>pagal reikšmę</StiSortTypeByValue>
+    <StiSqlSourceTypeStoredProcedure>Stored Procedure</StiSqlSourceTypeStoredProcedure>
+    <StiSqlSourceTypeTable>Tabella</StiSqlSourceTypeTable>
+    <StiStyleComponentTypeChart>Grafico</StiStyleComponentTypeChart>
+    <StiStyleComponentTypeCheckBox>Check Box</StiStyleComponentTypeCheckBox>
+    <StiStyleComponentTypeCrossTab>Cross-Tab</StiStyleComponentTypeCrossTab>
+    <StiStyleComponentTypeImage>Immagine</StiStyleComponentTypeImage>
+    <StiStyleComponentTypePrimitive>Primitiva</StiStyleComponentTypePrimitive>
+    <StiStyleComponentTypeText>Testo</StiStyleComponentTypeText>
+    <StiStyleConditionTypeComponentName>Nome componente</StiStyleConditionTypeComponentName>
+    <StiStyleConditionTypeComponentType>Tipo componente</StiStyleConditionTypeComponentType>
+    <StiStyleConditionTypeLocation>Posizione</StiStyleConditionTypeLocation>
+    <StiStyleConditionTypePlacement>Collocamento</StiStyleConditionTypePlacement>
+    <StiTablceCellTypeCheckBox>CheckBox</StiTablceCellTypeCheckBox>
+    <StiTablceCellTypeImage>Immagine</StiTablceCellTypeImage>
+    <StiTablceCellTypeRichText>RichText</StiTablceCellTypeRichText>
+    <StiTablceCellTypeText>Testo</StiTablceCellTypeText>
+    <StiTableAutoWidthNone>Nessuno</StiTableAutoWidthNone>
+    <StiTableAutoWidthPage>Pagina</StiTableAutoWidthPage>
+    <StiTableAutoWidthTable>Tabella</StiTableAutoWidthTable>
+    <StiTableAutoWidthTypeFullTable>Tabella completa</StiTableAutoWidthTypeFullTable>
+    <StiTableAutoWidthTypeLastColumns>Ultime colonne</StiTableAutoWidthTypeLastColumns>
+    <StiTableAutoWidthTypeNone>Nessuno</StiTableAutoWidthTypeNone>
     <StiTextHorAlignmentCenter>Centre</StiTextHorAlignmentCenter>
     <StiTextHorAlignmentLeft>Kairėje</StiTextHorAlignmentLeft>
     <StiTextHorAlignmentRight>Dešinėje</StiTextHorAlignmentRight>
     <StiTextHorAlignmentWidth>Plotis</StiTextHorAlignmentWidth>
+    <StiTypeModeList>Elenco</StiTypeModeList>
+    <StiTypeModeNullableValue>Valore annullabile</StiTypeModeNullableValue>
+    <StiTypeModeRange>Intervallo</StiTypeModeRange>
+    <StiTypeModeValue>Valore</StiTypeModeValue>
     <StiVertAlignmentBottom>Apačioje</StiVertAlignmentBottom>
     <StiVertAlignmentCenter>Centre</StiVertAlignmentCenter>
     <StiVertAlignmentTop>Viršuje</StiVertAlignmentTop>
@@ -997,11 +1228,21 @@
     <EndRenderEvent>Atvaizdavimo pabaiga</EndRenderEvent>
     <EnterEvent>Įėjimas</EnterEvent>
     <GetBookmarkEvent>Pasirinktas žymeklis</GetBookmarkEvent>
+    <GetCollapsedEvent>Calcolo Raggruppato</GetCollapsedEvent>
     <GetHyperlinkEvent>Pasirinkta nuoroda</GetHyperlinkEvent>
     <GetImageURLEvent>Gautas paveikslėlio URL</GetImageURLEvent>
+    <GetListOfHyperlinksEvent>Calcolo un elenco di collegamenti ipertestuali</GetListOfHyperlinksEvent>
+    <GetListOfTagsEvent>Calcolo un elenco di tags</GetListOfTagsEvent>
+    <GetListOfToolTipsEvent>Prendi un elenco di tooltips</GetListOfToolTipsEvent>
+    <GetListOfValuesEndEvent>Calcolo un elenco di valori finiti</GetListOfValuesEndEvent>
+    <GetListOfWeights>Calcolo un elenco di misure</GetListOfWeights>
+    <GetListOfWeightsEvent>Calcolo elenco di pesi</GetListOfWeightsEvent>
+    <GetSummaryExpressionEvent>Calcolo riepilogo</GetSummaryExpressionEvent>
     <GetTagEvent>Pasirinkta žymė</GetTagEvent>
     <GetToolTipEvent>Pasirinkta įrankio užuomina</GetToolTipEvent>
+    <GetValueEndEvent>Calcolo valore finito</GetValueEndEvent>
     <GetValueEvent>Pasirinkta reikšmė</GetValueEvent>
+    <GetWeightEvent>Calcolo peso</GetWeightEvent>
     <LeaveEvent>Išėjimas</LeaveEvent>
     <LoadFormEvent>Pakrauta forma</LoadFormEvent>
     <MouseDownEvent>Nuspaustas pelės mygtukas</MouseDownEvent>
@@ -1010,6 +1251,7 @@
     <MouseMoveEvent>Pelės žymeklio perkėlimas</MouseMoveEvent>
     <MouseUpEvent>Atleistas pelės mygtukas</MouseUpEvent>
     <PositionChangedEvent>Pakeista pozicija</PositionChangedEvent>
+    <ProcessCellEvent>Elaborazione celle</ProcessCellEvent>
     <RenderingEvent>Atvaizdavimas</RenderingEvent>
     <SelectedIndexChangedEvent>Pasirinktas kitas elementas</SelectedIndexChangedEvent>
     <StateRestoreEvent>Būsenos atstatymas</StateRestoreEvent>
@@ -1078,13 +1320,26 @@
     <AggregateFunctions>Sudėtinės funkcijos</AggregateFunctions>
     <Alias>Kitas pavadinimas</Alias>
     <Alignment>Lygiavimas</Alignment>
+    <AllowApplyBrushNegative>Consenti di applicare pennello in negativo</AllowApplyBrushNegative>
+    <AllowApplyColorNegative>Consenti di applicare colore in negativo</AllowApplyColorNegative>
+    <AllowExpressions>Consenti espressioni</AllowExpressions>
+    <AllowSeries>Consetnti serie</AllowSeries>
+    <AllowSeriesElements>Consenti elementi in serie</AllowSeriesElements>
     <AllowSorting>Leisti rūšiuoti</AllowSorting>
+    <AllowUseBackColor>Consenti uso del colore nero</AllowUseBackColor>
+    <AllowUseBorderFormatting>Consenti uso formattazione bordo</AllowUseBorderFormatting>
+    <AllowUseBorderSides>Consenti uso di lati bordati</AllowUseBorderSides>
+    <AllowUseBorderSidesFromLocation>Consenti uso di lati bordati da una posizione</AllowUseBorderSidesFromLocation>
+    <AllowUseForeColor>Consenti uso colore di disegno</AllowUseForeColor>
+    <AllowUserValues>Consenti valori utente</AllowUserValues>
     <AlternatingBackColor>Besikeičianti fono spalva</AlternatingBackColor>
     <Angle>Kampas</Angle>
     <ArrowHeight>Rodyklės aukštis</ArrowHeight>
     <ArrowWidth>Rodyklės plotis</ArrowWidth>
     <AspectRatio>Koordinačių santykis</AspectRatio>
     <Author>Autorius</Author>
+    <AutoDataColumns>Colonne dati automatiche</AutoDataColumns>
+    <AutoDataRows>Righe dati automatiche</AutoDataRows>
     <AutoDropDownWidth>Automatinis sąrašo plotis</AutoDropDownWidth>
     <AutoRefresh>Automatinis atnaujinimas</AutoRefresh>
     <AutoWidth>Automatinis plotis</AutoWidth>
@@ -1093,6 +1348,7 @@
     <Background>Fonas</Background>
     <BackgroundColor>Galinio fono spalva</BackgroundColor>
     <BarCodeType>Barkodo tipas</BarCodeType>
+    <Blend>Fondere</Blend>
     <Bold>Paryškintas</Bold>
     <Bookmark>Žymė</Bookmark>
     <Border>Kraštas</Border>
@@ -1101,18 +1357,23 @@
     <BorderStyle>Kraštų stilius</BorderStyle>
     <Bottom>Apačia</Bottom>
     <Brush>Teptukas</Brush>
+    <BrushNegative>Pennello negativo</BrushNegative>
     <BusinessObject>Business Object</BusinessObject>
     <CacheAllData>Kešuoti visus duomenis</CacheAllData>
     <CalcInvisible>Skaičiuoti nerodomus</CalcInvisible>
+    <CalculationMode>Modalità di calcolo</CalculationMode>
     <Cancel>Atšaukti</Cancel>
     <CanGrow>Gali augti</CanGrow>
     <CanShrink>Gali sumažėti</CanShrink>
     <Categories>Kategorijos</Categories>
     <Category>Kategorija</Category>
     <CategoryDatabases>Duomenų bazės</CategoryDatabases>
+    <CellDockStyle>Stile ancoraggio cella</CellDockStyle>
+    <CellType>Tipo cella</CellType>
     <Checked>Nustatytas</Checked>
     <CheckOnClick>Nustatyti spragtelėjus</CheckOnClick>
     <CheckStyle>Pažymėjimo stilius</CheckStyle>
+    <Checksum>Somma di controllo</Checksum>
     <CheckSum>Kontrolinė reikšmė</CheckSum>
     <CheckSum1>Kontrolinė reikšmė 1</CheckSum1>
     <CheckSum2>Kontrolinė reikšmė2</CheckSum2>
@@ -1122,7 +1383,11 @@
     <ClearFormat>Išvalyti formatą</ClearFormat>
     <ClearLogOnStart>Išvalyti Log'ą pasileidžiant</ClearLogOnStart>
     <CloneContainer>Padaryti konteinerio kopiją</CloneContainer>
+    <CodePage>Codice pagina</CodePage>
+    <CollectionName>Nome elenco</CollectionName>
     <Color>Spalva</Color>
+    <ColorScaleCondition>Condizione scala colore</ColorScaleCondition>
+    <ColorScaleType>Tipo scala colore</ColorScaleType>
     <Column>Stulpelis</Column>
     <ColumnDirection>Stulpelio kryptis</ColumnDirection>
     <ColumnGaps>Tarpai tarp stulpelių</ColumnGaps>
@@ -1131,10 +1396,12 @@
     <ColumnWidth>Stulpelio plotis</ColumnWidth>
     <Condition>Sąlyga</Condition>
     <ConditionOptions>Sąlygos parametrai</ConditionOptions>
+    <ConnectionString>Stringa di connessione</ConnectionString>
     <ConnectOnStart>Prisijungti pasileidžiant</ConnectOnStart>
     <ContourColor>Kontūro spalva</ContourColor>
     <Converting>Konvertavimas</Converting>
     <ConvertNulls>Konvertuoti null reikšmes</ConvertNulls>
+    <Count>Conteggio</Count>
     <CountData>Elementų skaičius</CountData>
     <Create>Sukūrimas</Create>
     <CreateFieldOnDoubleClick>Dvigubas spragtelėjimas sukuria lauką</CreateFieldOnDoubleClick>
@@ -1142,15 +1409,19 @@
     <Data>Duomenys</Data>
     <DataAdapter>Duomenų adapteris</DataAdapter>
     <DataAdapters>Duomenų adapteriai</DataAdapters>
+    <DataBarCondition>Condizione barra dei dati</DataBarCondition>
     <DataBindings>Duomenų sąryšiai</DataBindings>
     <DataColumn>Duomenų stulpelis</DataColumn>
+    <DataColumns>Colonne dati</DataColumns>
     <DataField>Duomenų laukas</DataField>
     <DataName>Duomenys</DataName>
     <DataRelation>Sąryšis</DataRelation>
+    <DataRows>Righe dati</DataRows>
     <DataSource>Duomenų šaltinis</DataSource>
     <DataSources>Duomenų šaltiniai</DataSources>
     <DataTextField>Duomenų laukas</DataTextField>
     <DateInfo>Informacija apie datas</DateInfo>
+    <DateTimeStep>Incremento Date Time</DateTimeStep>
     <Default>Pagal nutylėjimą</Default>
     <DefaultNamespace>Vardų sritis</DefaultNamespace>
     <DeleteColumns>Ištrinti stulpelius</DeleteColumns>
@@ -1162,7 +1433,10 @@
     <Dock>Švartavimasis</Dock>
     <DockableTable>Tabella Agganciabile</DockableTable>
     <DockStyle>Švartavimosi stilius</DockStyle>
+    <DrawHatch>Disegna tratteggio</DrawHatch>
     <DrawLine>Piešti liniją</DrawLine>
+    <DrillDownParameter4>Drill-Down Parameter 4</DrillDownParameter4>
+    <DrillDownParameter5>Drill-Down Parameter 5</DrillDownParameter5>
     <DropDownAlign>Sąrašo lygiavimas</DropDownAlign>
     <DropDownStyle>Sąrašo stilius</DropDownStyle>
     <DropDownWidth>Sąrašo plotis</DropDownWidth>
@@ -1170,14 +1444,22 @@
     <Editable>Redaguojamas</Editable>
     <Enabled>Pasiekiamas</Enabled>
     <EnableLog>Įjungtas</EnableLog>
+    <EncodingMode>Modalità di codifica</EncodingMode>
+    <EndCap>Tratto finale</EndCap>
     <EndColor>Galutinė spalva</EndColor>
+    <ErrorCorrectionLevel>Errore correzione livello</ErrorCorrectionLevel>
+    <ErrorsCorrectionLevel>Errori correzione livello</ErrorsCorrectionLevel>
+    <Exponential>Esponenziale</Exponential>
     <Expression>Išraiška</Expression>
     <FaqPage>DUK puslapis</FaqPage>
     <FaqPageVisible>DUK puslapis matomas</FaqPageVisible>
     <File>Failas</File>
+    <Fill>Riempimento</Fill>
     <Filter>Filtras</Filter>
+    <FilterEngine>Motore di filtraggio</FilterEngine>
     <FilterOn>Filtras įjungtas</FilterOn>
     <FirstPage>Pirmas lapas</FirstPage>
+    <FixedWidth>Larghezza fissata</FixedWidth>
     <Flat>Plokščias</Flat>
     <FlatMode>Plokščias režimas</FlatMode>
     <Font>Šriftas</Font>
@@ -1190,28 +1472,38 @@
     <FontUnit>Šrifto matavimo vienetas</FontUnit>
     <ForeColor>Teksto spalva</ForeColor>
     <Format>Formatas</Format>
+    <From>Da</From>
     <Function>Funkcija</Function>
     <Functions>Funkcijos</Functions>
     <GridLineColor>Tinklelio linijų spalva</GridLineColor>
     <GridLineStyle>Tinklelio linijų stilius</GridLineStyle>
+    <GridOutline>Contorno griglia</GridOutline>
     <GrowToHeight>Augti į aukštį</GrowToHeight>
     <HeaderBackColor>Viršūnės fono spalva</HeaderBackColor>
     <HeaderFont>Viršūnės šriftas</HeaderFont>
     <HeaderForeColor>Viršūnės teksto spalva</HeaderForeColor>
     <HeaderText>Viršūnės tekstas</HeaderText>
     <Height>Aukštis</Height>
+    <HideSeriesWithEmptyTitle>Nascondi le serie senza titolo</HideSeriesWithEmptyTitle>
     <HideZeros>Nerodyti nulių</HideZeros>
     <High>Aukštas</High>
     <HighlightCondition>Paryškinimo sąlyga</HighlightCondition>
     <HorAlignment>Horizontalus lygiavimas</HorAlignment>
     <HotkeyPrefix>Karštojo klavišo prefiksas</HotkeyPrefix>
     <Hyperlink>Nuoroda</Hyperlink>
+    <HyperlinkDataColumn>Colonna dati collegamento ipertestuale</HyperlinkDataColumn>
+    <Icon>Icona</Icon>
+    <IconSet>Gruppo di icone</IconSet>
+    <IconSetCondition>Condizione gruppo di icone</IconSetCondition>
     <Idents>Identifikatoriai</Idents>
     <Image>Paveikslėlis</Image>
+    <ImageHorAlignment>Allineamento orizzontale immagine</ImageHorAlignment>
     <ImageType>Paveikslėlio tipas</ImageType>
     <ImageURL>Paveikslėlio URL</ImageURL>
+    <ImageVertAlignment>Allineamento verticale immagine</ImageVertAlignment>
     <ImportRelations>Importuoti sąryšius</ImportRelations>
     <Increment>Augimas</Increment>
+    <InitBy>Inizializza a</InitBy>
     <Insert>Įterpti</Insert>
     <InsertColumnToTheLeft>Įterpti stulpelį kairėje</InsertColumnToTheLeft>
     <InsertColumnToTheRight>Įterpti stulpelį dešinėje</InsertColumnToTheRight>
@@ -1225,22 +1517,40 @@
     <ItemHeight>Elemento aukštis</ItemHeight>
     <Items>Elementai</Items>
     <KeepChildTogether>Laikyti dukt. elem. kartu</KeepChildTogether>
+    <KeepDetails>Mantieni dettagli</KeepDetails>
     <KeepFooterTogether>Laikyti apačias kartu</KeepFooterTogether>
     <KeepGroupTogether>Laikyti grupę kartu</KeepGroupTogether>
     <KeepHeaderTogether>Laikyti viršūnę kartu</KeepHeaderTogether>
+    <Key>Chiave</Key>
+    <Keys>Chiavi</Keys>
     <Language>Kalba</Language>
     <LargeHeight>Didelis aukštis</LargeHeight>
     <LargeHeightFactor>Didelio aukščio faktorius</LargeHeightFactor>
     <Left>Kairė</Left>
+    <LengthUnderLabels>Lunghezza sotto le etichette</LengthUnderLabels>
+    <Linear>Lineare</Linear>
+    <LineColorNegative>Colore negativo linea  </LineColorNegative>
     <LineLimit>Eilutės ilgio limitas</LineLimit>
     <LinesOfUnderline>Pabraukimo linijos</LinesOfUnderline>
     <Linked>Ryšys</Linked>
+    <ListOfHyperlinks>Elenco collegamenti ipertestuali</ListOfHyperlinks>
+    <ListOfTags>Elenco tags</ListOfTags>
+    <ListOfToolTips>Elenco suggerimenti</ListOfToolTips>
+    <ListOfValuesClose>Elenco valori chiusura</ListOfValuesClose>
+    <ListOfValuesEnd>Elenco valori finali</ListOfValuesEnd>
+    <ListOfValuesHigh>Elenco valori massimi</ListOfValuesHigh>
+    <ListOfValuesLow>Elenco valori minimi</ListOfValuesLow>
+    <ListOfValuesOpen>Elenco valori di apertura</ListOfValuesOpen>
+    <ListOfWeights>Elenco pesi</ListOfWeights>
     <Localizable>Lokalizuojamas</Localizable>
     <Location>Vieta</Location>
     <Locked>Užraktas</Locked>
+    <Logarithmic>Logaritmico</Logarithmic>
+    <LogarithmicScale>Scala logaritmica</LogarithmicScale>
     <LogPath>Kelias iki Log'o</LogPath>
     <Low>Žemas</Low>
     <Margins>Paraštės</Margins>
+    <MarkerBorder>Bordo indicatore</MarkerBorder>
     <MasterComponent>Pagrindinė komponentė</MasterComponent>
     <MaxDate>Maksimali datos reikšmė</MaxDate>
     <MaxDropDownItems>Maksimalus sąrašo elem. sk.</MaxDropDownItems>
@@ -1249,11 +1559,13 @@
     <MaxNumberOfLines>Maksimalus eilučių skaičius</MaxNumberOfLines>
     <MaxSize>Maksimalus dydis</MaxSize>
     <MergeDuplicates>Sujungti pasikartojančius</MergeDuplicates>
+    <Mid>Medio</Mid>
     <MinDate>Minimali datos reikšmė</MinDate>
     <Minimum>Minimali reikšmė</Minimum>
     <MinimumFontSize>Minimalus šrifto dydis</MinimumFontSize>
     <MinRowsInColumn>Minimalus skaičius eilučių stulpelyje</MinRowsInColumn>
     <MinSize>Minimalus dydis</MinSize>
+    <Mode>Modalità</Mode>
     <Module>Modulis</Module>
     <Move>Vietos keitimas</Move>
     <Multiline>Daugiaeilutinis</Multiline>
@@ -1261,33 +1573,53 @@
     <Name>Pavadinimas</Name>
     <NameParent>Tėvo pavadinimas</NameParent>
     <Namespaces>Vardų sritys</Namespaces>
+    <Negative>Negativo</Negative>
+    <NestedLevel>Livello nidificato</NestedLevel>
     <NextPage>Kitas lapas</NextPage>
+    <NoIcon>Nessuna icona</NoIcon>
     <NullText>Tuščias tekstas</NullText>
     <NumberOfColumns>Stulpelių skaičius</NumberOfColumns>
+    <NumberOfValues>Numero di valori</NumberOfValues>
     <OnlyText>Tik tekstas</OnlyText>
+    <Operation>Operazione</Operation>
     <Options>Parinktys</Options>
     <Orientation>Orientacija</Orientation>
+    <OthersText>Testo per 'altri'</OthersText>
     <PageHeight>Lapo aukštis</PageHeight>
     <PageWidth>Lapo plotis</PageWidth>
     <Paper>Popierius</Paper>
     <Parameter>Parametras</Parameter>
     <Parameters>Parametrai</Parameters>
+    <ParametersOrientation>Orientamento parametri</ParametersOrientation>
     <ParentColumns>Tėviniai stulpeliai</ParentColumns>
     <ParentSource>Tėvinis duomenų šaltinis</ParentSource>
     <PasswordChar>Slaptažodžio simbolis</PasswordChar>
+    <Path>Percorso</Path>
+    <PathData>Percorso dati</PathData>
+    <PathSchema>Percorso schema</PathSchema>
     <PlaceOnToolbox>Įdėti įrankių juostoje</PlaceOnToolbox>
+    <Positive>Positivo</Positive>
     <PreferredColumnWidth>Norimas stulpelio plotis</PreferredColumnWidth>
     <PreferredRowHeight>Norimas eilutės aukštis</PreferredRowHeight>
     <Printable>Spausdinti</Printable>
     <PrintAtBottom>Spausdinti apačioje</PrintAtBottom>
     <PrintIfDetailEmpty>Spausdinti jeigu detalių duomenų nėra</PrintIfDetailEmpty>
     <PrintIfEmpty>Spausdinti jeigu tuščias</PrintIfEmpty>
+    <PrintIfParentDisabled>Stampa se padre disabilitato</PrintIfParentDisabled>
     <PrintOnAllPages>Spausdinti visuose lapuose</PrintOnAllPages>
     <PrintOnEvenOddPages>Spausdinti lyginiuose/nelyginiuose lapuose</PrintOnEvenOddPages>
     <PrintOnFirstPage>Spausdinti pirmame lape</PrintOnFirstPage>
     <PrintOnPreviousPage>Spausdinti ankstesniame lape</PrintOnPreviousPage>
+    <PrintTitleOnAllPages>Stampa titolo su tutte le pagine</PrintTitleOnAllPages>
+    <PrintVerticalBars>Stampa barre verticali</PrintVerticalBars>
+    <ProcessAt>Elabora</ProcessAt>
     <ProcessAtEnd>Apdoroti pabaigoje</ProcessAtEnd>
     <ProductHomePage>Produkto namų puslapis</ProductHomePage>
+    <RadarStyle>Stile radar</RadarStyle>
+    <RangeFrom>Da</RangeFrom>
+    <RangeScrollEnabled>Scorrimento intervallo attivato</RangeScrollEnabled>
+    <RangeTo>A</RangeTo>
+    <RatioY>Rapporto Y</RatioY>
     <ReadOnly>Tik skaitymui</ReadOnly>
     <ReconnectOnEachRow>Prisijungti kiekvienai eilutei</ReconnectOnEachRow>
     <ReferencedAssemblies>Nuorodos į naudojamas bibliotekas</ReferencedAssemblies>
@@ -1301,10 +1633,13 @@
     <ReportDescription>Ataskaitos aprašas</ReportDescription>
     <ReportName>Ataskaitos pavadinimas</ReportName>
     <RequestFromUser>Richiesta da Utente</RequestFromUser>
+    <RequestParameters>Richiedi parametri</RequestParameters>
     <ResetDataSource>Išvalyti duomenis</ResetDataSource>
     <Resize>Dydžio keitimas</Resize>
     <Right>Iš dešinės</Right>
     <RightToLeft>Iš dešinės į kairę</RightToLeft>
+    <Rotation>Rotazione</Rotation>
+    <RotationLabels>Rotazione etichette</RotationLabels>
     <Round>Aplink</Round>
     <RowHeadersVisible>Eilučių viršūnės matomos</RowHeadersVisible>
     <RowHeaderWidth>Eilučių viršūnės plotis</RowHeaderWidth>
@@ -1313,8 +1648,10 @@
     <SegmentPerWidth>Segmentų į plotį</SegmentPerWidth>
     <SelectedIndex>Pasirinktas indeksas</SelectedIndex>
     <SelectedItem>Pasirinktas elementas</SelectedItem>
+    <SelectedKey>Chiave selezionata</SelectedKey>
     <SelectedValue>Pasirinkta reikšmė</SelectedValue>
     <SelectionBackColor>Pasirinktų elementų spalva</SelectionBackColor>
+    <SelectionEnabled>Selezione abilitata</SelectionEnabled>
     <SelectionForeColor>Pasirinktų el. teksto spalva</SelectionForeColor>
     <SelectionMode>Pasirinkimo režimas</SelectionMode>
     <ServiceEnable>Servisas įjungtas</ServiceEnable>
@@ -1324,8 +1661,13 @@
     <ShadowSize>Šešėlio dydis</ShadowSize>
     <ShapeType>Šešėlio tipas</ShapeType>
     <Shift>Poslinkis</Shift>
+    <ShowNulls>Mostra valori nulli</ShowNulls>
+    <ShowOthers>Mostra 'altri'</ShowOthers>
+    <ShowQuietZones>Mostra margini</ShowQuietZones>
+    <ShowScrollBar>Mostra barra di scorrimento</ShowScrollBar>
     <ShowTotal>Rodyti sumines reikšmes</ShowTotal>
     <ShowUpDown>Rodyti rodykles</ShowUpDown>
+    <ShowXAxis>Mostra asse X </ShowXAxis>
     <ShowYAxis>Mostra Asse Y</ShowYAxis>
     <Side>Šonas</Side>
     <Size>Dydis</Size>
@@ -1336,7 +1678,8 @@
     <Sorted>Surūšiuota</Sorted>
     <SortType>Rūšiavimo tipas</SortType>
     <Space>Tarpas</Space>
-    <SqlCommand>Sql komanda</SqlCommand>
+    <SqlCommand>SQL komanda</SqlCommand>
+    <StartCap>Tratto iniziale</StartCap>
     <StartColor>Pradžios spalva</StartColor>
     <StartNewPage>Pradėti naują lapą</StartNewPage>
     <StartPosition>Pradinė pozicija</StartPosition>
@@ -1347,22 +1690,34 @@
     <Stretch>Ištempti</Stretch>
     <StretchToPrintArea>Ištempti iki spausdinamo ploto</StretchToPrintArea>
     <Style>Stilius</Style>
+    <SummaryExpression>Espressione di riepilogo</SummaryExpression>
+    <SummarySortDirection>Ordinamento riepilogo</SummarySortDirection>
+    <SummaryType>Tipo riepilogo</SummaryType>
     <SystemVariable>Sisteminis kintamasis</SystemVariable>
     <SystemVariables>Sisteminiai kintamieji</SystemVariables>
     <Tag>Žymė</Tag>
+    <TagDataColumn>Colonna Tag</TagDataColumn>
     <TagValue>Žymės reikšmė</TagValue>
     <Text>Tekstas</Text>
     <TextAlign>Teksto lygiavimas</TextAlign>
+    <TextAlignment>Allineamento testo</TextAlignment>
     <TextBrush>Teksto teptukas</TextBrush>
     <TextColor>Taksto spalva</TextColor>
     <TextFormat>Teksto formatas</TextFormat>
     <TextOnly>Tik tekstas</TextOnly>
     <TextOptions>Teksto nustatymai</TextOptions>
     <TitleBeforeHeader>Antraštė prieš viršūnę</TitleBeforeHeader>
+    <TitleDirection>DirezioneTitolo</TitleDirection>
+    <To>A</To>
     <Today>Šiandien</Today>
     <ToolTip>Užuomina</ToolTip>
+    <ToolTipDataColumn>Colonna Tooltip</ToolTipDataColumn>
     <Top>Viršus</Top>
+    <Topmost>Massimo</Topmost>
+    <TopmostLine>Linea del massimo</TopmostLine>
+    <TopN>Maggiori N</TopN>
     <TransparentColor>Peršviečianti spalva</TransparentColor>
+    <TrendLine>Linea di tendenza</TrendLine>
     <Trimming>Nukirpimas</Trimming>
     <Type>Tipas</Type>
     <Types>Tipai</Types>
@@ -1373,12 +1728,25 @@
     <UnlimitedHeight>Neribojamas aukštis</UnlimitedHeight>
     <UnlimitedWidth>Neribojamas plotis</UnlimitedWidth>
     <Value>Reikšmė</Value>
+    <ValueClose>Valore chiusura</ValueClose>
+    <ValueDataColumnClose>Colonna dati chiusura</ValueDataColumnClose>
+    <ValueDataColumnEnd>Colonna dati finali</ValueDataColumnEnd>
+    <ValueDataColumnHigh>Colonna dati massimi</ValueDataColumnHigh>
+    <ValueDataColumnLow>Colonna dati minimi</ValueDataColumnLow>
+    <ValueDataColumnOpen>Colonna dati apertura</ValueDataColumnOpen>
+    <ValueEnd>Valore finale</ValueEnd>
+    <ValueHigh>Valore massimo</ValueHigh>
+    <ValueLow>Valore minimo</ValueLow>
+    <ValueOpen>Valore apertura</ValueOpen>
+    <Values>Valori</Values>
     <Variable>Kintamasis</Variable>
     <Variables>Kintamieji</Variables>
     <Version>Versija</Version>
     <VertAlignment>Vertikalus lygiavimas</VertAlignment>
     <ViewMode>Peržiūros režimas</ViewMode>
     <Visible>Matomas</Visible>
+    <Weight>Pesi</Weight>
+    <WeightDataColumn>Colonna pesi</WeightDataColumn>
     <Width>Plotis</Width>
     <WindowState>Lango būsena</WindowState>
     <WordWrap>Žodžių perkėlimas</WordWrap>
@@ -1413,6 +1781,7 @@
     <WindowText>Lango tekstas</WindowText>
   </PropertySystemColors>
   <Questions>
+    <qnConfiguration>Scegli il tipo di configurazione per il pannello delle proprietà. Il tipo di configurazione selezionata determina il numero delle proprietà visibili e la loro complessità. Puoi sempre cambiare il tipo di configurazione dal menù di scelta rapida del pannello delle proprietà.</qnConfiguration>
     <qnDictionaryNew>Tikrai norite sukurti naują žodyną?</qnDictionaryNew>
     <qnGenerateNewCode>Tikrai norite generuoti naują ataskaitos kodą?</qnGenerateNewCode>
     <qnLanguageNew>Pakeitėte ataskaitos kalbą. Dėl to bus generuojamas naujas ataskaitos kodas. Ar Jūs tikrai norite išsaugoti naująją kalbą?</qnLanguageNew>
@@ -1429,31 +1798,43 @@
   </Questions>
   <Report>
     <Bands>Sekcijos</Bands>
+    <Basic>Base</Basic>
+    <BasicConfiguration>L'insieme minimo delle proprietà che consentono la crazione dei più sempplici tipi di report.</BasicConfiguration>
     <BusinessObjects>Business Objects</BusinessObjects>
+    <ClickForMoreDetails>Clicca per maggiori dettagli</ClickForMoreDetails>
     <CollapseAll>Sutraukti visus</CollapseAll>
+    <Collection>Elenco</Collection>
+    <Complete>Completo</Complete>
     <Components>Komponentai</Components>
+    <CopyOf>Copia</CopyOf>
     <CreateNewReportPageForm>Crea un nuovo report, aggiungi pagina, aggiungi form</CreateNewReportPageForm>
     <CrossBands>Cross sekcijos</CrossBands>
     <Dialogs>Kontrolės elementai</Dialogs>
+    <Errors>Errori</Errors>
     <EventsTab>Įvykių korelė</EventsTab>
     <ExpandAll>Išskleisti visus</ExpandAll>
     <GenerateNewCode>Generuoti naują kodą</GenerateNewCode>
+    <InfoMessage>{0} - {1} trovato.</InfoMessage>
+    <InformationMessages>Messaggi informativi</InformationMessages>
     <LabelAlias>Alternatyvus pavadinimas:</LabelAlias>
     <LabelAuthor>Autorius:</LabelAuthor>
     <LabelBackground>Fonas:</LabelBackground>
     <LabelCategory>Kategorija:</LabelCategory>
     <LabelCentimeters>Centimetrai:</LabelCentimeters>
+    <LabelCollectionName>Nome elenco:</LabelCollectionName>
     <LabelColor>Spalva:</LabelColor>
     <LabelCountData>Skiačiuoti duomenis:</LabelCountData>
     <LabelDataBand>Duomenų skiltis:</LabelDataBand>
     <LabelDataColumn>Duomenų stulpelis:</LabelDataColumn>
     <LabelDataName>Duomenų pavadinimas:</LabelDataName>
+    <LabelFactorLevel>Fattore nidificato:</LabelFactorLevel>
     <LabelFontName>Šrifto pavadinimas:</LabelFontName>
     <LabelFunction>Funkcija:</LabelFunction>
     <LabelHundredthsOfInch>Šimtosios colio dalys:</LabelHundredthsOfInch>
     <LabelInches>Coliai:</LabelInches>
     <LabelMillimeters>Milimetrai:</LabelMillimeters>
     <LabelName>Pavadinimas:</LabelName>
+    <LabelNestedLevel>Livello nidificato:</LabelNestedLevel>
     <LabelPixels>Ekr. taškai:</LabelPixels>
     <LabelSystemVariable>Sisteminis kintamasis:</LabelSystemVariable>
     <LabelType>Tipas:</LabelType>
@@ -1465,6 +1846,8 @@
     <Office2010Back>Indietro</Office2010Back>
     <PageNofM>Lapas {0} iš {1}</PageNofM>
     <PreparingReport>Ruošiama ataskaita</PreparingReport>
+    <Professional>Professionale</Professional>
+    <ProfessionalConfiguration>Insieme di proprietà completo per tutti gli oggetti.</ProfessionalConfiguration>
     <PropertiesTab>Savybių kortelė</PropertiesTab>
     <RangeAll>Visi</RangeAll>
     <RangeCurrentPage>Dabartinis lapas</RangeCurrentPage>
@@ -1472,11 +1855,18 @@
     <RangePage>Puslapių intervalas</RangePage>
     <RangePages>Puslapiai:</RangePages>
     <ReportChecker>Controllore Report</ReportChecker>
+    <ReportRenderingMessages>Messaggi di rendering</ReportRenderingMessages>
     <RestartDesigner>Devi riavviare il designer di report</RestartDesigner>
     <SaveReportPagesOrFormsFromReport>Salva un report, pagine e forms</SaveReportPagesOrFormsFromReport>
+    <Standard>Standard</Standard>
+    <StandardConfiguration>Proprietà complete degli oggetti principali ad eccezione di quelli meno utilizzati.</StandardConfiguration>
     <StiGradientBrush>Nuolaidus</StiGradientBrush>
     <StiHatchBrush>Pereinantis</StiHatchBrush>
     <StiSolidBrush>Vientisas</StiSolidBrush>
+    <Warnings>Avvisi</Warnings>
+    <When>Quando {0} {1}</When>
+    <WhenAnd>Quando {0} {1} e</WhenAnd>
+    <WhenValueIs>Quando il valore è</WhenValueIs>
   </Report>
   <Services>
     <categoryContextTools>Kontekstinis meniu</categoryContextTools>
@@ -1494,13 +1884,16 @@
   </Services>
   <Shapes>
     <Arrow>Rodyklė</Arrow>
+    <BasicShapes>Forme base</BasicShapes>
     <BentArrow>Freccia Curva</BentArrow>
+    <BlockArrows>Freccia bloccata</BlockArrows>
     <Chevron>Chevron</Chevron>
     <ComplexArrow>Freccia Complessa</ComplexArrow>
     <DiagonalDownLine>Diagonali linija į žemyn</DiagonalDownLine>
     <DiagonalUpLine>Diagonali linija į viršų</DiagonalUpLine>
     <Division>Divisione</Division>
     <Equal>Uguale</Equal>
+    <EquationShapes>Equazione forme</EquationShapes>
     <FlowchartCard>Flowchart: Scheda</FlowchartCard>
     <FlowchartCollate>Flowchart: Colleziona</FlowchartCollate>
     <FlowchartDecision>Flowchart: Decisione</FlowchartDecision>
@@ -1510,16 +1903,20 @@
     <FlowchartSort>Flowchart: Sort</FlowchartSort>
     <Frame>Cornice</Frame>
     <HorizontalLine>Horizontali linija</HorizontalLine>
+    <InsertShapes>Inserisci forme</InsertShapes>
     <LeftAndRightLine>Linijos dešinėje ir kairėje</LeftAndRightLine>
+    <Lines>Linee</Lines>
     <Minus>Meno</Minus>
     <Multiply>Moltiplica</Multiply>
     <Oval>Ovalas</Oval>
     <Parallelogram>Parallelogramma</Parallelogram>
     <Plus>Più</Plus>
     <Rectangle>Stačiakampis</Rectangle>
+    <Rectangles>Rettangoli</Rectangles>
     <RegularPentagon>Regolare: Pentagono</RegularPentagon>
     <RoundedRectangle>Suapvalintas stačiakampis</RoundedRectangle>
     <ServiceCategory>Formos</ServiceCategory>
+    <ShapeStyles>Stili forma</ShapeStyles>
     <SnipDiagonalSideCornerRectangle>Taglia Diagonal Side Corner Rectangle</SnipDiagonalSideCornerRectangle>
     <SnipSameSideCornerRectangle>Taglia Same Side Corner Rectangle</SnipSameSideCornerRectangle>
     <TopAndBottomLine>Linijos viršuje ir apačioje</TopAndBottomLine>
@@ -1527,6 +1924,32 @@
     <Triangle>Trikampis</Triangle>
     <VerticalLine>Vertikali linija</VerticalLine>
   </Shapes>
+  <SystemVariables>
+    <Column>Riporta il numero di colonna corrente (partendo da 1).</Column>
+    <GroupLine>Riporta il numero linea del gruppo corrente (partendo da 1).</GroupLine>
+    <IsFirstPage>Riporta vero, se, al momento della valutazione, la prima pagina del report è in fase di stampa.</IsFirstPage>
+    <IsFirstPageThrough>Riporta vero, se, al momento della valutazione, si sta stampando la prima pagina del report. Mentre si calcola IsFirstPageThrough, tutte le proprietà ResetPageNumber vengono ignorate e la numerazione parte dall'inizio del report. Per il corretto calcolo di questa variabile il report deve essere in modalità 'doppio passaggio'.</IsFirstPageThrough>
+    <IsLastPage>Riporta vero, se, al momento della valutazione, si sta stampando l'ultima pagina del report. Per il corretto calcolo di questa variabile il report deve essere in modalità 'doppio passaggio'.</IsLastPage>
+    <IsLastPageThrough>Riporta vero, se, in questo momento, l'ultima pagina del report è stampata. Mentre si calcola IsLastPageThrough, tutte le proprietà ResetPageNumber vengono ignorate e la numerazione parte dall'inizio del report. Per il corretto calcolo di questa variabile il report deve essere in modalità 'doppio passaggio'.</IsLastPageThrough>
+    <Line>Riporta il numero linea corrente (partendo da 1).</Line>
+    <LineABC>Riporta l'alfabetico analogo del numero linea corrente.</LineABC>
+    <LineRoman>Riporta il numero linea corrente in numeri romani.</LineRoman>
+    <LineThrough>Riporta il numero linea corrente (partendo da 1). Durante il calcolo, tutti i raggruppamenti vengono ignorati e la numerazione parte dall'inizio della stampa.</LineThrough>
+    <PageNofM>Riporta una stringa localizzata, mostrando "pagina N di M" dove N è il numero pagina corrente e M è il TotalPageCount del report.</PageNofM>
+    <PageNofMThrough>Riporta una stringa localizzata, mostrando "pagina N di M" dove N è il numero pagina corrente e M è il TotalPageCount del report. Mentre si calcola PageNofMThrough, tutte le proprietà ResetPageNumber vengono ignorate e la numerazione parte dall'inizio del report. Per il corretto calcolo di questa variabile il report deve essere in modalità 'doppio passaggio'.</PageNofMThrough>
+    <PageNumber>Riporta il numero di pagina corrente (partendo da 1).</PageNumber>
+    <PageNumberThrough>Riporta il numero di pagina corrente (partendo da 1).  Mentre si calcola PageNumberThrough, tutte le proprietà ResetPageNumber vengono ignorate e la numerazione parte dall'inizio del report. Per il corretto calcolo di questa variabile il report deve essere in modalità 'doppio passaggio'.</PageNumberThrough>
+    <ReportAlias>Riporta l'alias del report. Puoi cambiare l'alias utilizzando la proprietà ReportAlias del report.</ReportAlias>
+    <ReportAuthor>Riporta l'autore del report. Puoi cambiare l'autore utilizzando la proprietà ReportAuthor del report.</ReportAuthor>
+    <ReportChanged>La data in cui il report è stato cambiato.</ReportChanged>
+    <ReportCreated>La data in cui il report è stato creato.</ReportCreated>
+    <ReportDescription>Riporta la descrizione del report. Puoi cambiare la descrizione utilizzando la proprietà ReportDescription del report.</ReportDescription>
+    <ReportName>Riporta il nome del report. Puoi cambiare il nome utilizzando proprietà ReportName del report.</ReportName>
+    <Time>Riporta l'ora corrente.</Time>
+    <Today>Riporta la data corrente.</Today>
+    <TotalPageCount>Riporta il numero totale di pagine nel report.</TotalPageCount>
+    <TotalPageCountThrough>Riporta il numero totale di pagine nel report. Mentre si calcola TotalPageCountThrough, tutte le proprietà ResetPageNumber vengono ignorate e la numerazione parte dall'inizio del report.</TotalPageCountThrough>
+  </SystemVariables>
   <TipOfTheDays>
     <Tip01>Naudodami rodykles galite keisti kuri komponentė yra pasirinkta.</Tip01>
     <Tip02>Jeigu pasirinkę komponentę iš įrankių juostos ją sukurdami laikysite nuspaudę Shift klavišą ji liks aktyvi įrankių juostoje. Taip galėsite pakartotinai kurti šias komponentes.</Tip02>
@@ -1607,6 +2030,7 @@
     <ButtonNext>&amp;Kitas &gt;</ButtonNext>
     <ColumnsOrder>Stulpelių eiliškumas</ColumnsOrder>
     <DataSource>Duomenų šaltinis</DataSource>
+    <DefaultThemes>Temi di default</DefaultThemes>
     <groupCreateNewPageOrForm>Crea Nuova Pagina o Form</groupCreateNewPageOrForm>
     <Groups>Grupės</Groups>
     <infoColumnsOrder>Sulygiuoti stulpelius reikiama tvarka.</infoColumnsOrder>
@@ -1614,12 +2038,15 @@
     <infoGroups>Pasirinkite pagal kuriems stulpeliams reikalingas grupavimas.</infoGroups>
     <infoSelectColumns>Pasirinkite kuriuos stulpelius rodyti ataskaitoje.</infoSelectColumns>
     <infoSort>Pasirinkite pagal ką rūšiuoti ataskaitos duomenis. Rūšiuoti galima pagal kelis stulpelius iškart.</infoSort>
+    <infoThemes>Seleziona il tema del tuo report.</infoThemes>
     <infoTotals>Rodyti ataskaitos suminę informaciją.</infoTotals>
     <MarkAll>Pažymėti &amp;Visus</MarkAll>
     <NoFunction>[Nėra]</NoFunction>
     <Reset>&amp;Iš naujo</Reset>
+    <Results>Risultati</Results>
     <SelectColumns>Stulpelių pasirinkimas</SelectColumns>
     <Sort>Rūšiavimas</Sort>
+    <Themes>Temi</Themes>
     <title>Nauja ataskaita</title>
     <Totals>Suminiai duomenys</Totals>
   </Wizards>

@@ -1,6 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Localization language="Swedish" description="Svenska" cultureName="sv">
   <A_WebViewer>
+    <AbbreviatedDayFriday>Fr</AbbreviatedDayFriday>
+    <AbbreviatedDayMonday>Må</AbbreviatedDayMonday>
+    <AbbreviatedDaySaturday>Lö</AbbreviatedDaySaturday>
+    <AbbreviatedDaySunday>Sö</AbbreviatedDaySunday>
+    <AbbreviatedDayThursday>To</AbbreviatedDayThursday>
+    <AbbreviatedDayTuesday>Ti</AbbreviatedDayTuesday>
+    <AbbreviatedDayWednesday>On</AbbreviatedDayWednesday>
+    <Attachment>Bifogad fil:</Attachment>
+    <ButtonNext>Nästa</ButtonNext>
+    <ButtonPrev>Föregående</ButtonPrev>
+    <ButtonSend>Skicka</ButtonSend>
+    <CategoryAlreadyExists>Kategorin med detta namn finns redan!</CategoryAlreadyExists>
     <DayFriday>Fredag</DayFriday>
     <DayMonday>Måndag</DayMonday>
     <DaySaturday>Lördag</DaySaturday>
@@ -8,9 +20,17 @@
     <DayThursday>Torsdag</DayThursday>
     <DayTuesday>Tisdag</DayTuesday>
     <DayWednesday>Onsdag</DayWednesday>
+    <Email>Epost:</Email>
+    <EmailOptions>Epostval</EmailOptions>
     <FirstPage>Första sidan</FirstPage>
+    <Hours>Timmar</Hours>
+    <LabelFrom>Från:</LabelFrom>
+    <LabelSelectExportFormat>Välj i vilket format du vill spara rapporten:</LabelSelectExportFormat>
+    <LabelTo>Till:</LabelTo>
     <LastPage>Sista sidan</LastPage>
     <Loading>Laddar...</Loading>
+    <Message>Meddelande:</Message>
+    <Minutes>Minuter</Minutes>
     <MonthApril>April</MonthApril>
     <MonthAugust>Augusti</MonthAugust>
     <MonthDecember>December</MonthDecember>
@@ -35,6 +55,10 @@
     <PrintWithoutPreview>Skriv ut utan förhandsgranskning</PrintWithoutPreview>
     <PrintWithPreview>Skriv ut med förhandsgranskning</PrintWithPreview>
     <SaveReport>Spara</SaveReport>
+    <Subject>Ärende:</Subject>
+    <TabItemContacts>Kontakter</TabItemContacts>
+    <TextComputer>Dator</TextComputer>
+    <TextItemsRoot>Rot</TextItemsRoot>
     <TodayDate>Idag</TodayDate>
     <WholeReport>Hela rapporten</WholeReport>
   </A_WebViewer>
@@ -42,7 +66,7 @@
     <AdapterBusinessObjects>Data från Business Objects</AdapterBusinessObjects>
     <AdapterConnection>Data från{0}</AdapterConnection>
     <AdapterCrossTabDataSource>Data från CrossTab</AdapterCrossTabDataSource>
-    <AdapterCsvFiles>Data från Csv Filer</AdapterCsvFiles>
+    <AdapterCsvFiles>Data från CSV Filer</AdapterCsvFiles>
     <AdapterDataTables>Data från DataSet, DataTables</AdapterDataTables>
     <AdapterDataViews>Data från DataViews</AdapterDataViews>
     <AdapterDB2Connection>Data från IBM DB2-koppling</AdapterDB2Connection>
@@ -50,13 +74,13 @@
     <AdapterFirebirdConnection>Data från Firebird-koppling</AdapterFirebirdConnection>
     <AdapterInformixConnection>Data från Informix-koppling</AdapterInformixConnection>
     <AdapterMySQLConnection>Data från MySQL-koppling</AdapterMySQLConnection>
-    <AdapterOdbcConnection>Data från Odbc-koppling</AdapterOdbcConnection>
-    <AdapterOleDbConnection>Data från OleDb-koppling</AdapterOleDbConnection>
+    <AdapterOdbcConnection>Data från ODBC-koppling</AdapterOdbcConnection>
+    <AdapterOleDbConnection>Data från OLE DB-koppling</AdapterOleDbConnection>
     <AdapterOracleConnection>Data från Oracle-koppling</AdapterOracleConnection>
     <AdapterOracleODPConnection>Data från Oracle ODP.NET koppling</AdapterOracleODPConnection>
     <AdapterPostgreSQLConnection>Data från PostgreSQL-koppling</AdapterPostgreSQLConnection>
-    <AdapterSqlCeConnection>Data från SqlCe-koppling</AdapterSqlCeConnection>
-    <AdapterSqlConnection>Data från Sql-koppling</AdapterSqlConnection>
+    <AdapterSqlCeConnection>Data från SQL CE-koppling</AdapterSqlCeConnection>
+    <AdapterSqlConnection>Data från SQL-koppling</AdapterSqlConnection>
     <AdapterSQLiteConnection>Data från SQLite-koppling</AdapterSQLiteConnection>
     <AdapterTeradataConnection>Data från Teradata-koppling</AdapterTeradataConnection>
     <AdapterUniDirectConnection>Data från Uni-Direct-koppling</AdapterUniDirectConnection>
@@ -69,6 +93,7 @@
     <AddAllColumns>Lägg till alla kolumner</AddAllColumns>
     <Build>Bygg...</Build>
     <Cancel>&amp;Avbryt</Cancel>
+    <Check>Kontrollera</Check>
     <Close>Stäng</Close>
     <Delete>Radera</Delete>
     <Design>Designa</Design>
@@ -76,6 +101,7 @@
     <Duplicate>Duplikat</Duplicate>
     <Export>Exportera</Export>
     <Help>Hjälp</Help>
+    <LoadDataSet>Läs is DataSet (*.data)</LoadDataSet>
     <MoveLeft>Flytta vänster</MoveLeft>
     <MoveRight>Flytta höger</MoveRight>
     <No>&amp;Nej</No>
@@ -110,11 +136,13 @@
     <Bubble>Bubbla</Bubble>
     <Candlestick>Stearinljus</Candlestick>
     <ChartConditionsCollectionForm>Villkor</ChartConditionsCollectionForm>
+    <ChartEditorForm>Diagramredigering</ChartEditorForm>
     <ChartFiltersCollectionForm>Filter</ChartFiltersCollectionForm>
     <ChartType>Graftyp</ChartType>
     <CheckBoxAutoRotation>Autorotation</CheckBoxAutoRotation>
     <ClusteredBar>Klustrad liggande stapel</ClusteredBar>
     <ClusteredColumn>Klustrad stapel</ClusteredColumn>
+    <Common>Standard</Common>
     <ConstantLine>Konstant linje</ConstantLine>
     <ConstantLinesEditorForm>Konstant linjeeditor</ConstantLinesEditorForm>
     <DataColumns>Datakolumn</DataColumns>
@@ -127,6 +155,7 @@
     <FullStackedSpline>Full-Staplad Spline</FullStackedSpline>
     <FullStackedSplineArea>Full-Staplad Splineyta</FullStackedSplineArea>
     <Funnel>Tratt</Funnel>
+    <FunnelWeightedSlices>Trattviktade tårtbitar</FunnelWeightedSlices>
     <Gantt>Gantt</Gantt>
     <GridInterlaced>Sammanflätad</GridInterlaced>
     <GridLines>Stödlinjer</GridLines>
@@ -177,6 +206,7 @@
     <Pie>Paj</Pie>
     <Radar>Radar</Radar>
     <RadarArea>Radararea</RadarArea>
+    <RadarColumn>Radarkolumn</RadarColumn>
     <RadarLine>Radarlinje</RadarLine>
     <RadarPoint>Radarpunkt</RadarPoint>
     <Range>Område</Range>
@@ -311,6 +341,7 @@
     <SaveAccountSettings>Spara kontoinställningar</SaveAccountSettings>
     <SaveFile>Spara fil</SaveFile>
     <ShowAllFiles>Visa alla filer</ShowAllFiles>
+    <WindowTitleLogin>Logga In</WindowTitleLogin>
   </Cloud>
   <Components>
     <StiBarCode>Streckkod</StiBarCode>
@@ -335,6 +366,7 @@
     <StiCrossSummary>Korsad data-summa</StiCrossSummary>
     <StiCrossSummaryHeader>Korssummeringsrubrik</StiCrossSummaryHeader>
     <StiCrossTab>Korsad data tab</StiCrossTab>
+    <StiCrossTitle>Kors-Titel</StiCrossTitle>
     <StiDataBand>Data</StiDataBand>
     <StiEmptyBand>Tomt band</StiEmptyBand>
     <StiFooterBand>Sidfot</StiFooterBand>
@@ -372,21 +404,23 @@
     <DatabaseDB2>IBM DB2 koppling</DatabaseDB2>
     <DatabaseFirebird>Firebird koppling</DatabaseFirebird>
     <DatabaseInformix>Informix-koppling</DatabaseInformix>
+    <DatabaseJson>JSON Data</DatabaseJson>
     <DatabaseMySQL>MySQL koppling</DatabaseMySQL>
-    <DatabaseOdbc>Odbc koppling</DatabaseOdbc>
-    <DatabaseOleDb>OleDB koppling</DatabaseOleDb>
+    <DatabaseOdbc>ODBC koppling</DatabaseOdbc>
+    <DatabaseOleDb>OLE DB koppling</DatabaseOleDb>
     <DatabaseOracle>Oracle koppling</DatabaseOracle>
     <DatabaseOracleODP>Oracle ODP.NET koppling</DatabaseOracleODP>
     <DatabasePostgreSQL>PostgreSQL koppling</DatabasePostgreSQL>
-    <DatabaseSql>Sql koppling</DatabaseSql>
+    <DatabaseSql>SQL koppling</DatabaseSql>
     <DatabaseSqlCe>SQLServerCE koppling</DatabaseSqlCe>
     <DatabaseSQLite>SQLite koppling</DatabaseSQLite>
     <DatabaseTeradata>Teradata-koppling</DatabaseTeradata>
     <DatabaseUniDirect>Uni-Direkt-koppling</DatabaseUniDirect>
     <DatabaseVistaDB>VistaDB koppling</DatabaseVistaDB>
-    <DatabaseXml>Xml Data</DatabaseXml>
+    <DatabaseXml>XML Data</DatabaseXml>
   </Database>
   <DesignerFx>
+    <AlreadyExists>'{0}' finns redan.</AlreadyExists>
     <CanNotLoadThisReportTemplate>Kan inte läsa in rapportmall.</CanNotLoadThisReportTemplate>
     <CloseDataSourceEditor>Vill du stänga editor för datakälla?</CloseDataSourceEditor>
     <CloseEditor>Vill du stänga editorn?</CloseEditor>
@@ -396,6 +430,8 @@
     <ConnectionSuccessfull>Uppkopplingen lyckades</ConnectionSuccessfull>
     <Continue>Fortsätt</Continue>
     <DecryptionError>Dekrypteringsfel: Fel lösenord eller korrupt fil.</DecryptionError>
+    <EmailSuccessfullySent>Epostmeddelandet har skickats.</EmailSuccessfullySent>
+    <ErrorAtSaving>Fel vid spara</ErrorAtSaving>
     <ErrorCode>Fel vid spara. Felkod: {0}</ErrorCode>
     <ErrorServer>Fel vid spara. Servern svarar inte.</ErrorServer>
     <ExportingReport>Exporterar rapport</ExportingReport>
@@ -407,6 +443,8 @@
     <LoadingLanguage>Läser in språk</LoadingLanguage>
     <LoadingReport>Läser in rapport</LoadingReport>
     <PreviewAs>Förhandsvisa som {0}</PreviewAs>
+    <RenderingReport>Renderar Rapport</RenderingReport>
+    <ReportSuccessfullySaved>Rapporten sparades.</ReportSuccessfullySaved>
     <RetrieveError>Hämta kolumnfel</RetrieveError>
     <RetrievingColumns>Hämta kolumner</RetrievingColumns>
     <SavingConfiguration>Sparar konfiguration</SavingConfiguration>
@@ -481,7 +519,7 @@
     <FileNotFound>Filen "{0}" hittas inte.</FileNotFound>
     <IdentifierIsNotValid>Identifieraren '{0}' är inte giltig.</IdentifierIsNotValid>
     <ImpossibleFindDataSource>Det går inte att hitta datakällan.</ImpossibleFindDataSource>
-    <NameExists>Det finns redan ett objekt som heter '{0}'. Objekts måste ha unika namn och namn måste vara case-obereonde.</NameExists>
+    <NameExists>Det finns redan ett objekt som heter '{0}'. Objekts måste ha unika namn.</NameExists>
     <NoServices>Tjänster hittas inte i '{0}'</NoServices>
     <NotAssign>Datakälla är inte specificerad.</NotAssign>
     <NotCorrectFormat>Indatasträngen var inte i ett korrekt format.</NotCorrectFormat>
@@ -494,11 +532,14 @@
     <AllBands>Alla band</AllBands>
     <AllowAddOrModifyTextAnnotations>Tillåt att lägga till eller modifiera textbeskrivningar</AllowAddOrModifyTextAnnotations>
     <AllowCopyTextAndGraphics>Tillåt kopiering av text och grafik</AllowCopyTextAndGraphics>
+    <AllowEditable>Tillåt redigering:</AllowEditable>
     <AllowModifyContents>Tillåt redigering av innehåll</AllowModifyContents>
     <AllowPrintDocument>Tillåt att skriva ut dokument</AllowPrintDocument>
+    <Auto>Auto</Auto>
     <BandsFilter>Bandfilter:</BandsFilter>
     <Color>Färg</Color>
     <Compressed>Komprimering</Compressed>
+    <CompressToArchive>Komprimera till arkiv</CompressToArchive>
     <ContinuousPages>Löpande sidor</ContinuousPages>
     <DataAndHeadersFooters>Data och Sidhuvud/Fot</DataAndHeadersFooters>
     <DataOnly>Endast data</DataOnly>
@@ -508,9 +549,12 @@
     <DocumentSecurity>Dokumentsäkerhet</DocumentSecurity>
     <DotMatrixMode>Dot-Matrix läge</DotMatrixMode>
     <EmbeddedFonts>Inbyggda fonter</EmbeddedFonts>
+    <EmbeddedImageData>Inbakat bilddata</EmbeddedImageData>
     <Encoding>Encoding:</Encoding>
     <EncryptionError>Encryption fel i stege</EncryptionError>
     <EscapeCodes>Escapekoder</EscapeCodes>
+    <Exactly>Exakt</Exactly>
+    <ExceptEditableFields>Undanta redigerbara fält</ExceptEditableFields>
     <ExportDataOnly>Endast exportdata</ExportDataOnly>
     <ExportEachPageToSheet>Exportera varje sida till blad</ExportEachPageToSheet>
     <ExportingCalculatingCoordinates>Beräknar koordinater</ExportingCalculatingCoordinates>
@@ -526,28 +570,30 @@
     <ExportTypeBmpFile>BMP-bild...</ExportTypeBmpFile>
     <ExportTypeCalcFile>Öppna dokument Calc-fil...</ExportTypeCalcFile>
     <ExportTypeCsvFile>CSV-fil...</ExportTypeCsvFile>
+    <ExportTypeDataFile>Datafil...</ExportTypeDataFile>
     <ExportTypeDbfFile>dBase DBF -fil...</ExportTypeDbfFile>
     <ExportTypeDifFile>Data Interchange Format (DIF) fil...</ExportTypeDifFile>
-    <ExportTypeExcel2007File>Microsoft Excel 2007/2013 fil...</ExportTypeExcel2007File>
+    <ExportTypeExcel2007File>Microsoft Excel 2007 fil...</ExportTypeExcel2007File>
     <ExportTypeExcelFile>Microsoft Excelfil...</ExportTypeExcelFile>
     <ExportTypeExcelXmlFile>Microsoft Excel Xml-fil...</ExportTypeExcelXmlFile>
     <ExportTypeGifFile>GIF-bild...</ExportTypeGifFile>
     <ExportTypeHtml5File>HTML5 fil...</ExportTypeHtml5File>
     <ExportTypeHtmlFile>HTML-fil...</ExportTypeHtmlFile>
+    <ExportTypeImageFile>Bildfil...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG-bild...</ExportTypeJpegFile>
     <ExportTypeMetafile>Windows metafil...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web arkiv...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX bild...</ExportTypePcxFile>
     <ExportTypePdfFile>Adobe PDF-fil...</ExportTypePdfFile>
     <ExportTypePngFile>PNG-bild...</ExportTypePngFile>
-    <ExportTypePpt2007File>Microsoft PowerPoint 2007/2013 fil...</ExportTypePpt2007File>
+    <ExportTypePpt2007File>Microsoft PowerPoint fil...</ExportTypePpt2007File>
     <ExportTypeRtfFile>Rich Text fil...</ExportTypeRtfFile>
     <ExportTypeSvgFile>Scalable Vector Graphics (SVG) fil...</ExportTypeSvgFile>
     <ExportTypeSvgzFile>Komprimerad SVG (SVGZ) fil...</ExportTypeSvgzFile>
     <ExportTypeSylkFile>Symbolic Link (SYLK) fil...</ExportTypeSylkFile>
     <ExportTypeTiffFile>TIFF-bild...</ExportTypeTiffFile>
     <ExportTypeTxtFile>Textfil...</ExportTypeTxtFile>
-    <ExportTypeWord2007File>Microsoft Word 2007/2013 fil...</ExportTypeWord2007File>
+    <ExportTypeWord2007File>Microsoft Word fil...</ExportTypeWord2007File>
     <ExportTypeWriterFile>Öppna dokument Skrivar-fil...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML-fil...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS-fil...</ExportTypeXpsFile>
@@ -559,6 +605,7 @@
     <ImageMonochrome>Monokrom</ImageMonochrome>
     <ImageQuality>Image Quality</ImageQuality>
     <ImageResolution>Bildupplösning:</ImageResolution>
+    <ImageResolutionMode>Bildupplösningsläge:</ImageResolutionMode>
     <ImageType>Bildtyp</ImageType>
     <labelEncryptionKeyLength>Kryptering nyckellängd:</labelEncryptionKeyLength>
     <labelOwnerPassword>Ägarens lösenord:</labelOwnerPassword>
@@ -567,9 +614,12 @@
     <MonochromeDitheringType>Svartvit Ditheringtyp:</MonochromeDitheringType>
     <MoreSettings>Fler inställningar</MoreSettings>
     <MultipleFiles>Flera filer</MultipleFiles>
+    <NoMoreThan>Inte mer än</NoMoreThan>
     <OpenAfterExport>Öppna efter export</OpenAfterExport>
     <PdfACompliance>PDF/A efterlevnad</PdfACompliance>
     <RemoveEmptySpaceAtBottom>Ta bort tomt utrymme längst ner på sidan</RemoveEmptySpaceAtBottom>
+    <RestrictEditing>Begränsa redigering:</RestrictEditing>
+    <Scale>Skala:</Scale>
     <Separator>Separation:</Separator>
     <Settings>Inställningar</Settings>
     <SkipColumnHeaders>Hoppa över kolumnrubriker</SkipColumnHeaders>
@@ -585,6 +635,7 @@
     <TxtKillSpaceGraphLines>Ta bort radmellanrum i graf</TxtKillSpaceGraphLines>
     <TxtKillSpaceLines>Ta bort radmellanrum</TxtKillSpaceLines>
     <TxtPutFeedPageCode>Lägg till sidmatningskod</TxtPutFeedPageCode>
+    <Type>Typ:</Type>
     <UseDefaultSystemEncoding>Använd systemets standardkodning</UseDefaultSystemEncoding>
     <UseDigitalSignature>Använd digital signatur</UseDigitalSignature>
     <UseEscapeCodes>Använd escapekoder</UseEscapeCodes>
@@ -619,6 +670,9 @@
     <HtmlFiles>HTML-fil (*.html)|*.html</HtmlFiles>
     <InheritedLanguageFiles>{0} filer för ärvd rapport (*.{1})|*.{2}</InheritedLanguageFiles>
     <JpegFiles>JPEG-bild (*.jpeg)|*.jpeg</JpegFiles>
+    <JsonDocumentFiles>JSON Rapport Dokument (*.mdc)|*.mdc</JsonDocumentFiles>
+    <JsonFiles>JSON Filer (*.json)|*.json</JsonFiles>
+    <JsonReportFiles>JSON Rapport Mallar (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} filer (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} filer för Silverlight rapporter(*.{1})|*.{2}</LanguageForSilverlightFiles>
     <MetaFiles>Metafiler</MetaFiles>
@@ -643,6 +697,7 @@
     <WriterFiles>Öppna dokument Skrivar-fil (*.odt)|*.odt</WriterFiles>
     <XmlFiles>XML-fil (*.xml)|*.xml</XmlFiles>
     <XpsFiles>Microsoft XPS-fil (*.xps)|*.xps</XpsFiles>
+    <ZipArchives>Ziparkiv (*.zip)|*.zip</ZipArchives>
   </FileFilters>
   <Formats>
     <custom01>d</custom01>
@@ -702,6 +757,7 @@
   <FormColorBoxPopup>
     <Color>Färg</Color>
     <Custom>Valfri</Custom>
+    <NoColor>Ingen färg</NoColor>
     <Others>Fler...</Others>
     <System>System</System>
     <Web>Web</Web>
@@ -734,39 +790,50 @@
     <EditConnection>Redigera {0} koppling</EditConnection>
     <FirebirdEdit>Redigera Firebird-koppling</FirebirdEdit>
     <FirebirdNew>Ny Firebird-koppling</FirebirdNew>
+    <FirstRowIsHeader>Första raden är Rubrikrad</FirstRowIsHeader>
+    <ImportData>Importera Data</ImportData>
     <InformixEdit>Redigera Informix-koppling</InformixEdit>
     <InformixNew>Ny Informix-koppling</InformixNew>
     <InitialCatalog>Initial katalog:</InitialCatalog>
+    <JsonEdit>Redigera JSON Data</JsonEdit>
+    <JsonNew>Ny JSON Data</JsonNew>
     <MySQLEdit>Redigera MySQL-koppling</MySQLEdit>
     <MySQLNew>Ny MySQL-koppling</MySQLNew>
     <NewConnection>Ny {0} koppling</NewConnection>
     <OdbcEdit>Redigera Odbc-koppling</OdbcEdit>
-    <OdbcNew>Ny Odbc-koppling</OdbcNew>
-    <OleDbEdit>Redigera OleDb-koppling</OleDbEdit>
-    <OleDbNew>Ny OleDb-koppling</OleDbNew>
+    <OdbcNew>Ny ODBC-koppling</OdbcNew>
+    <OleDbEdit>Redigera OLE DB-koppling</OleDbEdit>
+    <OleDbNew>Ny OLE DB-koppling</OleDbNew>
     <OracleEdit>Redigera Oracle-koppling</OracleEdit>
     <OracleNew>Ny Oracle-koppling</OracleNew>
     <OracleODPEdit>Redigera Oracle ODP.NET koppling</OracleODPEdit>
     <OracleODPNew>Ny Oracle ODP.NET koppling</OracleODPNew>
     <PathData>Sökväg till XML-data:</PathData>
+    <PathJsonData>Sökväg till JSON Data:</PathJsonData>
     <PathSchema>Sökväg till XSD-schema:</PathSchema>
+    <PathToData>Sökväg till data:</PathToData>
+    <Pin>Pin</Pin>
     <PostgreSQLEdit>Redigera PostgreSQL-koppling</PostgreSQLEdit>
     <PostgreSQLNew>Ny PostgreSQL-koppling</PostgreSQLNew>
     <PromptUserNameAndPassword>Fråga efter användarnamn och lösenord</PromptUserNameAndPassword>
+    <RecentConnections>Nyligen</RecentConnections>
+    <ReportConnections>Rapport Kopplingar</ReportConnections>
     <SqlCeEdit>Redigera SQLServerCE-koppling</SqlCeEdit>
     <SqlCeNew>Ny SQLServerCE-koppling</SqlCeNew>
-    <SqlEdit>Redigera Sql-koppling</SqlEdit>
+    <SqlEdit>Redigera SQL-koppling</SqlEdit>
     <SQLiteEdit>Redigera SQLite koppling</SQLiteEdit>
     <SQLiteNew>Ny SQLite koppling</SQLiteNew>
-    <SqlNew>Ny Sql-koppling</SqlNew>
+    <SqlNew>Ny SQL-koppling</SqlNew>
     <TeradataEdit>Redigera Teradata-koppling</TeradataEdit>
     <TeradataNew>Ny Teradata-koppling</TeradataNew>
     <UniDirectEdit>Redigera Uni-Direkt-koppling</UniDirectEdit>
     <UniDirectNew>Ny Uni-Direkt-koppling</UniDirectNew>
+    <Unpin>Avpinna</Unpin>
     <VistaDBEdit>Redigera VistaDB-koppling</VistaDBEdit>
     <VistaDBNew>Ny VistaDB-koppling</VistaDBNew>
-    <XmlEdit>Redigera Xml-data</XmlEdit>
-    <XmlNew>Ny Xml-data</XmlNew>
+    <XmlEdit>Redigera XML-data</XmlEdit>
+    <XmlNew>Ny XML-data</XmlNew>
+    <XmlType>XML Typ:</XmlType>
   </FormDatabaseEdit>
   <FormDesigner>
     <Code>Kod</Code>
@@ -783,6 +850,7 @@
     <MarginsNormal>Normal</MarginsNormal>
     <MarginsWide>Bred</MarginsWide>
     <OrderToolbars>Orderverktygsfält</OrderToolbars>
+    <Others>Fler</Others>
     <Pages>Sidor</Pages>
     <Preview>Förhandsgranska</Preview>
     <PropertyChange>Ändra inställning '{0}'</PropertyChange>
@@ -791,7 +859,7 @@
     <ShowDescription>Visa beskrivning</ShowDescription>
     <SLPreview>Silverlight förhandsgranska</SLPreview>
     <title>Designverktyg</title>
-    <WebPreview>Webb förhandsgranska</WebPreview>
+    <WebPreview>Flash förhandsgranska</WebPreview>
   </FormDesigner>
   <FormDictionaryDesigner>
     <Actions>Händelser</Actions>
@@ -805,10 +873,17 @@
     <ChildSource>Datakälla för barn:</ChildSource>
     <ColumnEdit>Redigera kolumn</ColumnEdit>
     <ColumnNew>Ny kolumn</ColumnNew>
+    <CsvSeparatorComma>Komma</CsvSeparatorComma>
+    <CsvSeparatorOther>Annan</CsvSeparatorOther>
+    <CsvSeparatorSemicolon>Semikolon</CsvSeparatorSemicolon>
+    <CsvSeparatorSpace>Mellanrum</CsvSeparatorSpace>
+    <CsvSeparatorSystem>System</CsvSeparatorSystem>
+    <CsvSeparatorTab>Tabb</CsvSeparatorTab>
     <DatabaseEdit>Redigera databas</DatabaseEdit>
     <DatabaseNew>Ny databas</DatabaseNew>
     <DataParameterEdit>Redigera parameter</DataParameterEdit>
     <DataParameterNew>Ny parameter</DataParameterNew>
+    <DataSetToBusinessObjects>DataSet till Business Objects</DataSetToBusinessObjects>
     <DataSourceEdit>Redigera datakälla</DataSourceEdit>
     <DataSourceNew>Ny datakälla</DataSourceNew>
     <DataSourcesNew>Nya datakällor</DataSourcesNew>
@@ -823,6 +898,7 @@
     <ExpressionNew>Nytt uttryck</ExpressionNew>
     <GetColumnsFromAssembly>Hämta kolumns från assembly</GetColumnsFromAssembly>
     <ImportRelations>Importera relationer</ImportRelations>
+    <LabelSeparator>Separator:</LabelSeparator>
     <MarkUsedItems>Markera använda objekt</MarkUsedItems>
     <NewBusinessObject>Nytt affärsobjekt</NewBusinessObject>
     <NewItem>Nytt objekt</NewItem>
@@ -837,6 +913,7 @@
     <RetrievingDatabaseInformation>Hämtar databasinformation...</RetrievingDatabaseInformation>
     <Run>Kör</Run>
     <SelectTypeOfBusinessObject>Välj typ av affärsobjekt</SelectTypeOfBusinessObject>
+    <SkipSchemaWizard>Hoppa över Schemaguiden</SkipSchemaWizard>
     <SortItems>Sortera objekt</SortItems>
     <Synchronize>Synkronisera</Synchronize>
     <SynchronizeHint>Synkronisera innehåll från databas och innehåll från ordbok.</SynchronizeHint>
@@ -893,6 +970,11 @@
     <SetCulture>Spara språkinställningar till rapport</SetCulture>
     <title>Editor för nationella inställningar</title>
   </FormGlobalizationEditor>
+  <FormInteraction>
+    <HyperlinkExternalDocuments>Hyperlänk till Externt Dokument</HyperlinkExternalDocuments>
+    <HyperlinkUsingInteractionBookmark>Hyperlänk med bokmärke</HyperlinkUsingInteractionBookmark>
+    <HyperlinkUsingInteractionTag>Hyperlänk från tagg</HyperlinkUsingInteractionTag>
+  </FormInteraction>
   <FormOptions>
     <AutoSave>Auto-spara</AutoSave>
     <AutoSaveReportToReportClass>Auto-spara rapport till C#- eller Vb.Net-fil</AutoSaveReportToReportClass>
@@ -933,6 +1015,8 @@
     <MarkersStyleCorners>Hörnor</MarkersStyleCorners>
     <MarkersStyleDashedRectangle>Streckad rektangle</MarkersStyleDashedRectangle>
     <MarkersStyleNone>Ingen</MarkersStyleNone>
+    <MessageLeftRightNotValid>Ogiltigt värde för vänster och höger.</MessageLeftRightNotValid>
+    <MessageTopBottomNotValid>Ogiltigt värde för topp och botten.</MessageTopBottomNotValid>
     <Minutes>{0} minuter</Minutes>
     <SaveReportEvery>Spara rapport varje</SaveReportEvery>
     <SelectUILanguage>Välj gränssnittsspråk</SelectUILanguage>
@@ -965,6 +1049,7 @@
     <labelMultipleFactor>Multipelfaktor:</labelMultipleFactor>
     <labelPaperSourceOfFirstPage>Papperskälla för första sidan:</labelPaperSourceOfFirstPage>
     <labelPaperSourceOfOtherPages>Papperskälla för övriga sidor:</labelPaperSourceOfOtherPages>
+    <labelSelectBrush>Välj borste:</labelSelectBrush>
     <labelSelectColor>Välj färg:</labelSelectColor>
     <labelSelectFont>Välj typsnitt:</labelSelectFont>
     <labelSelectImage>Välj bild:</labelSelectImage>
@@ -1010,10 +1095,12 @@
     <Add>Lägg till stil</Add>
     <ApplyStyleCollectionToReportComponents>Applicera stilsamling på rapportkomponenter</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>Applicera stil</ApplyStyles>
+    <ColorCollectionEditor>Färgpalett redigerare</ColorCollectionEditor>
     <CreateStyleCollection>Skapa stilsamling</CreateStyleCollection>
     <CreateStylesFromColor>Skapa stil från vald färg</CreateStylesFromColor>
     <Duplicate>Duplicera stil</Duplicate>
     <GetStyle>Hämta stil från valda komponenter</GetStyle>
+    <MoreStyles>Fler stilar</MoreStyles>
     <Open>Öppna stil</Open>
     <qnApplyStyleCollection>Vill du applicera stilsamling på rapportkomponenter?</qnApplyStyleCollection>
     <Remove>Ta bort stil</Remove>
@@ -1049,6 +1136,7 @@
     <DataSourceSelectForm>Välj datakälla</DataSourceSelectForm>
     <DataSourcesNewForm>Ny Datakälla</DataSourcesNewForm>
     <DataStoreViewerForm>Visa datalagring</DataStoreViewerForm>
+    <DesignerApplication>Rapport Designer</DesignerApplication>
     <EventEditorForm>Redigera händelser</EventEditorForm>
     <ExpressionEditorForm>Redigera uttryck</ExpressionEditorForm>
     <GroupConditionForm>Villkor för grupp</GroupConditionForm>
@@ -1058,8 +1146,9 @@
     <PageSizeForm>Sidstorlek</PageSizeForm>
     <PagesManagerForm>Sidredigering</PagesManagerForm>
     <PromptForm>Skriv in  information för att logga in  på databasen</PromptForm>
+    <ReportWizard>Rapportguiden</ReportWizard>
     <ServiceSelectForm>Välj service</ServiceSelectForm>
-    <SqlExpressionsForm>Sql-uttryck</SqlExpressionsForm>
+    <SqlExpressionsForm>SQL-uttryck</SqlExpressionsForm>
     <SubReportPageSelectForm>Välj delrapportsida</SubReportPageSelectForm>
     <TextEditorForm>Texteditor</TextEditorForm>
     <ViewDataForm>Visa data</ViewDataForm>
@@ -1123,6 +1212,11 @@
     <FindPrevious>Hitta föregående</FindPrevious>
     <FindWhat>Sök efter:</FindWhat>
   </FormViewerFind>
+  <Gauge>
+    <AddNewItem>Lägg till nytt objekt</AddNewItem>
+    <GaugeEditorForm>Mätar redigerare</GaugeEditorForm>
+    <Kind>Typ</Kind>
+  </Gauge>
   <Gui>
     <barname_cancel>Avbryt</barname_cancel>
     <barname_caption>Nytt verktygsfält</barname_caption>
@@ -1229,6 +1323,7 @@
     <StiDataBand>Serien kopplas till en datakälla och skrivs ut lika många gånger som det finns rader i datakällan.</StiDataBand>
     <StiEmptyBand>Serien används för att fylla ut tomt utrymme på botten av sidan. Denna serie fuller ut ledigt utrymme på varje sida i rapporten.</StiEmptyBand>
     <StiFooterBand>Serien används för att skriva ut en sammanfattning av dataserien. Den placeras under dataserien och skrivs ut en gång efter alla rader i vilket dataserien skrivs ut.</StiFooterBand>
+    <StiGauge>Komponenten låter dig visa ett värde inom en nivå. Det kan ha olika grafisk representation.</StiGauge>
     <StiGroupFooterBand>Gruppfotsserien används för att skriva ut gruppfoten. Denna serie placeras efter dataserien. Detta är dataserien som kopplas till grupprubrikserien. Varje gruppfotserie hör till den specificerade grupprubrikserien. Gruppfotserien skrivs inte ut utan grupprubrikserien.</StiGroupFooterBand>
     <StiGroupHeaderBand>Denna serie är basserien för rapportrenderingen med grupperingar. Komponenten för att visa information grupperat placeras under grupprubriken. Informationen kan grupperas utifrån gruppnamn, datum, villkor för gruppen mm. Denna serie skrivs ut en gång i början av varje grupp.</StiGroupHeaderBand>
     <StiHeaderBand>Denna serie används för rubriker. Den används tillsammans med dataserier.</StiHeaderBand>
@@ -1287,6 +1382,7 @@
     <Close>Stäng Report Designer.</Close>
     <Columns>Dela sida i kolumner</Columns>
     <ComponentSize>Ändra storlek på valda komponenter.</ComponentSize>
+    <CopyStyle>Kopiera stil</CopyStyle>
     <CopyToClipboard>Kopiera till klippbord</CopyToClipboard>
     <CurrencySymbol>Välj valutasymbol.</CurrencySymbol>
     <DataStore>Visa data registrerad i en rapport.</DataStore>
@@ -1365,6 +1461,7 @@
     <PageSetup>Visa sidinställningsdialogen.</PageSetup>
     <PageSize>Välj pappersformat för nuvarande sida i rapporten.</PageSize>
     <PagesManager>Starta Pages Manager.</PagesManager>
+    <PressF1>Tryck F1 för detaljer</PressF1>
     <Redo>Gör om tidigare ångrad ändring i rapporten.</Redo>
     <ReportNew>Skapa ny rapport.</ReportNew>
     <ReportOpen>Öppna rapport i Designer.</ReportOpen>
@@ -1378,7 +1475,9 @@
     <ShowBehind>Visa vattenstämpelns text bakom komponenten.</ShowBehind>
     <ShowImageBehind>Lägg vattenstämpelns bild bakom alla komponenter på sidan.</ShowImageBehind>
     <ShowToolbox>Visa verktygslåda.</ShowToolbox>
+    <StimulsoftHelp>Hjälp Stimulsoft</StimulsoftHelp>
     <StyleDesigner>Starta Style Designer.</StyleDesigner>
+    <TellMeMore>Berätta mer</TellMeMore>
     <Text>Vattenstämpeltext.</Text>
     <TextBrush>Ändra textens färg.</TextBrush>
     <TextBrushWatermark>Ändra vattenstämpelns färg.</TextBrushWatermark>
@@ -1410,14 +1509,55 @@
     <StiTreeViewControl>Representerar en kontroll för att visa hierarkiska data som ett träd.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
+    <AddPageBreaks>Visuell separator för rapportsidor.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>Begränsad behörighet till att arbeta med noteringar i dokumentet.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Begränsad behörighet att kopiera information.</AllowCopyTextAndGraphics>
+    <AllowEditable>Tillåter endast komponenter att ändras</AllowEditable>
+    <AllowModifyContents>Begränsad behörighet att redigera text.</AllowModifyContents>
+    <AllowPrintDocument>Begränsad behörighet att skriva ut.</AllowPrintDocument>
     <Bookmarks>Visa panelen med bokmärken, som kan användas för att navigera direkt till märkta platser.</Bookmarks>
+    <BorderType>Kanttyp på komponenter: enkel - rita kanter på komponenter med +, -, |; Unicode enkel - rita kanter på komponenter med rittecken, Unicode dubbel - rita kanter på komponenter med dubbla rittecken.</BorderType>
     <Close>Stäng förhandsvisning och återgå till att redigera rapport.</Close>
     <CloseDotMatrix>Stäng Dot Matrix Viewer och återgå till att redigera rapport.</CloseDotMatrix>
+    <Compressed>Komprimering av det färdiga dokumentet. Det är rekommenderat att alltid använda filkomprimering.</Compressed>
+    <CompressToArchive>Komprimera alla filer och mappar i ziparkivet.</CompressToArchive>
+    <ContinuousPages>Mode för placering av rapportsidor längs vertikalt område.</ContinuousPages>
+    <CurrentPage>Behandlar aktuell sida. Välj detta för att behandla vald rapportsida.</CurrentPage>
+    <CutEdges>Justera ramen på rapportsida.</CutEdges>
+    <CutLongLines>Justera långa linjer (textrader) utiofrån kanterna på komponenterna.</CutLongLines>
+    <DigitalSignature>Digitala signaturen på filen.</DigitalSignature>
+    <DitheringType>Gittertyp: Ingen - inget gitter, Sorterad, FloydSt - med gitter.</DitheringType>
     <DotMatrixMode>Denna vy visar hur en rapport ser ut om den skrivs ut på en matrisskrivare.</DotMatrixMode>
+    <DrawBorder>Rita kanterna på komponenten med grafiska tecken.</DrawBorder>
     <Edit>Redigera komponent.</Edit>
+    <EmbeddedFonts>Inkludera typsnittsinformation i PDF-filen.</EmbeddedFonts>
+    <EmbeddedImageData>Inkludera bilder direkt i HTML-filen.</EmbeddedImageData>
+    <Encoding>Koda rapporttexten efter export.</Encoding>
+    <EncodingData>Koda datafilen.</EncodingData>
+    <EncryptionKeyLength>Längd på krypteringsnyckel. Ju längre nyckeln är, destu svårare att dekryptera dokumentet. Det ger högre dokumentsäkerhet.</EncryptionKeyLength>
+    <ExportDataOnly>Exportera endast databand (tabellkomponent, hierarkiskt band).</ExportDataOnly>
+    <ExportEachPageToSheet>Exportera varje rapportsida som ett separat Excelark.</ExportEachPageToSheet>
+    <ExportMode>Applicera filtervillkor under export. Endast data - endast databand (tabellkomponent, hierarkiskt band) kommer att exporteras. Data och huvud/fot - databand (tabellkomponent, hierarkiskt band) och deras huvud/fötter kommer att exporteras. Alla band - Alla rapportband kommer att exporteras.</ExportMode>
+    <ExportModeHtml>Processen för att markera HTML-sida.</ExportModeHtml>
+    <ExportModeRtf>Presentation av rapportdata efter export. Tabellen - rapporten kommer att se ut som en tabell där varje komponent är en tabellcell. Ram - varje komponent kommer att se ut som en ram, men utankoppling mellan dem.</ExportModeRtf>
+    <ExportObjectFormatting>Applicera formattering på exporterat data från databand (tabellkomponent, hierarkiskt band).</ExportObjectFormatting>
+    <ExportPageBreaks>Visa ram på rapportsidor i Excelarket.</ExportPageBreaks>
+    <ExportRtfTextAsImage>Konvertera RTF-text till bild. Om detta val aktiveras så kommer RichText konverteras till enklare format som stödjs av PDF formatet vid export. RichText med komplex formattering (inbakade bilder,tabeller) kan inte alltid konverteras korrekt. I dessa fall är det rekommenderat att aktivera detta val.</ExportRtfTextAsImage>
     <Find>Sök text i rapport.</Find>
     <FullScreen>Fullskärmsvisning.</FullScreen>
+    <GetCertificateFromCryptoUI>Använd gränssnittet till systemets krypteringsbibliotek.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>Kompressionsmetod: JPEG - kan ge kvalitetsförlust, Flat – ingen kvalitetsförlust, Enkel, Ordnad, FloydSt - bilder blir i svart/vitt.</ImageCompressionMethod>
+    <ImageFormat>Bildformatet i färdig fil.</ImageFormat>
+    <ImageQuality>Möjliggör val av kvaliet/storlek på filen. Ju högre kvalitet, destu större fil.</ImageQuality>
+    <ImageQualityPdf>Detta val är endast möjligt för JPEG-komprimeringoch gör att du kan välja kvaliet/storlek på filen. Ju högre kvalitet, destu större fil.</ImageQualityPdf>
+    <ImageResolution>Antal pixel per tum. Högre antal pixel ger bättre bildkvalitet. Storleken på filen blir mycket större.</ImageResolution>
+    <ImageType>Färgschemat för bilden: färg - bilden kommer efter export att stämma överens med bilden i viewern; gråskala – bilden kommer efter export att vara i gråskala; svart/vit - bilden kommer endast att vara svart/vit. Notera att svart/vit har tre modes Ingen, Ordnad, FloydSt.</ImageType>
+    <KillSpaceLines>Ta bort svarta linjer (rader) i dokumentet.</KillSpaceLines>
+    <MultipleFiles>Varje rapport kan vara en separat fil.</MultipleFiles>
     <Open>Öppna tidigare sparad rapport i förhandsvisningsfönster.</Open>
+    <OpenAfterExport>Öppna skapat dokument automatiskt (efter export) med hjälp av standardprogrammet för aktuell filtyp.</OpenAfterExport>
+    <OwnerPassword>Lösenordet för att få behörighet att arbeta med filen.</OwnerPassword>
+    <PageAll>Behandla alla rapportsidor.</PageAll>
     <PageDelete>Radera markerad sida i rapporten.</PageDelete>
     <PageDesign>Redigera markerad sida med Report Designer.</PageDesign>
     <PageFirst>Gå till första sidan i rapport.</PageFirst>
@@ -1428,11 +1568,29 @@
     <PagePrevious>Gå till föregående sida i rapport.</PagePrevious>
     <PageSize>Ändra parametrar för sida i rapport.</PageSize>
     <Parameters>Visar parameterpanelen för parametrar för att rendera rapport.</Parameters>
+    <PdfACompliance>Stöd för standard för långtidsarkivering och lagring av digitala dokument.</PdfACompliance>
     <Print>Skriv ut rapport.</Print>
+    <PutFeedPageCode>Mata sidor i det färdiga dokumentet med specialtecken.</PutFeedPageCode>
+    <RangePages>Antal sidor att behandla. Du kan definiera om en enskild sida, ett antal sidor (kommatecken som separator), en sekvens av sidor genom att ange startsida och slutsida separerade med ett "-". Exempel: 1,3,5-12.</RangePages>
+    <RemoveEmptySpaceAtBottom>Minimera tomma utrymmen på botten av sidan.</RemoveEmptySpaceAtBottom>
+    <RestrictEditing>Begränsningar för ändringar i ett Worddokument</RestrictEditing>
     <Save>Spara rapport för framtida användning.</Save>
+    <ScaleHtml>Storleken (skalan) på rapportsidor och komponenter efter export.</ScaleHtml>
+    <ScaleImage>Storleken (skalan) på rapport efter export. Lägre skala ger större antal pixel per tum och tvärt om.</ScaleImage>
     <SendEMail>Skicka rapport som e-post.</SendEMail>
+    <Separator>Separator mellan data i CSV-fil.</Separator>
+    <SkipColumnHeaders>Aktivera/avaktivera kolumnhuvud.</SkipColumnHeaders>
+    <StandardPdfFonts>14 standard Adobe typsnitt. Om detta val aktiveras så kommer endast 14 standardtypsnitt att användas i PDF-filen. Alla rapporttypsnitt konverteras till något av dessa 14.</StandardPdfFonts>
+    <SubjectNameString>Certifikatidentifierare. Identifieraren är namnet på certifikatägaren (en hel rad) eller en del av namnet (del av rad).</SubjectNameString>
     <Thumbnails>Visa ikoner som kan användas för snabb navigation för att välja den rapport du vill hoppa till.</Thumbnails>
+    <TiffCompressionScheme>Kompression för TIFF-fil.</TiffCompressionScheme>
     <ToolEditor>Detta verktyg gör det möjigt att redigera innehåll i textkomponenter direkt i rapportviewern.</ToolEditor>
+    <TypeExport>Filen som rapporten konverteras till.</TypeExport>
+    <UseDefaultSystemEncoding>Använd systemkodning som standard eller specificera kodning som används som standard.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>Definiera sidbandens huvud och fot som huvud och fot i MS Word dokument.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>Definiera bandens sidhuvud och sidfot som huvud och fot i MS Word.</UsePageHeadersAndFooters>
+    <UserPassword>Lösenordet som behövs för att öppna dokumentet.</UserPassword>
+    <UseUnicode>Utökat stöd för att kodning av tecken. Det påverkar intern teckenkodning inom PDF-filen och förbättrar möjligheten att kopiera text från PDF-filen.</UseUnicode>
     <ViewModeContinuous>Visa alla rapportsidor som ett vertikalt band.</ViewModeContinuous>
     <ViewModeMultiplePages>Zooma rapporten så att så många sidor som ryms i fönstret visas.</ViewModeMultiplePages>
     <ViewModeSinglePage>Visa en sida i förhandsgranskningsfönstret.</ViewModeSinglePage>
@@ -1440,15 +1598,21 @@
     <ZoomOnePage>Zooma rapporten så att en sida fyller hela fönstret.</ZoomOnePage>
     <ZoomPageWidth>Zooma rapporten så att bredden på sidan är samma som bredden på fönstret.</ZoomPageWidth>
     <ZoomTwoPages>Zooma rapporten så att två sidor ryms i fönstret.</ZoomTwoPages>
+    <ZoomTxt>Rapportens storlek (skala): X - ändra horisontell skala, Y - ändra vertikal skala.</ZoomTxt>
   </HelpViewer>
   <MainMenu>
     <menuCheckIssues>Kontrollera händelser</menuCheckIssues>
     <menuContextClone>Kopiera...</menuContextClone>
     <menuContextDesign>Designa...</menuContextDesign>
     <menuContextTextFormat>Textformat...</menuContextTextFormat>
+    <menuConvertToCheckBox>Konvertera till kryssruta</menuConvertToCheckBox>
+    <menuConvertToImage>Konvertera till bild</menuConvertToImage>
+    <MenuConvertToRichText>Konvertera till RichText</MenuConvertToRichText>
+    <menuConvertToText>Konvertera till Text</menuConvertToText>
     <menuDeleteColumn>Radera kolumn</menuDeleteColumn>
     <menuDeleteRow>Radera rad</menuDeleteRow>
     <menuEdit>&amp;Redigera</menuEdit>
+    <menuEditBusinessObjectFromDataSetNew>Nytt affärsobjekt från dataset...</menuEditBusinessObjectFromDataSetNew>
     <menuEditBusinessObjectNew>Nytt affärsobjekt...</menuEditBusinessObjectNew>
     <menuEditCalcColumnNew>Ny beräknad kolumn...</menuEditCalcColumnNew>
     <menuEditCantRedo>Kan inte göra om</menuEditCantRedo>
@@ -1478,6 +1642,7 @@
     <menuEditViewData>Visa data...</menuEditViewData>
     <menuFile>&amp;Akriv</menuFile>
     <menuFileClose>&amp;Stäng</menuFileClose>
+    <menuFileDashboardNew>Ny kontrollpanel</menuFileDashboardNew>
     <menuFileExit>A&amp;vsluta</menuFileExit>
     <menuFileExportXMLSchema>Exportera XML-schema...</menuFileExportXMLSchema>
     <menuFileFormNew>Nytt formulär</menuFileFormNew>
@@ -1502,6 +1667,7 @@
     <menuFileReportSaveAsToGoogleDocs>Spara rapport till Google Docs...</menuFileReportSaveAsToGoogleDocs>
     <menuFileReportSetup>&amp;Rapportinställningar...</menuFileReportSetup>
     <menuFileReportWizardNew>Guide för ny rapport...</menuFileReportWizardNew>
+    <menuFileSave>&amp;Spara</menuFileSave>
     <menuFileSaveAs>Spara som...</menuFileSaveAs>
     <menuHelp>&amp;Hjälp</menuHelp>
     <menuHelpAboutProgramm>&amp;Om...</menuHelpAboutProgramm>
@@ -1545,6 +1711,27 @@
     <menuViewShowRulers>Visa linjaler</menuViewShowRulers>
     <menuViewToolbars>Toolbars</menuViewToolbars>
   </MainMenu>
+  <NuGet>
+    <AlreadyDownloaded>Redan nedladdad</AlreadyDownloaded>
+    <AssemblyLoadedSuccessfully>Sammansättningen laddades.</AssemblyLoadedSuccessfully>
+    <AssemblyNotFound>Kunde inte hitta {0} sammansättningen för att ladda {1} kopplingen!</AssemblyNotFound>
+    <Author>Författare</Author>
+    <Download>Ladda ner</Download>
+    <DownloadAll>Ladda ner alla</DownloadAll>
+    <Downloads>Nedladdningar:</Downloads>
+    <IAccept>Jag accepterar</IAccept>
+    <IDecline>Jag avböjer</IDecline>
+    <LicenceFormDesc>Följande paket kräver att du accepterar deras licensavtal.</LicenceFormDesc>
+    <LicenceFormDesc1>Genom att klicka på "Jag accepterar" Godkänner du licensinformationen ovan. Om du inte godkänner denna licens, klicka på "Jag avböjer".</LicenceFormDesc1>
+    <LicenceFormTitle>Licensavtal</LicenceFormTitle>
+    <License>Licens:</License>
+    <ProjectUrl>Projektlänk:</ProjectUrl>
+    <ReportAbuse>Rapportera brist:</ReportAbuse>
+    <RetrievingInformation>Hanterar information...</RetrievingInformation>
+    <Tags>Taggar:</Tags>
+    <Title>Ladda ner dataadapter</Title>
+    <ViewLicense>Visa Licens</ViewLicense>
+  </NuGet>
   <Panels>
     <Dictionary>Ordbok</Dictionary>
     <Messages>Meddelanden</Messages>
@@ -1565,7 +1752,9 @@
   </PlacementComponent>
   <PropertyCategory>
     <AppearanceCategory>Utseende</AppearanceCategory>
+    <AreaCategory>Area</AreaCategory>
     <ArgumentCategory>Argument</ArgumentCategory>
+    <AxisCategory>Axel</AxisCategory>
     <BarCodeAdditionalCategory>Barcode tillägg</BarCodeAdditionalCategory>
     <BarCodeCategory>Barcode</BarCodeCategory>
     <BehaviorCategory>Beteende</BehaviorCategory>
@@ -1584,9 +1773,14 @@
     <DisplayCategory>Visa</DisplayCategory>
     <ExportCategory>Exportera</ExportCategory>
     <ExportEventsCategory>Exportera händelser Events</ExportEventsCategory>
+    <FooterTableCategory>Sidfot tabell</FooterTableCategory>
+    <GridLinesCategory>Rutnätslinjer</GridLinesCategory>
+    <HeaderTableCategory>Sidhuvud tabell</HeaderTableCategory>
     <HierarchicalCategory>Hierarkisk</HierarchicalCategory>
     <ImageAdditionalCategory>Bild tillägg</ImageAdditionalCategory>
     <ImageCategory>Bild</ImageCategory>
+    <InterlacingCategory>Sammanflätning</InterlacingCategory>
+    <LegendCategory>Legend</LegendCategory>
     <MainCategory>Hem</MainCategory>
     <MarkerCategory>Markör</MarkerCategory>
     <MiscCategory>Blandat</MiscCategory>
@@ -1602,8 +1796,10 @@
     <PrimitiveCategory>Primitiv</PrimitiveCategory>
     <PrintEventsCategory>Utskriftshändelse</PrintEventsCategory>
     <RenderEventsCategory>Renderingshändelse</RenderEventsCategory>
+    <SeriesLabelsCategory>Serie Rubriker</SeriesLabelsCategory>
     <ShapeCategory>Form</ShapeCategory>
     <SubReportCategory>Delrapport</SubReportCategory>
+    <TableCategory>Tabell</TableCategory>
     <TextAdditionalCategory>Text tillägg</TextAdditionalCategory>
     <TextCategory>Text</TextCategory>
     <TitleCategory>Title</TitleCategory>
@@ -1916,6 +2112,8 @@
     <StiDockStyleNone>Ingen</StiDockStyleNone>
     <StiDockStyleRight>Höger</StiDockStyleRight>
     <StiDockStyleTop>Toppen</StiDockStyleTop>
+    <StiDrillDownModeMultiPage>Flersidigt</StiDrillDownModeMultiPage>
+    <StiDrillDownModeSinglePage>Ensidigt</StiDrillDownModeSinglePage>
     <StiEanSupplementTypeFiveDigit>Fem siffror</StiEanSupplementTypeFiveDigit>
     <StiEanSupplementTypeNone>Ingen</StiEanSupplementTypeNone>
     <StiEanSupplementTypeTwoDigit>Två siffror</StiEanSupplementTypeTwoDigit>
@@ -1934,6 +2132,8 @@
     <StiFilterConditionEqualTo>lika med</StiFilterConditionEqualTo>
     <StiFilterConditionGreaterThan>större än</StiFilterConditionGreaterThan>
     <StiFilterConditionGreaterThanOrEqualTo>större än eller lika med</StiFilterConditionGreaterThanOrEqualTo>
+    <StiFilterConditionIsNotNull>är inte null</StiFilterConditionIsNotNull>
+    <StiFilterConditionIsNull>är null</StiFilterConditionIsNull>
     <StiFilterConditionLessThan>mindre än</StiFilterConditionLessThan>
     <StiFilterConditionLessThanOrEqualTo>mindre än eller lika med</StiFilterConditionLessThanOrEqualTo>
     <StiFilterConditionNotBetween>inte mellan</StiFilterConditionNotBetween>
@@ -1949,6 +2149,11 @@
     <StiFilterItemArgument>Argument</StiFilterItemArgument>
     <StiFilterItemExpression>Uttryck</StiFilterItemExpression>
     <StiFilterItemValue>Värde</StiFilterItemValue>
+    <StiFilterItemValueClose>Värde stängt</StiFilterItemValueClose>
+    <StiFilterItemValueEnd>Värde slut</StiFilterItemValueEnd>
+    <StiFilterItemValueHigh>Värde högt</StiFilterItemValueHigh>
+    <StiFilterItemValueLow>Värde lågt</StiFilterItemValueLow>
+    <StiFilterItemValueOpen>Värde öppet</StiFilterItemValueOpen>
     <StiFilterModeAnd>Och</StiFilterModeAnd>
     <StiFilterModeOr>Eller</StiFilterModeOr>
     <StiFormStartModeOnEnd>Vid slut</StiFormStartModeOnEnd>
@@ -1973,6 +2178,10 @@
     <StiImageRotationRotate180>Rotera 180°</StiImageRotationRotate180>
     <StiImageRotationRotate90CCW>Rotera 90° vänster</StiImageRotationRotate90CCW>
     <StiImageRotationRotate90CW>Rotera 90° höger</StiImageRotationRotate90CW>
+    <StiKeepDetailsKeepDetailsTogether>Håll samman detaljer</StiKeepDetailsKeepDetailsTogether>
+    <StiKeepDetailsKeepFirstDetailTogether>Håll sammam första detalj</StiKeepDetailsKeepFirstDetailTogether>
+    <StiKeepDetailsKeepFirstRowTogether>Håll samman första rad</StiKeepDetailsKeepFirstRowTogether>
+    <StiKeepDetailsNone>Ingen</StiKeepDetailsNone>
     <StiLabelsPlacementNone>Ingen</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>En rad</StiLabelsPlacementOneLine>
     <StiLabelsPlacementTwoLines>Två rader</StiLabelsPlacementTwoLines>
@@ -2006,6 +2215,7 @@
     <StiNumberOfPassDoublePass>Dubbel körning</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>Enken körning</StiNumberOfPassSinglePass>
     <StiOrientationHorizontal>Horisontell</StiOrientationHorizontal>
+    <StiOrientationHorizontalRight>Horisontellt höger</StiOrientationHorizontalRight>
     <StiOrientationVertical>Vertikal</StiOrientationVertical>
     <StiPageOrientationLandscape>Liggande</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Stående</StiPageOrientationPortrait>
@@ -2144,6 +2354,8 @@
     <StiTextQualityStandard>Standard</StiTextQualityStandard>
     <StiTextQualityTypographic>Typografi</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTitlePositionInside>Insida</StiTitlePositionInside>
+    <StiTitlePositionOutside>Utsida</StiTitlePositionOutside>
     <StiTypeModeList>Lista</StiTypeModeList>
     <StiTypeModeNullableValue>Värde som kan nollställas</StiTypeModeNullableValue>
     <StiTypeModeRange>Område</StiTypeModeRange>
@@ -2153,6 +2365,8 @@
     <StiVertAlignmentTop>Överkant</StiVertAlignmentTop>
     <StiViewModeNormal>Normal</StiViewModeNormal>
     <StiViewModePageBreakPreview>Förhandsgranska sidbrytning</StiViewModePageBreakPreview>
+    <StiXmlTypeAdoNetXml>ADO.NET XML</StiXmlTypeAdoNetXml>
+    <StiXmlTypeXml>XML</StiXmlTypeXml>
     <StringAlignmentCenter>Centrerad</StringAlignmentCenter>
     <StringAlignmentFar>Bortre</StringAlignmentFar>
     <StringAlignmentNear>Närmaste</StringAlignmentNear>
@@ -2188,6 +2402,7 @@
     <GetCollapsedEvent>Hämta sammanslagen</GetCollapsedEvent>
     <GetCrossValueEvent>Hämta kortvärde</GetCrossValueEvent>
     <GetCutPieListEvent>Hämta uppdelad pajlista</GetCutPieListEvent>
+    <GetDataUrlEvent>Hämta datalänk</GetDataUrlEvent>
     <GetDisplayCrossValueEvent>Hämta visat kortvärde</GetDisplayCrossValueEvent>
     <GetDrillDownReportEvent>Hämta Drill-Down rapport</GetDrillDownReportEvent>
     <GetExcelSheetEvent>Hämta Excelark</GetExcelSheetEvent>
@@ -2329,6 +2544,7 @@
     <AspectRatio>Vinkelproportion</AspectRatio>
     <Author>Författare</Author>
     <Auto>A?till</Auto>
+    <AutoCalculateCenterPoint>Auto Kalkylera Mittpunkten</AutoCalculateCenterPoint>
     <AutoDataColumns>Auto datakolumn</AutoDataColumns>
     <AutoDataRows>Auto datarad</AutoDataRows>
     <AutoLocalizeReportOnRun>Automatiskt lokalisera rapport vid körning</AutoLocalizeReportOnRun>
@@ -2340,19 +2556,25 @@
     <AutoSeriesTitleDataColumn>Automatisk serie titlar till datakolumner</AutoSeriesTitleDataColumn>
     <AutoWidth>Automatisk bredd</AutoWidth>
     <AutoWidthType>Automatisk bredd typ</AutoWidthType>
+    <AxisLabelsColor>Rubrikfärger</AxisLabelsColor>
+    <AxisLineColor>Linjefärger</AxisLineColor>
+    <AxisTitleColor>Titelfärger</AxisTitleColor>
     <AxisValue>Axel värde</AxisValue>
     <BackColor>Bakgrundsfärg</BackColor>
     <Background>Bakgrund</Background>
     <BackgroundColor>Bakgrundsfärg</BackgroundColor>
     <BarCodeType>Streckkodstyp</BarCodeType>
     <BasicStyleColor>Grundläggande stil färg</BasicStyleColor>
+    <BindingColumn>Sammanbindande kolumn</BindingColumn>
     <Blend>Blanda</Blend>
     <Bold>Fet</Bold>
     <Bookmark>Bokmärke</Bookmark>
     <Border>Ram</Border>
+    <BorderBrush>Kantborste</BorderBrush>
     <BorderColor>Ramfärg</BorderColor>
     <Borders>Ramar</Borders>
     <BorderStyle>Ramstil</BorderStyle>
+    <BorderWidth>Kantbredd</BorderWidth>
     <Bottom>Nederkant</Bottom>
     <BottomSide>Nedre sida</BottomSide>
     <BreakIfLessThan>Bryt om mindre än</BreakIfLessThan>
@@ -2375,6 +2597,10 @@
     <CellHeight>Cellhöjd</CellHeight>
     <CellType>Celltyp</CellType>
     <CellWidth>Cellbredd</CellWidth>
+    <Center>Mitten</Center>
+    <CenterPoint>Mittpunkt</CenterPoint>
+    <ChartAreaBorderColor>Kantfärg</ChartAreaBorderColor>
+    <ChartAreaBrush>Area Borste</ChartAreaBrush>
     <ChartType>Graftyp</ChartType>
     <Checked>Vald</Checked>
     <CheckOnClick>Välj vid klick</CheckOnClick>
@@ -2427,6 +2653,7 @@
     <Create>Skapa</Create>
     <CreateFieldOnDoubleClick>Skapa fält vid dubbelklick</CreateFieldOnDoubleClick>
     <CreateLabel>Skapa etikett</CreateLabel>
+    <Culture>Kultur</Culture>
     <CustomFormat>Valbart format</CustomFormat>
     <CutPieList>Uppdelad pajlista</CutPieList>
     <Data>Data</Data>
@@ -2448,6 +2675,8 @@
     <Default>Standard</Default>
     <DefaultHeightCell>Standardhöjd på cell</DefaultHeightCell>
     <DefaultNamespace>Standard Namespace</DefaultNamespace>
+    <DependentColumn>Länkad kolumn</DependentColumn>
+    <DependentValue>Länkat värde</DependentValue>
     <Description>Beskrivning</Description>
     <DetectUrls>Upptäck Url:er</DetectUrls>
     <DialogResult>Dialogresultat</DialogResult>
@@ -2462,13 +2691,16 @@
     <DrawBorder>Rita ram</DrawBorder>
     <DrawHatch>Rita hatch</DrawHatch>
     <DrawLine>Rita linje</DrawLine>
+    <DrillDown>Drillbarhet</DrillDown>
     <DrillDownEnabled>Drill-Down påslagen</DrillDownEnabled>
+    <DrillDownMode>Drill-Down Läge</DrillDownMode>
     <DrillDownPage>Drill-Down sida</DrillDownPage>
     <DrillDownParameter1>Drill-Down parameter 1</DrillDownParameter1>
     <DrillDownParameter2>Drill-Down parameter 2</DrillDownParameter2>
     <DrillDownParameter3>Drill-Down parameter 3</DrillDownParameter3>
     <DrillDownParameter4>Drill-Down parameter 4</DrillDownParameter4>
     <DrillDownParameter5>Drill-Down parameter 5</DrillDownParameter5>
+    <DrillDownParameters>Drillbarhetsparametrar</DrillDownParameters>
     <DrillDownReport>Drill-Down rapport</DrillDownReport>
     <DropDownAlign>Dropdown justering</DropDownAlign>
     <DropDownStyle>Dropdown stil</DropDownStyle>
@@ -2476,6 +2708,9 @@
     <DropShadow>Fallande skugga</DropShadow>
     <Duplex>Duplex</Duplex>
     <Editable>Redigerbar</Editable>
+    <EmptyBorderBrush>Töm Kantborste</EmptyBorderBrush>
+    <EmptyBorderWidth>Töm Kantbredd</EmptyBorderWidth>
+    <EmptyBrush>Töm Borste</EmptyBrush>
     <EmptyValue>Tomt värde</EmptyValue>
     <Enabled>Påslagen</Enabled>
     <EnableLog>Påslagen logg</EnableLog>
@@ -2483,6 +2718,8 @@
     <EncodingType>Kodningstyp</EncodingType>
     <EndCap>Slut-cap</EndCap>
     <EndColor>Slutfärg</EndColor>
+    <EndValue>Slutvärde</EndValue>
+    <EndWidth>Slutbredd</EndWidth>
     <EngineVersion>Version på motor</EngineVersion>
     <EnumeratorSeparator>Enumeratorseparation</EnumeratorSeparator>
     <EnumeratorType>Enumeratortype</EnumeratorType>
@@ -2500,6 +2737,7 @@
     <Fill>Fyll</Fill>
     <Filter>Filter</Filter>
     <FilterEngine>Filtermotor</FilterEngine>
+    <FilterMode>Filter Läge</FilterMode>
     <FilterOn>Filter på</FilterOn>
     <Filters>Filter</Filters>
     <FirstTabOffset>Första tabindrag</FirstTabOffset>
@@ -2537,9 +2775,12 @@
     <GlobalizedName>Globaliserat namn</GlobalizedName>
     <GridLineColor>Färg på stödlinje</GridLineColor>
     <GridLinesHor>Horisontell stödlinje</GridLinesHor>
+    <GridLinesHorColor>Färg på Horizontella rutnätslinjer</GridLinesHorColor>
     <GridLinesHorRight>Horisontell stödlinje höger</GridLinesHorRight>
     <GridLineStyle>Stödlinje stil</GridLineStyle>
     <GridLinesVert>Vertikal stödlinje</GridLinesVert>
+    <GridLinesVertColor>Färg på Vertikala rutnätslinjer</GridLinesVertColor>
+    <GridOutline>Stödlinjer för serie</GridOutline>
     <GrowToHeight>Väx till höjd</GrowToHeight>
     <HeaderBackColor>Bakgrundsfärg rubrik</HeaderBackColor>
     <HeaderCanBreak>Huvud kan inte brytas</HeaderCanBreak>
@@ -2590,13 +2831,18 @@
     <Interaction>Interaktion</Interaction>
     <InterlacedBrush>Interlacad borste</InterlacedBrush>
     <InterlacingHor>Interlaca horisontellt</InterlacingHor>
+    <InterlacingHorBrush>Borste för horizontell sammanflätning</InterlacingHorBrush>
     <InterlacingVert>Interlaca vertikalt</InterlacingVert>
+    <InterlacingVertBrush>Borste för vertikal sammanflätning</InterlacingVertBrush>
+    <Interpolation>Interpolation</Interpolation>
+    <IsReversed>Omvänd</IsReversed>
     <Italic>Kursivt</Italic>
     <Item>Objekt</Item>
     <ItemHeight>Objekthöjd</ItemHeight>
     <Items>Objekt</Items>
     <KeepChildTogether>Håll samman barn</KeepChildTogether>
     <KeepCrossTabTogether>Behåll Cross-Tab tillsammans</KeepCrossTabTogether>
+    <KeepDetails>Behåll detaljer</KeepDetails>
     <KeepDetailsTogether>Håll samman detaljer</KeepDetailsTogether>
     <KeepFooterTogether>Håll samman sidfot</KeepFooterTogether>
     <KeepGroupFooterTogether>Håll samman gruppers undertext</KeepGroupFooterTogether>
@@ -2609,6 +2855,7 @@
     <KeyDataColumn>Nykeldatakolumn</KeyDataColumn>
     <Keys>Nycklar</Keys>
     <LabelColor>Färg på etiketter</LabelColor>
+    <LabelRotationMode>Rubrik rotationsläge</LabelRotationMode>
     <Labels>Etiketter</Labels>
     <LabelsColor>Färg på etiketter</LabelsColor>
     <LabelsOffset>Etikettförskjutning</LabelsOffset>
@@ -2618,6 +2865,10 @@
     <Left>Vänster</Left>
     <LeftSide>Vänster sida</LeftSide>
     <Legend>Förklaring</Legend>
+    <LegendBorderColor>Kantfärg</LegendBorderColor>
+    <LegendBrush>Legend Borste</LegendBrush>
+    <LegendLabelsColor>Rubrikfärger</LegendLabelsColor>
+    <LegendTitleColor>Titelfärger</LegendTitleColor>
     <LegendValueType>Förklaring värdetyp</LegendValueType>
     <Length>Längd</Length>
     <LengthUnderLabels>Längd under etikett</LengthUnderLabels>
@@ -2648,6 +2899,7 @@
     <Logarithmic>Logaritmisk</Logarithmic>
     <LogarithmicScale>Logaritmisk skala</LogarithmicScale>
     <Low>Låg</Low>
+    <MajorInterval>Större Intervall</MajorInterval>
     <Margins>Marginaler</Margins>
     <Marker>Markör</Marker>
     <MarkerAlignment>Markörjustering</MarkerAlignment>
@@ -2663,6 +2915,7 @@
     <MaxDropDownItems>Max dropdownobjekt</MaxDropDownItems>
     <MaxHeight>Max höjd</MaxHeight>
     <Maximum>Maximum</Maximum>
+    <MaximumValue>Maximal Värde</MaximumValue>
     <MaxLength>Max längd</MaxLength>
     <MaxNumberOfLines>Max antal linjer</MaxNumberOfLines>
     <MaxSize>Max storlek</MaxSize>
@@ -2675,8 +2928,10 @@
     <MinHeight>Min höjd</MinHeight>
     <Minimum>Minimum</Minimum>
     <MinimumFontSize>Minimum fontstorlek</MinimumFontSize>
+    <MinimumValue>Minsta Värde</MinimumValue>
     <MinorColor>Sekundär färg</MinorColor>
     <MinorCount>Sekundär antal</MinorCount>
+    <MinorInterval>Minimum Intervall</MinorInterval>
     <MinorLength>Sekundär längd</MinorLength>
     <MinorStyle>Sekundär stil</MinorStyle>
     <MinorVisible>Sekundär synlig</MinorVisible>
@@ -2684,6 +2939,7 @@
     <MinSize>Min storlek</MinSize>
     <MinValue>Min värde</MinValue>
     <MinWidth>Min bredd</MinWidth>
+    <MirrorMargins>Spegelmarginaler</MirrorMargins>
     <Mode>Mode</Mode>
     <Module>Modul</Module>
     <Move>Flytta</Move>
@@ -2707,6 +2963,8 @@
     <NumberOfPass>Antal pass</NumberOfPass>
     <NumberOfValues>Antal värden</NumberOfValues>
     <OddStyle>Udda stil</OddStyle>
+    <Offset>Kompensation</Offset>
+    <OffsetAngle>Kompensationsvinkel</OffsetAngle>
     <OnlyText>Only Text</OnlyText>
     <Operation>Operation</Operation>
     <Options>Alternativ</Options>
@@ -2760,7 +3018,10 @@
     <ProcessingDuplicates>Behandla dubletter</ProcessingDuplicates>
     <ProductHomePage>Produktens hemsida</ProductHomePage>
     <RadarStyle>Radarstil</RadarStyle>
+    <Radius>Radie</Radius>
+    <RadiusMode>Radie läge</RadiusMode>
     <Range>Område</Range>
+    <RangeColorMode>Nivåfärg läge</RangeColorMode>
     <RangeFrom>Från</RangeFrom>
     <RangeScrollEnabled>Områdesscroll påslagen</RangeScrollEnabled>
     <RangeTo>Till</RangeTo>
@@ -2773,6 +3034,8 @@
     <Relation>Relation</Relation>
     <RelationName>Relationsnamn</RelationName>
     <Relations>Relationer</Relations>
+    <RelativeHeight>Relativ Höjd</RelativeHeight>
+    <RelativeWidth>Relativ Bredd</RelativeWidth>
     <RemoveUnusedDataBeforeStart>Ta bort oanvänt data innan start</RemoveUnusedDataBeforeStart>
     <RenderTo>Rendera till</RenderTo>
     <ReportAlias>Rapportalias</ReportAlias>
@@ -2808,12 +3071,16 @@
     <SelectedItem>Valt objekt</SelectedItem>
     <SelectedKey>Vald nyckel</SelectedKey>
     <SelectedValue>Valt värde</SelectedValue>
+    <Selection>Valt</Selection>
     <SelectionBackColor>Vald bakgrundsfärg</SelectionBackColor>
     <SelectionEnabled>Samlig på</SelectionEnabled>
     <SelectionForeColor>Vald förgrundsfärg</SelectionForeColor>
     <SelectionMode>Mode för val</SelectionMode>
     <Series>Serier</Series>
     <SeriesLabels>Serieetiketter</SeriesLabels>
+    <SeriesLabelsBorderColor>Kantfärg</SeriesLabelsBorderColor>
+    <SeriesLabelsBrush>Rubrikborste</SeriesLabelsBrush>
+    <SeriesLabelsColor>Rubrikfärg</SeriesLabelsColor>
     <Shadow>Skugga</Shadow>
     <ShadowBrush>Skugga borste</ShadowBrush>
     <ShadowColor>Skuggfärger</ShadowColor>
@@ -2852,7 +3119,13 @@
     <Simple>Enkel</Simple>
     <Size>Storlek</Size>
     <SizeMode>Storleksmod</SizeMode>
+    <Skin>Utseende</Skin>
     <SkipFirst>Hoppa över första</SkipFirst>
+    <SkipIndices>Skippa Index</SkipIndices>
+    <SkipIndicesObj>Skippa Indexobjekt</SkipIndicesObj>
+    <SkipMajorValues>Skippa Större Värde</SkipMajorValues>
+    <SkipValues>Skippa Värden</SkipValues>
+    <SkipValuesObj>Skippa Värde</SkipValuesObj>
     <Smoothing>Utjämning</Smoothing>
     <Sort>Sortera</Sort>
     <SortBy>Sortera efter</SortBy>
@@ -2863,7 +3136,7 @@
     <SortType>Sorteringstype</SortType>
     <Space>Mellanslag</Space>
     <Spacing>Mellanrum</Spacing>
-    <SqlCommand>Sql-kommando</SqlCommand>
+    <SqlCommand>SQL-kommando</SqlCommand>
     <StartAngle>Startvinkel</StartAngle>
     <StartCap>Start-cap</StartCap>
     <StartColor>Startfärg</StartColor>
@@ -2872,6 +3145,8 @@
     <StartNewPage>Påbörja ny sida</StartNewPage>
     <StartNewPageIfLessThan>Påbörja ny sida om mindre än</StartNewPageIfLessThan>
     <StartPosition>Startposition</StartPosition>
+    <StartValue>Start Värde</StartValue>
+    <StartWidth>Start Bredd</StartWidth>
     <Step>Steg</Step>
     <Stop>Stopp</Stop>
     <StopBeforePage>Stoppa före sida</StopBeforePage>
@@ -2892,8 +3167,10 @@
     <SummaryValues>Summerade värden</SummaryValues>
     <SupplementCode>Kompletterande kod</SupplementCode>
     <SupplementType>Kompletterande typ</SupplementType>
+    <SweepAngle>Böjningsvinkel</SweepAngle>
     <SystemVariable>Systemvariabel</SystemVariable>
     <SystemVariables>Systemvariabler</SystemVariables>
+    <Table>Tabell</Table>
     <Tag>Tag</Tag>
     <TagDataColumn>Tag datakolumn</TagDataColumn>
     <TagValue>Tagvärde</TagValue>
@@ -2942,10 +3219,12 @@
     <UseAliases>Använd alias</UseAliases>
     <UseExternalReport>Använd extern rapport</UseExternalReport>
     <UseParentStyles>Använd ärvd stil</UseParentStyles>
+    <UseRangeColor>Använd nivåfärg</UseRangeColor>
     <UseRectangularSymbols>Använd rektangulära symboler</UseRectangularSymbols>
     <UseSeriesColor>Använd seriefärg</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Använd format på summa i kolumntotal</UseStyleOfSummaryInColumnTotal>
     <UseStyleOfSummaryInRowTotal>Använd format på summa i radtotal</UseStyleOfSummaryInRowTotal>
+    <UseValuesFromTheSpecifiedRange>Använd värden från specifierad nivå</UseValuesFromTheSpecifiedRange>
     <Value>Värde</Value>
     <ValueClose>Värde slutet</ValueClose>
     <ValueDataColumn>Värde datakolumn</ValueDataColumn>
@@ -3071,7 +3350,7 @@
     <SelectAllFromRight>Ersätt alla från höger</SelectAllFromRight>
     <SwitchToDerivedTable>Byt till härledd tabell</SwitchToDerivedTable>
     <Tables>Tabeller</Tables>
-    <UnexpectedTokenAt>Oväntat tecken \"{0}\" på rad {1}, pos {2}!</UnexpectedTokenAt>
+    <UnexpectedTokenAt>Oväntat tecken "{0}" på rad {1}, pos {2}!</UnexpectedTokenAt>
     <Unions>Unions</Unions>
     <UnionSubMenu>Un?on</UnionSubMenu>
     <ViewQuery>Visa fråga</ViewQuery>
@@ -3111,6 +3390,7 @@
     <CreateNewReportPageForm>Skapa ny rapport, lägg till sida, lägg till formulär</CreateNewReportPageForm>
     <CreatingReport>Skapar Rapport</CreatingReport>
     <CrossBands>Cross Bands</CrossBands>
+    <Dashboard>Kontrollpanel</Dashboard>
     <Dialogs>Dialoger</Dialogs>
     <EditStyles>[Redigera stiler]</EditStyles>
     <Errors>Fel</Errors>
@@ -3173,6 +3453,7 @@
     <SaveReportPagesOrFormsFromReport>Spara rapporten, sidor eller formulär</SaveReportPagesOrFormsFromReport>
     <SavingReport>Spara rapport</SavingReport>
     <SecondPass>Andra passet</SecondPass>
+    <Shapes>Figurer</Shapes>
     <Standard>Standard</Standard>
     <StandardConfiguration>Huvudsakliga objektegenskaper utom de som sällan används.</StandardConfiguration>
     <StiEmptyBrush>Tom</StiEmptyBrush>
@@ -3231,6 +3512,7 @@
     <Lines>Linjer</Lines>
     <Minus>Minus</Minus>
     <Multiply>Multiplicera</Multiply>
+    <Octagon>Oktagon</Octagon>
     <Oval>Oval</Oval>
     <Parallelogram>Parallellogram</Parallelogram>
     <Plus>Pluss</Plus>
@@ -3258,6 +3540,7 @@
     <LineABC>Alfabetiska motsvarigheten till nuvarande radnummer.</LineABC>
     <LineRoman>Nuvarande radnummer i romerska siffror.</LineRoman>
     <LineThrough>Nuvarande radnummer (startar från 1). När värdet beräknas så ignoreras alla grupperingar och numreringen startar från början av rapporten.</LineThrough>
+    <PageCopyNumber>Återge ett nummer från en av nuvarande sidor (startar från 1).</PageCopyNumber>
     <PageNofM>En lokaliserad sträng som visar "Sidan N av M" där N är nuvarande sidnummer och M är totala antalet sidor i rapporten.</PageNofM>
     <PageNofMThrough>En lokaliserad sträng som visar "Sidan N av M" där N är nuvarande sidonummer och M är totala antalet sidor i rapporten. När PageNofMThrough beräknas så ignoreras alla ResetPageNumber-egenskaper och numreringen startar från början av rapporten.</PageNofMThrough>
     <PageNumber>Nuvarande sidonummer (startar från 1).</PageNumber>

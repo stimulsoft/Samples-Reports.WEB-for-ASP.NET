@@ -1004,7 +1004,7 @@
     <ShowDescription>Mostra descrizioni</ShowDescription>
     <SLPreview>Anteprima Silverlight</SLPreview>
     <title>Finestra di progettazione</title>
-    <WebPreview>Anteprima web</WebPreview>
+    <WebPreview>Anteprima Flash</WebPreview>
   </FormDesigner>
   <FormDictionaryDesigner>
     <Actions>Azioni</Actions>

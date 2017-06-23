@@ -38,19 +38,19 @@
   </A_WebViewer>
   <Adapters>
     <AdapterBusinessObjects>從業務物件中獲取資料</AdapterBusinessObjects>
-    <AdapterCsvFiles>從 Csv File 獲取資料</AdapterCsvFiles>
+    <AdapterCsvFiles>從 CSV File 獲取資料</AdapterCsvFiles>
     <AdapterDataTables>從 DataSet, DataTables 獲取資料</AdapterDataTables>
     <AdapterDataViews>從 DataViews 獲取資料</AdapterDataViews>
     <AdapterDB2Connection> IBM DB2 Bӫ@ȡY</AdapterDB2Connection>
     <AdapterDBaseFiles>從資料庫檔獲取資料</AdapterDBaseFiles>
     <AdapterFirebirdConnection>從 Firebird 連接獲取資料</AdapterFirebirdConnection>
     <AdapterMySQLConnection>從 MySQL 連接獲取資料</AdapterMySQLConnection>
-    <AdapterOdbcConnection>從 Odbc 連接獲取資料</AdapterOdbcConnection>
-    <AdapterOleDbConnection>從 OleDb 連接獲取資料</AdapterOleDbConnection>
+    <AdapterOdbcConnection>從 ODBC 連接獲取資料</AdapterOdbcConnection>
+    <AdapterOleDbConnection>從 OLE DB 連接獲取資料</AdapterOleDbConnection>
     <AdapterOracleConnection>從 Oracle 連接獲取資料</AdapterOracleConnection>
     <AdapterPostgreSQLConnection>從 PostgreSQL 連接獲取資料</AdapterPostgreSQLConnection>
-    <AdapterSqlCeConnection> SqlCe Bӫ@ȡY</AdapterSqlCeConnection>
-    <AdapterSqlConnection>從 Sql 連接獲取資料</AdapterSqlConnection>
+    <AdapterSqlCeConnection> SQL CE Bӫ@ȡY</AdapterSqlCeConnection>
+    <AdapterSqlConnection>從 SQL 連接獲取資料</AdapterSqlConnection>
     <AdapterSQLiteConnection>從 SQLite 連接獲取資料</AdapterSQLiteConnection>
     <AdapterUniDirectConnection>Uni Direct資料庫連接</AdapterUniDirectConnection>
     <AdapterUserSources>從用戶源獲取資料</AdapterUserSources>
@@ -237,16 +237,16 @@
     <DatabaseDB2>IBM DB2 B</DatabaseDB2>
     <DatabaseFirebird>Firebird 連接</DatabaseFirebird>
     <DatabaseMySQL>MySQL 連接</DatabaseMySQL>
-    <DatabaseOdbc>Odbc 連接</DatabaseOdbc>
-    <DatabaseOleDb>OleDB 連接</DatabaseOleDb>
+    <DatabaseOdbc>ODBC 連接</DatabaseOdbc>
+    <DatabaseOleDb>OLE DB 連接</DatabaseOleDb>
     <DatabaseOracle>Oracle 連接</DatabaseOracle>
     <DatabasePostgreSQL>PostgreSQL 連接</DatabasePostgreSQL>
-    <DatabaseSql>Sql 連接</DatabaseSql>
+    <DatabaseSql>SQL 連接</DatabaseSql>
     <DatabaseSqlCe>SQLServerCE B</DatabaseSqlCe>
     <DatabaseSQLite>SQLite連接</DatabaseSQLite>
     <DatabaseUniDirect>Uni直接連接</DatabaseUniDirect>
     <DatabaseVistaDB>VistaDB 連接</DatabaseVistaDB>
-    <DatabaseXml>Xml 數據</DatabaseXml>
+    <DatabaseXml>XML 數據</DatabaseXml>
   </Database>
   <Dialogs>
     <StiButtonControl>按鈕</StiButtonControl>
@@ -541,10 +541,10 @@
     <InitialCatalog>初始化分類:</InitialCatalog>
     <MySQLEdit>編輯 MySQL 連接</MySQLEdit>
     <MySQLNew>新建 MySQL 連接</MySQLNew>
-    <OdbcEdit>編輯 Odbc 連接</OdbcEdit>
-    <OdbcNew>新建 Odbc 連接</OdbcNew>
-    <OleDbEdit>編輯 OleDb 連接</OleDbEdit>
-    <OleDbNew>新建 OleDb 連接</OleDbNew>
+    <OdbcEdit>編輯 ODBC 連接</OdbcEdit>
+    <OdbcNew>新建 ODBC 連接</OdbcNew>
+    <OleDbEdit>編輯 OLE DB 連接</OleDbEdit>
+    <OleDbNew>新建 OLE DB 連接</OleDbNew>
     <OracleEdit>編輯 Oracle 連接</OracleEdit>
     <OracleNew>新建 Oracle 連接</OracleNew>
     <PathData>路徑到 XML Data:</PathData>
@@ -557,13 +557,13 @@
     <SqlEdit>編輯 Sql 連接</SqlEdit>
     <SQLiteEdit>編輯 SQLite 連接</SQLiteEdit>
     <SQLiteNew>新建 SQLite 連接</SQLiteNew>
-    <SqlNew>新建 Sql 連接</SqlNew>
+    <SqlNew>新建 SQL 連接</SqlNew>
     <UniDirectEdit>編輯Uni Direct連接</UniDirectEdit>
     <UniDirectNew>新建Uni Direct連接</UniDirectNew>
     <VistaDBEdit>編輯 VistaDB 連接</VistaDBEdit>
     <VistaDBNew>新建 VistaDB 連接</VistaDBNew>
-    <XmlEdit>編輯 Xml Data</XmlEdit>
-    <XmlNew>新建 Xml Data</XmlNew>
+    <XmlEdit>編輯 XML Data</XmlEdit>
+    <XmlNew>新建 XML Data</XmlNew>
   </FormDatabaseEdit>
   <FormDesigner>
     <Code>代碼</Code>
@@ -676,7 +676,7 @@
   </FormGlobalizationEditor>
   <FormOptions>
     <AutoSave>自動保存</AutoSave>
-    <AutoSaveReportToReportClass>自動保存報表到 C# 或 Vb.Net 文件</AutoSaveReportToReportClass>
+    <AutoSaveReportToReportClass>自動保存報表到 C# 或 VB.NET 文件</AutoSaveReportToReportClass>
     <Default>默認</Default>
     <Drawing>圖紙</Drawing>
     <DrawMarkersWhenMoving>移動時繪製標注</DrawMarkersWhenMoving>
@@ -1027,6 +1027,7 @@
     <menuFileReportOpen>打開報表(&amp;O)...</menuFileReportOpen>
     <menuFileReportPreview>預覽報表(&amp;P)...</menuFileReportPreview>
     <menuFileReportSave>保存報表(&amp;S)...</menuFileReportSave>
+    <menuFileSave>保存報表(&amp;S)...</menuFileSave>
     <menuFileReportSaveAs>保存報表為(&amp;A)...</menuFileReportSaveAs>
     <menuFileReportSetup>報表設置(&amp;S)...</menuFileReportSetup>
     <menuFileReportWizardNew>新建報表嚮導...</menuFileReportWizardNew>
@@ -2133,7 +2134,7 @@
     <SortType>排序類型</SortType>
     <Space>空格</Space>
     <Spacing>g</Spacing>
-    <SqlCommand>Sql命令</SqlCommand>
+    <SqlCommand>SQL命令</SqlCommand>
     <StartAngle>開始角度</StartAngle>
     <StartColor>開始顏色</StartColor>
     <StartFromZero>_ʼ</StartFromZero>
@@ -2311,7 +2312,7 @@
     <SelectAllFromRight>右邊所有資料</SelectAllFromRight>
     <SwitchToDerivedTable>切換到派生表</SwitchToDerivedTable>
     <Tables>表</Tables>
-    <UnexpectedTokenAt>未知錯誤 \"{0}\" 在行 {1}, 列 {2}!</UnexpectedTokenAt>
+    <UnexpectedTokenAt>未知錯誤 "{0}" 在行 {1}, 列 {2}!</UnexpectedTokenAt>
     <Unions>聯合查詢</Unions>
     <UnionSubMenu>聯合查詢</UnionSubMenu>
     <ViewQuery>視圖查詢</ViewQuery>

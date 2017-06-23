@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Localization language="Polish" description="Polski" cultureName="pl">
   <A_WebViewer>
+    <AbbreviatedDayFriday>Pt.</AbbreviatedDayFriday>
+    <AbbreviatedDayMonday>Pon.</AbbreviatedDayMonday>
+    <AbbreviatedDaySaturday>Sob.</AbbreviatedDaySaturday>
+    <AbbreviatedDaySunday>Niedz.</AbbreviatedDaySunday>
+    <AbbreviatedDayThursday>Czw.</AbbreviatedDayThursday>
+    <AbbreviatedDayTuesday>Wt.</AbbreviatedDayTuesday>
+    <AbbreviatedDayWednesday>Śr.</AbbreviatedDayWednesday>
+    <Attachment>Załącznik:</Attachment>
     <DayFriday>Piątek</DayFriday>
     <DayMonday>Poniedziałek</DayMonday>
     <DaySaturday>Sobota</DaySaturday>
@@ -8,9 +16,14 @@
     <DayThursday>Czwartek</DayThursday>
     <DayTuesday>Wtorek</DayTuesday>
     <DayWednesday>Środa</DayWednesday>
+    <Email>Email:</Email>
+    <EmailOptions>EmailOptions</EmailOptions>
     <FirstPage>Pierwsza strona</FirstPage>
+    <Hours>Godziny</Hours>
     <LastPage>Ostatnia strona</LastPage>
     <Loading>Ładowanie...</Loading>
+    <Message>Wiadomość:</Message>
+    <Minutes>Minuty</Minutes>
     <MonthApril>Kwiecień</MonthApril>
     <MonthAugust>Sierpień</MonthAugust>
     <MonthDecember>Grudzień</MonthDecember>
@@ -35,6 +48,7 @@
     <PrintWithoutPreview>Drukuj bez podglądu</PrintWithoutPreview>
     <PrintWithPreview>Drukuj z podglądem</PrintWithPreview>
     <SaveReport>Zapisz</SaveReport>
+    <Subject>Temat:</Subject>
     <TodayDate>Dziś</TodayDate>
     <WholeReport>Cały raport</WholeReport>
   </A_WebViewer>
@@ -42,7 +56,7 @@
     <AdapterBusinessObjects>Dane z obiektów biznesowych</AdapterBusinessObjects>
     <AdapterConnection>Dane z {0}</AdapterConnection>
     <AdapterCrossTabDataSource>Dane z Tabeli krzyżowej</AdapterCrossTabDataSource>
-    <AdapterCsvFiles>Dane z plików Csv</AdapterCsvFiles>
+    <AdapterCsvFiles>Dane z plików CSV</AdapterCsvFiles>
     <AdapterDataTables>Dane z zbiorów danych (DataSet), tabel danych (DataTable)</AdapterDataTables>
     <AdapterDataViews>Dane z widoków (DataView)</AdapterDataViews>
     <AdapterDB2Connection>Dane z połączenia z bazą IBM DB2</AdapterDB2Connection>
@@ -50,14 +64,15 @@
     <AdapterFirebirdConnection>Dane z połączenia z bazą Firebird</AdapterFirebirdConnection>
     <AdapterInformixConnection>Dane z połączenia z bazą Informix</AdapterInformixConnection>
     <AdapterMySQLConnection>Dane z połączenia z bazą MySQL</AdapterMySQLConnection>
-    <AdapterOdbcConnection>Dane z połączenia Odbc</AdapterOdbcConnection>
-    <AdapterOleDbConnection>Dane z połączenia z OleDb</AdapterOleDbConnection>
+    <AdapterOdbcConnection>Dane z połączenia ODBC</AdapterOdbcConnection>
+    <AdapterOleDbConnection>Dane z połączenia z OLE DB</AdapterOleDbConnection>
     <AdapterOracleConnection>Dane z połączenia z bazą Oracle</AdapterOracleConnection>
     <AdapterOracleODPConnection>Dane z połaczenia Oracle ODP.NET</AdapterOracleODPConnection>
     <AdapterPostgreSQLConnection>Dane z połączenia z bazą PostgreSQL</AdapterPostgreSQLConnection>
-    <AdapterSqlCeConnection>Dane z połączenia z bazą SqlCe</AdapterSqlCeConnection>
-    <AdapterSqlConnection>Dane z połączenia z bazą Sql</AdapterSqlConnection>
+    <AdapterSqlCeConnection>Dane z połączenia z bazą SQLCe</AdapterSqlCeConnection>
+    <AdapterSqlConnection>Dane z połączenia z bazą SQL</AdapterSqlConnection>
     <AdapterSQLiteConnection>Dane z połączenia z bazą SQLite</AdapterSQLiteConnection>
+    <AdapterTeradataConnection>Dane z połączenia tera danych </AdapterTeradataConnection>
     <AdapterUniDirectConnection>Dane z połączenia uniwersalnego (Uni Direct)</AdapterUniDirectConnection>
     <AdapterUserSources>Dane ze źródeł użytkownika</AdapterUserSources>
     <AdapterVirtualSource>Dane z innego źródła danych</AdapterVirtualSource>
@@ -75,6 +90,7 @@
     <Duplicate>Duplikat</Duplicate>
     <Export>Eksport</Export>
     <Help>Pomoc</Help>
+    <LoadDataSet>Załaduj zbiór danych (*.data)</LoadDataSet>
     <MoveLeft>Przesuń w lewo</MoveLeft>
     <MoveRight>Przesuń w prawo</MoveRight>
     <No>&amp;Nie</No>
@@ -107,6 +123,7 @@
     <AxisX>Oś X</AxisX>
     <AxisY>Oś Y</AxisY>
     <Bubble>Bąbelkowy</Bubble>
+    <Candlestick> Świecznik </Candlestick>
     <ChartConditionsCollectionForm>Warunki</ChartConditionsCollectionForm>
     <ChartFiltersCollectionForm>Filtry</ChartFiltersCollectionForm>
     <ChartType>Typ wykresu</ChartType>
@@ -117,12 +134,15 @@
     <ConstantLinesEditorForm>Edytor stałych linii</ConstantLinesEditorForm>
     <DataColumns>Kolumny danych</DataColumns>
     <Doughnut>Pączek</Doughnut>
+    <Financial> Finansowy/-a </Financial>
     <FullStackedArea>W pełni zastawiony obszar</FullStackedArea>
     <FullStackedBar>W pełni zastawiony pas</FullStackedBar>
     <FullStackedColumn>W pełni zastawiona kolumna</FullStackedColumn>
     <FullStackedLine>W pełni zastawiona linia</FullStackedLine>
     <FullStackedSpline>W pełni zastawiona krzywa</FullStackedSpline>
     <FullStackedSplineArea>W pełni zastawiony obszar krzywych</FullStackedSplineArea>
+    <Funnel> Lejek (lub komin) </Funnel>
+    <FunnelWeightedSlices> Warstwy ważone na wykresie typu lejkowego </FunnelWeightedSlices>
     <Gantt>Gantt</Gantt>
     <GridInterlaced>Z przeplotem</GridInterlaced>
     <GridLines>Linie siatki</GridLines>
@@ -132,8 +152,13 @@
     <LabelAngle>Kąt:</LabelAngle>
     <LabelArgumentDataColumn>Kolumna argumentów:</LabelArgumentDataColumn>
     <LabelAutoRotation>Autorotacja:</LabelAutoRotation>
+    <LabelCloseValueDataColumn>Kolumna danych o wartości zamkniętej: </LabelCloseValueDataColumn>
+    <LabelEndValueDataColumn> Kolumna danych o wartości końcowej: </LabelEndValueDataColumn>
+    <LabelHighValueDataColumn> Kolumna danych o dużej wartości:</LabelHighValueDataColumn>
     <LabelHorizontal>Poziomo:</LabelHorizontal>
+    <LabelLowValueDataColumn> Kolumna danych o małej wartości:</LabelLowValueDataColumn>
     <LabelMinorCount>Zliczanie młodsze:</LabelMinorCount>
+    <LabelOpenValueDataColumn> Kolumna danych o wartości otwartej: </LabelOpenValueDataColumn>
     <Labels>Etykiety</Labels>
     <LabelsCenter>Środek</LabelsCenter>
     <LabelSeriesName>Nazwa serii:</LabelSeriesName>
@@ -168,9 +193,11 @@
     <Pie>Wykres kołowy</Pie>
     <Radar>Radarowy</Radar>
     <RadarArea>Obszar radaru</RadarArea>
+    <RadarColumn> Kolumna radaru </RadarColumn>
     <RadarLine>Linia radaru</RadarLine>
     <RadarPoint>Punkt radaru</RadarPoint>
     <Range>Zakres</Range>
+    <RangeBar> Pasek zakresu </RangeBar>
     <RemoveCondition>&amp;Usuń warunek</RemoveCondition>
     <RemoveConstantLine>Usuń stałą linię</RemoveConstantLine>
     <RemoveFilter>&amp;Usuń filtr</RemoveFilter>
@@ -186,6 +213,7 @@
     <Serieses>Serie</Serieses>
     <Spline>Krzywa</Spline>
     <SplineArea>Obszar krzywych</SplineArea>
+    <SplineRange> Zakres krzywej “spline” </SplineRange>
     <StackedArea>Zastawiony obszar</StackedArea>
     <StackedBar>Zastawiony pas</StackedBar>
     <StackedColumn>Zastawiona kolumna</StackedColumn>
@@ -195,6 +223,7 @@
     <SteppedArea>Powiększony obszar</SteppedArea>
     <SteppedLine>Powiększona linia</SteppedLine>
     <SteppedRange>Zakres skokowy</SteppedRange>
+    <Stock> Zapasy </Stock>
     <Strip>Pas</Strip>
     <StripsEditorForm>Edytor pasów</StripsEditorForm>
     <Style>Styl</Style>
@@ -323,6 +352,7 @@
     <StiCrossSummary>Krzyżowanie: Podsumowanie</StiCrossSummary>
     <StiCrossSummaryHeader>Krzyżowanie: Nagłówek podsumowania</StiCrossSummaryHeader>
     <StiCrossTab>Krzyżowanie: Tabela</StiCrossTab>
+    <StiCrossTitle>Cross-Title</StiCrossTitle>
     <StiDataBand>Grupa danych</StiDataBand>
     <StiEmptyBand>Pusta grupa</StiEmptyBand>
     <StiFooterBand>Stopka</StiFooterBand>
@@ -361,19 +391,21 @@
     <DatabaseFirebird>Połączenie bazy Firebird</DatabaseFirebird>
     <DatabaseInformix>Połączenie z bazą Informix</DatabaseInformix>
     <DatabaseMySQL>Połączenie bazy MySQL</DatabaseMySQL>
-    <DatabaseOdbc>Połączenie typu Odbc</DatabaseOdbc>
-    <DatabaseOleDb>Połączenie typu OleDB</DatabaseOleDb>
+    <DatabaseOdbc>Połączenie typu ODBC</DatabaseOdbc>
+    <DatabaseOleDb>Połączenie typu OLE DB</DatabaseOleDb>
     <DatabaseOracle>Połączenie bazy Oracle</DatabaseOracle>
     <DatabaseOracleODP>Połączenie Oracle ODP.NET</DatabaseOracleODP>
     <DatabasePostgreSQL>Połączenie bazy PostgreSQL</DatabasePostgreSQL>
-    <DatabaseSql>Połączenie bazy Sql</DatabaseSql>
+    <DatabaseSql>Połączenie bazy SQL</DatabaseSql>
     <DatabaseSqlCe>Połączenie bazy SQLServerCE</DatabaseSqlCe>
     <DatabaseSQLite>Połączenie bazy SQLite</DatabaseSQLite>
+    <DatabaseTeradata> Połączenie tera danych </DatabaseTeradata>
     <DatabaseUniDirect>Połączenie uniwersalne (Uni Direct)</DatabaseUniDirect>
     <DatabaseVistaDB>Połączenie bazy VistaDB</DatabaseVistaDB>
-    <DatabaseXml>Dane Xml</DatabaseXml>
+    <DatabaseXml>Dane XML</DatabaseXml>
   </Database>
   <DesignerFx>
+    <AlreadyExists>'{0}' już istnieje.</AlreadyExists>
     <CanNotLoadThisReportTemplate>Nie można załadować tego szablonu raportu.</CanNotLoadThisReportTemplate>
     <CloseDataSourceEditor>Chcesz zamknąć edytor źródła danych?</CloseDataSourceEditor>
     <CloseEditor>Chcesz zamknąć edytor?</CloseEditor>
@@ -383,6 +415,8 @@
     <ConnectionSuccessfull>Połączenie powiodło się</ConnectionSuccessfull>
     <Continue>Kontynuuj</Continue>
     <DecryptionError>Błąd deszyfracji: Błędne hasło lub uszkodzony plik.</DecryptionError>
+    <EmailSuccessfullySent>E-mail wysłano pomyślnie.</EmailSuccessfullySent>
+    <ErrorAtSaving> Błąd przy zapisie </ErrorAtSaving>
     <ErrorCode>Błąd zapisu. Kod błędu: {0}</ErrorCode>
     <ErrorServer>Błąd zapisu. Serwer nie odpowiada.</ErrorServer>
     <ExportingReport>Eksportowanie raportu</ExportingReport>
@@ -394,6 +428,8 @@
     <LoadingLanguage>Ładowanie języka</LoadingLanguage>
     <LoadingReport>Ładowanie raportu</LoadingReport>
     <PreviewAs>Podgląd jako {0}</PreviewAs>
+    <RenderingReport>Wypełnianie raportu</RenderingReport>
+    <ReportSuccessfullySaved>Raport zapisano pomyślnie.</ReportSuccessfullySaved>
     <RetrieveError>Błąd pobierania kolumn</RetrieveError>
     <RetrievingColumns>Pobieranie kolumn</RetrievingColumns>
     <SavingConfiguration>Zapisywanie konfiguracji</SavingConfiguration>
@@ -468,7 +504,7 @@
     <FileNotFound>Plik "{0}" nie znaleziony.</FileNotFound>
     <IdentifierIsNotValid>Identyfikator '{0}' jest nieprawidłowy.</IdentifierIsNotValid>
     <ImpossibleFindDataSource>Nie można znaleźć źródła danych.</ImpossibleFindDataSource>
-    <NameExists>Istnieje obiekt o nazwie '{0}'. Obiekty muszą mieć unikalne nazwy i nazwy nie mogą się różnić jedynie wielkością liter.</NameExists>
+    <NameExists>Istnieje obiekt o nazwie '{0}'. Obiekty muszą mieć unikalne nazwy.</NameExists>
     <NoServices>Nie znaleziono usług w '{0}'</NoServices>
     <NotAssign>Nie określono źródła danych.</NotAssign>
     <NotCorrectFormat>Łańcuch wejściowy jest w nieprawidłowym formacie.</NotCorrectFormat>
@@ -478,19 +514,30 @@
   </Errors>
   <Export>
     <AddPageBreaks>Dodaj podział strony</AddPageBreaks>
+    <AllBands> Wszystkie pasma </AllBands>
     <AllowAddOrModifyTextAnnotations>Zezwól na dodawanie lub modyfikację adnotacji tekstowych</AllowAddOrModifyTextAnnotations>
     <AllowCopyTextAndGraphics>Zezwól na kopiowanie tekstu lub grafiki</AllowCopyTextAndGraphics>
+    <AllowEditable>Możliwa edycja:</AllowEditable>
     <AllowModifyContents>Zezwól na modyfikację zawartości</AllowModifyContents>
     <AllowPrintDocument>Zezwól na drukowanie dokumentu</AllowPrintDocument>
+    <BandsFilter> Filtr pasm: </BandsFilter>
     <Color>Kolor</Color>
     <Compressed>Skompresowany</Compressed>
+    <CompressToArchive> Spakuj do archiwum </CompressToArchive>
     <ContinuousPages>Strony ciągłe</ContinuousPages>
+    <DataAndHeadersFooters> Dane i nagłówki/stopki</DataAndHeadersFooters>
+    <DataOnly> Tylko dane </DataOnly>
     <DigitalSignature>Podpis cyfrowy</DigitalSignature>
+    <DigitalSignatureCertificateNotSelected>Nie wybrano certyfikatu </DigitalSignatureCertificateNotSelected>
+    <DigitalSignatureError> Błąd podpisu cyfrowego przy kroku </DigitalSignatureError>
     <DocumentSecurity>Zabezpieczenie dokumentu</DocumentSecurity>
     <DotMatrixMode>Tryb matrycy punktowej</DotMatrixMode>
     <EmbeddedFonts>Wbudowane czcionki</EmbeddedFonts>
+    <EmbeddedImageData> Wbudowane dane obrazu </EmbeddedImageData>
     <Encoding>Kodowanie:</Encoding>
+    <EncryptionError> Błąd szyfrowania przy kroku </EncryptionError>
     <EscapeCodes>Kody wyjścia (Escape Codes)</EscapeCodes>
+    <ExceptEditableFields>Akceptuj obszary do edycji</ExceptEditableFields>
     <ExportDataOnly>Eksportuj tylko dane</ExportDataOnly>
     <ExportEachPageToSheet>Eksportuj każdą stronę do arkusza</ExportEachPageToSheet>
     <ExportingCalculatingCoordinates>Obliczanie współrzędnych</ExportingCalculatingCoordinates>
@@ -506,28 +553,30 @@
     <ExportTypeBmpFile>Obraz BMP...</ExportTypeBmpFile>
     <ExportTypeCalcFile>Plik Calc OpenDocument...</ExportTypeCalcFile>
     <ExportTypeCsvFile>Plik CSV...</ExportTypeCsvFile>
+    <ExportTypeDataFile> Plik z danymi... </ExportTypeDataFile>
     <ExportTypeDbfFile>Plik DBF dBase...</ExportTypeDbfFile>
     <ExportTypeDifFile>Plik Data Interchange Format (DIF)...</ExportTypeDifFile>
-    <ExportTypeExcel2007File>Plik Microsoft Excel 2007/2013...</ExportTypeExcel2007File>
+    <ExportTypeExcel2007File>Plik Microsoft Excel 2007...</ExportTypeExcel2007File>
     <ExportTypeExcelFile>Plik Microsoft Excel...</ExportTypeExcelFile>
     <ExportTypeExcelXmlFile>Plik Microsoft Excel Xml...</ExportTypeExcelXmlFile>
     <ExportTypeGifFile>Obraz GIF...</ExportTypeGifFile>
     <ExportTypeHtml5File>Plik HTML5...</ExportTypeHtml5File>
     <ExportTypeHtmlFile>Plik HTML...</ExportTypeHtmlFile>
+    <ExportTypeImageFile> Plik z obrazem... </ExportTypeImageFile>
     <ExportTypeJpegFile>Obraz JPEG...</ExportTypeJpegFile>
     <ExportTypeMetafile>Metaplik Windows...</ExportTypeMetafile>
     <ExportTypeMhtFile>Archiwum web MHT...</ExportTypeMhtFile>
     <ExportTypePcxFile>Obraz PCX...</ExportTypePcxFile>
     <ExportTypePdfFile>Plik Adobe PDF...</ExportTypePdfFile>
     <ExportTypePngFile>Obraz PNG...</ExportTypePngFile>
-    <ExportTypePpt2007File>Plik Microsoft PowerPoint 2007/2013...</ExportTypePpt2007File>
+    <ExportTypePpt2007File>Plik Microsoft PowerPoint...</ExportTypePpt2007File>
     <ExportTypeRtfFile>Plik bogatego tekstu (RTF)...</ExportTypeRtfFile>
     <ExportTypeSvgFile>Plik Scalable Vector Graphics (SVG)...</ExportTypeSvgFile>
     <ExportTypeSvgzFile>Plik skompresowany SVG (SVGZ)...</ExportTypeSvgzFile>
     <ExportTypeSylkFile>Plik Symbolic Link (SYLK)...</ExportTypeSylkFile>
     <ExportTypeTiffFile>Obraz TIFF...</ExportTypeTiffFile>
     <ExportTypeTxtFile>Plik tekstowy...</ExportTypeTxtFile>
-    <ExportTypeWord2007File>Plik Microsoft Word 2007/2013...</ExportTypeWord2007File>
+    <ExportTypeWord2007File>Plik Microsoft Word...</ExportTypeWord2007File>
     <ExportTypeWriterFile>Plik Writer OpenDocument...</ExportTypeWriterFile>
     <ExportTypeXmlFile>Plik XML...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Plik Microsoft XPS...</ExportTypeXpsFile>
@@ -550,6 +599,8 @@
     <OpenAfterExport>Otwórz po eksporcie</OpenAfterExport>
     <PdfACompliance>Zgodność z PDF/A</PdfACompliance>
     <RemoveEmptySpaceAtBottom>Usuń pustą przestrzeń z dołu strony</RemoveEmptySpaceAtBottom>
+    <RestrictEditing>Ogranicz edycję:</RestrictEditing>
+    <Scale> Skala: </Scale>
     <Separator>Separator:</Separator>
     <Settings>Ustawienia</Settings>
     <SkipColumnHeaders>Pomiń nagłówki kolumn</SkipColumnHeaders>
@@ -565,6 +616,7 @@
     <TxtKillSpaceGraphLines>Usuń odstępy lini wykresu</TxtKillSpaceGraphLines>
     <TxtKillSpaceLines>Usuń odstępy linii</TxtKillSpaceLines>
     <TxtPutFeedPageCode>Dodaj kanał RSS</TxtPutFeedPageCode>
+    <Type> Typ: </Type>
     <UseDefaultSystemEncoding>Użyj domyślnego kodowania</UseDefaultSystemEncoding>
     <UseDigitalSignature>Użyj podpisu cyfrowego</UseDigitalSignature>
     <UseEscapeCodes>Użyj kodów wyjścia (Escape Codes)</UseEscapeCodes>
@@ -623,6 +675,7 @@
     <WriterFiles>Pliki Writer OpenDocument (*.odt)|*.odt</WriterFiles>
     <XmlFiles>Pliki XML (*.xml)|*.xml</XmlFiles>
     <XpsFiles>Pliki Microsoft XPS (*.xps)|*.xps</XpsFiles>
+    <ZipArchives> Archiwa ZIP (*.zip)|*.zip </ZipArchives>
   </FileFilters>
   <Formats>
     <custom01>d</custom01>
@@ -682,6 +735,7 @@
   <FormColorBoxPopup>
     <Color>Kolor</Color>
     <Custom>Niestandardowe</Custom>
+    <NoColor>Brak koloru</NoColor>
     <Others>Inne...</Others>
     <System>Systemowe</System>
     <Web>Web</Web>
@@ -720,10 +774,10 @@
     <MySQLEdit>Edytuj połączenie z bazą MySQL</MySQLEdit>
     <MySQLNew>Nowe połączenie z bazą MySQL</MySQLNew>
     <NewConnection>Nowe połączenie {0}</NewConnection>
-    <OdbcEdit>Edytuj połączenie typu Odbc</OdbcEdit>
-    <OdbcNew>Nowe połączenie typu Odbc</OdbcNew>
-    <OleDbEdit>Edytuj połączenie typu OleDb</OleDbEdit>
-    <OleDbNew>Nowe połączenie typu OleDb</OleDbNew>
+    <OdbcEdit>Edytuj połączenie typu ODBC</OdbcEdit>
+    <OdbcNew>Nowe połączenie typu ODBC</OdbcNew>
+    <OleDbEdit>Edytuj połączenie typu OLE DB</OleDbEdit>
+    <OleDbNew>Nowe połączenie typu OLE DB</OleDbNew>
     <OracleEdit>Edytuj połączenie z bazą Oracle</OracleEdit>
     <OracleNew>Nowe połączenie z bazą Oracle</OracleNew>
     <OracleODPEdit>Edytuj połączenie Oracle ODP.NET</OracleODPEdit>
@@ -735,18 +789,21 @@
     <PromptUserNameAndPassword>Pytaj o użytkownika i hasło</PromptUserNameAndPassword>
     <SqlCeEdit>Edytuj połączenie z bazą SQLServerCE</SqlCeEdit>
     <SqlCeNew>Nowe połączenie z bazą SQLServerCE</SqlCeNew>
-    <SqlEdit>Edytuj połączenie z bazą Sql</SqlEdit>
+    <SqlEdit>Edytuj połączenie z bazą SQL</SqlEdit>
     <SQLiteEdit>Edytuj połączenie z bazą SQLite</SQLiteEdit>
     <SQLiteNew>Nowe połączenie z bazą SQLite</SQLiteNew>
-    <SqlNew>Nowe połączenie z bazą Sql</SqlNew>
+    <SqlNew>Nowe połączenie z bazą SQL</SqlNew>
+    <TeradataEdit> Edytuj połączenie tera danych </TeradataEdit>
+    <TeradataNew>Nowe połączenie tera danych </TeradataNew>
     <UniDirectEdit>Edytuj połączenie uniwersalne (Uni Direct)</UniDirectEdit>
     <UniDirectNew>Nowe połączenie uniwersalne (Uni Direct)</UniDirectNew>
     <VistaDBEdit>Edytuj połączenie z bazą VistaDB</VistaDBEdit>
     <VistaDBNew>Nowe połączenie z bazą VistaDB</VistaDBNew>
-    <XmlEdit>Edytuj dane Xml</XmlEdit>
-    <XmlNew>Nowe dane Xml</XmlNew>
+    <XmlEdit>Edytuj dane XML</XmlEdit>
+    <XmlNew>Nowe dane XML</XmlNew>
   </FormDatabaseEdit>
   <FormDesigner>
+    <Others>Inne</Others>
     <Code>Kod</Code>
     <ColumnsOne>Jedna</ColumnsOne>
     <ColumnsThree>Trzy</ColumnsThree>
@@ -764,6 +821,7 @@
     <Pages>Strony</Pages>
     <Preview>Podgląd</Preview>
     <PropertyChange>Zmiana właściwości '{0}'</PropertyChange>
+    <RTPreview> Przegląd WinRT </RTPreview>
     <SetupToolbox>Ustawienia paska narzędziowego</SetupToolbox>
     <ShowDescription>Pokaż opis</ShowDescription>
     <SLPreview>Podgląd w technologii Silverlight</SLPreview>
@@ -786,6 +844,7 @@
     <DatabaseNew>Nowa baza danych</DatabaseNew>
     <DataParameterEdit>Edytuj parametr</DataParameterEdit>
     <DataParameterNew>Nowy parametr</DataParameterNew>
+    <DataSetToBusinessObjects>Zbiór danych do obiektów biznesowych</DataSetToBusinessObjects>
     <DataSourceEdit>Edytuj źródło danych</DataSourceEdit>
     <DataSourceNew>Nowe źródło danych</DataSourceNew>
     <DataSourcesNew>Nowe źródła danych</DataSourcesNew>
@@ -910,6 +969,8 @@
     <MarkersStyleCorners>Brzegi</MarkersStyleCorners>
     <MarkersStyleDashedRectangle>Prostokąt z linii przerywanych</MarkersStyleDashedRectangle>
     <MarkersStyleNone>Żaden</MarkersStyleNone>
+    <MessageLeftRightNotValid>Lewa i prawa wartość nie jest prawidłowa.</MessageLeftRightNotValid>
+    <MessageTopBottomNotValid>Górna i dolna wartość nie jest prawidłowa.</MessageTopBottomNotValid>
     <Minutes>{0} minut</Minutes>
     <SaveReportEvery>Zapisz raport co:</SaveReportEvery>
     <SelectUILanguage>Wybierz język</SelectUILanguage>
@@ -991,6 +1052,7 @@
     <CreateStylesFromColor>Stwórz styl z wybranego koloru</CreateStylesFromColor>
     <Duplicate>Zduplikuj styl</Duplicate>
     <GetStyle>Wybierz styl z wybranych komponentów</GetStyle>
+    <MoreStyles>Więcej stylów</MoreStyles>
     <Open>Otwórz styl</Open>
     <qnApplyStyleCollection>Czy chcesz zastosować kolekcję stylów do komponentów raportu?</qnApplyStyleCollection>
     <Remove>Usuń styl</Remove>
@@ -1026,6 +1088,7 @@
     <DataSourceSelectForm>Wybierz źródło danych</DataSourceSelectForm>
     <DataSourcesNewForm>Nowe źródła danych</DataSourcesNewForm>
     <DataStoreViewerForm>Przeglądarka zasobów danych</DataStoreViewerForm>
+    <DesignerApplication>Formularz tytułów</DesignerApplication>
     <EventEditorForm>Edytor zdarzeń</EventEditorForm>
     <ExpressionEditorForm>Edytor wyrażeń</ExpressionEditorForm>
     <GroupConditionForm>Warunek grupowy</GroupConditionForm>
@@ -1077,7 +1140,7 @@
     <Print>Drukuj...</Print>
     <qnPageDelete>Czy chcesz usunąć stronę?</qnPageDelete>
     <Save>Zapisz...</Save>
-    <SendEMail>Wyślij e-mail...</SendEMail>
+    <SendEMail>Wyślij Email...</SendEMail>
     <StatusBar>Pasek stanu</StatusBar>
     <Thumbnails>Miniatury</Thumbnails>
     <title>Przeglądarka</title>
@@ -1341,6 +1404,7 @@
     <PageSetup>Wyświetl okno ustawień strony.</PageSetup>
     <PageSize>Wybierz rozmiar papieru dla aktualnej strony raportu.</PageSize>
     <PagesManager>Uruchom menedżera stron.</PagesManager>
+    <PressF1> Naciśnij F1 dla uzyskania większej ilości szczegółów </PressF1>
     <Redo>Przywróć poprzednio anulowaną zmianę w raporcie.</Redo>
     <ReportNew>Stwórz nowy raport.</ReportNew>
     <ReportOpen>Otwórz raport w projektancie.</ReportOpen>
@@ -1354,7 +1418,9 @@
     <ShowBehind>Wyświetl tekst znaku wodnego pod komponentami.</ShowBehind>
     <ShowImageBehind>Ustaw obraz znaku wodnego pod wszystkimi komponentami na stronie.</ShowImageBehind>
     <ShowToolbox>Wyświetl pasek narzędzi.</ShowToolbox>
+    <StimulsoftHelp> Pomoc Stimulsoft </StimulsoftHelp>
     <StyleDesigner>Uruchom projektanta styli.</StyleDesigner>
+    <TellMeMore> Podaj więcej informacji </TellMeMore>
     <Text>Tekst znaku wodnego.</Text>
     <TextBrush>Zmień kolor tekstu.</TextBrush>
     <TextBrushWatermark>Zmień kolor tekstu znaku wodnego.</TextBrushWatermark>
@@ -1386,14 +1452,55 @@
     <StiTreeViewControl>Reprezentuje kontrolkę służącą do wyświetlania hierarhicznych danych w postaci drzewa.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
+    <AddPageBreaks> Wizualny separator stron raportu </AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations> Ograniczony dostęp do pracy z adnotacjami w dokumencie </AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics> Ograniczony dostęp do kopiowania informacji </AllowCopyTextAndGraphics>
+    <AllowEditable>Pozwala na zmianę tych składników, które mają możliwość edycji właściwości.</AllowEditable>
+    <AllowModifyContents> Ograniczony dostęp do edytowania tekstu </AllowModifyContents>
+    <AllowPrintDocument> Ograniczony dostęp do operacji drukowania </AllowPrintDocument>
     <Bookmarks>Wyświetl panel zakładek służący dla szybkiej nawigacji - przeskoków bezpośrednio między zdefiniowanymi miejscami raportu.</Bookmarks>
+    <BorderType> Typ obramowania elementów: prosty – rysowanie obramowania elementów przy użyciu znaków +, -, |; Unicode pojedynczy – rysowanie obramowań przy użyciu pojedynczych znaków do rysowania ramek, Unicode podwójny – rysowanie obramowań przy użyciu podwójnych znaków do rysowania ramek </BorderType>
     <Close>Zamknij podgląd i powróć do modyfikacji raportu.</Close>
     <CloseDotMatrix>Zamknij przeglądarkę mozaikową i powróć do modyfikacji raportu.</CloseDotMatrix>
+    <Compressed> Kompresja gotowego dokumentu. Zawsze zaleca się załączenie kompresji pliku. </Compressed>
+    <CompressToArchive> Spakuj wszystkie pliki i foldery do archiwum zip. </CompressToArchive>
+    <ContinuousPages> Tryb umieszczania stron raportu jako pionowego paska </ContinuousPages>
+    <CurrentPage> Przetwarzanie bieżącej strony. Jeśli zostanie wybrana ta opcja, będzie przetwarzana wybrana strona raportu. </CurrentPage>
+    <CutEdges> Przycinaj obramowania stron raportu. </CutEdges>
+    <CutLongLines> Przycinaj długie wiersze (wiersze tekstowe) przy obramowaniach elementów. </CutLongLines>
+    <DigitalSignature> Podpis cyfrowy pliku </DigitalSignature>
+    <DitheringType> Typ symulacji kolorów: Brak – brak symulacji kolorów, Uporządkowany, FloydSt – z symulacją kolorów. </DitheringType>
     <DotMatrixMode>Ten tryb umożliwia podgląd wydruku raportu na drukarce mozaikowej.</DotMatrixMode>
+    <DrawBorder> Rysowanie obramowań elementów przy użyciu znaków graficznych </DrawBorder>
     <Edit>Modyfikuj komponenty.</Edit>
+    <EmbeddedFonts> Wbuduj pliki z czcionkami do pliku PDF. </EmbeddedFonts>
+    <EmbeddedImageData> Wbuduj obrazy bezpośrednio do pliku HTML </EmbeddedImageData>
+    <Encoding> Zakodowanie tekstu raportu po eksporcie </Encoding>
+    <EncodingData> Zakodowanie pliku z danymi </EncodingData>
+    <EncryptionKeyLength> Długość klucza szyfrującego. Im większa jest długość klucza, tym trudniej jest odszyfrować dokument, a zatem bezpieczeństwo dokumentu ma większy priorytet. </EncryptionKeyLength>
+    <ExportDataOnly> Eksportuj tylko paski danych (element Tabela, pasek hierarchiczny). </ExportDataOnly>
+    <ExportEachPageToSheet> Eksportuj każdą stronę raportu w oddzielnym arkuszu Excela. </ExportEachPageToSheet>
+    <ExportMode> Stosuj warunek filtrowania przy eksportowaniu. Tylko dane – będą eksportowane tylko paski danych (element Tabela, Pasek hierarchiczny). Będą eksportowane Dane i Nagłówki/ Stopki – paski danych (element Tabela, pasek hierarchiczny) oraz ich nagłówki/ stopki. Wszystkie paski – będą eksportowane wszystkie paski raportu. </ExportMode>
+    <ExportModeHtml> Proces znakowania strony HTML </ExportModeHtml>
+    <ExportModeRtf> Prezentacja danych z raportu po eksporcie. Tabela - raport będzie wyglądał jak tabela, w której każdy element raportu stanowi komórkę tabeli. Ramka - każdy element raportu będzie wyglądał jak pojedyncza ramka, lecz bez żadnego powiązania pomiędzy nimi. </ExportModeRtf>
+    <ExportObjectFormatting> Stosuj formatowanie do eksportu danych z pasków danych (element Tabela, pasek hierarchiczny). </ExportObjectFormatting>
+    <ExportPageBreaks> Pokazuj obramowania stron raportu na arkuszu Excela. </ExportPageBreaks>
+    <ExportRtfTextAsImage> Przekształć tekst RTF na obraz. Jeśli ta opcja jest włączona, to podczas eksportowania format RichText rozkłada się na prostsze podstawowe elementy obsługiwane przez format PDF. RichText o skomplikowanym formatowaniu (wbudowane obrazy, tabele) nie zawsze może być przekształcony prawidłowo. W tym przypadku, zaleca się włączenie tej opcji. </ExportRtfTextAsImage>
     <Find>Wyszukaj tekst w raporcie.</Find>
     <FullScreen>Pełny ekran.</FullScreen>
+    <GetCertificateFromCryptoUI> Używanie interfejsu biblioteki kryptograficznej systemu </GetCertificateFromCryptoUI>
+    <ImageCompressionMethod> Metoda kompresji: JPEG – może spowodować utratę jakości, Flate – bez utraty jakości, Prosty, Uporządkowany, FloydSt – obrazy stanowią wyjście monochromatyczne. </ImageCompressionMethod>
+    <ImageFormat> Format obrazu jest plikiem końcowym. </ImageFormat>
+    <ImageQuality> Pozwala wybrać stosunek jakości obrazu do wielkości pliku. Im lepsza jest jakość, tym większy jest plik końcowy. </ImageQuality>
+    <ImageQualityPdf> Opcja ta jest dostępna tylko w kompresji JPEG i pozwala wybrać stosunek jakości obrazu do wielkości pliku. Im lepsza jest jakość, tym większy jest plik końcowy. </ImageQualityPdf>
+    <ImageResolution> Liczba pikseli na cal. Im większa jest liczba pikseli, tym lepsza jest jakość obrazu. Rozmiar końcowego pliku jest dużo większy. </ImageResolution>
+    <ImageType> Schemat kolorów obrazu: kolor – obraz po eksporcie jest całkowicie zgodny z obrazem w przeglądarce; szary – obraz po eksporcie jest przedstawiony w odcieniu szarości; monochromatyczny – obrazy są dokładnie czarno-białe. Jednocześnie, należy zauważyć, że obraz monochromatyczny ma trzy tryby Brak, Uporządkowany, FloydSt. </ImageType>
+    <KillSpaceLines> Usuń puste wiersze (rzędy) w dokumencie. </KillSpaceLines>
+    <MultipleFiles> Każda strona może być oddzielnym plikiem. </MultipleFiles>
     <Open>Otwórz poprzednio zapisany raport w oknie podglądu.</Open>
+    <OpenAfterExport> Automatyczne otwieranie utworzonego dokumentu (po eksporcie) przez program ustawiony do plików tego typu </OpenAfterExport>
+    <OwnerPassword> Hasło dostępu do operacji na plikach </OwnerPassword>
+    <PageAll> Przetwarzanie wszystkich stron raportu </PageAll>
     <PageDelete>Usuń wybraną stronę raportu.</PageDelete>
     <PageDesign>Modyfikuj wybraną stronę w projektancie raportów.</PageDesign>
     <PageFirst>Idź do pierwszej strony raportu.</PageFirst>
@@ -1404,11 +1511,29 @@
     <PagePrevious>Idź do poprzedniej strony raportu.</PagePrevious>
     <PageSize>Zmień parametry strony w raporcie.</PageSize>
     <Parameters>Wyświetlanie panelu parametrów używanych podczas wyświetlania raportu.</Parameters>
+    <PdfACompliance> Obsługa standardu długoterminowej archiwizacji i przechowywania dokumentów elektronicznych. </PdfACompliance>
     <Print>Wydrukuj raport.</Print>
+    <PutFeedPageCode> Wstaw znak specjalny na stronach dokumentu końcowego. </PutFeedPageCode>
+    <RangePages> Numery stron do przetworzenia. Można podać jedną stronę, listę stron (stosując przecinek jako znak rozdzielający), jak również podać zakres stron poprzez podanie strony początkowej i końcowej zakresu oddzielonych znakiem "-". Na przykład: 1,3,5-12. </RangePages>
+    <RemoveEmptySpaceAtBottom> Minimalizuj puste miejsce na dole strony. </RemoveEmptySpaceAtBottom>
+    <RestrictEditing>Ograniczenie zmian w dokumencie Word.</RestrictEditing>
     <Save>Zapisz raport do późniejszego użycia.</Save>
-    <SendEMail>Wyślij raport przez e-mail.</SendEMail>
+    <ScaleHtml> Rozmiar (skala) stron i elementów raportu po eksporcie. </ScaleHtml>
+    <ScaleImage> Rozmiar (skala) raportu po eksporcie. Im mniejsza jest skala, tym większa jest liczba pikseli na cal i odwrotnie. </ScaleImage>
+    <SendEMail>Wyślij raport przez Email.</SendEMail>
+    <Separator> Separator pomiędzy danymi w pliku CSV. </Separator>
+    <SkipColumnHeaders> Otwórz/ zamknij nagłówki kolumn. </SkipColumnHeaders>
+    <StandardPdfFonts> 14 standardowych zestawów czcionek Adobe. Jeśli opcja ta jest wybrana, używanych będzie tylko 14 standardowych zestawów czcionek w pliku PDF. Wszystkie czcionki raportu są przekształcane na powyższe czcionki. </StandardPdfFonts>
+    <SubjectNameString> Identyfikator certyfikatu. Identyfikator jest nazwą właściciela certyfikatu (pełny wiersz) lub częścią nazwy (podłańcuch). </SubjectNameString>
     <Thumbnails>Wyświetl miniatury służące do szybkiej nawigacji - wyszukania i przejścia do wybranej sekcji raportu.</Thumbnails>
+    <TiffCompressionScheme> Schemat kompresji dla plików TIFF </TiffCompressionScheme>
     <ToolEditor>To narzędzie pozwala na edycję zawartości komponentów tekstowych bezpośrednio w przeglądarce raportów.</ToolEditor>
+    <TypeExport> Plik z raportem zostanie przekształcony na: </TypeExport>
+    <UseDefaultSystemEncoding> Stosuj kodowanie systemowe domyślnie lub podaj kodowanie według standardu. </UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter> Definiuj paski strony Nagłówek i Stopkę jako nagłówek i stopkę dokumentu w MS Word. </UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters> Definiuj paski Nagłówek i Stopkę Strony jako nagłówek i stopkę dokumentu w MS Word. </UsePageHeadersAndFooters>
+    <UserPassword> Hasło wymagane do otwarcia dokumentu </UserPassword>
+    <UseUnicode> Rozszerzona obsługa znaków kodujących. Ma ona wpływ na kodowanie znaku wewnętrznego w pliku PDF i poprawia kopiowanie tekstu z pliku PDF. </UseUnicode>
     <ViewModeContinuous>Wyświetl wszystkie strony raportu jako pionową wstęgę.</ViewModeContinuous>
     <ViewModeMultiplePages>Zbliż raport tak, by jak najwięcej stron zmieściło się w oknie.</ViewModeMultiplePages>
     <ViewModeSinglePage>Wyświetl pojedynczą stronę w oknie podglądu.</ViewModeSinglePage>
@@ -1416,15 +1541,21 @@
     <ZoomOnePage>Zbliż raport tak, by cała strona mieściła się w oknie.</ZoomOnePage>
     <ZoomPageWidth>Zbliż raport tak, by szerokość strony odpowiadała szerokości okna.</ZoomPageWidth>
     <ZoomTwoPages>Zbliż raport tak, by dwie strony mieściły się w oknie.</ZoomTwoPages>
+    <ZoomTxt> Rozmiar raportu (skala): X – zmiana skali poziomej, Y – zmiana skali pionowej </ZoomTxt>
   </HelpViewer>
   <MainMenu>
     <menuCheckIssues>Wyszukaj problemy</menuCheckIssues>
     <menuContextClone>Klonuj...</menuContextClone>
     <menuContextDesign>Projektuj...</menuContextDesign>
     <menuContextTextFormat>Format tekstu...</menuContextTextFormat>
+    <menuConvertToCheckBox>Zmień na okno wyboru</menuConvertToCheckBox>
+    <menuConvertToImage>Zmień do obrazu</menuConvertToImage>
+    <MenuConvertToRichText>Zmień, aby Rich tekst</MenuConvertToRichText>
+    <menuConvertToText>Zmień na tekst</menuConvertToText>
     <menuDeleteColumn>Usuń kolumnę</menuDeleteColumn>
     <menuDeleteRow>Usuń wiersz</menuDeleteRow>
     <menuEdit>&amp;Edytuj</menuEdit>
+    <menuEditBusinessObjectFromDataSetNew>Nowy obiekt biznesowy z zestawu danych...</menuEditBusinessObjectFromDataSetNew>
     <menuEditBusinessObjectNew>Nowy obiekt biznesowy...</menuEditBusinessObjectNew>
     <menuEditCalcColumnNew>Nowa kolumna obliczeniowa...</menuEditCalcColumnNew>
     <menuEditCantRedo>Nie można powtórzyć</menuEditCantRedo>
@@ -1478,6 +1609,7 @@
     <menuFileReportSaveAsToGoogleDocs>Zapisz raport do Dokumentów Google...</menuFileReportSaveAsToGoogleDocs>
     <menuFileReportSetup>&amp;Ustawienia raportu...</menuFileReportSetup>
     <menuFileReportWizardNew>Nowy raport z &amp;czarodzieja...</menuFileReportWizardNew>
+    <menuFileSave>&amp;Zapisz</menuFileSave>
     <menuFileSaveAs>Zapisz jako...</menuFileSaveAs>
     <menuHelp>Pomo&amp;c</menuHelp>
     <menuHelpAboutProgramm>&amp;O programie...</menuHelpAboutProgramm>
@@ -1584,8 +1716,12 @@
     <TextCategory>Tekst</TextCategory>
     <TitleCategory>Tytuł</TitleCategory>
     <ValueCategory>Wartość</ValueCategory>
+    <ValueCloseCategory> Wartość zamknięta </ValueCloseCategory>
     <ValueEndCategory>Koniec wartości</ValueEndCategory>
     <ValueEventsCategory>Zdarzenia wartości</ValueEventsCategory>
+    <ValueHighCategory> Wartość duża </ValueHighCategory>
+    <ValueLowCategory> Wartość mała </ValueLowCategory>
+    <ValueOpenCategory> Wartość otwarta </ValueOpenCategory>
     <WeightCategory>Waga</WeightCategory>
     <WinControlCategory>Kontrolka Windows</WinControlCategory>
     <ZipCodeCategory>Kod pocztowy</ZipCodeCategory>
@@ -1882,6 +2018,8 @@
     <StiDockStyleNone>Brak</StiDockStyleNone>
     <StiDockStyleRight>Prawo</StiDockStyleRight>
     <StiDockStyleTop>Góra</StiDockStyleTop>
+    <StiDrillDownModeMultiPage>Wiele stron</StiDrillDownModeMultiPage>
+    <StiDrillDownModeSinglePage>Jedna strona</StiDrillDownModeSinglePage>
     <StiEanSupplementTypeFiveDigit>Pięciocyfrowy</StiEanSupplementTypeFiveDigit>
     <StiEanSupplementTypeNone>Brak</StiEanSupplementTypeNone>
     <StiEanSupplementTypeTwoDigit>Dwucyfrowy</StiEanSupplementTypeTwoDigit>
@@ -1900,6 +2038,8 @@
     <StiFilterConditionEqualTo>równy</StiFilterConditionEqualTo>
     <StiFilterConditionGreaterThan>większy niż</StiFilterConditionGreaterThan>
     <StiFilterConditionGreaterThanOrEqualTo>większy bądź równy</StiFilterConditionGreaterThanOrEqualTo>
+    <StiFilterConditionIsNotNull>Warunek filtru nie ma wartości null</StiFilterConditionIsNotNull>
+    <StiFilterConditionIsNull>Warunek filtru ma wartość null</StiFilterConditionIsNull>
     <StiFilterConditionLessThan>mniejszy niż</StiFilterConditionLessThan>
     <StiFilterConditionLessThanOrEqualTo>mniejszy bądź równy</StiFilterConditionLessThanOrEqualTo>
     <StiFilterConditionNotBetween>nie między</StiFilterConditionNotBetween>
@@ -1915,6 +2055,11 @@
     <StiFilterItemArgument>Argument</StiFilterItemArgument>
     <StiFilterItemExpression>Wyrażenie</StiFilterItemExpression>
     <StiFilterItemValue>Wartość</StiFilterItemValue>
+    <StiFilterItemValueClose> Wartość zamknięta</StiFilterItemValueClose>
+    <StiFilterItemValueEnd>Koniec wartości</StiFilterItemValueEnd>
+    <StiFilterItemValueHigh>Duża wartość</StiFilterItemValueHigh>
+    <StiFilterItemValueLow>Mała wartość</StiFilterItemValueLow>
+    <StiFilterItemValueOpen> Wartość otwarta</StiFilterItemValueOpen>
     <StiFilterModeAnd>i</StiFilterModeAnd>
     <StiFilterModeOr>lub</StiFilterModeOr>
     <StiFormStartModeOnEnd>Przy końcu</StiFormStartModeOnEnd>
@@ -1939,6 +2084,10 @@
     <StiImageRotationRotate180>Obróć o 180°</StiImageRotationRotate180>
     <StiImageRotationRotate90CCW>Obróć 90° przeciwnie do ruchu wskazówek</StiImageRotationRotate90CCW>
     <StiImageRotationRotate90CW>Obróć 90° zgodnie z ruchem wskazówek</StiImageRotationRotate90CW>
+    <StiKeepDetailsKeepDetailsTogether>Zachowaj szczegółowe informacje razem</StiKeepDetailsKeepDetailsTogether>
+    <StiKeepDetailsKeepFirstDetailTogether>Zachowaj pierwszą szczegółową informację razem</StiKeepDetailsKeepFirstDetailTogether>
+    <StiKeepDetailsKeepFirstRowTogether>Zachowaj pierwszy rząd razem</StiKeepDetailsKeepFirstRowTogether>
+    <StiKeepDetailsNone>Brak</StiKeepDetailsNone>
     <StiLabelsPlacementNone>Brak</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>Jedna linia</StiLabelsPlacementOneLine>
     <StiLabelsPlacementTwoLines>Dwie linie</StiLabelsPlacementTwoLines>
@@ -1972,6 +2121,7 @@
     <StiNumberOfPassDoublePass>Podwójny przebieg</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>Pojedynczy przebieg</StiNumberOfPassSinglePass>
     <StiOrientationHorizontal>Poziomo</StiOrientationHorizontal>
+    <StiOrientationHorizontalRight>Horizontal Right</StiOrientationHorizontalRight>
     <StiOrientationVertical>Pionowo</StiOrientationVertical>
     <StiPageOrientationLandscape>Panorama</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Portret</StiPageOrientationPortrait>
@@ -2007,6 +2157,9 @@
     <StiProcessingDuplicatesTypeBasedOnValueAndTagHide>Ukryj opierając się na wartości i tagu</StiProcessingDuplicatesTypeBasedOnValueAndTagHide>
     <StiProcessingDuplicatesTypeBasedOnValueAndTagMerge>Scal opierając się na wartości i tagu</StiProcessingDuplicatesTypeBasedOnValueAndTagMerge>
     <StiProcessingDuplicatesTypeBasedOnValueRemoveText>Usuń opierając się na wartości</StiProcessingDuplicatesTypeBasedOnValueRemoveText>
+    <StiProcessingDuplicatesTypeGlobalBasedOnValueAndTagHide>Ukrycie w całości na podstawie wartości i znacznika </StiProcessingDuplicatesTypeGlobalBasedOnValueAndTagHide>
+    <StiProcessingDuplicatesTypeGlobalBasedOnValueAndTagMerge>Połączenie w całości na podstawie wartości i znacznika</StiProcessingDuplicatesTypeGlobalBasedOnValueAndTagMerge>
+    <StiProcessingDuplicatesTypeGlobalBasedOnValueRemoveText>Usunięcie w całości na podstawie tekstu wartości</StiProcessingDuplicatesTypeGlobalBasedOnValueRemoveText>
     <StiProcessingDuplicatesTypeGlobalHide>Ukryj globalnie</StiProcessingDuplicatesTypeGlobalHide>
     <StiProcessingDuplicatesTypeGlobalMerge>Scal globalnie</StiProcessingDuplicatesTypeGlobalMerge>
     <StiProcessingDuplicatesTypeGlobalRemoveText>Usuń tekst globalnie</StiProcessingDuplicatesTypeGlobalRemoveText>
@@ -2039,6 +2192,7 @@
     <StiSeriesLabelsValueTypeTag>Znacznik</StiSeriesLabelsValueTypeTag>
     <StiSeriesLabelsValueTypeValue>Wartość</StiSeriesLabelsValueTypeValue>
     <StiSeriesLabelsValueTypeValueArgument>Wartość - Argument</StiSeriesLabelsValueTypeValueArgument>
+    <StiSeriesLabelsValueTypeWeight> Waga </StiSeriesLabelsValueTypeWeight>
     <StiSeriesSortDirectionAscending>Rosnąco</StiSeriesSortDirectionAscending>
     <StiSeriesSortDirectionDescending>Malejąco</StiSeriesSortDirectionDescending>
     <StiSeriesSortTypeArgument>Argument</StiSeriesSortTypeArgument>
@@ -2071,6 +2225,7 @@
     <StiSqlSourceTypeStoredProcedure>Procedura składowana</StiSqlSourceTypeStoredProcedure>
     <StiSqlSourceTypeTable>Tabela</StiSqlSourceTypeTable>
     <StiStyleComponentTypeChart>Wykres</StiStyleComponentTypeChart>
+    <StiStyleComponentTypeCheckBox> Sprawdź pudełko </StiStyleComponentTypeCheckBox>
     <StiStyleComponentTypeCrossTab>Tabela krzyżowa</StiStyleComponentTypeCrossTab>
     <StiStyleComponentTypeImage>Obraz</StiStyleComponentTypeImage>
     <StiStyleComponentTypePrimitive>Prymityw</StiStyleComponentTypePrimitive>
@@ -2105,6 +2260,8 @@
     <StiTextQualityStandard>Standardowy</StiTextQualityStandard>
     <StiTextQualityTypographic>Drukarski</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>WYSIWYG</StiTextQualityWysiwyg>
+    <StiTitlePositionInside>Pozycja wewnętrzna</StiTitlePositionInside>
+    <StiTitlePositionOutside>Pozycja zewnętrzna</StiTitlePositionOutside>
     <StiTypeModeList>Lista</StiTypeModeList>
     <StiTypeModeNullableValue>Wartość pusta</StiTypeModeNullableValue>
     <StiTypeModeRange>Zakres</StiTypeModeRange>
@@ -2307,6 +2464,7 @@
     <BackgroundColor>Kolor tła</BackgroundColor>
     <BarCodeType>Typ kodu kreskowego</BarCodeType>
     <BasicStyleColor>Kolor stylu podstawowego</BasicStyleColor>
+    <BindingColumn> Kolumna łącząca </BindingColumn>
     <Blend>Mieszaj</Blend>
     <Bold>Wytłuszczony</Bold>
     <Bookmark>Zakładka</Bookmark>
@@ -2383,6 +2541,7 @@
     <Converting>Konwersja</Converting>
     <ConvertNulls>Konwertuj wartości Null</ConvertNulls>
     <Copies>Kopie</Copies>
+    <Count> Liczba </Count>
     <CountData>Licz dane</CountData>
     <Create>Stwórz</Create>
     <CreateFieldOnDoubleClick>Stwórz pole przy podwójnym kliknięciu</CreateFieldOnDoubleClick>
@@ -2404,9 +2563,12 @@
     <DataTextField>Pole danych tekstowych</DataTextField>
     <DataType>Typ danych</DataType>
     <DateInfo>Informacje o danych</DateInfo>
+    <DateTimeStep>Data godzina krok</DateTimeStep>
     <Default>Domyślny</Default>
     <DefaultHeightCell>Domyślna wysokość komórki</DefaultHeightCell>
     <DefaultNamespace>Domyślna przestrzeń nazw</DefaultNamespace>
+    <DependentColumn>Kolumny zależne</DependentColumn>
+    <DependentValue>Wartości zależne</DependentValue>
     <Description>Opis</Description>
     <DetectUrls>Wykryj adresy URL</DetectUrls>
     <DialogResult>Wynik okna dialogowego</DialogResult>
@@ -2422,6 +2584,7 @@
     <DrawHatch>Rysuj kreskowanie</DrawHatch>
     <DrawLine>Ryzuj linię</DrawLine>
     <DrillDownEnabled>Uszczegółowienie włączone</DrillDownEnabled>
+    <DrillDownMode>Tryb przechodzenia do informacji szczegółowych</DrillDownMode>
     <DrillDownPage>Strona uszczegółowienia</DrillDownPage>
     <DrillDownParameter1>Parametr 1 uszczegółowienia</DrillDownParameter1>
     <DrillDownParameter2>Parametr 2 uszczegółowienia</DrillDownParameter2>
@@ -2450,6 +2613,7 @@
     <EvenStyle>Styl parzysty</EvenStyle>
     <ExcelSheet>Arkusz Excel</ExcelSheet>
     <ExcelValue>Wartość Excel</ExcelValue>
+    <Exponential> Wykładniczy/-a </Exponential>
     <ExportAsImage>Eksportuj jako obraz</ExportAsImage>
     <Expression>Wyrażenie</Expression>
     <FaqPage>Strona FAQ</FaqPage>
@@ -2498,6 +2662,7 @@
     <GridLinesHorRight>Linie siatki Poziomo, Prawo</GridLinesHorRight>
     <GridLineStyle>Styl linii siatki</GridLineStyle>
     <GridLinesVert>Grid Lines Vertical</GridLinesVert>
+    <GridOutline>Zarys siatki </GridOutline>
     <GrowToHeight>Poszerz do wysokości</GrowToHeight>
     <HeaderBackColor>Kolor tła nagłówka</HeaderBackColor>
     <HeaderCanBreak>Nagłówek może się łamać</HeaderCanBreak>
@@ -2549,12 +2714,14 @@
     <InterlacedBrush>Pędzel z przeplotem</InterlacedBrush>
     <InterlacingHor>Przeplot poziomy</InterlacingHor>
     <InterlacingVert>Przeplot pionowy</InterlacingVert>
+    <Interpolation> Interpolacja </Interpolation>
     <Italic>Kursywa</Italic>
     <Item>Element</Item>
     <ItemHeight>Wysokość elementu</ItemHeight>
     <Items>Elementy</Items>
     <KeepChildTogether>Zachowaj potomków razem</KeepChildTogether>
     <KeepCrossTabTogether>Zachowaj krzyżowane tabele razem</KeepCrossTabTogether>
+    <KeepDetails>Zachowaj szczegółowe informacje</KeepDetails>
     <KeepDetailsTogether>Zachowaj szczegóły razem</KeepDetailsTogether>
     <KeepFooterTogether>Zachowaj stopkę razem</KeepFooterTogether>
     <KeepGroupFooterTogether>Zachowaj stopkę grupy razem</KeepGroupFooterTogether>
@@ -2580,6 +2747,7 @@
     <Length>Długość</Length>
     <LengthUnderLabels>Długość pod etykietami</LengthUnderLabels>
     <Lighting>Oświetlenie</Lighting>
+    <Linear>Liniowa </Linear>
     <LineColor>Kolor linii</LineColor>
     <LineColorNegative>Negatyw koloru linii</LineColorNegative>
     <LineLimit>Ograniczenie linii</LineLimit>
@@ -2593,15 +2761,22 @@
     <ListOfTags>Lista znaczników</ListOfTags>
     <ListOfToolTips>Lista podpowiedzi</ListOfToolTips>
     <ListOfValues>Lista wartości</ListOfValues>
+    <ListOfValuesClose> Lista wartości zamkniętych </ListOfValuesClose>
     <ListOfValuesEnd>Lista wartości krańcowych</ListOfValuesEnd>
+    <ListOfValuesHigh> Lista wartości dużych </ListOfValuesHigh>
+    <ListOfValuesLow> Lista wartości małych </ListOfValuesLow>
+    <ListOfValuesOpen> Lista wartości otwartych </ListOfValuesOpen>
     <ListOfWeights>Lista wag</ListOfWeights>
     <Localizable>Lokalizowalne</Localizable>
     <Location>Pozycja</Location>
     <Locked>Zablokowany</Locked>
+    <Logarithmic> Logarytmiczny/-a </Logarithmic>
+    <LogarithmicScale> Skala logarytmiczna </LogarithmicScale>
     <Low>Nisko</Low>
     <Margins>Marginesy</Margins>
     <Marker>Znacznik</Marker>
     <MarkerAlignment>Wyrównanie znacznika</MarkerAlignment>
+    <MarkerBorder> Granica znacznika </MarkerBorder>
     <MarkerColor>Kolor znacznika</MarkerColor>
     <MarkerSize>Rozmiar znacznika</MarkerSize>
     <MarkerType>Typ znacznika</MarkerType>
@@ -2634,6 +2809,7 @@
     <MinSize>Minimalny rozmiar</MinSize>
     <MinValue>Minimalna wartość</MinValue>
     <MinWidth>Minimalna szerokość</MinWidth>
+    <Mode> Tryb </Mode>
     <Module>Moduł</Module>
     <Move>Przesuń</Move>
     <Multiline>Wieloliniowy</Multiline>
@@ -2654,11 +2830,13 @@
     <NumberOfColumns>Liczba kolumn</NumberOfColumns>
     <NumberOfCopies>Liczba kopii</NumberOfCopies>
     <NumberOfPass>Liczba przebiegów</NumberOfPass>
+    <NumberOfValues> Liczba wartości </NumberOfValues>
     <OddStyle>Styl nieparzysty</OddStyle>
     <OnlyText>Tylko tekst</OnlyText>
     <Operation>Działanie</Operation>
     <Options>Opcje</Options>
     <Orientation>Orientacja</Orientation>
+    <OthersText> Tekst innych </OthersText>
     <PageHeight>Wysokość strony</PageHeight>
     <PageNumbers>Numery stron</PageNumbers>
     <PageWidth>Szerokość strony</PageWidth>
@@ -2739,6 +2917,7 @@
     <RightSide>Prawa strona</RightSide>
     <RightToLeft>Z prawej do lewej</RightToLeft>
     <Rotation>Rotacja</Rotation>
+    <RotationLabels> Etykiety obrotu </RotationLabels>
     <Round>Cykl</Round>
     <RowCount>Liczba wierszy</RowCount>
     <RowHeadersVisible>Nagłówki wierszy widoczne</RowHeadersVisible>
@@ -2776,6 +2955,7 @@
     <ShowMarker>Pokaż znacznik</ShowMarker>
     <ShowNulls>Pokaż puste wartości (Null)</ShowNulls>
     <ShowOnZeroValues>Pokaż przy zerowych wartościach</ShowOnZeroValues>
+    <ShowOthers> Pokaż inne </ShowOthers>
     <ShowPercents>Pokaż procenty</ShowPercents>
     <ShowQuietZoneIndicator>Wyświetl wskaźnik strefy ciszy</ShowQuietZoneIndicator>
     <ShowQuietZones>Pokazuj strefy jasne</ShowQuietZones>
@@ -2837,6 +3017,7 @@
     <SupplementType>Typ uzupełniający</SupplementType>
     <SystemVariable>Zmienna systemowa</SystemVariable>
     <SystemVariables>Zmienne systemowe</SystemVariables>
+    <Table>Tabela</Table>
     <Tag>Metka</Tag>
     <TagDataColumn>Kolumna danych znaczników</TagDataColumn>
     <TagValue>Wartość metki</TagValue>
@@ -2865,10 +3046,13 @@
     <ToolTipDataColumn>Kolumna danych podpowiedzi</ToolTipDataColumn>
     <Top>Góra</Top>
     <Topmost>Na wierzchu</Topmost>
+    <TopmostLine> Najwyższa linia </TopmostLine>
+    <TopN> Największe N </TopN>
     <TopSide>Strona górna</TopSide>
     <Total>Suma</Total>
     <Totals>Sumy</Totals>
     <TransparentColor>Kolor przezroczysty</TransparentColor>
+    <TrendLine> Linia trendu </TrendLine>
     <Trimming>Przycinanie</Trimming>
     <Type>Typ</Type>
     <TypeName>Nazwa typu</TypeName>
@@ -2887,9 +3071,17 @@
     <UseStyleOfSummaryInColumnTotal>Użyj stylu sumarycznego w sumie kolumny</UseStyleOfSummaryInColumnTotal>
     <UseStyleOfSummaryInRowTotal>Użyj stylu sumarycznego w sumie wiersza</UseStyleOfSummaryInRowTotal>
     <Value>Wartość</Value>
+    <ValueClose> Wartość zamknięta </ValueClose>
     <ValueDataColumn>Kolumna wartości</ValueDataColumn>
+    <ValueDataColumnClose> Kolumna danych o wartości zamkniętej </ValueDataColumnClose>
     <ValueDataColumnEnd>Kolumna danych wartości krańcowych</ValueDataColumnEnd>
+    <ValueDataColumnHigh> Kolumna danych o dużej wartości </ValueDataColumnHigh>
+    <ValueDataColumnLow> Kolumna danych o małej wartości </ValueDataColumnLow>
+    <ValueDataColumnOpen> Kolumna danych o wartości otwartej </ValueDataColumnOpen>
     <ValueEnd>Wartość krańcowa</ValueEnd>
+    <ValueHigh> Wartość duża </ValueHigh>
+    <ValueLow> Wartość mała </ValueLow>
+    <ValueOpen> Wartość otwarta </ValueOpen>
     <Values>Wartości</Values>
     <ValueType>Typ wartości</ValueType>
     <ValueTypeSeparator>Separator typu wartości</ValueTypeSeparator>
@@ -3190,6 +3382,7 @@
     <LineABC>Alfabetyczny odpowiednik numeru bieżącego wiersza.</LineABC>
     <LineRoman>Numer bieżącego wiersza cyframi rzymskimi.</LineRoman>
     <LineThrough>Numer bieżącego wiersza (rozpoczyna się od 1). Podczas obliczania numeru wszystkie grupowania są ignorowane i numerowanie rozpoczyna się od początku raportu.</LineThrough>
+    <PageCopyNumber>Return a number of a current copy of a page (starts from 1).</PageCopyNumber>
     <PageNofM>Zlokalizowany łańcuch pokazujący „stronę N z M", gdzie N jest numerem bieżącej strony, a M is liczbą stron raportu (TotalPageCount).</PageNofM>
     <PageNofMThrough>Zlokalizowany łańcuch pokazujący „"stronę N z M", gdzie N jest numerem bieżącej strony, a M is liczbą stron raportu. Podczas obliczania PageNofMThrough, wszystkie właściwości ResetPageNumber są ignorowane i numerowanie rozpoczyna się od początku raportu.</PageNofMThrough>
     <PageNumber>Numer bieżącej strony (rozpoczyna się od 1).</PageNumber>

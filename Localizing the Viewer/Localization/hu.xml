@@ -1,6 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Localization language="Hungarian" description="Magyar" cultureName="hu">
   <A_WebViewer>
+    <AbbreviatedDayFriday>P.</AbbreviatedDayFriday>
+    <AbbreviatedDayMonday>H.</AbbreviatedDayMonday>
+    <AbbreviatedDaySaturday>Szo.</AbbreviatedDaySaturday>
+    <AbbreviatedDaySunday>V.</AbbreviatedDaySunday>
+    <AbbreviatedDayThursday>Cs.</AbbreviatedDayThursday>
+    <AbbreviatedDayTuesday>K.</AbbreviatedDayTuesday>
+    <AbbreviatedDayWednesday>Sze.</AbbreviatedDayWednesday>
+    <Attachment>Melléklet:</Attachment>
+    <ButtonNext>Következő</ButtonNext>
+    <ButtonPrev>Előző</ButtonPrev>
+    <ButtonSend>Küldés</ButtonSend>
+    <CategoryAlreadyExists>Ilyen nevű kategória már létezik!</CategoryAlreadyExists>
     <DayFriday>Péntek</DayFriday>
     <DayMonday>Hétfő</DayMonday>
     <DaySaturday>Szombat</DaySaturday>
@@ -8,9 +20,17 @@
     <DayThursday>Csütörtök</DayThursday>
     <DayTuesday>Kedd</DayTuesday>
     <DayWednesday>Szerda</DayWednesday>
+    <Email>Email:</Email>
+    <EmailOptions>Email beállítások</EmailOptions>
     <FirstPage>Első oldal</FirstPage>
+    <Hours>Órák</Hours>
+    <LabelFrom>Tól:</LabelFrom>
+    <LabelSelectExportFormat>Válassza ki milyen formátumba menti a jelentést:</LabelSelectExportFormat>
+    <LabelTo>Ig:</LabelTo>
     <LastPage>Utolsó oldal</LastPage>
     <Loading>Megnyitás...</Loading>
+    <Message>Üzenet:</Message>
+    <Minutes>Percek</Minutes>
     <MonthApril>Április</MonthApril>
     <MonthAugust>Augusztus</MonthAugust>
     <MonthDecember>December</MonthDecember>
@@ -35,6 +55,10 @@
     <PrintWithoutPreview>Előnézet nélkül nyomtat</PrintWithoutPreview>
     <PrintWithPreview>Előnézettel nélkül nyomtat</PrintWithPreview>
     <SaveReport>Mentés</SaveReport>
+    <Subject>Tárgy:</Subject>
+    <TabItemContacts>Kontakti</TabItemContacts>
+    <TextComputer>Računalo</TextComputer>
+    <TextItemsRoot>Korijen</TextItemsRoot>
     <TodayDate>Ma</TodayDate>
     <WholeReport>Egész jelentés</WholeReport>
   </A_WebViewer>
@@ -42,7 +66,7 @@
     <AdapterBusinessObjects>Adat Business Objects-ből</AdapterBusinessObjects>
     <AdapterConnection>Adat {0}-ból</AdapterConnection>
     <AdapterCrossTabDataSource>Adat CrossTab-ból</AdapterCrossTabDataSource>
-    <AdapterCsvFiles>Adat Csv fájlból</AdapterCsvFiles>
+    <AdapterCsvFiles>Adat CSV fájlból</AdapterCsvFiles>
     <AdapterDataTables>Adat DataSetből, Tablákból</AdapterDataTables>
     <AdapterDataViews>Adat DataViewekből</AdapterDataViews>
     <AdapterDB2Connection>Adat IBM DB2 kapcsolatból</AdapterDB2Connection>
@@ -50,13 +74,13 @@
     <AdapterFirebirdConnection>Adat Firebird kapcsolatból</AdapterFirebirdConnection>
     <AdapterInformixConnection>Adatok Informix kapcsolatból</AdapterInformixConnection>
     <AdapterMySQLConnection>Adat MySQL kapcsolatból</AdapterMySQLConnection>
-    <AdapterOdbcConnection>Adat Odbc kapcsolatból</AdapterOdbcConnection>
-    <AdapterOleDbConnection>Adat OleDb kapcsolatból</AdapterOleDbConnection>
+    <AdapterOdbcConnection>Adat ODBC kapcsolatból</AdapterOdbcConnection>
+    <AdapterOleDbConnection>Adat OLEDB kapcsolatból</AdapterOleDbConnection>
     <AdapterOracleConnection>Adat Oracle kapcsolatból</AdapterOracleConnection>
     <AdapterOracleODPConnection>Adatok Oracle ODP.NET kapcsolatból</AdapterOracleODPConnection>
     <AdapterPostgreSQLConnection>Adat PostgreSQL kapcsolatból</AdapterPostgreSQLConnection>
-    <AdapterSqlCeConnection>Adat SqlCe kapcsolatból</AdapterSqlCeConnection>
-    <AdapterSqlConnection>Adat Sql kapcsolatból</AdapterSqlConnection>
+    <AdapterSqlCeConnection>Adat SQL Server CE kapcsolatból</AdapterSqlCeConnection>
+    <AdapterSqlConnection>Adat SQL kapcsolatból</AdapterSqlConnection>
     <AdapterSQLiteConnection>Adat SQLite kapcsolatból</AdapterSQLiteConnection>
     <AdapterTeradataConnection>Adatok a teradata kapcsolatból</AdapterTeradataConnection>
     <AdapterUniDirectConnection>Adat Uni Direct kapcsolatból</AdapterUniDirectConnection>
@@ -67,8 +91,10 @@
   <Buttons>
     <Add>Hozzáad</Add>
     <AddAllColumns>Összes oszlop hozzáad</AddAllColumns>
+    <Attach>Csatol</Attach>
     <Build>Fordít...</Build>
     <Cancel>&amp;Mégsem</Cancel>
+    <Check>Ellenőrzés</Check>
     <Close>Bezár</Close>
     <Delete>Törörl</Delete>
     <Design>Tervez</Design>
@@ -76,6 +102,9 @@
     <Duplicate>Duplikál</Duplicate>
     <Export>Export</Export>
     <Help>Segítség</Help>
+    <LessOptions>Kevesebb beállítás</LessOptions>
+    <LoadDataSet>Adatkészlet Betöltése (*.data)</LoadDataSet>
+    <MoreOptions>Több beállítás</MoreOptions>
     <MoveLeft>Balra mozgat</MoveLeft>
     <MoveRight>Jobbra mozgat</MoveRight>
     <No>&amp;Nem</No>
@@ -91,9 +120,12 @@
     <Save>Mentés</Save>
     <SaveCopy>Másolat mentése</SaveCopy>
     <SetAll>Mind beállít</SetAll>
+    <ShowLess>Kevesebbet mutat</ShowLess>
+    <ShowMore>Többet mutat</ShowMore>
     <Submit>Elküld</Submit>
     <Test>Teszt</Test>
     <Up>Fel</Up>
+    <Upload>Feltölt</Upload>
     <Yes>&amp;Igen</Yes>
   </Buttons>
   <Chart>
@@ -110,11 +142,13 @@
     <Bubble>Buborék</Bubble>
     <Candlestick>Japán gyertya</Candlestick>
     <ChartConditionsCollectionForm>Feltételek</ChartConditionsCollectionForm>
+    <ChartEditorForm>Diagram szerkesztő</ChartEditorForm>
     <ChartFiltersCollectionForm>Szűrők</ChartFiltersCollectionForm>
     <ChartType>Diagram típus</ChartType>
     <CheckBoxAutoRotation>Autó forgatás</CheckBoxAutoRotation>
     <ClusteredBar>Csoportosított sáv</ClusteredBar>
     <ClusteredColumn>Csoportosított oszlop</ClusteredColumn>
+    <Common>Általános</Common>
     <ConstantLine>Állandó vonal</ConstantLine>
     <ConstantLinesEditorForm>Állandó vonal szerkesztő</ConstantLinesEditorForm>
     <DataColumns>Adat oszlop</DataColumns>
@@ -127,6 +161,7 @@
     <FullStackedSpline>100%-ig halmozott íves vonal</FullStackedSpline>
     <FullStackedSplineArea>100%-ig halmozott íves terület</FullStackedSplineArea>
     <Funnel>Tölcsér</Funnel>
+    <FunnelWeightedSlices>Tölcsér súlyozott szeletekkel</FunnelWeightedSlices>
     <Gantt>Négyzetek</Gantt>
     <GridInterlaced>Interlaced</GridInterlaced>
     <GridLines>Rács vonal</GridLines>
@@ -177,6 +212,7 @@
     <Pie>Torta</Pie>
     <Radar>Radar</Radar>
     <RadarArea>Radar terület</RadarArea>
+    <RadarColumn>Radar oszlop</RadarColumn>
     <RadarLine>Radar vonal</RadarLine>
     <RadarPoint>Radar pont</RadarPoint>
     <Range>Tartomány</Range>
@@ -210,10 +246,11 @@
     <Strip>Szalag</Strip>
     <StripsEditorForm>Szalag szerkesztő ablak</StripsEditorForm>
     <Style>Stílus</Style>
+    <Treemap>Treemap</Treemap>
   </Chart>
   <ChartRibbon>
     <Axes>Tengelyek</Axes>
-    <AxesArrowStyle>Nyil Stílusa</AxesArrowStyle>
+    <AxesArrowStyle>Nyíl Stílusa</AxesArrowStyle>
     <AxesArrowStyleLines>Vonalak</AxesArrowStyleLines>
     <AxesArrowStyleNone>Nincs</AxesArrowStyleNone>
     <AxesArrowStyleTriangle>Háromszög</AxesArrowStyleTriangle>
@@ -280,16 +317,69 @@
   </ChartRibbon>
   <Cloud>
     <AccountSettings>Fiók beállítások</AccountSettings>
+    <ButtonChangePassword>Jelszót változtat</ButtonChangePassword>
+    <ButtonDeleteAll>Mindet töröl</ButtonDeleteAll>
+    <ButtonDesign>Jelentés tervezés</ButtonDesign>
+    <ButtonLogout>Kijelentkezés</ButtonLogout>
+    <ButtonPublish>Publikál</ButtonPublish>
+    <ButtonRecover>Visszanyer</ButtonRecover>
+    <ButtonRenew>Megújít</ButtonRenew>
+    <ButtonResendEmail>Email újraküldése</ButtonResendEmail>
+    <ButtonResetPassword>Jelszót alaphelyzetbe</ButtonResetPassword>
+    <ButtonRun>Futtat</ButtonRun>
+    <ButtonShare>Megoszt</ButtonShare>
+    <ButtonSignUp>Feliratkozás</ButtonSignUp>
+    <ButtonSkip>Kihagy</ButtonSkip>
+    <ButtonView>Megnéz</ButtonView>
+    <ButtonWhereUsed>Hol van használatban?</ButtonWhereUsed>
     <Cancel>Mégsem</Cancel>
-    <Collection>Gyüjtemény</Collection>
+    <CheckBoxMoveToRecycleBin>Lomtárba helyezés</CheckBoxMoveToRecycleBin>
+    <CheckBoxRememberMe>Remember Me</CheckBoxRememberMe>
+    <Cloud>Felhő</Cloud>
+    <Collection>Gyűjtemény</Collection>
     <Create>Létrehoz</Create>
-    <CreateNewCollection>Új gyüjtemény létrehozása</CreateNewCollection>
+    <CreateError>Hiba jelentés készítés közben!</CreateError>
+    <CreateNewCollection>Új gyűjtemény létrehozása</CreateNewCollection>
+    <CreatingReport>Jelentés készítése...</CreatingReport>
+    <DashboardWindowTitleNew>Új irányítópult</DashboardWindowTitleNew>
     <DeleteFile>Fájl törlése</DeleteFile>
-    <labelCollectionName>Gyüjtemény neve:</labelCollectionName>
+    <ExecutionError>Futtatási hiba</ExecutionError>
+    <FileStorageWindowTitleEdit>Fájl tároló módosítása</FileStorageWindowTitleEdit>
+    <FileStorageWindowTitleNew>Új fájl tároló</FileStorageWindowTitleNew>
+    <FolderWindowTitleEdit>Mappa módosítása</FolderWindowTitleEdit>
+    <FolderWindowTitleNew>Új mappa</FolderWindowTitleNew>
+    <ForExample>Például</ForExample>
+    <GroupBoxAttachedItems>Csatolt elemek</GroupBoxAttachedItems>
+    <HyperlinkAgreeToTerms>By registering you agree to Terms.</HyperlinkAgreeToTerms>
+    <HyperlinkAlreadyHaveAccount>Already have account</HyperlinkAlreadyHaveAccount>
+    <HyperlinkForgotPassword>Elfelejtett jelszó</HyperlinkForgotPassword>
+    <HyperlinkHavePassword>Van jelszó</HyperlinkHavePassword>
+    <HyperlinkRegisterAccount>Új fiók regisztrálása</HyperlinkRegisterAccount>
+    <labelCollectionName>Gyűjtemény neve:</labelCollectionName>
+    <LabelCreated>Létrehozva:</LabelCreated>
+    <LabelCreateFolder>Új kategória létrehozása, melyben új elemek helyezhetők el.</LabelCreateFolder>
+    <LabelCreateReportTemplate>Jelentés sablon létrehozása.</LabelCreateReportTemplate>
+    <LabelCurrentPassword>Jelenlegi jelszó:</LabelCurrentPassword>
+    <LabelDataFile>Adat fájl:</LabelDataFile>
+    <LabelDataUrl>Adat URL:</LabelDataUrl>
     <labelFileName>Fájl neve:</labelFileName>
+    <LabelForeground>Előtér:</LabelForeground>
+    <LabelFromReport>Jelentésből</LabelFromReport>
+    <LabelFromReportCode>Jelentésből (kódban definiált)</LabelFromReportCode>
+    <LabelLastLogin>Utolsó bejelentkezés:</LabelLastLogin>
+    <LabelLastTime>Utolsó idő:</LabelLastTime>
+    <LabelModified>Módosítva:</LabelModified>
+    <LabelNewPassword>Új jelszó:</LabelNewPassword>
+    <LabelNextTime>Következő idő:</LabelNextTime>
     <labelPassword>Jelszó:</labelPassword>
+    <LabelPermission>Jogosultság:</LabelPermission>
+    <LabelRenderedReport>Renderelt jelentés</LabelRenderedReport>
+    <LabelResponseAsFile>Válasz fájlként</LabelResponseAsFile>
+    <LabelSeparateReport>Külön jelentés (és script) fájl</LabelSeparateReport>
+    <LabelShowReport>Jelentés mutatása:</LabelShowReport>
     <labelUserName>Felhasználónév:</labelUserName>
     <Login>Bejelentkezés</Login>
+    <NofM>{0}: {1} of {2}</NofM>
     <Open>Megnyit</Open>
     <OpenFile>Fájl megnyitás</OpenFile>
     <OperationCreate>Létrehozva '{0}'</OperationCreate>
@@ -306,11 +396,95 @@
     <RefreshList>Lista frissítése</RefreshList>
     <ReportDocumentFormatNotRecognized>A (z) '{0}' elem nem ismeretlen report formátumú!</ReportDocumentFormatNotRecognized>
     <ReportTemplateFormatNotRecognized>A (z) '{0}' elem nem ismeretlen report sablon formátumú!</ReportTemplateFormatNotRecognized>
+    <RibbonButtonAddRole>Add Role</RibbonButtonAddRole>
+    <RibbonButtonAddUser>Felhasználót hozzád</RibbonButtonAddUser>
+    <RibbonButtonAddWorkspace> Workspace</RibbonButtonAddWorkspace>
+    <RibbonButtonFolder>Mappa</RibbonButtonFolder>
+    <RibbonTabUsers>Felhasználók</RibbonTabUsers>
     <Root>Gyökér</Root>
+    <RootFolder>Gyökérkönyvtár</RootFolder>
     <Save>Mentés</Save>
     <SaveAccountSettings>Fiók beállítások mentése</SaveAccountSettings>
     <SaveFile>Fájl mentése</SaveFile>
+    <ShareWindowTitleNew>Megoszt</ShareWindowTitleNew>
     <ShowAllFiles>Minden fájl megmutatása</ShowAllFiles>
+    <TabItemEmbedCode>Kód beágyazása</TabItemEmbedCode>
+    <TabItemQRCode>QR kód</TabItemQRCode>
+    <TabItemShare>Hiperhivatkozás megosztáshoz</TabItemShare>
+    <TextActivated>Aktivált</TextActivated>
+    <TextDelete>Töröl</TextDelete>
+    <TextDeletingItems>Elemek törlése...</TextDeletingItems>
+    <TextFirstName>Keresztnév</TextFirstName>
+    <TextFromTo>{0}-tól/től  {1}-ig (Összesen - {2})</TextFromTo>
+    <TextItemsWorkspace>Munkaterület</TextItemsWorkspace>
+    <TextLastName>Vezetéknév</TextLastName>
+    <TextModify>Módosít</TextModify>
+    <TextNoNotifications>Nincs értesítés</TextNoNotifications>
+    <TextProfile>Profil</TextProfile>
+    <TextReports>Jelentések</TextReports>
+    <TextRestoringItems>Elemek visszaállítása...</TextRestoringItems>
+    <TextRole>Szerep</TextRole>
+    <TextRun>Futtat</TextRun>
+    <TextUser>Felhasználó</TextUser>
+    <TextUserName>Felhasználónév (Email)</TextUserName>
+    <TimeHoursAgoFive>Öt órája, {0:t}</TimeHoursAgoFive>
+    <TimeHoursAgoFour>Négy órája, {0:t}</TimeHoursAgoFour>
+    <TimeHoursAgoOne>Egy órája, {0:t}</TimeHoursAgoOne>
+    <TimeHoursAgoThree>Három órája, {0:t}</TimeHoursAgoThree>
+    <TimeHoursAgoTwo>Két órája, {0:t}</TimeHoursAgoTwo>
+    <TimeMinutesAgoFive>Öt perce, {0:t}</TimeMinutesAgoFive>
+    <TimeMinutesAgoFour>Négy perce, {0:t}</TimeMinutesAgoFour>
+    <TimeMinutesAgoLessOne>Kevesebb mint egy perce</TimeMinutesAgoLessOne>
+    <TimeMinutesAgoN>{0} perce, {1:t}</TimeMinutesAgoN>
+    <TimeMinutesAgoOne>Egy perce, {0:t}</TimeMinutesAgoOne>
+    <TimeMinutesAgoThree>Három perce, {0:t}</TimeMinutesAgoThree>
+    <TimeMinutesAgoTwo>Két perce, {0:t}</TimeMinutesAgoTwo>
+    <TimeToday>Ma, {0:t}</TimeToday>
+    <TimeYesterday>Tegnap, {0:t}</TimeYesterday>
+    <ToolTipAddRole>Új szerepkör létrehozása a munkaterületen.</ToolTipAddRole>
+    <ToolTipAddUser>Új felhasználó létrehozása a kiválasztott szerepkörben.</ToolTipAddUser>
+    <ToolTipAspNet>A kiválasztott jelentés publikálása az ASP.NET programnak.</ToolTipAspNet>
+    <ToolTipAspNetMvc>A kiválasztott jelentés publikálása az ASP.NET MVC programnak.</ToolTipAspNetMvc>
+    <ToolTipAttach>Elemek csatolása a kiválasztott jelentéshez.</ToolTipAttach>
+    <ToolTipCreate>Új elem létrehozása.</ToolTipCreate>
+    <ToolTipDelete>Kiválasztott elemek törlése.</ToolTipDelete>
+    <ToolTipDeleted>Törölt elemek mutatása</ToolTipDeleted>
+    <ToolTipDownload>Kiválasztott elem letöltése.</ToolTipDownload>
+    <ToolTipEdit>Kiválasztott elem módosítása.</ToolTipEdit>
+    <ToolTipGridMode>Nézet listázása</ToolTipGridMode>
+    <ToolTipInfo>Nézet részletei</ToolTipInfo>
+    <ToolTipJs>Kiválasztott jelentés publikálása HTML oldalként</ToolTipJs>
+    <ToolTipPublish>A kijelölt jelentés felkészítése a programba való telepítésre.</ToolTipPublish>
+    <ToolTipRecover>Kiválasztott elemek visszanyerése.</ToolTipRecover>
+    <ToolTipRunWithoutPreview>Kijelölt jelentés renderelése előnézet nélkül</ToolTipRunWithoutPreview>
+    <ToolTipShare>Kiválasztott fájl megosztása.</ToolTipShare>
+    <ToolTipSort>Rendezési lehetőségek</ToolTipSort>
+    <ToolTipThumbnailMode>Bélyegkép nézet</ToolTipThumbnailMode>
+    <ToolTipViewFile>Kiválasztott fájl megjelenítése.</ToolTipViewFile>
+    <ToolTipViewReport>Kiválasztott jelentés megjelenítése a nézőkében.</ToolTipViewReport>
+    <WindowDescriptionDelete>Biztosan törölni szeretné a kiválasztott elemeket?</WindowDescriptionDelete>
+    <WindowDescriptionRecover>A kiválasztott elemek vissza lesznek állítva a Lomtárból.</WindowDescriptionRecover>
+    <WindowTitleDelete>Törölt elemek</WindowTitleDelete>
+    <WindowTitleForgotPassword>Elfelejtett jelszó</WindowTitleForgotPassword>
+    <WindowTitleLogin>Bejelentkezés</WindowTitleLogin>
+    <WindowTitleRecover>Elemek visszaállítása</WindowTitleRecover>
+    <WindowTitleRoleEdit>Szerepkör módosítása</WindowTitleRoleEdit>
+    <WindowTitleRoleNew>Új szerepkör</WindowTitleRoleNew>
+    <WindowTitleSignUp>Feliratkozás</WindowTitleSignUp>
+    <WindowTitleUserEdit>Felhasználó módosítása</WindowTitleUserEdit>
+    <WindowTitleUserNew>Új felhasználó</WindowTitleUserNew>
+    <WindowTitleWorkspaceEdit>Munkaterület módosítása</WindowTitleWorkspaceEdit>
+    <WindowTitleWorkspaceNew>Új munkaterület</WindowTitleWorkspaceNew>
+    <WizardBlankReportDescription>Üres jelentés készítése</WizardBlankReportDescription>
+    <WizardExcelDescription>Jelentés készítése Excel adatokkal.</WizardExcelDescription>
+    <WizardJsonDescription>Jelentés készítése Json adatokkal.</WizardJsonDescription>
+    <WizardPrivateShare>Nincs hozzáférés</WizardPrivateShare>
+    <WizardPrivateShareDescription>Korlátozott külső hozzáférés az elemhez.</WizardPrivateShareDescription>
+    <WizardPublicShare>Publikus hozzáférés</WizardPublicShare>
+    <WizardPublicShareDescription>Külső hozzáférés bármely nem engedélyezett felhasználónak.</WizardPublicShareDescription>
+    <WizardRegisteredShare>Engedélyezett hozzáférés</WizardRegisteredShare>
+    <WizardRegisteredShareDescription>Külső hozzáférés kizárólag regisztrált felhasználóknak from any workspace.</WizardRegisteredShareDescription>
+    <WizardXmlDescription>Jelentés készítése Xml adatokkal.</WizardXmlDescription>
   </Cloud>
   <Components>
     <StiBarCode>Vonalkód</StiBarCode>
@@ -335,6 +509,7 @@
     <StiCrossSummary>Cross-Summary</StiCrossSummary>
     <StiCrossSummaryHeader>Cross-Summary Header</StiCrossSummaryHeader>
     <StiCrossTab>Cross-Tab</StiCrossTab>
+    <StiCrossTitle>Kereszt cím</StiCrossTitle>
     <StiDataBand>Adat sáv</StiDataBand>
     <StiEmptyBand>Üres sáv</StiEmptyBand>
     <StiFooterBand>Lábléc</StiFooterBand>
@@ -345,6 +520,7 @@
     <StiHierarchicalBand>Hierarchikus sáv</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Vízszintes vonal</StiHorizontalLinePrimitive>
     <StiImage>Kép</StiImage>
+    <StiMap>Térkép</StiMap>
     <StiOverlayBand>Átfedés</StiOverlayBand>
     <StiPage>Oldal</StiPage>
     <StiPageFooterBand>Oldal lábléc</StiPageFooterBand>
@@ -372,21 +548,48 @@
     <DatabaseDB2>IBM DB2 Kapcsolat</DatabaseDB2>
     <DatabaseFirebird>Firebird Kapcsolat</DatabaseFirebird>
     <DatabaseInformix>Informix Kapcsolat</DatabaseInformix>
+    <DatabaseJson>JSON adat</DatabaseJson>
     <DatabaseMySQL>MySQL Kapcsolat</DatabaseMySQL>
-    <DatabaseOdbc>Odbc Kapcsolat</DatabaseOdbc>
-    <DatabaseOleDb>OleDB Kapcsolat</DatabaseOleDb>
+    <DatabaseOdbc>ODBC Kapcsolat</DatabaseOdbc>
+    <DatabaseOleDb>OLEDB Kapcsolat</DatabaseOleDb>
     <DatabaseOracle>Oracle Kapcsolat</DatabaseOracle>
     <DatabaseOracleODP>Oracle ODP.NET kapcsolat</DatabaseOracleODP>
     <DatabasePostgreSQL>PostgreSQL Kapcsolat</DatabasePostgreSQL>
-    <DatabaseSql>Sql Kapcsolat</DatabaseSql>
-    <DatabaseSqlCe>SQLServerCE Kapcsolat</DatabaseSqlCe>
+    <DatabaseSql>SQL Kapcsolat</DatabaseSql>
+    <DatabaseSqlCe>SQL Server CE Kapcsolat</DatabaseSqlCe>
     <DatabaseSQLite>SQLite Kapcsolat</DatabaseSQLite>
     <DatabaseTeradata>Teradata kapcsolat</DatabaseTeradata>
     <DatabaseUniDirect>Uni Direct Kapcsolat</DatabaseUniDirect>
     <DatabaseVistaDB>VistaDB Kapcsolat</DatabaseVistaDB>
-    <DatabaseXml>Xml adat</DatabaseXml>
+    <DatabaseXml>XML adat</DatabaseXml>
   </Database>
+  <DatePickerRanges>
+    <CurrentMonth>Aktuális hónap</CurrentMonth>
+    <CurrentQuarter>Aktuális negyedév</CurrentQuarter>
+    <CurrentWeek>Aktuális hét</CurrentWeek>
+    <CurrentYear>Aktuális év</CurrentYear>
+    <FirstQuarter>Első negyedév</FirstQuarter>
+    <FourthQuarter>Negyedik negyedév</FourthQuarter>
+    <MonthToDate>Hónapot dátummá</MonthToDate>
+    <NextMonth>Következő hónap</NextMonth>
+    <NextQuarter>Következő negyedév</NextQuarter>
+    <NextWeek>Következő hét</NextWeek>
+    <NextYear>Következő év</NextYear>
+    <PreviousMonth>Előző hónap</PreviousMonth>
+    <PreviousQuarter>Előző negyedév</PreviousQuarter>
+    <PreviousWeek>Előző hét</PreviousWeek>
+    <PreviousYear>Előző év</PreviousYear>
+    <QuarterToDate>Negyedévet dátummá</QuarterToDate>
+    <SecondQuarter>Második negyedév</SecondQuarter>
+    <ThirdQuarter>Harmadik negyedév</ThirdQuarter>
+    <Today>Ma</Today>
+    <Tomorrow>Holnap</Tomorrow>
+    <WeekToDate>Hetet dátummá</WeekToDate>
+    <YearToDate>Évet dátummá</YearToDate>
+    <Yesterday>Tegnap</Yesterday>
+  </DatePickerRanges>
   <DesignerFx>
+    <AlreadyExists>'{0}' már létezik.</AlreadyExists>
     <CanNotLoadThisReportTemplate>Nem sikerült betölteni ezt a report templétet.</CanNotLoadThisReportTemplate>
     <CloseDataSourceEditor>Valóban be akarod zárni az adatforrás szerkesztőt?</CloseDataSourceEditor>
     <CloseEditor>Valóban be akarod zárni a szerkesztőt?</CloseEditor>
@@ -396,6 +599,8 @@
     <ConnectionSuccessfull>Kapcsolódás sikeres</ConnectionSuccessfull>
     <Continue>Folytatás</Continue>
     <DecryptionError>Titkosítás feloldási hiba: Hibás jelszó, vagy rossz fájl.</DecryptionError>
+    <EmailSuccessfullySent>Az email sikeresen elküldve.</EmailSuccessfullySent>
+    <ErrorAtSaving>Hiba mentéskor</ErrorAtSaving>
     <ErrorCode>Hiba a Mentésben. Hibás Kód: {0}</ErrorCode>
     <ErrorServer>Hiba a Mentésben. A Kiszolgáló nem válaszol.</ErrorServer>
     <ExportingReport>Jelentés exportálás</ExportingReport>
@@ -407,6 +612,8 @@
     <LoadingLanguage>Nyelv betöltése</LoadingLanguage>
     <LoadingReport>Jelentés betöltése</LoadingReport>
     <PreviewAs>Nyomtatási kép {0}</PreviewAs>
+    <RenderingReport>Jelentés renderelése</RenderingReport>
+    <ReportSuccessfullySaved>Dokumentum sikeresen mentve.</ReportSuccessfullySaved>
     <RetrieveError>Oszlop hibák lekérdezése</RetrieveError>
     <RetrievingColumns>Oszlopok lekérdezése</RetrievingColumns>
     <SavingConfiguration>Beállítások mentése</SavingConfiguration>
@@ -423,7 +630,7 @@
     <StiForm>Ablak</StiForm>
     <StiGridControl>Táblázat</StiGridControl>
     <StiGroupBoxControl>Csoport doboz</StiGroupBoxControl>
-    <StiLabelControl>Cimke</StiLabelControl>
+    <StiLabelControl>Címke</StiLabelControl>
     <StiListBoxControl>Lista doboz</StiListBoxControl>
     <StiListViewControl>Lista nézet</StiListViewControl>
     <StiLookUpBoxControl>Választó doboz</StiLookUpBoxControl>
@@ -481,7 +688,7 @@
     <FileNotFound>A(z) "{0}" fájl nem található.</FileNotFound>
     <IdentifierIsNotValid>Azonosító '{0}' nem megfelelő.</IdentifierIsNotValid>
     <ImpossibleFindDataSource>Adatforrás nem található.</ImpossibleFindDataSource>
-    <NameExists>Létező objelktum név '{0}'. Objektum neveknek egyedinek kell lenniük (Kis, és nagybetű számít).</NameExists>
+    <NameExists>Létező objelktum név '{0}'. Objektum neveknek egyedinek kell lenniük.</NameExists>
     <NoServices>Szolgáltatás nem található'{0}'</NoServices>
     <NotAssign>Adatforrás nincs meghatározva.</NotAssign>
     <NotCorrectFormat>Bemeneti szöveg formátuma nem megfelelő.</NotCorrectFormat>
@@ -492,13 +699,16 @@
   <Export>
     <AddPageBreaks>Oldal törést hozzáad.</AddPageBreaks>
     <AllBands>Minden sáv</AllBands>
-    <AllowAddOrModifyTextAnnotations>Allow Add or Modify Text Annotations</AllowAddOrModifyTextAnnotations>
+    <AllowAddOrModifyTextAnnotations>Szöveg jegyzetek hozzáadásának és módosításának engedélyezése</AllowAddOrModifyTextAnnotations>
     <AllowCopyTextAndGraphics>Szöveg és grafika másolás engedélyez</AllowCopyTextAndGraphics>
+    <AllowEditable>Szerkesztés engedélyezett:</AllowEditable>
     <AllowModifyContents>Tartalom módosítás engedélyez</AllowModifyContents>
-    <AllowPrintDocument>Documentum nyomtatás engedélyez</AllowPrintDocument>
+    <AllowPrintDocument>Dokumentum nyomtatás engedélyez</AllowPrintDocument>
+    <Auto>Auto</Auto>
     <BandsFilter>Sáv szűrő:</BandsFilter>
     <Color>Szín</Color>
     <Compressed>Tömörített</Compressed>
+    <CompressToArchive>Betömörítés</CompressToArchive>
     <ContinuousPages>Folyamatos oldalak</ContinuousPages>
     <DataAndHeadersFooters>Adatok és Fejlécek/Láblécek</DataAndHeadersFooters>
     <DataOnly>Csak adat</DataOnly>
@@ -508,9 +718,12 @@
     <DocumentSecurity>Dokumentum biztonság</DocumentSecurity>
     <DotMatrixMode>Matrix mód</DotMatrixMode>
     <EmbeddedFonts>Beillesztett betükészlet</EmbeddedFonts>
+    <EmbeddedImageData>Beágyazott kép adat</EmbeddedImageData>
     <Encoding>Kódolás:</Encoding>
     <EncryptionError>Kódolási hiba a lépésben</EncryptionError>
     <EscapeCodes>Escape kódok</EscapeCodes>
+    <Exactly>Pontosan</Exactly>
+    <ExceptEditableFields>Szerkeszthető mezők kivételével</ExceptEditableFields>
     <ExportDataOnly>Csak adat export</ExportDataOnly>
     <ExportEachPageToSheet>Összes oldal exportálása a munkalapra</ExportEachPageToSheet>
     <ExportingCalculatingCoordinates>Coordináta kalkulálás</ExportingCalculatingCoordinates>
@@ -526,28 +739,30 @@
     <ExportTypeBmpFile>BMP kép...</ExportTypeBmpFile>
     <ExportTypeCalcFile>OpenDocument Calc fájl...</ExportTypeCalcFile>
     <ExportTypeCsvFile>CSV fájl...</ExportTypeCsvFile>
+    <ExportTypeDataFile>Adat fájl...</ExportTypeDataFile>
     <ExportTypeDbfFile>dBase DBF fájl...</ExportTypeDbfFile>
     <ExportTypeDifFile>Adat cserélő formárum (DIF) fájl...</ExportTypeDifFile>
-    <ExportTypeExcel2007File>Microsoft Excel 2007/2013 fájl...</ExportTypeExcel2007File>
+    <ExportTypeExcel2007File>Microsoft Excel 2007 fájl...</ExportTypeExcel2007File>
     <ExportTypeExcelFile>Microsoft Excel fájl...</ExportTypeExcelFile>
     <ExportTypeExcelXmlFile>Microsoft Excel Xml fájl...</ExportTypeExcelXmlFile>
     <ExportTypeGifFile>GIF kép...</ExportTypeGifFile>
     <ExportTypeHtml5File>HTML5 fájl...</ExportTypeHtml5File>
     <ExportTypeHtmlFile>HTML fájl...</ExportTypeHtmlFile>
+    <ExportTypeImageFile>Kép fájl...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG kép...</ExportTypeJpegFile>
     <ExportTypeMetafile>Windows Metafájl...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web Archive...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX kép...</ExportTypePcxFile>
     <ExportTypePdfFile>Adobe PDF fájl...</ExportTypePdfFile>
     <ExportTypePngFile>PNG kép...</ExportTypePngFile>
-    <ExportTypePpt2007File>Microsoft PowerPoint 2007/2013 fájl...</ExportTypePpt2007File>
+    <ExportTypePpt2007File>Microsoft PowerPoint fájl...</ExportTypePpt2007File>
     <ExportTypeRtfFile>Rich Text fájl...</ExportTypeRtfFile>
     <ExportTypeSvgFile>Scalable Vector Graphics (SVG) fájl...</ExportTypeSvgFile>
     <ExportTypeSvgzFile>Tömörített SVG (SVGZ) fájl...</ExportTypeSvgzFile>
     <ExportTypeSylkFile>Symbolic Link (SYLK) fájl...</ExportTypeSylkFile>
     <ExportTypeTiffFile>TIFF kép...</ExportTypeTiffFile>
     <ExportTypeTxtFile>Szöveges fájl...</ExportTypeTxtFile>
-    <ExportTypeWord2007File>Microsoft Word 2007/2013 fájl...</ExportTypeWord2007File>
+    <ExportTypeWord2007File>Microsoft Word fájl...</ExportTypeWord2007File>
     <ExportTypeWriterFile>OpenDocument Writer fájl...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML fájl...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS fájl...</ExportTypeXpsFile>
@@ -559,17 +774,21 @@
     <ImageMonochrome>Monokróm</ImageMonochrome>
     <ImageQuality>Kép minőség</ImageQuality>
     <ImageResolution>Kép felbontás:</ImageResolution>
+    <ImageResolutionMode>Képfelbontás mód:</ImageResolutionMode>
     <ImageType>Kép típus</ImageType>
     <labelEncryptionKeyLength>Titkosító kulcs hossza:</labelEncryptionKeyLength>
     <labelOwnerPassword>Tulajdonos jelszó:</labelOwnerPassword>
-    <labelSubjectNameString>Tárrgy névstring:</labelSubjectNameString>
+    <labelSubjectNameString>Tárgy névstring:</labelSubjectNameString>
     <labelUserPassword>Felhasználó jelszó:</labelUserPassword>
     <MonochromeDitheringType>Monochrome színcsökkentés típusa:</MonochromeDitheringType>
     <MoreSettings>További beállítások</MoreSettings>
     <MultipleFiles>Összetett fájlok</MultipleFiles>
+    <NoMoreThan>Nem több mint</NoMoreThan>
     <OpenAfterExport>Megnyitás export után</OpenAfterExport>
     <PdfACompliance>PDF/A típus</PdfACompliance>
     <RemoveEmptySpaceAtBottom>Üres terület eltávolítása a lap alján</RemoveEmptySpaceAtBottom>
+    <RestrictEditing>Szerkesztés korlátozása:</RestrictEditing>
+    <Scale>Mérték:</Scale>
     <Separator>Elválasztó:</Separator>
     <Settings>Beállítások</Settings>
     <SkipColumnHeaders>Oszlop fejléc kihagyás</SkipColumnHeaders>
@@ -584,7 +803,8 @@
     <TxtDrawBorder>Draw Border</TxtDrawBorder>
     <TxtKillSpaceGraphLines>Üres Graph sorok elnyomása</TxtKillSpaceGraphLines>
     <TxtKillSpaceLines>Üres sorok elnyomása</TxtKillSpaceLines>
-    <TxtPutFeedPageCode>Put Feed Page Code</TxtPutFeedPageCode>
+    <TxtPutFeedPageCode>Feed oldal kód elhelyezése</TxtPutFeedPageCode>
+    <Type>Típus:</Type>
     <UseDefaultSystemEncoding>Rendszer kódolást használja</UseDefaultSystemEncoding>
     <UseDigitalSignature>Digitális aláírást használ</UseDigitalSignature>
     <UseEscapeCodes>Escape kódok használata</UseEscapeCodes>
@@ -599,6 +819,7 @@
     <AllImageFiles>Minden képfájl</AllImageFiles>
     <BitmapFiles>Bitmap fájlok</BitmapFiles>
     <BmpFiles>BMP kép (*.bmp)|*.bmp</BmpFiles>
+    <BusinessIntelligence>Üzleti intelligencia (*.sbi)|*.sbi</BusinessIntelligence>
     <CalcFiles>OpenDocument Calc fájlok(*.ods)|*.ods</CalcFiles>
     <CsvFiles>CSV fájlok(*.csv)|*.csv</CsvFiles>
     <DataSetXmlData>DataSet XML adat(*.xml)|*.xml</DataSetXmlData>
@@ -612,6 +833,7 @@
     <EncryptedDocumentFiles>Titkosított Dokumentum állományok (*.mdx)|*.mdx</EncryptedDocumentFiles>
     <EncryptedReportFiles>Titkosított jelentés állományok (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Microsoft Excel 2007/2013 fájlok(*.xlsx)|*.xlsx</Excel2007Files>
+    <ExcelAllFiles>Microsoft Excel fájlok (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
     <ExcelFiles>Microsoft Excel fájlok(*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Microsoft Excel XML fájlok(*.xls)|*.xls</ExcelXmlFiles>
     <ExeFiles>EXE fájlok(*.exe)|*.exe</ExeFiles>
@@ -619,6 +841,9 @@
     <HtmlFiles>HTML fájlok(*.html)|*.html</HtmlFiles>
     <InheritedLanguageFiles>{0} files for inherited reports (*.{1})|*.{2}</InheritedLanguageFiles>
     <JpegFiles>JPEG kép(*.jpeg)|*.jpeg</JpegFiles>
+    <JsonDocumentFiles>JSON jelentés dokumentumok (*.mdc)|*.mdc</JsonDocumentFiles>
+    <JsonFiles>JSON fájlok (*.json)|*.json</JsonFiles>
+    <JsonReportFiles>JSON jelentés sablonok (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} fájl(*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} fájlok Silverlight jelentéshez (*.{1})|*.{2}</LanguageForSilverlightFiles>
     <MetaFiles>Meta fájlok</MetaFiles>
@@ -643,6 +868,7 @@
     <WriterFiles>OpenDocument Writer fájlok(*.odt)|*.odt</WriterFiles>
     <XmlFiles>XML fájlok(*.xml)|*.xml</XmlFiles>
     <XpsFiles>Microsoft XPS fájlok(*.xps)|*.xps</XpsFiles>
+    <ZipArchives>ZIP archívumok (*.zip)|*.zip</ZipArchives>
   </FileFilters>
   <Formats>
     <custom01>d</custom01>
@@ -702,6 +928,7 @@
   <FormColorBoxPopup>
     <Color>Szín</Color>
     <Custom>Egyéni</Custom>
+    <NoColor>Nincs Szín</NoColor>
     <Others>Egyéb...</Others>
     <System>Rendszer</System>
     <Web>Web</Web>
@@ -711,6 +938,8 @@
     <AddCondition>&amp;Feltétel hozzáadása</AddCondition>
     <AddLevel>Szint hozzáadása</AddLevel>
     <AssignExpression>Kifejezés hozzárendelés</AssignExpression>
+    <BreakIfTrue>Megszakít ha igaz</BreakIfTrue>
+    <BreakIfTrueToolTip>Megszakítja a feltétel feldolgozást ha az aktuális feltétel teljesül</BreakIfTrueToolTip>
     <ChangeFont>Betűtípus változtat...</ChangeFont>
     <ComponentIsEnabled>Komponens engedélyezve</ComponentIsEnabled>
     <NoConditions>Nincs feltétel</NoConditions>
@@ -734,39 +963,51 @@
     <EditConnection>{0} kapcsolat módosítása</EditConnection>
     <FirebirdEdit>Edit Firebird kapcsolat</FirebirdEdit>
     <FirebirdNew>New Firebird kapcsolat</FirebirdNew>
+    <FirstRowIsHeader>Első sor a fejléc</FirstRowIsHeader>
+    <ImportData>Adat importálás</ImportData>
     <InformixEdit>Informix Kapcsolat Szerkesztés</InformixEdit>
     <InformixNew>Új Informix Kapcsolat</InformixNew>
     <InitialCatalog>Initial Catalog:</InitialCatalog>
+    <JsonEdit>JSON adat szerkesztése</JsonEdit>
+    <JsonNew>Új JSON adat</JsonNew>
     <MySQLEdit>Edit MySQL kapcsolat</MySQLEdit>
     <MySQLNew>New MySQL kapcsolat</MySQLNew>
     <NewConnection>Új {0} kapcsolat</NewConnection>
-    <OdbcEdit>Edit Odbc kapcsolat</OdbcEdit>
-    <OdbcNew>New Odbc kapcsolat</OdbcNew>
-    <OleDbEdit>Edit OleDb kapcsolat</OleDbEdit>
-    <OleDbNew>New OleDb kapcsolat</OleDbNew>
+    <OdbcEdit>Edit ODBC kapcsolat</OdbcEdit>
+    <OdbcNew>New ODBC kapcsolat</OdbcNew>
+    <OleDbEdit>Edit OLEDB kapcsolat</OleDbEdit>
+    <OleDbNew>New OLEDB kapcsolat</OleDbNew>
     <OracleEdit>Edit Oracle kapcsolat</OracleEdit>
     <OracleNew>New Oracle kapcsolat</OracleNew>
     <OracleODPEdit>Oracle ODP.NET kapcsolat módosítása</OracleODPEdit>
     <OracleODPNew>Új Oracle ODP.NET kapcsolat</OracleODPNew>
     <PathData>XML adat:</PathData>
+    <PathJsonData>JSON adat elérési út:</PathJsonData>
     <PathSchema>XSD séma:</PathSchema>
+    <PathToData>Adat elérési út:</PathToData>
+    <Pin>Megjelöl</Pin>
     <PostgreSQLEdit>PostgreSQL kapcsolat szerkesztése</PostgreSQLEdit>
     <PostgreSQLNew>Új PostgreSQL kapcsolat</PostgreSQLNew>
     <PromptUserNameAndPassword>Prompt User Name and Password</PromptUserNameAndPassword>
-    <SqlCeEdit>SQLServerCE kapcsolat szerkesztése</SqlCeEdit>
-    <SqlCeNew>Új SQLServerCE kapcsolat </SqlCeNew>
+    <RecentConnections>Előzmények</RecentConnections>
+    <ReportConnections>Jelentés kapcsolatok</ReportConnections>
+    <SqlCeEdit>SQL Server CE kapcsolat szerkesztése</SqlCeEdit>
+    <SqlCeNew>Új SQL Server CE kapcsolat </SqlCeNew>
     <SqlEdit>Sql kapcsolat szerkesztése</SqlEdit>
     <SQLiteEdit>SQLite kapcsolat szerkesztése</SQLiteEdit>
     <SQLiteNew>Új SQLite kapcsolat </SQLiteNew>
-    <SqlNew>Új Sql kapcsolat </SqlNew>
+    <SqlNew>Új SQL kapcsolat </SqlNew>
     <TeradataEdit>Teradata kapcsolat szerkesztése</TeradataEdit>
     <TeradataNew>Új teradata kapcsolat</TeradataNew>
     <UniDirectEdit>Uni Direct kapcsolat szerkesztése</UniDirectEdit>
     <UniDirectNew>Új Uni Direct kapcsolat </UniDirectNew>
+    <Unpin>Jelölés törlése</Unpin>
+    <UseBearerAuthentication>Vivő hitelesítés használata</UseBearerAuthentication>
     <VistaDBEdit>VistaDB kapcsolat szerkesztése</VistaDBEdit>
     <VistaDBNew>Új VistaDB kapcsolat </VistaDBNew>
-    <XmlEdit>Xml adat szerkesztése</XmlEdit>
-    <XmlNew>Új Xml adat</XmlNew>
+    <XmlEdit>XML adat szerkesztése</XmlEdit>
+    <XmlNew>Új XML adat</XmlNew>
+    <XmlType>XML típus:</XmlType>
   </FormDatabaseEdit>
   <FormDesigner>
     <Code>Kód</Code>
@@ -778,11 +1019,12 @@
     <HtmlPreview>HTML nézet</HtmlPreview>
     <labelPleaseSelectTypeOfInterface>Kérem válasszon interfész típust</labelPleaseSelectTypeOfInterface>
     <LoadImage>Kép megnyitás...</LoadImage>
-    <LocalizePropertyGrid>Localize Property Grid</LocalizePropertyGrid>
-    <MarginsNarrow>Narrow</MarginsNarrow>
+    <LocalizePropertyGrid>Tulajdonság rács korlátozás</LocalizePropertyGrid>
+    <MarginsNarrow>Keskeny</MarginsNarrow>
     <MarginsNormal>Normál</MarginsNormal>
     <MarginsWide>Vastag</MarginsWide>
     <OrderToolbars>Toolbar rendezés</OrderToolbars>
+    <Others>Egyéb</Others>
     <Pages>Oldalak</Pages>
     <Preview>Nyomtatási kép</Preview>
     <PropertyChange>'{0}' tulajdonságot megváltoztatni</PropertyChange>
@@ -805,10 +1047,17 @@
     <ChildSource>Gyerek adatforrás:</ChildSource>
     <ColumnEdit>Oszlop módosítás</ColumnEdit>
     <ColumnNew>Új oszlop</ColumnNew>
+    <CsvSeparatorComma>Vessző</CsvSeparatorComma>
+    <CsvSeparatorOther>Egyéb</CsvSeparatorOther>
+    <CsvSeparatorSemicolon>Pontosvessző</CsvSeparatorSemicolon>
+    <CsvSeparatorSpace>Szóköz</CsvSeparatorSpace>
+    <CsvSeparatorSystem>Rendszer</CsvSeparatorSystem>
+    <CsvSeparatorTab>Fül</CsvSeparatorTab>
     <DatabaseEdit>Adatbázis szerkesztés</DatabaseEdit>
     <DatabaseNew>Új adatbázis</DatabaseNew>
     <DataParameterEdit>Paraméter szerkesztés</DataParameterEdit>
     <DataParameterNew>Új paraméter</DataParameterNew>
+    <DataSetToBusinessObjects>Adatkészlet Üzleti Objektummá</DataSetToBusinessObjects>
     <DataSourceEdit>Adatforrás szerkesztés</DataSourceEdit>
     <DataSourceNew>Új adatforrás</DataSourceNew>
     <DataSourcesNew>Új adatforrások</DataSourcesNew>
@@ -819,10 +1068,11 @@
     <DictionaryOpen>Szótár megnyitása...</DictionaryOpen>
     <DictionarySaveAs>Szótár mentése másként...</DictionarySaveAs>
     <EditQuery>Lekérdezés szerkesztése</EditQuery>
-    <ExecutedSQLStatementSuccessfully>SQL itasítás futtatása kész.</ExecutedSQLStatementSuccessfully>
+    <ExecutedSQLStatementSuccessfully>SQL utasítás futtatása kész.</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>Új kifejezés</ExpressionNew>
-    <GetColumnsFromAssembly>Oszlopo lekérés Assembly-ből</GetColumnsFromAssembly>
+    <GetColumnsFromAssembly>Oszlop lekérés Assembly-ből</GetColumnsFromAssembly>
     <ImportRelations>Relációk importálása</ImportRelations>
+    <LabelSeparator>Elválasztó:</LabelSeparator>
     <MarkUsedItems>Használt elemek megjelölése</MarkUsedItems>
     <NewBusinessObject>Új üzleti objektum</NewBusinessObject>
     <NewItem>Új elem</NewItem>
@@ -831,15 +1081,25 @@
     <Queries>Lekérdezés</Queries>
     <QueryNew>Új lekérdezés</QueryNew>
     <QueryText>Lekérdezés szövege</QueryText>
+    <QueryTimeout>Lekérdezés időtúllépés</QueryTimeout>
     <RelationEdit>Reláció modosítása</RelationEdit>
     <RelationNew>Új reláció</RelationNew>
+    <ResourceEdit>Erőforrás módosítása</ResourceEdit>
+    <ResourceNew>Új erőforrás</ResourceNew>
     <RetrieveColumns>Oszlopok lekérése</RetrieveColumns>
-    <RetrievingDatabaseInformation>Adatbázi információk lekérése...</RetrievingDatabaseInformation>
+    <RetrieveColumnsAllowRun>Tárolt eljárás futtatásának engedélyezése</RetrieveColumnsAllowRun>
+    <RetrieveColumnsAndParameters>Oszlopok és paraméterek beolvasása</RetrieveColumnsAndParameters>
+    <RetrieveParameters>Paraméterek beolvasása</RetrieveParameters>
+    <RetrievingDatabaseInformation>Adatbázis információk lekérése...</RetrievingDatabaseInformation>
     <Run>Futtat</Run>
     <SelectTypeOfBusinessObject>Üzleti objektum típusának kiválasztása</SelectTypeOfBusinessObject>
+    <SkipSchemaWizard>Séma varázsló kihagyása</SkipSchemaWizard>
     <SortItems>Elemek rendezése</SortItems>
     <Synchronize>Szinkronizálás</Synchronize>
     <SynchronizeHint>A szinkronizálás megtörtént az adattár és a szótár között.</SynchronizeHint>
+    <TextDropDataFileHere>Ejtse az adatfájlt ide</TextDropDataFileHere>
+    <TextDropFileHere>Ejtse a fájlt ide</TextDropFileHere>
+    <TextDropImageHere>Ejtse a képfájlt ide</TextDropImageHere>
     <title>Szótár tervező</title>
     <ValueNew>Új érték</ValueNew>
     <VariableEdit>Változó szerkesztés</VariableEdit>
@@ -863,12 +1123,12 @@
     <General>Általános</General>
     <GroupSeparator>Csoport választó:</GroupSeparator>
     <GroupSize>Csoport méret:</GroupSize>
-    <nameFalse>False</nameFalse>
-    <nameNo>No</nameNo>
-    <nameOff>Off</nameOff>
-    <nameOn>On</nameOn>
-    <nameTrue>True</nameTrue>
-    <nameYes>Yes</nameYes>
+    <nameFalse>Hamis</nameFalse>
+    <nameNo>Nem</nameNo>
+    <nameOff>Ki</nameOff>
+    <nameOn>Be</nameOn>
+    <nameTrue>Igaz</nameTrue>
+    <nameYes>Igen</nameYes>
     <NegativePattern>Negatív jelölés:</NegativePattern>
     <Number>Szám</Number>
     <Percentage>Százalék</Percentage>
@@ -890,21 +1150,26 @@
     <qnGetCulture>Biztos fellül akarod írni a jelenlegi nyelvi beállításokat a report beállításaival?</qnGetCulture>
     <qnSetCulture>Biztos be akarod állítani a nyelvi beállításokat a report komponensein?</qnSetCulture>
     <RemoveCulture>&amp;Kultúra eltávolítás</RemoveCulture>
-    <SetCulture>Report nyelvi beállítások</SetCulture>
+    <SetCulture>Jelentés nyelvi beállítások</SetCulture>
     <title>Globalizáció szerkesztő</title>
   </FormGlobalizationEditor>
+  <FormInteraction>
+    <HyperlinkExternalDocuments>Hiperhivatkozás külső dokumentumra</HyperlinkExternalDocuments>
+    <HyperlinkUsingInteractionBookmark>Hiperhivatkozás könyvjelző használatával</HyperlinkUsingInteractionBookmark>
+    <HyperlinkUsingInteractionTag>Hiperhivatkozás címke használatával</HyperlinkUsingInteractionTag>
+  </FormInteraction>
   <FormOptions>
     <AutoSave>Automatikus mentés</AutoSave>
-    <AutoSaveReportToReportClass>Automatikus jelentés mentés C# vagy Vb.Net fájlba</AutoSaveReportToReportClass>
+    <AutoSaveReportToReportClass>Automatikus jelentés mentés C# vagy VB.NET fájlba</AutoSaveReportToReportClass>
     <Default>Alapértelmezett</Default>
     <Drawing>Rajzolás</Drawing>
     <DrawMarkersWhenMoving>Mutatók rajzolsáa mozgás közben</DrawMarkersWhenMoving>
     <EditAfterInsert>Beszúrás után szerkeszt</EditAfterInsert>
     <EnableAutoSaveMode>Automatikus mentés mód engedélyezése</EnableAutoSaveMode>
-    <FillBands>Bandok kitöltése</FillBands>
+    <FillBands>Sávok kitöltése</FillBands>
     <FillComponents>Komponens kitöltés</FillComponents>
     <FillContainers>Tároló kitöltés</FillContainers>
-    <FillCrossBands>Cross Bands kitöltés</FillCrossBands>
+    <FillCrossBands>Cross sáv kitöltés</FillCrossBands>
     <GenerateLocalizedName>Lokalizált név generálása</GenerateLocalizedName>
     <Grid>Rács</Grid>
     <GridDots>Pontok</GridDots>
@@ -924,7 +1189,7 @@
     <labelColorScheme>Szín séma:</labelColorScheme>
     <labelInfoAutoSave>Autómentés paramétereinek megváltoztatása</labelInfoAutoSave>
     <labelInfoDrawing>Jelentés rajzolás paraméterei</labelInfoDrawing>
-    <labelInfoGrid>How Grid is shown and used in a report</labelInfoGrid>
+    <labelInfoGrid>Hogyan jelenik meg és kerül használatra a rács a jelentésben</labelInfoGrid>
     <labelInfoGui>Válaszd ki a tervező GUI módját</labelInfoGui>
     <labelInfoMain>Állítsd be a alap paramétereit a tervezőnek</labelInfoMain>
     <labelInfoQuickInfo>Komponens gyorsinfók az oldalon</labelInfoQuickInfo>
@@ -933,6 +1198,8 @@
     <MarkersStyleCorners>Sarkok</MarkersStyleCorners>
     <MarkersStyleDashedRectangle>Pontozott téglalap</MarkersStyleDashedRectangle>
     <MarkersStyleNone>Nincs</MarkersStyleNone>
+    <MessageLeftRightNotValid>Bal és jobb érték nem érvényes.</MessageLeftRightNotValid>
+    <MessageTopBottomNotValid>Felső és alsó érték nem érvényes.</MessageTopBottomNotValid>
     <Minutes>{0} perc</Minutes>
     <SaveReportEvery>Jelentés mentése:</SaveReportEvery>
     <SelectUILanguage>UI nyelv kiválasztása</SelectUILanguage>
@@ -965,6 +1232,7 @@
     <labelMultipleFactor>Többszörös tényező:</labelMultipleFactor>
     <labelPaperSourceOfFirstPage>Az első oldal forrása :</labelPaperSourceOfFirstPage>
     <labelPaperSourceOfOtherPages>Többi oldal forrása:</labelPaperSourceOfOtherPages>
+    <labelSelectBrush>Ecset választása:</labelSelectBrush>
     <labelSelectColor>Szín:</labelSelectColor>
     <labelSelectFont>Betűtípus:</labelSelectFont>
     <labelSelectImage>Kép:</labelSelectImage>
@@ -978,7 +1246,7 @@
     <Paper>Papír:</Paper>
     <RebuildReport>Jelentés újraépítés</RebuildReport>
     <Right>Jobb:</Right>
-    <ScaleContent>Scale Content</ScaleContent>
+    <ScaleContent>Skéla tartalom</ScaleContent>
     <Size>Méret:</Size>
     <title>Oldal beállítás</title>
     <Top>Felső:</Top>
@@ -993,7 +1261,7 @@
     <groupUnits>Méret és coordináta mértékegység amiben a jelentés készül</groupUnits>
     <labelInfoDescription>Jelentés szükséges leírása</labelInfoDescription>
     <labelInfoMain>Változtasd meg a jeletés fő beállításait</labelInfoMain>
-    <labelNumberOfPass>Number of Pass:</labelNumberOfPass>
+    <labelNumberOfPass>Pass száma:</labelNumberOfPass>
     <labelReportCacheMode>Jelentés cache mód:</labelReportCacheMode>
     <ReportChanged>Jelentés módosítva:</ReportChanged>
     <ReportCreated>Jelentés létrehozva:</ReportCreated>
@@ -1008,12 +1276,14 @@
   </FormRichTextEditor>
   <FormStyleDesigner>
     <Add>Stílus hozzáadása</Add>
-    <ApplyStyleCollectionToReportComponents>Stílus gyüjtemény alkalmazása a komponenseken</ApplyStyleCollectionToReportComponents>
+    <ApplyStyleCollectionToReportComponents>Stílus gyűjtemény alkalmazása a komponenseken</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>Stílusok alkalmazása</ApplyStyles>
-    <CreateStyleCollection>Stílus gyüjtemény létrehozása</CreateStyleCollection>
+    <ColorCollectionEditor>Színgyűjtemény szerkesztő</ColorCollectionEditor>
+    <CreateStyleCollection>Stílus gyűjtemény létrehozása</CreateStyleCollection>
     <CreateStylesFromColor>Stílus létrehozása a kiválasztott színből</CreateStylesFromColor>
     <Duplicate>Stílus másolása</Duplicate>
     <GetStyle>Stílus lekérdezése a kiválasztott komponensekből</GetStyle>
+    <MoreStyles>További stílusok</MoreStyles>
     <Open>Stílus megnyitása</Open>
     <qnApplyStyleCollection>Alkalmazni kívánod a stílus gyűjteményt a report komponensein?</qnApplyStyleCollection>
     <Remove>Stílus eltávolítása</Remove>
@@ -1026,8 +1296,8 @@
   <FormSystemTextEditor>
     <Condition>Feltételek</Condition>
     <LabelDataBand>Adat sáv:</LabelDataBand>
-    <LabelDataColumn>Asat mező:</LabelDataColumn>
-    <LabelShowInsteadNullValues>Show Instead Null Values:</LabelShowInsteadNullValues>
+    <LabelDataColumn>Adat mező:</LabelDataColumn>
+    <LabelShowInsteadNullValues>Null értékek helyett mutasson:</LabelShowInsteadNullValues>
     <LabelSummaryFunction>Összesen funkció:</LabelSummaryFunction>
     <pageExpression>Kifejezés</pageExpression>
     <pageSummary>Összesen</pageSummary>
@@ -1049,17 +1319,19 @@
     <DataSourceSelectForm>Válassz adatforrást</DataSourceSelectForm>
     <DataSourcesNewForm>Új adatforrás</DataSourcesNewForm>
     <DataStoreViewerForm>Adattár megjelenítő</DataStoreViewerForm>
+    <DesignerApplication>Jelentés tervező</DesignerApplication>
     <EventEditorForm>Esemény szerkesztő</EventEditorForm>
     <ExpressionEditorForm>Kifejezés szerkesztő</ExpressionEditorForm>
     <GroupConditionForm>Csoport feltételek</GroupConditionForm>
-    <InteractionDrillDownPageSelectForm>Select Drill-Down Page</InteractionDrillDownPageSelectForm>
+    <InteractionDrillDownPageSelectForm>Lefúrás oldal választása</InteractionDrillDownPageSelectForm>
     <MasterComponentSelectForm>Válassz mester komponenst</MasterComponentSelectForm>
     <PageAddForm>Oldal hozzáadása</PageAddForm>
     <PageSizeForm>Oldal méret</PageSizeForm>
     <PagesManagerForm>Oldal manager</PagesManagerForm>
     <PromptForm>Add meg az információkat a bejelentkezéshez</PromptForm>
+    <ReportWizard>Jelentés varázsló</ReportWizard>
     <ServiceSelectForm>Válassz szolgáltatást</ServiceSelectForm>
-    <SqlExpressionsForm>Sql kifejezés</SqlExpressionsForm>
+    <SqlExpressionsForm>SQL kifejezés</SqlExpressionsForm>
     <SubReportPageSelectForm>Válassz beágyazott jelentés oldalt</SubReportPageSelectForm>
     <TextEditorForm>Szöveg szerkesztő</TextEditorForm>
     <ViewDataForm>Adat megtekintés</ViewDataForm>
@@ -1119,9 +1391,41 @@
   <FormViewerFind>
     <Close>Bezár</Close>
     <FindNext>Keres következőt</FindNext>
-    <FindPrevious>Előző Találat</FindPrevious>
+    <FindPrevious>Előző találat</FindPrevious>
     <FindWhat>Mit keres:</FindWhat>
   </FormViewerFind>
+  <Gauge>
+    <AddNewItem>Új elem hozzáadása</AddNewItem>
+    <BarRangeList>Sáv tartomány lista</BarRangeList>
+    <GaugeEditorForm>Méret szerkesztő</GaugeEditorForm>
+    <Kind>Jelleg</Kind>
+    <LinearBar>Lineáris sáv</LinearBar>
+    <LinearMarker>Lineáris jelző</LinearMarker>
+    <LinearRange>Lineáris tartomány</LinearRange>
+    <LinearRangeList>Lineáris tartomány lista</LinearRangeList>
+    <LinearScale>Lineáris skála</LinearScale>
+    <LinearTickLabelCustom>Lineáris Tick címke egyéni</LinearTickLabelCustom>
+    <LinearTickLabelMajor>Lineáris Tick címke nagyobb</LinearTickLabelMajor>
+    <LinearTickLabelMinor>Lineáris Tick címke kisebb</LinearTickLabelMinor>
+    <LinearTickMarkCustom>Lineáris Tick jel egyéni</LinearTickMarkCustom>
+    <LinearTickMarkMajor>Lineáris Tick jel nagyobb</LinearTickMarkMajor>
+    <LinearTickMarkMinor>Lineáris Tick jel kisebb</LinearTickMarkMinor>
+    <Needle>Tű</Needle>
+    <RadialBar>Radiális sáv</RadialBar>
+    <RadialMarker>Radiális jelző</RadialMarker>
+    <RadialRange>Radiális tartomány</RadialRange>
+    <RadialRangeList>Radiális tartomány lista</RadialRangeList>
+    <RadialScale>Radiális skála</RadialScale>
+    <RadialTickLabelCustom>Radiális Tick címke egyéni</RadialTickLabelCustom>
+    <RadialTickLabelMajor>Radiális Tick címke nagyobb</RadialTickLabelMajor>
+    <RadialTickLabelMinor>Radiális Tick címke kisebb</RadialTickLabelMinor>
+    <RadialTickMarkCustom>Radiális Tick jel egyéni</RadialTickMarkCustom>
+    <RadialTickMarkMajor>Radiális Tick jel nagyobb</RadialTickMarkMajor>
+    <RadialTickMarkMinor>Radiális Tick jel kisebb</RadialTickMarkMinor>
+    <StateIndicator>Állapotjelző</StateIndicator>
+    <StateIndicatorFilter>Állapotjelző szűrő</StateIndicatorFilter>
+    <TickCustomValue>Tick egyéni érték</TickCustomValue>
+  </Gauge>
   <Gui>
     <barname_cancel>Mégsem</barname_cancel>
     <barname_caption>Új eszköztár</barname_caption>
@@ -1170,7 +1474,7 @@
     <cust_chk_showst>&amp;Eszköztár gyorstippek megjelennek</cust_chk_showst>
     <cust_lbl_cats>Kategóriák:</cust_lbl_cats>
     <cust_lbl_cmds>&amp;Utasítások:</cust_lbl_cmds>
-    <cust_lbl_cmdsins>To add a command to Bar select the category and drag the command out of this box to a Bar.</cust_lbl_cmdsins>
+    <cust_lbl_cmdsins>Parancs hozzáadásához a sávon válasszon kategóriát, és húzza a parancsot ki ebből a dobozból egy sávra.</cust_lbl_cmdsins>
     <cust_lbl_menuan>Menü animáció:</cust_lbl_menuan>
     <cust_lbl_other>Más:</cust_lbl_other>
     <cust_lbl_pmt>Személyre szabott menük és eszköztárak</cust_lbl_pmt>
@@ -1202,10 +1506,10 @@
     <mdisystt_restore>Visszaállít</mdisystt_restore>
     <monthcalendar_clearbutton>Töröl</monthcalendar_clearbutton>
     <monthcalendar_todaybutton>Ma</monthcalendar_todaybutton>
-    <navbar_navpaneoptions>Na&amp;vigation Pane Options...</navbar_navpaneoptions>
-    <navbar_showfewerbuttons>Mutat &amp;Fewer gombot</navbar_showfewerbuttons>
+    <navbar_navpaneoptions>Na&amp;vigációs pane opciók...</navbar_navpaneoptions>
+    <navbar_showfewerbuttons>Mutat &amp;Kevesebb gombot</navbar_showfewerbuttons>
     <navbar_showmorebuttons>Mutat &amp;Több gombot</navbar_showmorebuttons>
-    <navPaneCollapseTooltip>Navigációs panere gyüjtés</navPaneCollapseTooltip>
+    <navPaneCollapseTooltip>Navigációs panere gyűjtés</navPaneCollapseTooltip>
     <navPaneExpandTooltip>Kiterjeszt navigációs panel</navPaneExpandTooltip>
     <sys_custombar>Egyedi sáv</sys_custombar>
     <sys_morebuttons>További gombok</sys_morebuttons>
@@ -1228,6 +1532,7 @@
     <StiDataBand>Ez a komponens csatlakozik az adatforráshoz, minden adatforrásban szereplő sornál megjelenik egyszer ez a sáv.</StiDataBand>
     <StiEmptyBand>Ez a sáv egy üres teret eredményez minden oldal alján</StiEmptyBand>
     <StiFooterBand>Ezzel a sávval lehet összesítő adatokat megjeleníteni a jelentés végén.</StiFooterBand>
+    <StiGauge>A komponens lehetővé teszi érték megjelenítését előre megadott tartományon belül. Grafikus ábrázolása eltérő lehet.</StiGauge>
     <StiGroupFooterBand>Ez a sáv szolgál a csoport összesítések megjelenítésére. Minden csoport lábléchez tartozik egy csoport fejléc amit figyel, és az ott megadottak alapján  összesíti az adatokat.</StiGroupFooterBand>
     <StiGroupHeaderBand>Ez a sáv  szolgál a csoportok definiálásara. Itt lehet megejeleníteni információkat a csoportról név, dátum stb.</StiGroupHeaderBand>
     <StiHeaderBand>Ez a komponens szolgál az adatsávok fejlécének megjelenítésére. Az adatsorok felett jelenik meg.</StiHeaderBand>
@@ -1286,6 +1591,7 @@
     <Close>Jelentés tervező bezárása.</Close>
     <Columns>Oldal oszlopokra osztása.</Columns>
     <ComponentSize>omponens méretének megváltoztatása.</ComponentSize>
+    <CopyStyle>Másolás stílusa</CopyStyle>
     <CopyToClipboard>Másolás vágólapra</CopyToClipboard>
     <CurrencySymbol>Pénznem szimbólum kiválasztása.</CurrencySymbol>
     <DataStore>Reportban regisztrált adatok megmutatása.</DataStore>
@@ -1352,7 +1658,7 @@
     <menuViewNormal>Normál nézete az oldalnak.</menuViewNormal>
     <menuViewPageBreakPreview>Oldaltörésekkel megjelenítő mód.</menuViewPageBreakPreview>
     <menuViewQuickInfo>Gyors infók a komponensekről: név, aliasz, stb.</menuViewQuickInfo>
-    <menuViewShowGrid>igazító rács megjelenítése.</menuViewShowGrid>
+    <menuViewShowGrid>Igazító rács megjelenítése.</menuViewShowGrid>
     <menuViewShowHeaders>Sávok fejlécének megjelenítése.</menuViewShowHeaders>
     <menuViewShowOrder>Komponens sorrend mutatása az oldalon.</menuViewShowOrder>
     <menuViewShowRulers>Szabályok megmutatása.</menuViewShowRulers>
@@ -1364,6 +1670,7 @@
     <PageSetup>Oldalbeállítás megnyitása.</PageSetup>
     <PageSize>Oldal méret kiválasztása.</PageSize>
     <PagesManager>Oldal manager megnyitása.</PagesManager>
+    <PressF1>Nyomj F1-et további információkért</PressF1>
     <Redo>Visszavonás megfordítása.</Redo>
     <ReportNew>Új jelentés készítése.</ReportNew>
     <ReportOpen>Jelentés megnyitésa tervezőbe.</ReportOpen>
@@ -1377,7 +1684,9 @@
     <ShowBehind>Vízjel felirat megjelenítése háttérben.</ShowBehind>
     <ShowImageBehind>Vízjel minden komponens mögött.</ShowImageBehind>
     <ShowToolbox>Eszköztár megjelenítése.</ShowToolbox>
+    <StimulsoftHelp>Segítsen a Stimulsoft-nak</StimulsoftHelp>
     <StyleDesigner>Stílus tervező megnyitása.</StyleDesigner>
+    <TellMeMore>Többet szeretnék megtudni</TellMeMore>
     <Text>Vízjel szöveg.</Text>
     <TextBrush>Szöveg szín megváltoztatása.</TextBrush>
     <TextBrushWatermark>Vízjel szöveg színének megváltoztatása.</TextBrushWatermark>
@@ -1406,17 +1715,58 @@
     <StiRadioButtonControl>Választó kontrol egy elem választására</StiRadioButtonControl>
     <StiRichTextBoxControl>RTF szövegek szerkesztésére megjelenítésére szolgáló kontrol.</StiRichTextBoxControl>
     <StiTextBoxControl>Text box kontrol szöveg bevitelre.</StiTextBoxControl>
-    <StiTreeViewControl>Fa szerkezetben megjelenírtendő adatok kezelésére szolgáló kontrol.</StiTreeViewControl>
+    <StiTreeViewControl>Fa szerkezetben megjelenítendő adatok kezelésére szolgáló kontrol.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
+    <AddPageBreaks>Jelentés oldalak vizuális elválasztója.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>Korlátozott hozzáférés a dokumentum megjegyzéseihez.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Korlátozott hozzáférés információk másolásához.</AllowCopyTextAndGraphics>
+    <AllowEditable>Csak azon komponensek módosítását teszi lehetővé, melyek szerkeszthető tulajdonsága engedélyezett.</AllowEditable>
+    <AllowModifyContents>Korlátozott hozzáférés a szövegszerkesztéshez.</AllowModifyContents>
+    <AllowPrintDocument>Korlátozott hozzáférés a nyomtatási művelethez.</AllowPrintDocument>
     <Bookmarks>Könyvjelző panel megnyitása a gyors navigáláshoz.</Bookmarks>
+    <BorderType>Komponensek szegélyeinek típusa: egyszerű - komponensek szegélyeinek kirajzolása karakterekkel +, -, |; Unicode egyszeres - szegélyek kirajzolása egyszeres karakterekkel, Unicode dupla - határok kirajzolása dupla karakterekkel.</BorderType>
     <Close>Nyomtatási kép bezárása. Visszatérés a szerkesztőbe.</Close>
     <CloseDotMatrix>DOT Matrix nézőke bezárása. Visszatérés a szerkesztőbe.</CloseDotMatrix>
+    <Compressed>Kész dokumentum tömörítése. Ajánlott a tömörítés használata.</Compressed>
+    <CompressToArchive>Az összes fájl és könyvtár becsomagolása.</CompressToArchive>
+    <ContinuousPages>A jelentés oldalak elhelyezése függőleges szalagként.</ContinuousPages>
+    <CurrentPage>Jelenlegi oldal feldolgozása. Ennél a beállításnál a kiválasztott oldal kerül feldolgozásra.</CurrentPage>
+    <CutEdges>Jelentés oldalak szegélyeinek levágása.</CutEdges>
+    <CutLongLines>Hosszú sorok levágása a komponensek szegélyeinél.</CutLongLines>
+    <DigitalSignature>A fájl digitális aláírása.</DigitalSignature>
+    <DitheringType>Árnyalás típusa: Nincs - nincs árnyalás, Rendezett, FloydSt - árnyalással.</DitheringType>
     <DotMatrixMode>Ez a mód megmutatja hogy nézne ki a jelentés egy mátrix nyomtatón.</DotMatrixMode>
+    <DrawBorder>Komponensek határainak kirajzolása grafikus karakterekkel.</DrawBorder>
     <Edit>Komponensek szerkesztése.</Edit>
+    <EmbeddedFonts>Betűtípus fájlok beágyazása a PDF fájlba.</EmbeddedFonts>
+    <EmbeddedImageData>Képek beágyazása közvetlenül a HTML fájlba.</EmbeddedImageData>
+    <Encoding>Jelentés szövegének kódolása exportálás után.</Encoding>
+    <EncodingData>Adatfájl kódolása.</EncodingData>
+    <EncryptionKeyLength>A titkosításhoz használt kulcs hossza. Minél hosszabb, annál nehezebb a dokumentum dekódolása és ennek megfelelően a dokumentum is nagyobb biztonságban van.</EncryptionKeyLength>
+    <ExportDataOnly>Csak az adatsávok exportálása (a táblázat komponens, hierarchikus sáv).</ExportDataOnly>
+    <ExportEachPageToSheet>Minden egyes oldal külön Excel munkafüzetbe exportálása.</ExportEachPageToSheet>
+    <ExportMode>Szűrő megadása exportáláskor. Csak adat - csak adatsávok (táblázat komponens, hierarchikus sáv) lesznek exportálva. Adat és Fejléc/Lábléc - adatsávok (táblázat komponens, hierarchikus sáv) és fejléceik/lábléceik lesznek exportálva. Minden sáv - Minden jelentés sáv exportálásra kerül.</ExportMode>
+    <ExportModeHtml>A HTML oldal megjelölésének folyamata.</ExportModeHtml>
+    <ExportModeRtf>A jelentés adatainak megjelenítése export után. A táblázat - a jelentés úgy fog kinézni, mint egy táblázat, ahol minden komponens a táblázat egy cellája. Keret - minden komponens egyetlen vázként fog kinézni, de nem lesz kapcsolat közöttük.</ExportModeRtf>
+    <ExportObjectFormatting>Formázás használata exportált Adat sávokon (táblázat komponens, hierarchikus sáv).</ExportObjectFormatting>
+    <ExportPageBreaks>A jelentéslapok széleinek mutatása az Excel munkafüzetben.</ExportPageBreaks>
+    <ExportRtfTextAsImage>Az RTF szöveg konvertálása képpé. Ha ez az opció be van kapcsolva, akkor exportáláskor, a RichText a PDF formátum által támogatott egyszerűbb részekre bomlik. A komplex formázással ellátott RichText (beágyazott képekkel, táblázatokkal) nem mindig konvertálható megfelelően. Ebben az esetben ajánlott ezen opció bekapcsolása.</ExportRtfTextAsImage>
     <Find>Szöveg keresése a jelentésben.</Find>
     <FullScreen>Teljes képernyős olvassás.</FullScreen>
+    <GetCertificateFromCryptoUI>A rendszer titkosítási könyvtárainak használata.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>Tömörítés módszere: JPEG - ez minőség csökkenéséhez vezethet, Flate – nincs minőség csökkenés, Egyszerű, Rendezett, FloydSt - monokróm képek.</ImageCompressionMethod>
+    <ImageFormat>A kész fájl képformátuma.</ImageFormat>
+    <ImageQuality>Megválasztható a kép minőség/méret aránya a fájlnak. Ha jobb a minőség, akkor nagyobb lesz a végső fájl mérete is.</ImageQuality>
+    <ImageQualityPdf>Ez az opció csak a JPEG tömörítésnél érhető el, és lehetővé teszi a fájl minőség/méret arányának megadását. Minél jobb a minőség, annál nagyob a kész fájl mérete.</ImageQualityPdf>
+    <ImageResolution>Az egy inchre eső pixelek száma. Minél nagyobb a pixelek száma, annál jobb lesz a képminőség. A kész fájl mérete jóval nagyobb lesz.</ImageResolution>
+    <ImageType>A kép színösszeállítása: színes - egy kép exportálás után a tervezőben látottaknak megfelelő lesz; szürke – egy kép az exportálás után szürkeárnyalatos lesz; monokróm - a képek szigorúan fekete-fehérek lesznek. Ugyanakkor figyelembe kell venni, hogy a monokrómnak három típusa van: Nincs, Rendezett, FloydSt.</ImageType>
+    <KillSpaceLines>Üres sorok eltávolítása a dokumentumból.</KillSpaceLines>
+    <MultipleFiles>A jelentés minden oldala lehet egy különálló fájl.</MultipleFiles>
     <Open>Korábbi mentett jelentés betöltése.</Open>
+    <OpenAfterExport>Az elkészült dokumentum megnyitása (exportálás után) a fájltípushoz rendelt programmal.</OpenAfterExport>
+    <OwnerPassword>A fájlokkal való műveletekhez szükséges jelszó.</OwnerPassword>
+    <PageAll>A jelentés összes oldalának feldolgozása.</PageAll>
     <PageDelete>Kiválasztott oldal törlése.</PageDelete>
     <PageDesign>Kiválasztott oldal szerkesztése.</PageDesign>
     <PageFirst>Ugrás az első oldalra.</PageFirst>
@@ -1427,27 +1777,51 @@
     <PagePrevious>Előző oldalra ugrás</PagePrevious>
     <PageSize>Oldal beállítás módosítása.</PageSize>
     <Parameters>Renderelés paraméter ablakának megjelenítése.</Parameters>
+    <PdfACompliance>A szabvány támogatása, mely lehetővé teszi az elektronikus dokumentumok hosszú távú tárolását, archiválását.</PdfACompliance>
     <Print>Nyomtatás.</Print>
+    <PutFeedPageCode>Oldalak megjelölése a végső dokumentumban egy speciális karakterrel.</PutFeedPageCode>
+    <RangePages>A feldolgozandó oldalak számai. Megadhat egyetlen oldalt, oldalak egy listáját (vesszőt használva elválasztó karakterként), valamint megadható tartomány, melyhez be kell állítani a kezdőoldalt, elválasztva a "-" karakterrel az utolsó oldaltól. Például: 1,3,5-12.</RangePages>
+    <RemoveEmptySpaceAtBottom>Az üres terület minimalizálása az oldal aljára.</RemoveEmptySpaceAtBottom>
+    <RestrictEditing>Változtatások korlátozása egy Word dokumentumban.</RestrictEditing>
     <Save>Jelentés elmentése.</Save>
+    <ScaleHtml>A jelentés oldalainak és elemeinek mérete (méretezés) az exportálás után.</ScaleHtml>
+    <ScaleImage>A mérete (méretezése) a jelentésnek az exportálás után. Ha kisebb a méretezés, akkor több pixel jut egy inchre, és fordítva.</ScaleImage>
     <SendEMail>Jelentés küldése e-mailban.</SendEMail>
+    <Separator>Az adatokat elválasztó karakter a CSV fájlban.</Separator>
+    <SkipColumnHeaders>Bekapcsolja/kikapcsolja az oszlopfejléceket.</SkipColumnHeaders>
+    <StandardPdfFonts>14 szabvány Adobe betűtípus. Ha ez az opció be van kapcsolva, akkor csak a 14 szabványos betűtípus kerül felhasználásra a PDF fájlban. A jelentés összes betűtípusa ezekre lesz konvertálva.</StandardPdfFonts>
+    <SubjectNameString>Tanúsítvány azonosító. Az azonosító a tanúsítvány tulajdonosának neve (teljes sor), vagy a név egy része (töredékszó).</SubjectNameString>
     <Thumbnails>Miniatűrök megjelenítése a gyorsabb navigáláshoz.</Thumbnails>
+    <TiffCompressionScheme>Tömörítési séma TIFF fájlokhoz.</TiffCompressionScheme>
     <ToolEditor>Ez az eszköz lehetővé teszi hogy tudd módosítani a szöveg komponens tartalmát a report nézőben.</ToolEditor>
+    <TypeExport>A fájl, amelybe konvertáljuk a riportot.</TypeExport>
+    <UseDefaultSystemEncoding>Alapértelmezett rendszer kódolás  használata, vagy szabvány kódolás megadása.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>Az oldalak fejléceinek és lábléceinek beállítása az MS Word dokumentum fejléceivé és lábléceivé.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>A fejléc és lábléc sávok használata az MS Word dokumentumban fejlécként és láblécként.</UsePageHeadersAndFooters>
+    <UserPassword>Jelszó szükséges a dokumentum megnyitásához.</UserPassword>
+    <UseUnicode>Kiterjesztett támogatás karakterek kódolásához. A PDF fájl belső karakterkódolását érinti, és javítja a szöveg másolását a PDF fájlból.</UseUnicode>
     <ViewModeContinuous>Folyamatos megjelenítés</ViewModeContinuous>
     <ViewModeMultiplePages>Több oldalas megjelenítési mód.</ViewModeMultiplePages>
     <ViewModeSinglePage>Egy oldalas megjelenítés.</ViewModeSinglePage>
     <ZoomMultiplePages>Több oldalas megjelenítés.</ZoomMultiplePages>
-    <ZoomOnePage>Egy oldal nyujtása képernyőre.</ZoomOnePage>
+    <ZoomOnePage>Egy oldal nyújtása képernyőre.</ZoomOnePage>
     <ZoomPageWidth>Szélesség figyelemebevételével méretezi az oldalt.</ZoomPageWidth>
     <ZoomTwoPages>Két oldalra méretezi a jelentést.</ZoomTwoPages>
+    <ZoomTxt>A jelentés mérete (méretezés): X - a vízszintes méretezés állítása, Y - a függőleges méretezés állítása.</ZoomTxt>
   </HelpViewer>
   <MainMenu>
     <menuCheckIssues>Hibák megtekintése</menuCheckIssues>
     <menuContextClone>Klónoz...</menuContextClone>
     <menuContextDesign>Tervez...</menuContextDesign>
     <menuContextTextFormat>Szöveg formázás...</menuContextTextFormat>
+    <menuConvertToCheckBox>Konvertálás CheckBox formába</menuConvertToCheckBox>
+    <menuConvertToImage>Konvertálás képpé</menuConvertToImage>
+    <MenuConvertToRichText>Konvertálás Rich Text formába</MenuConvertToRichText>
+    <menuConvertToText>Konvertálás szöveggé</menuConvertToText>
     <menuDeleteColumn>Oszloptörlés</menuDeleteColumn>
     <menuDeleteRow>Sortörlés</menuDeleteRow>
     <menuEdit>&amp;Szerkeszt</menuEdit>
+    <menuEditBusinessObjectFromDataSetNew>Új üzleti objektum adatkészletből...</menuEditBusinessObjectFromDataSetNew>
     <menuEditBusinessObjectNew>Új üzleti objektum...</menuEditBusinessObjectNew>
     <menuEditCalcColumnNew>Új számított mező...</menuEditCalcColumnNew>
     <menuEditCantRedo>Nem lehet mégis beírni</menuEditCantRedo>
@@ -1469,6 +1843,7 @@
     <menuEditRedoText>&amp;Mégis {0}</menuEditRedoText>
     <menuEditRelationNew>Új reláció...</menuEditRelationNew>
     <menuEditRemoveUnused>Nem használt elemk eltávolítása</menuEditRemoveUnused>
+    <menuEditResourceNew>Új erőforrás...</menuEditResourceNew>
     <menuEditSelectAll>Mind &amp;kijelöl</menuEditSelectAll>
     <menuEditSynchronize>Szinkrionizál</menuEditSynchronize>
     <menuEditUndo>Viss&amp;zavon</menuEditUndo>
@@ -1477,6 +1852,7 @@
     <menuEditViewData>Adat megtekintése...</menuEditViewData>
     <menuFile>&amp;Fájl</menuFile>
     <menuFileClose>Be&amp;zár</menuFileClose>
+    <menuFileDashboardNew>Új irányítópult</menuFileDashboardNew>
     <menuFileExit>&amp;Kilép</menuFileExit>
     <menuFileExportXMLSchema>XML séma exportálása...</menuFileExportXMLSchema>
     <menuFileFormNew>Új form</menuFileFormNew>
@@ -1501,6 +1877,7 @@
     <menuFileReportSaveAsToGoogleDocs>Report mentése Google Docs-ba...</menuFileReportSaveAsToGoogleDocs>
     <menuFileReportSetup>Jelentés &amp;beállítás...</menuFileReportSetup>
     <menuFileReportWizardNew>Új jelentés &amp;varázslóval...</menuFileReportWizardNew>
+    <menuFileSave>Mentés...</menuFileSave>
     <menuFileSaveAs>Mentés másként...</menuFileSaveAs>
     <menuHelp>&amp;Segítség</menuHelp>
     <menuHelpAboutProgramm>&amp;Névjegy...</menuHelpAboutProgramm>
@@ -1544,6 +1921,157 @@
     <menuViewShowRulers>Vonalzó megjelenítlése</menuViewShowRulers>
     <menuViewToolbars>Eszköztárak</menuViewToolbars>
   </MainMenu>
+  <Map>
+    <GroupAsia>Ázsia</GroupAsia>
+    <GroupEurope>Európa</GroupEurope>
+    <GroupNorthAmerica>Észak-Amerika</GroupNorthAmerica>
+    <GroupOceania>Óceánia</GroupOceania>
+    <GroupSouthAmerica>Dél-Amerika</GroupSouthAmerica>
+    <GroupWorld>Világ</GroupWorld>
+    <LinkDataForm>Adat hivatkozása</LinkDataForm>
+    <MapEditorForm>Térkép szerkesztő</MapEditorForm>
+  </Map>
+  <Messages>
+    <MessageTimeOutExpired>A parancs időtúllépés lejárt!</MessageTimeOutExpired>
+    <TextRegistrationSuccessfully>Sikeres regisztráció!
+
+Az Emailt ide küldtük "{0}".
+Egy hiperhivatkozást tartalmaz a regisztráció megerősítéséhez. A regisztráció befejezéséhez kattintson az emailben kapott hiperhivatkozásra.</TextRegistrationSuccessfully>
+    <ThisFieldIsNotSpecified>Ez a mező nem meghatározott!</ThisFieldIsNotSpecified>
+  </Messages>
+  <Notices>
+    <AccessDenied>Hozzáférés megtagadva!</AccessDenied>
+    <ActivationExpiriedBeforeFirstRelease>A Stimulsoft Reports.Ultimate előfizetése hamarabb lejárt, mint az első verziójú Stimulsoft Reports.Server megjelent volna!</ActivationExpiriedBeforeFirstRelease>
+    <ActivationLicenseIsNotCorrect>Helytelen licenc fájl! Kérem vegye fel a kapcsolatot az értékesítési osztályunkkal a sales@stimulsoft.com címen!</ActivationLicenseIsNotCorrect>
+    <ActivationLockedAccount>A fiókja zárolva van. Kérem vegye fel a kapcsolatot az értékesítési osztályunkkal a sales@stimulsoft.com címen!</ActivationLockedAccount>
+    <ActivationMaxActivationsReached>Elérte az aktiválási lehetőségek maximális számát. Kérem vegye fel a kapcsolatot értékesítési osztályunkkal a sales@stimulsoft.com címen!</ActivationMaxActivationsReached>
+    <ActivationServerIsNotAvailableNow>A Stimulsoft Activation Server nem elérhető jelenleg! Kérem próbálja meg később.</ActivationServerIsNotAvailableNow>
+    <ActivationServerVersionNotAllowed>Nem aktiválhatja ezt a verziójú Stimulsoft Reports.Server-t, mert az előfizetői program lejárt! Kérem lépjen be a fiókjába és ellenőrizze mely verziójú Stimulsoft Reports.Server-t telepítheti és aktiválhatja.</ActivationServerVersionNotAllowed>
+    <ActivationSomeTroublesOccurred>Hiba lépett fel aktiválás közben. Kérem próbálja meg később.</ActivationSomeTroublesOccurred>
+    <ActivationUserNameOrPasswordIsWrong>Helytelen felhasználónév (Email) vagy jelszó!</ActivationUserNameOrPasswordIsWrong>
+    <ActivationWrongAccountType>A fiók típusa nem engedi a Stimulsoft Reports.Server aktiválását!</ActivationWrongAccountType>
+    <AuthAccountCantBeUsedNow>A fiók jelenleg nem használható!</AuthAccountCantBeUsedNow>
+    <AuthAccountIsNotActivated>A fiók még nincs aktiválva! Kérem kövesse a regisztráció során megadott Email címre érkezett utasításokat.</AuthAccountIsNotActivated>
+    <AuthCantChangeRoleBecauseLastAdministratorUser>A felhasználói szerepkör nem módosítható, mert ez az utolsó adminisztrátor felhasználó ebben a munkakörnyezetben!</AuthCantChangeRoleBecauseLastAdministratorUser>
+    <AuthCantChangeRoleBecauseLastSupervisorUser>A felhasználó szerepkör nem módosítható, mert ez az utolsó felügyelő felhasználó ezen a szerveren!</AuthCantChangeRoleBecauseLastSupervisorUser>
+    <AuthCantChangeSystemRole>A rendszer szerepkör nem módosítható!</AuthCantChangeSystemRole>
+    <AuthCantDeleteHimselfUser>A felhasználó nem törölheti önmagát!</AuthCantDeleteHimselfUser>
+    <AuthCantDeleteLastAdministratorUser>A felhasználó nem törölhető, mert ez az utolsó adminisztrátor felhasználó ebben a munkakörnyezetben!</AuthCantDeleteLastAdministratorUser>
+    <AuthCantDeleteLastSupervisorUser>A felhasználó nem törölhető, mert ez az utolsó felügyelő felhasználó ezen a szerveren!</AuthCantDeleteLastSupervisorUser>
+    <AuthCantDeleteSystemRole>Ez a szerepkör nem törölhető, mert ez egy rendszer szerepkör!</AuthCantDeleteSystemRole>
+    <AuthCantDisableUserBecauseLastAdministratorUser>A felhasználót nem lehet letiltani, mert ez az utolsó adminisztrátor felhasználó ebben a munkakörnyezetben!</AuthCantDisableUserBecauseLastAdministratorUser>
+    <AuthCantDisableUserBecauseLastSupervisorUser>A felhasználót nem lehet letiltani, mert ez az utolsó felügyelő felhasználó ezen a szerveren!</AuthCantDisableUserBecauseLastSupervisorUser>
+    <AuthFirstNameIsNotSpecified>A keresztnév nincs megadva!</AuthFirstNameIsNotSpecified>
+    <AuthLastNameIsNotSpecified>A vezetéknév nincs megadva!</AuthLastNameIsNotSpecified>
+    <AuthOAuthIdNotSpecified>Az OAuth azonosító nincs megadva!</AuthOAuthIdNotSpecified>
+    <AuthPasswordIsNotCorrect>Helytelen jelszó!</AuthPasswordIsNotCorrect>
+    <AuthPasswordIsNotSpecified>A jelszó nincs megadva!</AuthPasswordIsNotSpecified>
+    <AuthPasswordIsTooShort>A jelszó túl rövid (a minimum hosszúság 6 karakter)!</AuthPasswordIsTooShort>
+    <AuthRoleCantBeDeletedBecauseUsedByUsers>Nem törölhető a szerepkör mert más felhasználók használják.</AuthRoleCantBeDeletedBecauseUsedByUsers>
+    <AuthRoleNameAlreadyExists>A szerepkör a megadott névvel "{0}" már létezik!</AuthRoleNameAlreadyExists>
+    <AuthRoleNameIsSystemRole>A szerepkör a megadott névvel "{0}" egy rendszer szerepkör!</AuthRoleNameIsSystemRole>
+    <AuthSendMessageWithInstructions>Egy üzenet további utasításokkal ki lett küldve "{0}"!</AuthSendMessageWithInstructions>
+    <AuthUserHasLoggedOut>Kijelentkezett!</AuthUserHasLoggedOut>
+    <AuthUserNameAlreadyExists>A felhasználónév (Email) már használatban van!</AuthUserNameAlreadyExists>
+    <AuthUserNameIsNotSpecified>A felhasználónév (Email) nincs megadva!</AuthUserNameIsNotSpecified>
+    <AuthUserNameOrPasswordIsNotCorrect>Helytelen felhasználónév (Email) vagy jelszó!</AuthUserNameOrPasswordIsNotCorrect>
+    <AuthUserNameShouldLookLikeAnEmailAddress>A felhasználónévnek hasonlónak kell lennie az Email címhez!</AuthUserNameShouldLookLikeAnEmailAddress>
+    <AuthWorkspaceNameAlreadyInUse>A munkaterület név már használatban van!</AuthWorkspaceNameAlreadyInUse>
+    <CommandTimeOut>A parancsfeldolgozás várakozási ideje letelt!</CommandTimeOut>
+    <EndDateShouldBeGreaterThanCurrentDate>A záró dátumnak nagyobbnak kell lennie az aktuális dátumnál!</EndDateShouldBeGreaterThanCurrentDate>
+    <EndDateShouldBeGreaterThanStartDate>A záró dátumnak nagyobbnak kell lennie a kezdő dátumnál!</EndDateShouldBeGreaterThanStartDate>
+    <ExecutionError>Végrehajtási hiba</ExecutionError>
+    <IsNotAuthorized>Nincs hozzáférése a következőhöz "{0}"!</IsNotAuthorized>
+    <IsNotCorrect>"{0}" helytelen!</IsNotCorrect>
+    <IsNotDeleted>"{0}" nem törölt!</IsNotDeleted>
+    <IsNotEqual>"{0}"  nem egyenlő!</IsNotEqual>
+    <IsNotFound>"{0}" nem található!</IsNotFound>
+    <IsNotRecognized>"{0}" nem felismerhető!</IsNotRecognized>
+    <IsNotSpecified>"{0}" nem meghatározott!</IsNotSpecified>
+    <IsRequiredFile>Legalább egy fájlt hozzá kell adnia!</IsRequiredFile>
+    <ItemCantBeAttachedToItself>Az elem nem csatolható önmagához!</ItemCantBeAttachedToItself>
+    <ItemCantBeDeletedBecauseItemIsAttachedToOtherItems>Az elemek "{0}" nem törölhetők, mivel más elemekhez vannak csatolva!</ItemCantBeDeletedBecauseItemIsAttachedToOtherItems>
+    <ItemCantBeMovedToSpecifiedPlace>Az elem nem mozgatható át a megadott helyre!</ItemCantBeMovedToSpecifiedPlace>
+    <ItemDoesNotSupport>Az elem nem támogatja "{0}"!</ItemDoesNotSupport>
+    <KeyAndToKeyAreEqual>A Kulcs és Kulcshoz egyenlőek!</KeyAndToKeyAreEqual>
+    <NotificationFailed>Sikertelen eredmény!</NotificationFailed>
+    <NotificationFilesUploadingComplete>Fájlok sikeresen feltöltve.</NotificationFilesUploadingComplete>
+    <NotificationFileUploading>A fájl "{0}" feltöltés alatt.</NotificationFileUploading>
+    <NotificationItemDelete>Az elemek törlődnek.</NotificationItemDelete>
+    <NotificationItemDeleteComplete>Elemek sikeresen törölve.</NotificationItemDeleteComplete>
+    <NotificationItemRestore>Elemek visszaállítás alatt.</NotificationItemRestore>
+    <NotificationItemRestoreComplete>Elemek sikeresen visszaállítva.</NotificationItemRestoreComplete>
+    <NotificationItemTransfer>Elemek áthelyezése.</NotificationItemTransfer>
+    <NotificationItemTransferComplete>Elemek sikeresen áthelyezve.</NotificationItemTransferComplete>
+    <NotificationItemWaitingProcessing>Elemek feldolgozásra várnak.</NotificationItemWaitingProcessing>
+    <NotificationMailing>Küldés</NotificationMailing>
+    <NotificationMailingComplete>"{0}" küldése kész.</NotificationMailingComplete>
+    <NotificationMailingWaitingProcessing>"{0}" küldése feldolgozásra vár.</NotificationMailingWaitingProcessing>
+    <NotificationOperationAborted>Működés megszakítva!</NotificationOperationAborted>
+    <NotificationRecycleBinCleaning>Lomtár ürítése.</NotificationRecycleBinCleaning>
+    <NotificationRecycleBinCleaningComplete>Lomtár sikeresen ürítve.</NotificationRecycleBinCleaningComplete>
+    <NotificationRecycleBinWaitingProcessing>Lomtár ürítése feldolgozásra vár.</NotificationRecycleBinWaitingProcessing>
+    <NotificationReportExporting>A jelentés "{0}" exportálás alatt</NotificationReportExporting>
+    <NotificationReportExportingComplete>A jelentés "{0}" exportálva.</NotificationReportExportingComplete>
+    <NotificationReportRendering>A jelentés "{0}" renderelés alatt</NotificationReportRendering>
+    <NotificationReportRenderingComplete>A jelentés "{0}" renderelése kész.</NotificationReportRenderingComplete>
+    <NotificationReportWaitingProcessing>A jelentés "{0}" feldolgozásra vár.</NotificationReportWaitingProcessing>
+    <NotificationSchedulerRunning>Az ütemező "{0}" fut.</NotificationSchedulerRunning>
+    <NotificationSchedulerRunningComplete>Az ütemező "{0}" futása befejeződött.</NotificationSchedulerRunningComplete>
+    <NotificationSchedulerWaitingProcessing>Az ütemező "{0}" feldolgozásra vár.</NotificationSchedulerWaitingProcessing>
+    <NotificationTitleFilesUploading>Fájlok feltöltése</NotificationTitleFilesUploading>
+    <NotificationTitleItemRefreshing>Elem frissítése "{0}"</NotificationTitleItemRefreshing>
+    <NotificationTitleItemTransferring>Elem áthelyezése "{0}"</NotificationTitleItemTransferring>
+    <NotificationTitleMailing>Küldés "{0}"</NotificationTitleMailing>
+    <NotificationTitleReportExporting>Jelentés exportálása "{0}"</NotificationTitleReportExporting>
+    <NotificationTitleReportRendering>Jelentés renderelése "{0}"</NotificationTitleReportRendering>
+    <NotificationTitleSchedulerRunning>Ütemező futtatása "{0}"</NotificationTitleSchedulerRunning>
+    <NotificationTransferring>"{0}" áthelyezésre kerül ide "{1}".</NotificationTransferring>
+    <NotificationTransferringComplete>"{0}" sikeresen áthelyezve ide "{1}".</NotificationTransferringComplete>
+    <NotificationValueIsNotCorrect>Az érték nem helyes a típushoz {0}</NotificationValueIsNotCorrect>
+    <OutOfRange>Tartományon kívül ("{0}")!</OutOfRange>
+    <ParsingCommandException>Kivétel a parancs feldolgozása közben a megadott xml-ben: {0}</ParsingCommandException>
+    <QuotaMaximumComputingCyclesCountExceeded>Maximális számítási ciklusok száma meghaladva.</QuotaMaximumComputingCyclesCountExceeded>
+    <QuotaMaximumFileSizeExceeded>Maximális fájlméret meghaladva.</QuotaMaximumFileSizeExceeded>
+    <QuotaMaximumReportPagesCountExceeded>Maximális jelentés oldalszám megahaladva.</QuotaMaximumReportPagesCountExceeded>
+    <QuotaMaximumResourcesCountExceeded>Maximális erőforrásszám meghaladva.</QuotaMaximumResourcesCountExceeded>
+    <QuotaMaximumUsersCountExceeded>Maximális felhasználószám meghaladva.</QuotaMaximumUsersCountExceeded>
+    <QuotaMaximumWorkspacesCountExceeded>Maximális munkaterületek száma meghaladva.</QuotaMaximumWorkspacesCountExceeded>
+    <SchedulerCantRunItSelf>Az ütemező nem futtathatja önmagát!</SchedulerCantRunItSelf>
+    <SessionTimeOut>Munkamenet időtúllépés</SessionTimeOut>
+    <SnapshotAlreadyProcessed>A jelentés pillanatkép már fel lett dolgozva!</SnapshotAlreadyProcessed>
+    <SpecifiedItemIsNot>A megadott elem nem "{0}"!</SpecifiedItemIsNot>
+    <VersionCopyFromItem>"{0}" elemből másolva.</VersionCopyFromItem>
+    <VersionCreatedFromFile>"{0}" fájlból létrehozva.</VersionCreatedFromFile>
+    <VersionCreatedFromItem>"{0}" elemből létrehozva.</VersionCreatedFromItem>
+    <VersionLoadedFromFile>"{0}" fájlból betöltve.</VersionLoadedFromFile>
+    <VersionNewItemCreation>Új elem létrehozása.</VersionNewItemCreation>
+    <WindowClosePreventWhileUploading>Fájlok feltöltése zajlik, ha bezárja az oldalt ezek elvesznek. Biztosan bezárja az oldalt?</WindowClosePreventWhileUploading>
+    <WithSpecifiedKeyIsNotFound>"{0}" a megadott kulccsal nem található!</WithSpecifiedKeyIsNotFound>
+    <YourTimeSessionHasExpired>A munkamenet ideje lejárt!</YourTimeSessionHasExpired>
+  </Notices>
+  <NuGet>
+    <AlreadyDownloaded>Már letöltve</AlreadyDownloaded>
+    <AssemblyLoadedSuccessfully>A szerelvény sikeresen betöltve.</AssemblyLoadedSuccessfully>
+    <AssemblyNotFound>Nem található {0} szerelvény {1} kapcsolat használatához!</AssemblyNotFound>
+    <Author>Szerző</Author>
+    <Dependencies>Függőségek:</Dependencies>
+    <Download>Letölt</Download>
+    <DownloadAll>Mindet letölt</DownloadAll>
+    <Downloads>Letöltések:</Downloads>
+    <IAccept>Elfogadom</IAccept>
+    <IDecline>Nem fogadom el</IDecline>
+    <LicenceFormDesc>A következő csomaghoz a licencfeltételek telepítés előtti elfogadása szükséges.</LicenceFormDesc>
+    <LicenceFormDesc1>Az "Elfogadom" gombra kattintva elfogadja az alábbi csomag licencfeltételeit. Ha nem fogadja el a licencfeltételekt, kattintson a "Nem fogadom el" gombra.</LicenceFormDesc1>
+    <LicenceFormTitle>Licenc elfogadása</LicenceFormTitle>
+    <License>Licenc:</License>
+    <ProjectUrl>Projekt Url:</ProjectUrl>
+    <ReportAbuse>Visszaélés jelzése:</ReportAbuse>
+    <RetrievingInformation>Információ beolvasása...</RetrievingInformation>
+    <Tags>Címkék:</Tags>
+    <Title>Adat adapter letöltése</Title>
+    <ViewLicense>Licenc megtekintése</ViewLicense>
+  </NuGet>
   <Panels>
     <Dictionary>Szótár</Dictionary>
     <Messages>Üzenetek</Messages>
@@ -1558,19 +2086,64 @@
     <StiLoadPasswordForm>Dokumentum Titkosítás</StiLoadPasswordForm>
     <StiSavePasswordForm>Jelszó</StiSavePasswordForm>
   </Password>
+  <Permissions>
+    <AdminAPI>API</AdminAPI>
+    <AdminBackgroundTasks>Háttér folyamatok</AdminBackgroundTasks>
+    <AdminPermissions>Jogosultságok</AdminPermissions>
+    <AdminRecycleBin>Lomtár</AdminRecycleBin>
+    <AdminShare>Megosztás</AdminShare>
+    <AdminTransfers>Átvitelek</AdminTransfers>
+    <ItemCalendars>Naptárak</ItemCalendars>
+    <ItemCloudStorages>Felhő tárolók</ItemCloudStorages>
+    <ItemContactLists>Partner listák</ItemContactLists>
+    <ItemDashboards>Irányítópultok</ItemDashboards>
+    <ItemDataSources>Adat források</ItemDataSources>
+    <ItemFiles>Fájlok</ItemFiles>
+    <ItemFolders>Mappák</ItemFolders>
+    <ItemReportSnapshots>Jelentés pillanatképek</ItemReportSnapshots>
+    <ItemReportTemplates>Jelentés sablonok</ItemReportTemplates>
+    <ItemSchedulers>Ütemezők</ItemSchedulers>
+    <ReportDesignerBusinessObjects>Üzleti objektumok</ReportDesignerBusinessObjects>
+    <ReportDesignerDataColumns>Adat oszlopok</ReportDesignerDataColumns>
+    <ReportDesignerDataConnections>Adatkapcsolatok</ReportDesignerDataConnections>
+    <ReportDesignerDataRelations>Adat relációk</ReportDesignerDataRelations>
+    <ReportDesignerDataSources>Adatforrások</ReportDesignerDataSources>
+    <ReportDesignerDictionaryActions>Szótár műveletek</ReportDesignerDictionaryActions>
+    <ReportDesignerRestrictions>Korlátozások</ReportDesignerRestrictions>
+    <ReportDesignerVariables>Változók</ReportDesignerVariables>
+    <SystemBackupRestore>Mentés &amp; Visszaállítás</SystemBackupRestore>
+    <SystemEmailTemplates>Email sablonok</SystemEmailTemplates>
+    <SystemLicensing>Licencelés</SystemLicensing>
+    <SystemMonitoring>Monitorozás</SystemMonitoring>
+    <SystemUpdate>Frissítés</SystemUpdate>
+    <SystemWorkspaces>Munkaterületek</SystemWorkspaces>
+    <TextAdministration>Adminisztráció</TextAdministration>
+    <TextItems>Elemek</TextItems>
+    <TextReportDesigner>Jelentés tervező</TextReportDesigner>
+    <TextSystem>Rendszer</TextSystem>
+    <TextUsers>Felhasználók</TextUsers>
+    <UserHimself>Önmaga</UserHimself>
+    <UserRoles>Szerepkörök</UserRoles>
+    <Users>Felhasználók</Users>
+    <UserWorkspace>Munkaterület</UserWorkspace>
+  </Permissions>
   <PlacementComponent>
     <MoveLeftFreeSpace>A komponenst a bal oldali szabad helyre mozgatja, magassága kitölti a rendelkezésre álló szabd helyet.</MoveLeftFreeSpace>
     <MoveRightFreeSpace>A komponenst a jobb oldali szabad helyre mozgatja, magassága kitölti a rendelkezésre álló szabd helyet.</MoveRightFreeSpace>
   </PlacementComponent>
   <PropertyCategory>
     <AppearanceCategory>Megjelenés</AppearanceCategory>
+    <AreaCategory>Terület</AreaCategory>
     <ArgumentCategory>Argumentum</ArgumentCategory>
+    <AxisCategory>Tengely</AxisCategory>
     <BarCodeAdditionalCategory>Vonalkód további</BarCodeAdditionalCategory>
     <BarCodeCategory>Vonalkód</BarCodeCategory>
     <BehaviorCategory>Viselkedés</BehaviorCategory>
+    <CapNeedle>Tűsapka</CapNeedle>
     <CellCategory>Cella</CellCategory>
     <ChartAdditionalCategory>Diagram további</ChartAdditionalCategory>
     <ChartCategory>Diagram</ChartCategory>
+    <ChartMap>Térkép</ChartMap>
     <CheckCategory>Check</CheckCategory>
     <ColorsCategory>Színek</ColorsCategory>
     <ColumnsCategory>Oszlopok</ColumnsCategory>
@@ -1580,18 +2153,24 @@
     <DataCategory>Adat</DataCategory>
     <DescriptionCategory>Leírás</DescriptionCategory>
     <DesignCategory>Tervező</DesignCategory>
-    <DisplayCategory>Display</DisplayCategory>
+    <DisplayCategory>Megjelenítés</DisplayCategory>
     <ExportCategory>Exportálás</ExportCategory>
     <ExportEventsCategory>Export esemény</ExportEventsCategory>
+    <FooterTableCategory>Lábléc táblázat</FooterTableCategory>
+    <GridLinesCategory>Rácsvonalak</GridLinesCategory>
+    <HeaderTableCategory>Fejléc táblázat</HeaderTableCategory>
     <HierarchicalCategory>Hierarhikus</HierarchicalCategory>
     <ImageAdditionalCategory>Kép további</ImageAdditionalCategory>
     <ImageCategory>Kép</ImageCategory>
+    <InterlacingCategory>Átlapolás</InterlacingCategory>
+    <LegendCategory>Jelmagyarázat</LegendCategory>
     <MainCategory>Legfőbb</MainCategory>
     <MarkerCategory>Jelölés</MarkerCategory>
     <MiscCategory>Egyéb</MiscCategory>
     <MouseEventsCategory>Egér események</MouseEventsCategory>
     <NavigationCategory>Navigálás</NavigationCategory>
     <NavigationEventsCategory>Navigálás események</NavigationEventsCategory>
+    <Needle>Tű</Needle>
     <OptionsCategory>Opciók</OptionsCategory>
     <PageAdditionalCategory>További oldal beállítások</PageAdditionalCategory>
     <PageCategory>Oldal</PageCategory>
@@ -1601,11 +2180,15 @@
     <PrimitiveCategory>Eredeti</PrimitiveCategory>
     <PrintEventsCategory>Nyomtatás események</PrintEventsCategory>
     <RenderEventsCategory>Render események</RenderEventsCategory>
+    <SeriesLabelsCategory>Sorozat címkék</SeriesLabelsCategory>
     <ShapeCategory>Shape</ShapeCategory>
+    <Size>Méret</Size>
     <SubReportCategory>Beágyazott jelentés</SubReportCategory>
+    <TableCategory>Táblázat</TableCategory>
     <TextAdditionalCategory>Szöveg további</TextAdditionalCategory>
     <TextCategory>Szöveg</TextCategory>
     <TitleCategory>Cím</TitleCategory>
+    <TrendLineCategory>Trendvonal</TrendLineCategory>
     <ValueCategory>Érték</ValueCategory>
     <ValueCloseCategory>Záró érték</ValueCloseCategory>
     <ValueEndCategory>Érték vége</ValueEndCategory>
@@ -1829,6 +2412,10 @@
     <SelectionModeMultiSimple>Multi szimpla</SelectionModeMultiSimple>
     <SelectionModeNone>Nincs</SelectionModeNone>
     <SelectionModeOne>Egy</SelectionModeOne>
+    <StiAnchorModeBottom>Alsó</StiAnchorModeBottom>
+    <StiAnchorModeLeft>Bal</StiAnchorModeLeft>
+    <StiAnchorModeRight>Jobb</StiAnchorModeRight>
+    <StiAnchorModeTop>Felsó</StiAnchorModeTop>
     <StiAngleAngle0>0 fok</StiAngleAngle0>
     <StiAngleAngle180>180 fok</StiAngleAngle180>
     <StiAngleAngle270>270 fok</StiAngleAngle270>
@@ -1868,7 +2455,7 @@
     <StiCapStyleArrow>Nyíl</StiCapStyleArrow>
     <StiCapStyleDiamond>Gyémánt</StiCapStyleDiamond>
     <StiCapStyleNone>Nincs</StiCapStyleNone>
-    <StiCapStyleOpen>Nyilt</StiCapStyleOpen>
+    <StiCapStyleOpen>Nyílt</StiCapStyleOpen>
     <StiCapStyleOval>Ovális</StiCapStyleOval>
     <StiCapStyleSquare>Négyzet</StiCapStyleSquare>
     <StiCapStyleStealth>Rejtett</StiCapStyleStealth>
@@ -1909,6 +2496,8 @@
     <StiDockStyleNone>Nincs</StiDockStyleNone>
     <StiDockStyleRight>Jobbra</StiDockStyleRight>
     <StiDockStyleTop>Fel</StiDockStyleTop>
+    <StiDrillDownModeMultiPage>Több Oldal</StiDrillDownModeMultiPage>
+    <StiDrillDownModeSinglePage>Egy Oldal</StiDrillDownModeSinglePage>
     <StiEanSupplementTypeFiveDigit>Öt szám</StiEanSupplementTypeFiveDigit>
     <StiEanSupplementTypeNone>Nincs</StiEanSupplementTypeNone>
     <StiEanSupplementTypeTwoDigit>Két szám</StiEanSupplementTypeTwoDigit>
@@ -1927,6 +2516,8 @@
     <StiFilterConditionEqualTo>egyenlő</StiFilterConditionEqualTo>
     <StiFilterConditionGreaterThan>nagyobb mint</StiFilterConditionGreaterThan>
     <StiFilterConditionGreaterThanOrEqualTo>nagyobb vagy egyenlő</StiFilterConditionGreaterThanOrEqualTo>
+    <StiFilterConditionIsNotNull>nem null</StiFilterConditionIsNotNull>
+    <StiFilterConditionIsNull>null</StiFilterConditionIsNull>
     <StiFilterConditionLessThan>kisebb mint</StiFilterConditionLessThan>
     <StiFilterConditionLessThanOrEqualTo>kisebb vagy egyenlő</StiFilterConditionLessThanOrEqualTo>
     <StiFilterConditionNotBetween>nincs közötte</StiFilterConditionNotBetween>
@@ -1942,6 +2533,11 @@
     <StiFilterItemArgument>Argumentum</StiFilterItemArgument>
     <StiFilterItemExpression>Kifejezés</StiFilterItemExpression>
     <StiFilterItemValue>Érték</StiFilterItemValue>
+    <StiFilterItemValueClose>Zárt Érték</StiFilterItemValueClose>
+    <StiFilterItemValueEnd>Érték Vége</StiFilterItemValueEnd>
+    <StiFilterItemValueHigh>Magas Érték</StiFilterItemValueHigh>
+    <StiFilterItemValueLow>Alacsony Érték</StiFilterItemValueLow>
+    <StiFilterItemValueOpen>Nyílt Érték</StiFilterItemValueOpen>
     <StiFilterModeAnd>És</StiFilterModeAnd>
     <StiFilterModeOr>Vagy</StiFilterModeOr>
     <StiFormStartModeOnEnd>On End</StiFormStartModeOnEnd>
@@ -1966,6 +2562,10 @@
     <StiImageRotationRotate180>180 -os forgatás</StiImageRotationRotate180>
     <StiImageRotationRotate90CCW>90  -os forgatás CCW</StiImageRotationRotate90CCW>
     <StiImageRotationRotate90CW>90   -os forgatás CW</StiImageRotationRotate90CW>
+    <StiKeepDetailsKeepDetailsTogether>Részletek összetartása</StiKeepDetailsKeepDetailsTogether>
+    <StiKeepDetailsKeepFirstDetailTogether>Első részlet összetartása</StiKeepDetailsKeepFirstDetailTogether>
+    <StiKeepDetailsKeepFirstRowTogether>Első sor összetartása</StiKeepDetailsKeepFirstRowTogether>
+    <StiKeepDetailsNone>Egyik sem</StiKeepDetailsNone>
     <StiLabelsPlacementNone>Nincs</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>Egy sor</StiLabelsPlacementOneLine>
     <StiLabelsPlacementTwoLines>Két sor</StiLabelsPlacementTwoLines>
@@ -1983,6 +2583,26 @@
     <StiLegendVertAlignmentCenter>Középre</StiLegendVertAlignmentCenter>
     <StiLegendVertAlignmentTop>Fel</StiLegendVertAlignmentTop>
     <StiLegendVertAlignmentTopOutside>Fel kintre</StiLegendVertAlignmentTopOutside>
+    <StiMapIDAustralia>Ausztrália</StiMapIDAustralia>
+    <StiMapIDAustria>Ausztria</StiMapIDAustria>
+    <StiMapIDBrazil>Brazília</StiMapIDBrazil>
+    <StiMapIDCanada>Kanada</StiMapIDCanada>
+    <StiMapIDChina>Kína</StiMapIDChina>
+    <StiMapIDEU>EU</StiMapIDEU>
+    <StiMapIDEurope>Európa</StiMapIDEurope>
+    <StiMapIDFrance>Franciaország</StiMapIDFrance>
+    <StiMapIDGermany>Németország</StiMapIDGermany>
+    <StiMapIDItaly>Olaszország</StiMapIDItaly>
+    <StiMapIDNetherlands>Hollandia</StiMapIDNetherlands>
+    <StiMapIDRussia>Oroszország</StiMapIDRussia>
+    <StiMapIDUK>Egyesült Királyság</StiMapIDUK>
+    <StiMapIDUSA>USA</StiMapIDUSA>
+    <StiMapIDWorld>Világ</StiMapIDWorld>
+    <StiMapTypeGroup>Csoport</StiMapTypeGroup>
+    <StiMapTypeHeatmap>Hőtérkép</StiMapTypeHeatmap>
+    <StiMapTypeHeatmapWithGroup>Hőtérkép csoporttal</StiMapTypeHeatmapWithGroup>
+    <StiMapTypeNone>Egyik sem</StiMapTypeNone>
+    <StiMapTypePoints>Pontok</StiMapTypePoints>
     <StiMarkerAlignmentLeft>Bal</StiMarkerAlignmentLeft>
     <StiMarkerAlignmentRight>Jobb</StiMarkerAlignmentRight>
     <StiMarkerTypeCircle>Kör</StiMarkerTypeCircle>
@@ -1999,6 +2619,7 @@
     <StiNumberOfPassDoublePass>Dupla Pass</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>Szimpla Pass</StiNumberOfPassSinglePass>
     <StiOrientationHorizontal>Vízszintes</StiOrientationHorizontal>
+    <StiOrientationHorizontalRight>Vízszintes jobb</StiOrientationHorizontalRight>
     <StiOrientationVertical>Függőleges</StiOrientationVertical>
     <StiPageOrientationLandscape>Fekvő</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Álló</StiPageOrientationPortrait>
@@ -2061,6 +2682,9 @@
     <StiRestrictionsAllowResize>Méretezést enged</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>Kiválasztást enged</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>Nincs</StiRestrictionsNone>
+    <StiSelectionModeFirst>Első</StiSelectionModeFirst>
+    <StiSelectionModeFromVariable>Változóból</StiSelectionModeFromVariable>
+    <StiSelectionModeNothing>Semmi</StiSelectionModeNothing>
     <StiSeriesLabelsValueTypeArgument>Argumentum</StiSeriesLabelsValueTypeArgument>
     <StiSeriesLabelsValueTypeArgumentValue>Argumentum - étrék</StiSeriesLabelsValueTypeArgumentValue>
     <StiSeriesLabelsValueTypeSeriesTitle>Sorozat cím</StiSeriesLabelsValueTypeSeriesTitle>
@@ -2137,6 +2761,8 @@
     <StiTextQualityStandard>Standard</StiTextQualityStandard>
     <StiTextQualityTypographic>Nyomdai</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTitlePositionInside>Belső</StiTitlePositionInside>
+    <StiTitlePositionOutside>Külső</StiTitlePositionOutside>
     <StiTypeModeList>Lista</StiTypeModeList>
     <StiTypeModeNullableValue>Nullable Value</StiTypeModeNullableValue>
     <StiTypeModeRange>Tartomány</StiTypeModeRange>
@@ -2146,6 +2772,8 @@
     <StiVertAlignmentTop>Fentre</StiVertAlignmentTop>
     <StiViewModeNormal>Normál</StiViewModeNormal>
     <StiViewModePageBreakPreview>Oldal törés megjelenítésnél</StiViewModePageBreakPreview>
+    <StiXmlTypeAdoNetXml>ADO.NET XML</StiXmlTypeAdoNetXml>
+    <StiXmlTypeXml>XML</StiXmlTypeXml>
     <StringAlignmentCenter>Középre</StringAlignmentCenter>
     <StringAlignmentFar>Távoli</StringAlignmentFar>
     <StringAlignmentNear>Közeli</StringAlignmentNear>
@@ -2181,6 +2809,7 @@
     <GetCollapsedEvent>Összezárt</GetCollapsedEvent>
     <GetCrossValueEvent>Kerszt érték lekérés</GetCrossValueEvent>
     <GetCutPieListEvent>Vágott pite listából lekér</GetCutPieListEvent>
+    <GetDataUrlEvent>AdatUrl lekérése</GetDataUrlEvent>
     <GetDisplayCrossValueEvent>Megjelenített kereszt érék lekérés</GetDisplayCrossValueEvent>
     <GetDrillDownReportEvent>Drill-Down report lekérés</GetDrillDownReportEvent>
     <GetExcelSheetEvent>Excel munkalap lekérés</GetExcelSheetEvent>
@@ -2228,7 +2857,7 @@
     <DarkDownwardDiagonal>Sötétítést lefelé állít</DarkDownwardDiagonal>
     <DarkHorizontal>Sötét vízszintes</DarkHorizontal>
     <DarkUpwardDiagonal>Sötét felfelé állít</DarkUpwardDiagonal>
-    <DarkVertical>Dark Vertical</DarkVertical>
+    <DarkVertical>Sötét függőleges</DarkVertical>
     <DashedDownwardDiagonal>Dashed Downward Diagonal</DashedDownwardDiagonal>
     <DashedHorizontal>Dashed Horizontal</DashedHorizontal>
     <DashedUpwardDiagonal>Dashed Upward Diagonal</DashedUpwardDiagonal>
@@ -2243,7 +2872,7 @@
     <HorizontalBrick>Horizontal Brick</HorizontalBrick>
     <LargeCheckerBoard>Large Checker Board</LargeCheckerBoard>
     <LargeConfetti>Large Confetti</LargeConfetti>
-    <LargeGrid>Large Grid</LargeGrid>
+    <LargeGrid>Óriás rács</LargeGrid>
     <LightDownwardDiagonal>Light Downward Diagonal</LightDownwardDiagonal>
     <LightHorizontal>Light Horizontal</LightHorizontal>
     <LightUpwardDiagonal>Light Upward Diagonal</LightUpwardDiagonal>
@@ -2272,6 +2901,7 @@
     <Sphere>Gömb</Sphere>
     <Trellis>Rácsozat</Trellis>
     <Vertical>Függőleges</Vertical>
+    <Wave>Hullám</Wave>
     <Weave>Szövet</Weave>
     <WideDownwardDiagonal>Wide Downward Diagonal</WideDownwardDiagonal>
     <WideUpwardDiagonal>Wide Upward Diagonal</WideUpwardDiagonal>
@@ -2310,7 +2940,9 @@
     <AllowUseTextBrush>Allow Use Text Brush</AllowUseTextBrush>
     <AllowUseTextOptions>Allow Use Text Options</AllowUseTextOptions>
     <AllowUseVertAlignment>Allow Use Vert Alignment</AllowUseVertAlignment>
+    <AllowUsingAsSqlParameter>Használható SQL paraméterként</AllowUsingAsSqlParameter>
     <AlternatingBackColor>Alternatív háttér szín</AlternatingBackColor>
+    <Anchor>Horgony</Anchor>
     <Angle>Elforgatás</Angle>
     <Antialiasing>Antialiasing</Antialiasing>
     <Area>Terület</Area>
@@ -2322,6 +2954,7 @@
     <AspectRatio>Aspect Ratio</AspectRatio>
     <Author>Készítő</Author>
     <Auto>Auto</Auto>
+    <AutoCalculateCenterPoint>Középpont automatikus számolása</AutoCalculateCenterPoint>
     <AutoDataColumns>Automatikus adat oszlop</AutoDataColumns>
     <AutoDataRows>Automatikus adat sor</AutoDataRows>
     <AutoLocalizeReportOnRun>Automatikus honosítás jelentés futtatáskor</AutoLocalizeReportOnRun>
@@ -2333,19 +2966,27 @@
     <AutoSeriesTitleDataColumn>Auto Series Title Data Column</AutoSeriesTitleDataColumn>
     <AutoWidth>Auto szélesség</AutoWidth>
     <AutoWidthType>Automatikus szélesség</AutoWidthType>
+    <AxisLabelsColor>Címke szín</AxisLabelsColor>
+    <AxisLineColor>Vonal szín</AxisLineColor>
+    <AxisTitleColor>Cím szín</AxisTitleColor>
     <AxisValue>Tengely érték</AxisValue>
     <BackColor>Háttér szín</BackColor>
     <Background>Háttér</Background>
     <BackgroundColor>Háttér szín</BackgroundColor>
     <BarCodeType>Vonalkód típus</BarCodeType>
     <BasicStyleColor>Alap stílus szín</BasicStyleColor>
+    <BindingColumn>Kapcsoló oszlop</BindingColumn>
     <Blend>Blend</Blend>
     <Bold>Félkövér</Bold>
     <Bookmark>Könyvjelző</Bookmark>
     <Border>Keret</Border>
+    <BorderBrush>Szegély ecset</BorderBrush>
     <BorderColor>Keret szín</BorderColor>
+    <BorderColorNegative>Szegély szín negatív</BorderColorNegative>
     <Borders>Keretek</Borders>
+    <BorderSize>Szegély méret</BorderSize>
     <BorderStyle>Keret stílus</BorderStyle>
+    <BorderWidth>Szegély szélesség</BorderWidth>
     <Bottom>Lent</Bottom>
     <BottomSide>Alsó oldal</BottomSide>
     <BreakIfLessThan>Törés ha kevesebb mint</BreakIfLessThan>
@@ -2354,6 +2995,7 @@
     <BrushType>Ecset típus</BrushType>
     <BusinessObject>Üzleti objektum</BusinessObject>
     <CacheAllData>Minden adat kesselése</CacheAllData>
+    <CacheTotals>Gyorsítótár összesen</CacheTotals>
     <CalcInvisible>Láthatatlan kalkulásása</CalcInvisible>
     <CalculatedDataColumn>Számított mező</CalculatedDataColumn>
     <CalculationMode>Kalkulációs mód</CalculationMode>
@@ -2368,6 +3010,11 @@
     <CellHeight>Cella magasság</CellHeight>
     <CellType>Cella típus</CellType>
     <CellWidth>Cella szélesség</CellWidth>
+    <Center>Közép</Center>
+    <CenterPoint>Középpont</CenterPoint>
+    <ChartAreaBorderColor>Szegély szín</ChartAreaBorderColor>
+    <ChartAreaBrush>Terület ecset</ChartAreaBrush>
+    <ChartAreaShowShadow>Árnyék mutatása</ChartAreaShowShadow>
     <ChartType>Diagram típus</ChartType>
     <Checked>Bekapcsolva</Checked>
     <CheckOnClick>Clickre bekapcsol</CheckOnClick>
@@ -2420,6 +3067,7 @@
     <Create>Készít</Create>
     <CreateFieldOnDoubleClick>Mező beilleszt dupla klikkre</CreateFieldOnDoubleClick>
     <CreateLabel>Cimke készítés</CreateLabel>
+    <Culture>Kultúra</Culture>
     <CustomFormat>Egyéni formátum</CustomFormat>
     <CutPieList>Vágott pite lista</CutPieList>
     <Data>Adat</Data>
@@ -2441,11 +3089,14 @@
     <Default>Alapérték</Default>
     <DefaultHeightCell>Alapértelmezett cella magasság</DefaultHeightCell>
     <DefaultNamespace>Alap névtér</DefaultNamespace>
+    <DependentColumn>Függő oszlop</DependentColumn>
+    <DependentValue>Függő érték</DependentValue>
     <Description>Leírás</Description>
     <DetectUrls>Url észlelés</DetectUrls>
     <DialogResult>Dialogus visszatérés</DialogResult>
     <Diameter>Átmérő</Diameter>
     <Direction>Rendezés</Direction>
+    <Disabled>Tiltva</Disabled>
     <DisplayValue>Megjelenített érték</DisplayValue>
     <Distance>Távolság</Distance>
     <DistanceBetweenTabs>Térköz tabok között</DistanceBetweenTabs>
@@ -2455,13 +3106,16 @@
     <DrawBorder>Keret rajzolás</DrawBorder>
     <DrawHatch>Rovatkázott ecsetet használ</DrawHatch>
     <DrawLine>Vonal rajzolás</DrawLine>
+    <DrillDown>Lefúrás</DrillDown>
     <DrillDownEnabled>Drill-Down Enabled</DrillDownEnabled>
+    <DrillDownMode>Lefúrási Mód</DrillDownMode>
     <DrillDownPage>Drill-Down Page</DrillDownPage>
     <DrillDownParameter1>Drill-Down Parameter 1</DrillDownParameter1>
     <DrillDownParameter2>Drill-Down Parameter 2</DrillDownParameter2>
     <DrillDownParameter3>Drill-Down Parameter 3</DrillDownParameter3>
     <DrillDownParameter4>Drill-Down paraméter 4</DrillDownParameter4>
     <DrillDownParameter5>Drill-Down paraméter 5</DrillDownParameter5>
+    <DrillDownParameters>Lefúrás paraméterei</DrillDownParameters>
     <DrillDownReport>Drill-Down Report</DrillDownReport>
     <DropDownAlign>Drop Down igazítás</DropDownAlign>
     <DropDownStyle>Drop Down stílus</DropDownStyle>
@@ -2469,6 +3123,9 @@
     <DropShadow>Drop árnyék</DropShadow>
     <Duplex>Kettős</Duplex>
     <Editable>Szerkeszthető</Editable>
+    <EmptyBorderBrush>Üres szegély ecset</EmptyBorderBrush>
+    <EmptyBorderWidth>Üres szegély szélesség</EmptyBorderWidth>
+    <EmptyBrush>Üres ecset</EmptyBrush>
     <EmptyValue>Üres érték</EmptyValue>
     <Enabled>Engedélyezve</Enabled>
     <EnableLog>Loggolás bekapcsol</EnableLog>
@@ -2476,6 +3133,8 @@
     <EncodingType>Kódolás típusa</EncodingType>
     <EndCap>Teteje</EndCap>
     <EndColor>Utolsó szín</EndColor>
+    <EndValue>Befejező érték</EndValue>
+    <EndWidth>Befejező szélesség</EndWidth>
     <EngineVersion>Motor verzió</EngineVersion>
     <EnumeratorSeparator>Felsorolás elválasztó</EnumeratorSeparator>
     <EnumeratorType>Felsorolás típusa</EnumeratorType>
@@ -2491,8 +3150,10 @@
     <FieldIs>Field Is</FieldIs>
     <File>Fájl</File>
     <Fill>Kitöltés</Fill>
+    <FillColor>Szín kitöltése</FillColor>
     <Filter>Szűrő</Filter>
     <FilterEngine>SZűrőmotor</FilterEngine>
+    <FilterMode>Szűrés módja</FilterMode>
     <FilterOn>Szűrő On</FilterOn>
     <Filters>SZűrők</Filters>
     <FirstTabOffset>First Tab Offset</FirstTabOffset>
@@ -2530,9 +3191,12 @@
     <GlobalizedName>Honosított név</GlobalizedName>
     <GridLineColor>Rács vonal színe</GridLineColor>
     <GridLinesHor>Vízszintes rács vonal</GridLinesHor>
+    <GridLinesHorColor>Rácsvonal vízszintes szín</GridLinesHorColor>
     <GridLinesHorRight>Grid Lines Horizontal Right</GridLinesHorRight>
     <GridLineStyle>Rács vonal stílus</GridLineStyle>
     <GridLinesVert>Grid Lines Vertical</GridLinesVert>
+    <GridLinesVertColor>Rácsvonal függőleges szín</GridLinesVertColor>
+    <GridOutline>Rács körvonal</GridOutline>
     <GrowToHeight>Magasság megnyújtása</GrowToHeight>
     <HeaderBackColor>Fejléc háttée színe</HeaderBackColor>
     <HeaderCanBreak>Fejléc megszakítható</HeaderCanBreak>
@@ -2578,18 +3242,24 @@
     <ImportRelations>Relációk importálása</ImportRelations>
     <Increment>Növelés</Increment>
     <Indent>Bekezdés</Indent>
+    <InfographicsTitle>Cím</InfographicsTitle>
     <InitBy>Inicializálás</InitBy>
     <Insert>Beszúr</Insert>
     <Interaction>Interakció</Interaction>
     <InterlacedBrush>Interlaced ecset</InterlacedBrush>
     <InterlacingHor>Vízszintes interlacing</InterlacingHor>
+    <InterlacingHorBrush>Átlapoló vízszintes ecset</InterlacingHorBrush>
     <InterlacingVert>Függőleges interlacing</InterlacingVert>
+    <InterlacingVertBrush>Átlapoló függőleges ecset</InterlacingVertBrush>
+    <Interpolation>Interpoláció</Interpolation>
+    <IsReversed>Fordított</IsReversed>
     <Italic>Dőlt</Italic>
     <Item>Elem</Item>
     <ItemHeight>Elem magasság</ItemHeight>
     <Items>Elemek</Items>
     <KeepChildTogether>Gyermekek együttmaradnak</KeepChildTogether>
     <KeepCrossTabTogether>Cross-Tab együtttartás</KeepCrossTabTogether>
+    <KeepDetails>Részletek megtartása</KeepDetails>
     <KeepDetailsTogether>Keep Details Together</KeepDetailsTogether>
     <KeepFooterTogether>Keep Footer Together</KeepFooterTogether>
     <KeepGroupFooterTogether>Keep Group Footer Together</KeepGroupFooterTogether>
@@ -2600,10 +3270,11 @@
     <KeepSubReportTogether>Sub-Report együtttartás</KeepSubReportTogether>
     <Key>Kulcs</Key>
     <KeyDataColumn>Key Data Column</KeyDataColumn>
-    <Keys>Keys</Keys>
-    <LabelColor>Cimke szín</LabelColor>
-    <Labels>Cimkék</Labels>
-    <LabelsColor>Cimkék színe</LabelsColor>
+    <Keys>Kulcsok</Keys>
+    <LabelColor>Címke szín</LabelColor>
+    <LabelRotationMode>Címke forgatási mód</LabelRotationMode>
+    <Labels>Címkék</Labels>
+    <LabelsColor>Címkék színe</LabelsColor>
     <LabelsOffset>Labels Offset</LabelsOffset>
     <Language>Nyelv</Language>
     <LargeHeight>nagy magasság</LargeHeight>
@@ -2611,6 +3282,10 @@
     <Left>bal</Left>
     <LeftSide>Baloldal</LeftSide>
     <Legend>Felirat</Legend>
+    <LegendBorderColor>Szegély szín</LegendBorderColor>
+    <LegendBrush>Jelmagyarázat ecset</LegendBrush>
+    <LegendLabelsColor>Címke szín</LegendLabelsColor>
+    <LegendTitleColor>Cím szín</LegendTitleColor>
     <LegendValueType>Felirat érték típusa</LegendValueType>
     <Length>Hossz</Length>
     <LengthUnderLabels>Hossz a cimkék alatt</LengthUnderLabels>
@@ -2641,6 +3316,10 @@
     <Logarithmic>Logaritmikus</Logarithmic>
     <LogarithmicScale>Logaritmikus skála</LogarithmicScale>
     <Low>kicsi</Low>
+    <MajorInterval>Jelentős intervallum</MajorInterval>
+    <MapID>Térkép ID</MapID>
+    <MapStyle>Stílus</MapStyle>
+    <MapType>Térkép típus</MapType>
     <Margins>Margó</Margins>
     <Marker>Jelölő</Marker>
     <MarkerAlignment>Jelölő igazítás</MarkerAlignment>
@@ -2656,6 +3335,7 @@
     <MaxDropDownItems>Max Drop Down elem</MaxDropDownItems>
     <MaxHeight>Max magasság</MaxHeight>
     <Maximum>Maximum</Maximum>
+    <MaximumValue>Maximum érték</MaximumValue>
     <MaxLength>Max hossz</MaxLength>
     <MaxNumberOfLines>Max sorszám</MaxNumberOfLines>
     <MaxSize>Max méret</MaxSize>
@@ -2668,8 +3348,10 @@
     <MinHeight>Min magasság</MinHeight>
     <Minimum>Minimum</Minimum>
     <MinimumFontSize>Minimum betüméret</MinimumFontSize>
+    <MinimumValue>Minimum érték</MinimumValue>
     <MinorColor>Minor szín</MinorColor>
     <MinorCount>Minor szém</MinorCount>
+    <MinorInterval>Kicsi intervallum</MinorInterval>
     <MinorLength>Minor hossz</MinorLength>
     <MinorStyle>Minor stílus</MinorStyle>
     <MinorVisible>Minor látszik</MinorVisible>
@@ -2677,6 +3359,7 @@
     <MinSize>Min méret</MinSize>
     <MinValue>Min érték</MinValue>
     <MinWidth>Min szélesség</MinWidth>
+    <MirrorMargins>Tükör margók</MirrorMargins>
     <Mode>Mód</Mode>
     <Module>Modul</Module>
     <Move>Mozog</Move>
@@ -2700,6 +3383,8 @@
     <NumberOfPass>Number of Pass</NumberOfPass>
     <NumberOfValues>Értékek száma</NumberOfValues>
     <OddStyle>Páratlan stílusa</OddStyle>
+    <Offset>Offset</Offset>
+    <OffsetAngle>Offset szög</OffsetAngle>
     <OnlyText>Csak szöveg</OnlyText>
     <Operation>Művelet</Operation>
     <Options>Opciók</Options>
@@ -2751,7 +3436,10 @@
     <ProcessingDuplicates>Processing Duplicates</ProcessingDuplicates>
     <ProductHomePage>Termék honlapja</ProductHomePage>
     <RadarStyle>Radar stílus</RadarStyle>
+    <Radius>Sugár</Radius>
+    <RadiusMode>Sugár mód</RadiusMode>
     <Range>Tartomány</Range>
+    <RangeColorMode>Színtartomány mód</RangeColorMode>
     <RangeFrom>tól</RangeFrom>
     <RangeScrollEnabled>Tartomány görgetés bekapcsol</RangeScrollEnabled>
     <RangeTo>ig</RangeTo>
@@ -2761,15 +3449,19 @@
     <ReconnectOnEachRow>Minden sornál újrakapcsolódik</ReconnectOnEachRow>
     <ReferencedAssemblies>Referált Assemblik</ReferencedAssemblies>
     <Refresh>Frissít</Refresh>
+    <RefreshTime>Frissítési idő</RefreshTime>
     <Relation>Reláció</Relation>
     <RelationName>Reláció neve</RelationName>
     <Relations>Relációk</Relations>
+    <RelativeHeight>Relatív magasság</RelativeHeight>
+    <RelativeWidth>Relatív szélesség</RelativeWidth>
     <RemoveUnusedDataBeforeStart>Nem használt adatok indulás előtt eltávolítva</RemoveUnusedDataBeforeStart>
     <RenderTo>Render to</RenderTo>
     <ReportAlias>Jelentés aliasz</ReportAlias>
     <ReportAuthor>Jelentés készítő</ReportAuthor>
     <ReportCacheMode>Jelentés gyorsítótár módja</ReportCacheMode>
     <ReportDescription>Jelentés leírása</ReportDescription>
+    <ReportImage>Jelentés kép</ReportImage>
     <ReportName>Jelentés neve</ReportName>
     <ReportUnit>Jelentés mértékegység</ReportUnit>
     <RequestFromUser>Felhasználói kérés</RequestFromUser>
@@ -2777,7 +3469,10 @@
     <ResetDataSource>Visszaállít adatforrást</ResetDataSource>
     <ResetPageNumber>Visszaállít oldalszámot</ResetPageNumber>
     <Resize>Átméretez</Resize>
+    <Resource>Erőforrás</Resource>
+    <Resources>Erőforrások</Resources>
     <Restrictions>Restrictions</Restrictions>
+    <RetrieveOnlyUsedData>Csak használatban lévő adat visszanyerése</RetrieveOnlyUsedData>
     <ReturnValue>Visszatérési érték</ReturnValue>
     <ReverseHor>Reverse Horizontal</ReverseHor>
     <ReverseVert>Reverse Vertical</ReverseVert>
@@ -2799,12 +3494,18 @@
     <SelectedItem>Kiválasztott elem</SelectedItem>
     <SelectedKey>Kiválasztott kulcs</SelectedKey>
     <SelectedValue>Kiválasztott érték</SelectedValue>
+    <Selection>Kijelölés</Selection>
     <SelectionBackColor>Kiválasztás háttérszín</SelectionBackColor>
     <SelectionEnabled>Választás engedélyezve</SelectionEnabled>
     <SelectionForeColor>Kiválasztás betüszín</SelectionForeColor>
     <SelectionMode>Kiválasztás módja</SelectionMode>
     <Series>Sorozat</Series>
     <SeriesLabels>Sorozat cimkék</SeriesLabels>
+    <SeriesLabelsBorderColor>Szegély szín</SeriesLabelsBorderColor>
+    <SeriesLabelsBrush>Címke ecset</SeriesLabelsBrush>
+    <SeriesLabelsColor>Címke szín</SeriesLabelsColor>
+    <SeriesLighting>Sorozat megvilágítás</SeriesLighting>
+    <SeriesShowShadow>Sorozat árnyék mutatása</SeriesShowShadow>
     <Shadow>Árnyék</Shadow>
     <ShadowBrush>Árnyék ecset</ShadowBrush>
     <ShadowColor>Árnyék szín</ShadowColor>
@@ -2820,6 +3521,7 @@
     <ShowInPercent>Százalálban megjelenik</ShowInPercent>
     <ShowLabels>Cimkék megjelennek</ShowLabels>
     <ShowLabelText>Cimke szöveg megjelenik</ShowLabelText>
+    <ShowLegend>Jelmagyarázat mutatása</ShowLegend>
     <ShowMarker>Jelölő megjelenik</ShowMarker>
     <ShowNulls>Show Nulls</ShowNulls>
     <ShowOnZeroValues>0 érték megjeleik</ShowOnZeroValues>
@@ -2843,7 +3545,13 @@
     <Simple>Szimpla</Simple>
     <Size>Méret</Size>
     <SizeMode>Méret mód</SizeMode>
+    <Skin>Felület</Skin>
     <SkipFirst>Elsőt átlép</SkipFirst>
+    <SkipIndices>Indexek kihagyása</SkipIndices>
+    <SkipIndicesObj>Indexek kihagyása</SkipIndicesObj>
+    <SkipMajorValues>Jelentős értékek kihagyása</SkipMajorValues>
+    <SkipValues>Értékek kihagyása</SkipValues>
+    <SkipValuesObj>Értékek kihagyása</SkipValuesObj>
     <Smoothing>Simítás</Smoothing>
     <Sort>Rendezés</Sort>
     <SortBy>rendezés így</SortBy>
@@ -2854,7 +3562,7 @@
     <SortType>Rendezés típusa</SortType>
     <Space>Szóköz</Space>
     <Spacing>Köz</Spacing>
-    <SqlCommand>Sql utasítás</SqlCommand>
+    <SqlCommand>SQL utasítás</SqlCommand>
     <StartAngle>Induló forgatás</StartAngle>
     <StartCap>Alja</StartCap>
     <StartColor>Induló szín</StartColor>
@@ -2863,6 +3571,8 @@
     <StartNewPage>Új oldalt kezd</StartNewPage>
     <StartNewPageIfLessThan>Új oldalt kezd h akisebb mint</StartNewPageIfLessThan>
     <StartPosition>Induló pozició</StartPosition>
+    <StartValue>Kezdő érték</StartValue>
+    <StartWidth>Kezdő szélesség</StartWidth>
     <Step>Lépés</Step>
     <Stop>Megáll</Stop>
     <StopBeforePage>Megáll lap előtt</StopBeforePage>
@@ -2883,8 +3593,10 @@
     <SummaryValues>Összesen értékek</SummaryValues>
     <SupplementCode>Kiegészített kód</SupplementCode>
     <SupplementType>Kiegészített típus</SupplementType>
+    <SweepAngle>Hajlás szöge</SweepAngle>
     <SystemVariable>Rendszer változó</SystemVariable>
     <SystemVariables>Rendszer változók</SystemVariables>
+    <Table>Táblázat</Table>
     <Tag>Tag</Tag>
     <TagDataColumn>Cimke adatoszlop</TagDataColumn>
     <TagValue>Tag értég</TagValue>
@@ -2905,7 +3617,7 @@
     <TitleBeforeHeader>Cím fejléc előtt</TitleBeforeHeader>
     <TitleColor>Cím szín</TitleColor>
     <TitleDirection>Cím rendezés</TitleDirection>
-    <TitleFont>Cím betütípus</TitleFont>
+    <TitleFont>Cím betűtípus</TitleFont>
     <TitleVisible>Látszik</TitleVisible>
     <To>ig</To>
     <Today>Ma</Today>
@@ -2920,6 +3632,8 @@
     <Totals>Totálok</Totals>
     <TransparentColor>Átlátszó szín</TransparentColor>
     <TrendLine>Trend vonal</TrendLine>
+    <TrendLineColor>Szín</TrendLineColor>
+    <TrendLineShowShadow>Árnyék mutatása</TrendLineShowShadow>
     <Trimming>Vágás</Trimming>
     <Type>Típus</Type>
     <TypeName>Típus neve</TypeName>
@@ -2933,10 +3647,12 @@
     <UseAliases>Aliaszokat használ</UseAliases>
     <UseExternalReport>Külső reportot használ</UseExternalReport>
     <UseParentStyles>Szülő stílust használja</UseParentStyles>
+    <UseRangeColor>Színtartomány használata</UseRangeColor>
     <UseRectangularSymbols>Szögletes szimbólumokat használ</UseRectangularSymbols>
     <UseSeriesColor>Use Series Color</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>A totál oszlopban a Summary stílustát használja</UseStyleOfSummaryInColumnTotal>
     <UseStyleOfSummaryInRowTotal>A totál sorban Summary stílustát használja</UseStyleOfSummaryInRowTotal>
+    <UseValuesFromTheSpecifiedRange>Értékek használata a megadott tartományból</UseValuesFromTheSpecifiedRange>
     <Value>Érték</Value>
     <ValueClose>Záró érték</ValueClose>
     <ValueDataColumn>Érték oszlop</ValueDataColumn>
@@ -3008,6 +3724,7 @@
     <BadFromObjectExpression>Érvénytelen FROM kifejezés!</BadFromObjectExpression>
     <BadObjectName>Érvénytelen objektum!</BadObjectName>
     <BadSelectStatement>Érvénytelen SELECT utasítás!</BadSelectStatement>
+    <Collections>Gyűjtemények</Collections>
     <CreateLinksFromForeignKeys>Create Links from Foreign Keys</CreateLinksFromForeignKeys>
     <CriteriaAlias>Aliasz</CriteriaAlias>
     <CriteriaCriteria>Kritérium</CriteriaCriteria>
@@ -3062,7 +3779,7 @@
     <SelectAllFromRight>Mindet kiválaszt jobbról</SelectAllFromRight>
     <SwitchToDerivedTable>Switch to Derived Table</SwitchToDerivedTable>
     <Tables>Táblák</Tables>
-    <UnexpectedTokenAt>Váratlan jel \"{0}\" sorban {1}, pozicióban {2}!</UnexpectedTokenAt>
+    <UnexpectedTokenAt>Váratlan jel "{0}" sorban {1}, pozicióban {2}!</UnexpectedTokenAt>
     <Unions>Uniók</Unions>
     <UnionSubMenu>Unió</UnionSubMenu>
     <ViewQuery>Lekérdezés megtekintése</ViewQuery>
@@ -3077,6 +3794,7 @@
     <qnRemoveService>El kívánja távolítani a szolgáltatást?</qnRemoveService>
     <qnRemoveServiceCategory>El kívánja távolítani a kategóriát?</qnRemoveServiceCategory>
     <qnRemoveUnused>El kívánja távolítani a nem használtakat?</qnRemoveUnused>
+    <qnReplace>Szeretné lecserélni a létező elemet {0}?</qnReplace>
     <qnRestoreDefault>Visszaállítja az alapértelmezettet?</qnRestoreDefault>
     <qnSaveChanges>Save changes in {0}?</qnSaveChanges>
     <qnSaveChangesToPreviewPage>El kívánja menteni az oldal változásait?</qnSaveChangesToPreviewPage>
@@ -3084,16 +3802,17 @@
     <qnSynchronizeServices>Synchronized services?</qnSynchronizeServices>
   </Questions>
   <Report>
+    <Address>Címek</Address>
     <Alphabetical>Betürendes</Alphabetical>
     <Bands>Sávok</Bands>
     <Basic>Alap</Basic>
     <BasicConfiguration>Minimális objektum tulajdonságok száma, mik szükségesek egy alap report elkészítéséhez.</BasicConfiguration>
     <BusinessObjects>Üzleti objektum</BusinessObjects>
     <Categorized>Kategorizált</Categorized>
-    <Charts>Diadramok</Charts>
+    <Charts>Diagrammok</Charts>
     <ClickForMoreDetails>További részletekért kattints.</ClickForMoreDetails>
     <CollapseAll>Mindet összezár</CollapseAll>
-    <Collection>Gyüjtemény</Collection>
+    <Collection>Gyűjtemény</Collection>
     <CompilingReport>Jelentés fordítása</CompilingReport>
     <Complete>Összetett</Complete>
     <Components>Komponensek</Components>
@@ -3102,8 +3821,9 @@
     <CreateNewReportPageForm>Új jelentés készítése új oldal vagy form hozzáadása</CreateNewReportPageForm>
     <CreatingReport>Jelentés készítése</CreatingReport>
     <CrossBands>Cross Bands</CrossBands>
+    <Dashboard>Irányítópult</Dashboard>
     <Dialogs>Dialogs</Dialogs>
-    <EditStyles>[Edit Styles]</EditStyles>
+    <EditStyles>[Stílusok szerkesztése]</EditStyles>
     <Errors>Hibák</Errors>
     <EventsTab>Események tab</EventsTab>
     <ExpandAll>Mindet kinyit</ExpandAll>
@@ -3111,7 +3831,10 @@
     <FilterOr>Vagy</FilterOr>
     <FinishingReport>Jelentés befejezése</FinishingReport>
     <FirstPass>First Pass</FirstPass>
+    <Gallery>Galéria</Gallery>
     <GenerateNewCode>Új kód generálás</GenerateNewCode>
+    <History>Előzmények</History>
+    <Infographics>Infografikák</Infographics>
     <InfoMessage>{0} - {1} talált.</InfoMessage>
     <InformationMessages>Infó üzenet</InformationMessages>
     <LabelAlias>Aliast:</LabelAlias>
@@ -3119,7 +3842,7 @@
     <LabelBackground>Háttér:</LabelBackground>
     <LabelCategory>Kategória:</LabelCategory>
     <LabelCentimeters>Centiméter:</LabelCentimeters>
-    <LabelCollectionName>Gyüjtemény neve:</LabelCollectionName>
+    <LabelCollectionName>Gyűjtemény neve:</LabelCollectionName>
     <LabelColor>Szín:</LabelColor>
     <LabelCountData>Count Data:</LabelCountData>
     <LabelDataBand>Adatsáv:</LabelDataBand>
@@ -3127,7 +3850,7 @@
     <LabelDefaultValue>Alapérték:</LabelDefaultValue>
     <LabelExpression>Kifejezés:</LabelExpression>
     <LabelFactorLevel>Beágyatott faktor:</LabelFactorLevel>
-    <LabelFontName>Betütípus:</LabelFontName>
+    <LabelFontName>Betűtípus:</LabelFontName>
     <LabelFunction>Funkció:</LabelFunction>
     <LabelHundredthsOfInch>Hundredths of Inch:</LabelHundredthsOfInch>
     <LabelInches>Hüvelyk:</LabelInches>
@@ -3137,6 +3860,7 @@
     <LabelNestedLevel>Beágyazott szint:</LabelNestedLevel>
     <LabelPassword>Jelszó:</LabelPassword>
     <LabelPixels>Képpont:</LabelPixels>
+    <LabelQueryTimeout>Lekérdezés időtúllépés:</LabelQueryTimeout>
     <LabelSystemVariable>Rendszer változó:</LabelSystemVariable>
     <LabelTotals>Összesen</LabelTotals>
     <LabelType>Típus:</LabelType>
@@ -3164,6 +3888,7 @@
     <SaveReportPagesOrFormsFromReport>Jelentés elmentése, oldalak vagy formok</SaveReportPagesOrFormsFromReport>
     <SavingReport>Report mentve</SavingReport>
     <SecondPass>Second Pass</SecondPass>
+    <Shapes>Alakzatok</Shapes>
     <Standard>Sztenderd</Standard>
     <StandardConfiguration>Fő objektum tulajdonságok kivéve a ritkán használtakt is</StandardConfiguration>
     <StiEmptyBrush>Üres</StiEmptyBrush>
@@ -3183,6 +3908,19 @@
     <WhenAnd>mikor {0} {1} and</WhenAnd>
     <WhenValueIs>amikor az érték</WhenValueIs>
   </Report>
+  <ReportInfo>
+    <CheckIssuesAdditionalDescription>Jelentés ellenőrzése hibák és pontatlanságok kiderítésére.</CheckIssuesAdditionalDescription>
+    <EncryptWithPassword>Titkosítás jelszóval</EncryptWithPassword>
+    <EncryptWithPasswordAdditionalDescription>Jelszó beállítása a jelentéssel való jogosulatlan munka megakadályozására.</EncryptWithPasswordAdditionalDescription>
+    <EncryptWithPasswordDescription>Jelentés védelme</EncryptWithPasswordDescription>
+    <Info>Info</Info>
+    <ReportOptions>Jelentés beállítások</ReportOptions>
+    <ReportOptionsAdditionalDescription>Alapvető információk és paraméterek beállítása a jelentésben.</ReportOptionsAdditionalDescription>
+  </ReportInfo>
+  <ReportOpen>
+    <Browse>Tallóz</Browse>
+    <Import>Import</Import>
+  </ReportOpen>
   <Services>
     <categoryContextTools>Környezet eszközök</categoryContextTools>
     <categoryDesigner>Tervező</categoryDesigner>
@@ -3222,6 +3960,7 @@
     <Lines>Vonalak</Lines>
     <Minus>Mínusz</Minus>
     <Multiply>Sokszög</Multiply>
+    <Octagon>Nyolcszög</Octagon>
     <Oval>Ovális</Oval>
     <Parallelogram>Paralelogramma</Parallelogram>
     <Plus>Plusz</Plus>
@@ -3249,6 +3988,7 @@
     <LineABC>A sorszám betüjele.</LineABC>
     <LineRoman>A sorszám római számmal.</LineRoman>
     <LineThrough>Sorszám (1-től kezdődik). A csoportok újraindítják a sorszámot.</LineThrough>
+    <PageCopyNumber>A jelenlegi oldalból visszaad néhány másolatot (1-től kezdődik).</PageCopyNumber>
     <PageNofM>Nyelvileg lokalizáltan megjeleníti "Page N of M" ahol N az aktuális oldalszám M az össz oldalszám.</PageNofM>
     <PageNofMThrough>Nyelvileg lokalizáltan megjeleníti "Page N of M" ahol N az aktuális oldalszám M az össz oldalszám. A ResetPageNumber újraindítja a számozást.</PageNofMThrough>
     <PageNumber>Aktuális oldalszám (1-től kezdődik).</PageNumber>

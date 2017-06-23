@@ -827,7 +827,7 @@
     <ShowDescription>Показувати опис</ShowDescription>
     <SLPreview>Silverlight перегляд</SLPreview>
     <title>Дизайнер</title>
-    <WebPreview>Web перегляд</WebPreview>
+    <WebPreview>Flash перегляд</WebPreview>
   </FormDesigner>
   <FormDictionaryDesigner>
     <Actions>Дії</Actions>

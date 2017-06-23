@@ -46,9 +46,9 @@
                         </tr>
                     </table>
                 </td>
-                <td style="vertical-align: top; padding-top: 2px; padding-right: 2px;">
+                <td style="vertical-align: top;">
                     <cc1:StiWebViewer ID="StiWebViewer1" runat="server"
-                        Width="100%" Height="100%" BackgroundColor="#e8e8e8" ShowDesignButton="True" ScrollbarsMode="true"
+                        Width="100%" Height="100%" BackgroundColor="#e8e8e8" ShowDesignButton="True" ScrollbarsMode="true" ToolbarDisplayMode="Separated"
                         OnGetReportData="StiWebViewer1_GetReportData"
                         OnReportDesign="StiWebViewer1_ReportDesign" />
                 </td>

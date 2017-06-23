@@ -48,7 +48,7 @@
                         </tr>
                     </table>
                 </td>
-                <td style="vertical-align: top; padding-top: 2px; padding-right: 2px;">
+                <td style="vertical-align: top;">
                     <cc1:StiWebViewerFx ID="StiWebViewerFx1" runat="server"
                         Width="100%" Height="100%" BackgroundColor="#e8e8e8" ShowDesignButton="True"
                         OnGetReportData="StiWebViewerFx1_GetReportData"

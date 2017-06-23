@@ -24,11 +24,11 @@
     <AdapterDBaseFiles>داده از پرونده های پایگاه داده</AdapterDBaseFiles>
     <AdapterFirebirdConnection>داده از منابع قابل شمارش</AdapterFirebirdConnection>
     <AdapterMySQLConnection> MySQL داده از ارتباط</AdapterMySQLConnection>
-    <AdapterOdbcConnection>Odbc   داده از ارتباط </AdapterOdbcConnection>
-    <AdapterOleDbConnection> OleDb  داده از ارتباط</AdapterOleDbConnection>
+    <AdapterOdbcConnection>ODBC   داده از ارتباط </AdapterOdbcConnection>
+    <AdapterOleDbConnection> OLE DB  داده از ارتباط</AdapterOleDbConnection>
     <AdapterOracleConnection>Oracle  داده از ارتباط</AdapterOracleConnection>
     <AdapterPostgreSQLConnection>PostgreSQL داده از ارتباط</AdapterPostgreSQLConnection>
-    <AdapterSqlCeConnection> SqlCe داده از ارتباط</AdapterSqlCeConnection>
+    <AdapterSqlCeConnection> SQL CE داده از ارتباط</AdapterSqlCeConnection>
     <AdapterSqlConnection>Sql داده از ارتباط</AdapterSqlConnection>
     <AdapterUserSources>داده از منابع کاربر</AdapterUserSources>
     <AdapterVirtualSource>داده از سایر منابع داده</AdapterVirtualSource>
@@ -207,14 +207,14 @@
     <DatabaseDB2>IBM DB2 ارتباط با پایگاه داده</DatabaseDB2>
     <DatabaseFirebird>Firebird ارتباط</DatabaseFirebird>
     <DatabaseMySQL>MySQL ارتباط با پایگاه داده</DatabaseMySQL>
-    <DatabaseOdbc>Odbc ارتباط</DatabaseOdbc>
-    <DatabaseOleDb>OleDB ارتباط</DatabaseOleDb>
+    <DatabaseOdbc>ODBC ارتباط</DatabaseOdbc>
+    <DatabaseOleDb>OLE DB ارتباط</DatabaseOleDb>
     <DatabaseOracle>Oracle ارتباط</DatabaseOracle>
     <DatabasePostgreSQL>PostgreSQL ارتباط</DatabasePostgreSQL>
-    <DatabaseSql>Sql ارتباط</DatabaseSql>
+    <DatabaseSql>SQL ارتباط</DatabaseSql>
     <DatabaseSqlCe>SQLServerCE ارتباط  یا پایگاه داده</DatabaseSqlCe>
     <DatabaseVistaDB>VistaDB ارتباط یا پایگاه داده</DatabaseVistaDB>
-    <DatabaseXml>Xml داده</DatabaseXml>
+    <DatabaseXml>XML داده</DatabaseXml>
   </Database>
   <Dialogs>
     <StiButtonControl>دکمه</StiButtonControl>
@@ -315,7 +315,7 @@
     <ExportTypeCalcFile>بازکردن پرونده حساب کننده</ExportTypeCalcFile>
     <ExportTypeCsvFile>CSV فایل</ExportTypeCsvFile>
     <ExportTypeDbfFile> DBFفایل پایگاه داده...</ExportTypeDbfFile>
-    <ExportTypeExcel2007File>Microsoft Excel 2007/2013 فایل...</ExportTypeExcel2007File>
+    <ExportTypeExcel2007File>Microsoft Excel 2007 فایل...</ExportTypeExcel2007File>
     <ExportTypeExcelFile>Microsoft Excel فایل</ExportTypeExcelFile>
     <ExportTypeExcelXmlFile>Microsoft Excel Xml فایل</ExportTypeExcelXmlFile>
     <ExportTypeGifFile>GIF تصویر</ExportTypeGifFile>
@@ -328,7 +328,7 @@
     <ExportTypeRtfFile>Rich Text فایل</ExportTypeRtfFile>
     <ExportTypeTiffFile>TIFF تصویر</ExportTypeTiffFile>
     <ExportTypeTxtFile>Text فایل</ExportTypeTxtFile>
-    <ExportTypeWord2007File>Microsoft Word 2007/2013 فایل...</ExportTypeWord2007File>
+    <ExportTypeWord2007File>Microsoft Word فایل...</ExportTypeWord2007File>
     <ExportTypeWriterFile>بازکردن پرونده نویسنده</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML فایل</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS فایل...</ExportTypeXpsFile>
@@ -499,10 +499,10 @@
     <InitialCatalog>:کاتالوگ اولیه</InitialCatalog>
     <MySQLEdit>MySQL ویرایش ارتباط</MySQLEdit>
     <MySQLNew> MySQL ارتباط جدید</MySQLNew>
-    <OdbcEdit> Odbc ویرایش ارتباط</OdbcEdit>
-    <OdbcNew>جدید Odbc ارتباط</OdbcNew>
-    <OleDbEdit> OleDb ویرایش ارتباط</OleDbEdit>
-    <OleDbNew>جدید OleDb ارتباط</OleDbNew>
+    <OdbcEdit> ODBC ویرایش ارتباط</OdbcEdit>
+    <OdbcNew>جدید ODBC ارتباط</OdbcNew>
+    <OleDbEdit> OLE DB ویرایش ارتباط</OleDbEdit>
+    <OleDbNew>جدید OLE DB ارتباط</OleDbNew>
     <OracleEdit> Oracle ویرایش ارتباط</OracleEdit>
     <OracleNew>جدید Oracle ارتباط</OracleNew>
     <PathData>مسیر XML Data:</PathData>
@@ -512,14 +512,15 @@
     <PromptUserNameAndPassword>مجوز نام و رمز کاربری</PromptUserNameAndPassword>
     <SqlCeEdit> SQLServerCE ویرایش ارتباط</SqlCeEdit>
     <SqlCeNew>SQLServerCE ارتباط جدید</SqlCeNew>
-    <SqlEdit> Sql ویرایش ارتباط</SqlEdit>
-    <SqlNew>جدید Sql ارتباط</SqlNew>
+    <SqlEdit> SQL ویرایش ارتباط</SqlEdit>
+    <SqlNew>جدید SQL ارتباط</SqlNew>
     <VistaDBEdit> VistaDB ویرایش ارتباط</VistaDBEdit>
     <VistaDBNew> VistaDB ارتباط جدید</VistaDBNew>
-    <XmlEdit> Xml ویرایش داده</XmlEdit>
-    <XmlNew>جدید Xml داده</XmlNew>
+    <XmlEdit> XML ویرایش داده</XmlEdit>
+    <XmlNew>جدید XML داده</XmlNew>
   </FormDatabaseEdit>
   <FormDesigner>
+    <Others>بقیه</Others>
     <Code>کد</Code>
     <CompilingReport>گزارش در حال کامپایل است</CompilingReport>
     <HtmlPreview>HTML پیش نمایش</HtmlPreview>
@@ -2000,7 +2001,7 @@
     <SelectAllFromRight>انتخاب همه از راست</SelectAllFromRight>
     <SwitchToDerivedTable>سوییچ به جدول تحویلی</SwitchToDerivedTable>
     <Tables>جدول ها</Tables>
-    <UnexpectedTokenAt>علامت غیرمنتظره \"{0}\" در خط {1}, پست {2}!</UnexpectedTokenAt>
+    <UnexpectedTokenAt>علامت غیرمنتظره "{0}" در خط {1}, پست {2}!</UnexpectedTokenAt>
     <Unions>اتحادها</Unions>
     <UnionSubMenu>اتحاد</UnionSubMenu>
     <ViewQuery>درخواست از دید</ViewQuery>

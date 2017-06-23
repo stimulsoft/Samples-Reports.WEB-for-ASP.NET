@@ -829,7 +829,7 @@
     <ShowDescription>Toon Omschrijving</ShowDescription>
     <SLPreview>Silverlight Voorbeeld</SLPreview>
     <title>Ontwerper</title>
-    <WebPreview>Web Voorbeeld</WebPreview>
+    <WebPreview>Flash Voorbeeld</WebPreview>
   </FormDesigner>
   <FormDictionaryDesigner>
     <Actions>Acties</Actions>

@@ -48,13 +48,13 @@
     <AdapterFirebirdConnection>Firebird Bağlantısından Veri</AdapterFirebirdConnection>
     <AdapterInformixConnection>Informix Bağlantısında Veri</AdapterInformixConnection>
     <AdapterMySQLConnection>MySQL Bağlantısından Veri</AdapterMySQLConnection>
-    <AdapterOdbcConnection>Odbc Bağlantısından Veri</AdapterOdbcConnection>
-    <AdapterOleDbConnection>OleDb Bağlantısından Veri</AdapterOleDbConnection>
+    <AdapterOdbcConnection>ODBC Bağlantısından Veri</AdapterOdbcConnection>
+    <AdapterOleDbConnection>OLE DB Bağlantısından Veri</AdapterOleDbConnection>
     <AdapterOracleConnection>Oracle Bağlantısından Veri</AdapterOracleConnection>
     <AdapterOracleODPConnection>Oracle ODP.NET bağlantısından veri.</AdapterOracleODPConnection>
     <AdapterPostgreSQLConnection>PostgreSQL Bağlantısından Veri</AdapterPostgreSQLConnection>
-    <AdapterSqlCeConnection>SqlCe Bağlantısından Veri</AdapterSqlCeConnection>
-    <AdapterSqlConnection>Sql Bağlantısından Veri</AdapterSqlConnection>
+    <AdapterSqlCeConnection>SQL CE Bağlantısından Veri</AdapterSqlCeConnection>
+    <AdapterSqlConnection>SQL Bağlantısından Veri</AdapterSqlConnection>
     <AdapterSQLiteConnection>SQLite Bağlantısından Veri</AdapterSQLiteConnection>
     <AdapterUniDirectConnection>Uni Direct Bağlantısından Veri</AdapterUniDirectConnection>
     <AdapterUserSources>Kullanıcı Kaynaklarından Veri</AdapterUserSources>
@@ -358,16 +358,16 @@
     <DatabaseInformix>Informix Bağlantı</DatabaseInformix>
     <DatabaseMySQL>MySQL Bağlantısı</DatabaseMySQL>
     <DatabaseOdbc>ODBC bağlantısı</DatabaseOdbc>
-    <DatabaseOleDb>OLEDB Bağlantısı</DatabaseOleDb>
+    <DatabaseOleDb>OLE DB Bağlantısı</DatabaseOleDb>
     <DatabaseOracle>Oracle Bağlantısı</DatabaseOracle>
     <DatabaseOracleODP>Oracle ODP.NET  Bağlantısı</DatabaseOracleODP>
     <DatabasePostgreSQL>PostgreSQL Bağlantısı</DatabasePostgreSQL>
-    <DatabaseSql>Sql Bağlantısı</DatabaseSql>
+    <DatabaseSql>SQL Bağlantısı</DatabaseSql>
     <DatabaseSqlCe>SQLServerCE Bağlantısı</DatabaseSqlCe>
     <DatabaseSQLite>SQLite Bağlantısı</DatabaseSQLite>
     <DatabaseUniDirect>Uni Doğrudan Bağlantısı</DatabaseUniDirect>
     <DatabaseVistaDB>VistaDB Bağlantısı</DatabaseVistaDB>
-    <DatabaseXml>Xml Verisi</DatabaseXml>
+    <DatabaseXml>XML Verisi</DatabaseXml>
   </Database>
   <DesignerFx>
     <CompilingReport>Raporu Derliyor</CompilingReport>
@@ -499,7 +499,7 @@
     <ExportTypeCsvFile>CSV Dosyası...</ExportTypeCsvFile>
     <ExportTypeDbfFile>dBase DBF Dosyası...</ExportTypeDbfFile>
     <ExportTypeDifFile>Veri Değişim Biçimi (DIF) Dosyası...</ExportTypeDifFile>
-    <ExportTypeExcel2007File>Microsoft Excel 2007/2013 Dosyası...</ExportTypeExcel2007File>
+    <ExportTypeExcel2007File>Microsoft Excel 2007 Dosyası...</ExportTypeExcel2007File>
     <ExportTypeExcelFile>Microsoft Excel Dosyası...</ExportTypeExcelFile>
     <ExportTypeExcelXmlFile>Microsoft Excel xml dosyası...</ExportTypeExcelXmlFile>
     <ExportTypeGifFile>GIF resim...</ExportTypeGifFile>
@@ -510,14 +510,14 @@
     <ExportTypePcxFile>PCX Resim...</ExportTypePcxFile>
     <ExportTypePdfFile>Adobe PDF dosyası...</ExportTypePdfFile>
     <ExportTypePngFile>PNG Resim ...</ExportTypePngFile>
-    <ExportTypePpt2007File>Microsoft PowerPoint 2007/2013 Dosyası...</ExportTypePpt2007File>
+    <ExportTypePpt2007File>Microsoft PowerPoint Dosyası...</ExportTypePpt2007File>
     <ExportTypeRtfFile>Zengin Metin Dosyası...</ExportTypeRtfFile>
     <ExportTypeSvgFile>Scalable Vector Graphics (SVG) Dosyası...</ExportTypeSvgFile>
     <ExportTypeSvgzFile>Sıkıştırılmış SVG (SVGZ) Dosyası...</ExportTypeSvgzFile>
     <ExportTypeSylkFile>Sembolik link (SYLK) Dosyası...</ExportTypeSylkFile>
     <ExportTypeTiffFile>TIFF Resim ...</ExportTypeTiffFile>
     <ExportTypeTxtFile>Metin Dosyası...</ExportTypeTxtFile>
-    <ExportTypeWord2007File>Microsoft Word 2007/2013 Dosyası...</ExportTypeWord2007File>
+    <ExportTypeWord2007File>Microsoft Word Dosyası...</ExportTypeWord2007File>
     <ExportTypeWriterFile>OpenDocument Writer Dosyası...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML Dosyası...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS Dosyası...</ExportTypeXpsFile>
@@ -712,8 +712,8 @@
     <NewConnection>{0} yeni bağlantısı</NewConnection>
     <OdbcEdit>ODBC bağlantısını Değiştir</OdbcEdit>
     <OdbcNew>ODBC bağlantısını Değiştir</OdbcNew>
-    <OleDbEdit>OLEDB Bağlantını Değiştir</OleDbEdit>
-    <OleDbNew>Yeni OLEDB Bağlantısı</OleDbNew>
+    <OleDbEdit>OLE DB Bağlantını Değiştir</OleDbEdit>
+    <OleDbNew>Yeni OLE DB Bağlantısı</OleDbNew>
     <OracleEdit>Oracle Bağlantısını Değiştir</OracleEdit>
     <OracleNew>Yeni Oracle Bağlantısı</OracleNew>
     <OracleODPEdit>Oracle bağlantısıni düzenle</OracleODPEdit>
@@ -737,6 +737,7 @@
     <XmlNew>Yeni XML Verisi</XmlNew>
   </FormDatabaseEdit>
   <FormDesigner>
+    <Others>Diğerleri</Others>
     <Code>Kod</Code>
     <ColumnsOne>Bir</ColumnsOne>
     <ColumnsThree>Üç</ColumnsThree>
@@ -863,7 +864,7 @@
   </FormGlobalizationEditor>
   <FormOptions>
     <AutoSave>Otomatik Kaydet</AutoSave>
-    <AutoSaveReportToReportClass>Raporu C # veya Vb. Net dosyasi olarak otomatik kaydet.</AutoSaveReportToReportClass>
+    <AutoSaveReportToReportClass>Raporu C# veya VB.NET dosyasi olarak otomatik kaydet.</AutoSaveReportToReportClass>
     <Default>Standart</Default>
     <Drawing>Çizim</Drawing>
     <DrawMarkersWhenMoving>İşaretleyiciler taşırken ciz</DrawMarkersWhenMoving>
@@ -1463,6 +1464,7 @@
     <menuFileReportOpenFromGoogleDocs>Raporu  Google Dökümanlardan Ac...</menuFileReportOpenFromGoogleDocs>
     <menuFileReportPreview>&amp;Önizleme</menuFileReportPreview>
     <menuFileReportSave>&amp;Raporu Kaydet</menuFileReportSave>
+    <menuFileSave>&amp;Kaydet...</menuFileSave>
     <menuFileReportSaveAs>&amp;Raporu Farkli Kaydet...</menuFileReportSaveAs>
     <menuFileReportSaveAsToGoogleDocs>Raporu Google Dökümanlara Kayset...</menuFileReportSaveAsToGoogleDocs>
     <menuFileReportSetup>&amp;Rapor Kur...</menuFileReportSetup>
@@ -2928,7 +2930,7 @@
     <SelectAllFromRight>Tümünü Sagdan Seçin</SelectAllFromRight>
     <SwitchToDerivedTable> Derived(Türemis) Tablo Geç</SwitchToDerivedTable>
     <Tables>Tablolar</Tables>
-    <UnexpectedTokenAt>Beklenmedik Belirteç  \ "{0} \" satır:{1}, pozisyon:{2}!</UnexpectedTokenAt>
+    <UnexpectedTokenAt>Beklenmedik Belirteç "{0}" satır:{1}, pozisyon:{2}!</UnexpectedTokenAt>
     <Unions>Union'lar</Unions>
     <UnionSubMenu>Union</UnionSubMenu>
     <ViewQuery>View Sorgusu</ViewQuery>

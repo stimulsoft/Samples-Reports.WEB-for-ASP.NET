@@ -859,7 +859,7 @@
     <ShowDescription>Visa beskrivning</ShowDescription>
     <SLPreview>Silverlight förhandsgranska</SLPreview>
     <title>Designverktyg</title>
-    <WebPreview>Webb förhandsgranska</WebPreview>
+    <WebPreview>Flash förhandsgranska</WebPreview>
   </FormDesigner>
   <FormDictionaryDesigner>
     <Actions>Händelser</Actions>

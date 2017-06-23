@@ -120,8 +120,8 @@
     <Save>Save</Save>
     <SaveCopy>Save a Copy</SaveCopy>
     <SetAll>Set All</SetAll>
-    <ShowMore>Show More</ShowMore>
     <ShowLess>Show Less</ShowLess>
+    <ShowMore>Show More</ShowMore>
     <Submit>Submit</Submit>
     <Test>Test</Test>
     <Up>Up</Up>
@@ -316,13 +316,16 @@
     <VerticalNone>&lt;b&gt;None&lt;/b&gt;&lt;br&gt;Do not display Vertical Gridlines&lt;/br&gt;</VerticalNone>
   </ChartRibbon>
   <Cloud>
-<Platforms>Platforms</Platforms>
+  	<LabelPicture>Picture:</LabelPicture>
+  	<License>License</License>
     <AccountSettings>Account Settings</AccountSettings>
+    <AddAPlace>Add a Place</AddAPlace>
     <ButtonChangePassword>Change Password</ButtonChangePassword>
     <ButtonDeleteAll>Delete All</ButtonDeleteAll>
     <ButtonDesign>Design Report</ButtonDesign>
     <ButtonLogout>Logout</ButtonLogout>
     <ButtonPublish>Publish</ButtonPublish>
+    <ButtonPurchase>Purchase</ButtonPurchase>
     <ButtonRecover>Recover</ButtonRecover>
     <ButtonRenew>Renew</ButtonRenew>
     <ButtonResendEmail>Resend Email</ButtonResendEmail>
@@ -345,6 +348,7 @@
     <DashboardWindowTitleNew>New Dashboard</DashboardWindowTitleNew>
     <DeleteFile>Delete File</DeleteFile>
     <ExecutionError>Execution error</ExecutionError>
+    <ExpiredDate>Expired Date</ExpiredDate>
     <FileStorageWindowTitleEdit>Edit File Storage</FileStorageWindowTitleEdit>
     <FileStorageWindowTitleNew>New File Storage</FileStorageWindowTitleNew>
     <FolderWindowTitleEdit>Edit Folder</FolderWindowTitleEdit>
@@ -367,7 +371,7 @@
     <LabelForeground>Foreground:</LabelForeground>
     <LabelFromReport>From Report</LabelFromReport>
     <LabelFromReportCode>From Report (define in code)</LabelFromReportCode>
-    <LabelLastLogin>Last Login:</LabelLastLogin>
+    <LabelLastLogin>Last Log In:</LabelLastLogin>
     <LabelLastTime>Last Time:</LabelLastTime>
     <LabelModified>Modified:</LabelModified>
     <LabelNewPassword>New Password:</LabelNewPassword>
@@ -379,7 +383,8 @@
     <LabelSeparateReport>Separate report (and scripts) file</LabelSeparateReport>
     <LabelShowReport>Show report:</LabelShowReport>
     <labelUserName>User Name:</labelUserName>
-    <Login>Login</Login>
+    <LicenseInformation>License Information</LicenseInformation>
+    <Login>Log In</Login>
     <NofM>{0}: {1} of {2}</NofM>
     <Open>Open</Open>
     <OpenFile>Open File</OpenFile>
@@ -387,10 +392,12 @@
     <OperationDelete>Delete '{0}' from Server</OperationDelete>
     <OperationDownload>Download from Server</OperationDownload>
     <OperationGetList>Get List of Files from Server</OperationGetList>
-    <OperationLogin>Login to Server</OperationLogin>
+    <OperationLogin>Log In to Server</OperationLogin>
     <OperationRename>Rename '{0}' to '{1}'</OperationRename>
     <OperationUpload>Upload '{0}' to Server</OperationUpload>
     <page>page</page>
+    <Platforms>Platforms</Platforms>
+    <Products>Products</Products>
     <questionOpenThisFile>Are you sure want to open '{0}' item?</questionOpenThisFile>
     <questionOverrideItem>Do you really want to override '{0}' item?</questionOverrideItem>
     <questionRemoveItem>Do you really want to remove '{0}' item?</questionRemoveItem>
@@ -409,10 +416,12 @@
     <SaveFile>Save File</SaveFile>
     <ShareWindowTitleNew>Share</ShareWindowTitleNew>
     <ShowAllFiles>Show All Files</ShowAllFiles>
+    <Subscriptions>Subscriptions</Subscriptions>
     <TabItemEmbedCode>Embed Code</TabItemEmbedCode>
     <TabItemQRCode>QR Code</TabItemQRCode>
     <TabItemShare>Link to Share</TabItemShare>
     <TextActivated>Activated</TextActivated>
+    <TextActivationDate>Activation Date</TextActivationDate>
     <TextDelete>Delete</TextDelete>
     <TextDeletingItems>Deleting items...</TextDeletingItems>
     <TextFirstName>First Name</TextFirstName>
@@ -421,6 +430,7 @@
     <TextLastName>Last Name</TextLastName>
     <TextModify>Modify</TextModify>
     <TextNoNotifications>No Notifications</TextNoNotifications>
+    <TextOwner>Owner</TextOwner>
     <TextProfile>Profile</TextProfile>
     <TextReports>Reports</TextReports>
     <TextRestoringItems>Restoring items...</TextRestoringItems>
@@ -467,7 +477,7 @@
     <WindowDescriptionRecover>Selected items will be recovered from the Recycle Bin.</WindowDescriptionRecover>
     <WindowTitleDelete>Delete Items</WindowTitleDelete>
     <WindowTitleForgotPassword>Forgot Password</WindowTitleForgotPassword>
-    <WindowTitleLogin>Login</WindowTitleLogin>
+    <WindowTitleLogin>Log In</WindowTitleLogin>
     <WindowTitleRecover>Recover Items</WindowTitleRecover>
     <WindowTitleRoleEdit>Edit Role</WindowTitleRoleEdit>
     <WindowTitleRoleNew>New Role</WindowTitleRoleNew>
@@ -1018,6 +1028,7 @@
     <CompilingReport>Compiling Report</CompilingReport>
     <DockingPanels>Panels</DockingPanels>
     <HtmlPreview>HTML Preview</HtmlPreview>
+    <JsPreview>JS Preview</JsPreview>
     <labelPleaseSelectTypeOfInterface>Please, select type of interface</labelPleaseSelectTypeOfInterface>
     <LoadImage>Load Image...</LoadImage>
     <LocalizePropertyGrid>Localize Property Grid</LocalizePropertyGrid>
@@ -1034,7 +1045,7 @@
     <ShowDescription>Show Description</ShowDescription>
     <SLPreview>Silverlight Preview</SLPreview>
     <title>Designer</title>
-    <WebPreview>Web Preview</WebPreview>
+    <WebPreview>Flash Preview</WebPreview>
   </FormDesigner>
   <FormDictionaryDesigner>
     <Actions>Actions</Actions>
@@ -1810,10 +1821,10 @@
     <ZoomTxt>The report size (scale): X - change the horizontal scale, Y - to change the vertical scale.</ZoomTxt>
   </HelpViewer>
   <Interface>
-	<Mouse>Mouse</Mouse>
-	<MouseDescription>Optimized for used with mouse</MouseDescription>
-	<Touch>Touch</Touch>
-	<TouchDescription>Optimized for used with touch</TouchDescription>
+    <Mouse>Mouse</Mouse>
+    <MouseDescription>Optimized for used with mouse</MouseDescription>
+    <Touch>Touch</Touch>
+    <TouchDescription>Optimized for used with touch</TouchDescription>
   </Interface>
   <MainMenu>
     <menuCheckIssues>Check for Issues</menuCheckIssues>
@@ -1922,6 +1933,7 @@
     <menuViewQuickInfoShowFieldsOnly>Show Fields Only</menuViewQuickInfoShowFieldsOnly>
     <menuViewShowGrid>Show Grid</menuViewShowGrid>
     <menuViewShowHeaders>Show Headers</menuViewShowHeaders>
+    <menuViewShowInsertTab>Show 'Insert' Tab</menuViewShowInsertTab>
     <menuViewShowOrder>Show Order</menuViewShowOrder>
     <menuViewShowRulers>Show Rulers</menuViewShowRulers>
     <menuViewShowToolbox>Show Toolbox</menuViewShowToolbox>
@@ -2055,6 +2067,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <WindowClosePreventWhileUploading>Some files are uploading now, if you close page they will lost. Are you sure you want to close page?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" with the specified key is not found!</WithSpecifiedKeyIsNotFound>
     <YourTimeSessionHasExpired>Your time session has expired!</YourTimeSessionHasExpired>
+    <YouUsingTrialVersion>You are using a trial version!</YouUsingTrialVersion>
   </Notices>
   <NuGet>
     <AlreadyDownloaded>Already Downloaded</AlreadyDownloaded>
@@ -2064,6 +2077,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <Dependencies>Dependencies:</Dependencies>
     <Download>Download</Download>
     <DownloadAll>Download All</DownloadAll>
+    <DownloadAndInstall>Download and Install</DownloadAndInstall>
     <Downloads>Downloads:</Downloads>
     <IAccept>I Accept</IAccept>
     <IDecline>I Decline</IDecline>
@@ -2075,7 +2089,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <ReportAbuse>Report Abuse:</ReportAbuse>
     <RetrievingInformation>Retrieving information...</RetrievingInformation>
     <Tags>Tags:</Tags>
-    <Title>Download Data Adapter</Title>
+    <Title>Data Adapter from NuGet</Title>
     <ViewLicense>View License</ViewLicense>
   </NuGet>
   <Panels>
@@ -2188,6 +2202,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <RenderEventsCategory>Render Events</RenderEventsCategory>
     <SeriesLabelsCategory>Series Labels</SeriesLabelsCategory>
     <ShapeCategory>Shape</ShapeCategory>
+    <SeriesCategory>Series</SeriesCategory>
     <Size>Size</Size>
     <SubReportCategory>Sub-Report</SubReportCategory>
     <TableCategory>Table</TableCategory>
@@ -3052,9 +3067,9 @@ It contains a link to confirm your registration. To complete the registration pl
     <ColumnGaps>Column Gaps</ColumnGaps>
     <ColumnHeadersVisible>Column Headers Visible</ColumnHeadersVisible>
     <Columns>Columns</Columns>
-    <ColumnWidth>Column Width</ColumnWidth>	
+    <ColumnWidth>Column Width</ColumnWidth>
     <CommandTimeout>Command Timeout</CommandTimeout>
-	<CompanyPrefix>Company Prefix</CompanyPrefix>
+    <CompanyPrefix>Company Prefix</CompanyPrefix>
     <ComponentStyle>Component Style</ComponentStyle>
     <Condition>Condition</Condition>
     <ConditionOptions>Condition Options</ConditionOptions>
@@ -3152,7 +3167,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <Exponential>Exponential</Exponential>
     <ExportAsImage>Export as Image</ExportAsImage>
     <Expression>Expression</Expression>
-	<ExtensionDigit>Extension Digit</ExtensionDigit>
+    <ExtensionDigit>Extension Digit</ExtensionDigit>
     <FaqPage>FAQ Page</FaqPage>
     <FieldIs>Field Is</FieldIs>
     <File>File</File>
@@ -3506,6 +3521,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <SelectionEnabled>Selection Enabled</SelectionEnabled>
     <SelectionForeColor>Selection Fore Color</SelectionForeColor>
     <SelectionMode>Selection Mode</SelectionMode>
+    <SerialNumber>Serial Number</SerialNumber>
     <Series>Series</Series>
     <SeriesLabels>Series Labels</SeriesLabels>
     <SeriesLabelsBorderColor>Border Color</SeriesLabelsBorderColor>
@@ -3513,7 +3529,6 @@ It contains a link to confirm your registration. To complete the registration pl
     <SeriesLabelsColor>Labels Color</SeriesLabelsColor>
     <SeriesLighting>Series Lighting</SeriesLighting>
     <SeriesShowShadow>Series Show Shadow</SeriesShowShadow>
-	<SerialNumber>Serial Number</SerialNumber>
     <Shadow>Shadow</Shadow>
     <ShadowBrush>Shadow Brush</ShadowBrush>
     <ShadowColor>Shadow Color</ShadowColor>
@@ -3809,6 +3824,10 @@ It contains a link to confirm your registration. To complete the registration pl
     <qnSynchronizeServices>Synchronized services?</qnSynchronizeServices>
   </Questions>
   <Report>
+    <NewFeatures>New Features</NewFeatures>
+	<Enhancements>Enhancements</Enhancements>
+	<FixedBugs>Fixed Bugs</FixedBugs>
+	<WhatsNewInVersion>What's New in {0}</WhatsNewInVersion>
     <Address>Address</Address>
     <Alphabetical>Alphabetical</Alphabetical>
     <Bands>Bands</Bands>
@@ -3876,6 +3895,8 @@ It contains a link to confirm your registration. To complete the registration pl
     <nameAssembly>Assembly</nameAssembly>
     <No>No</No>
     <NoIssues>No Issues</NoIssues>
+    <NoNewVersions>There are no new versions available!</NoNewVersions>
+	<NoFixes>There are no fixes or updates for this version!</NoFixes>
     <NotAssigned>Not Assigned</NotAssigned>
     <Office2010Back>Back</Office2010Back>
     <PageNofM>Page {0} of {1}</PageNofM>

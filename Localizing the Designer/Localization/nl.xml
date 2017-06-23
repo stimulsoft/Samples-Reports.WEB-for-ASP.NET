@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Localization language="Dutch" description="Nederlands (Algemeen)" cultureName="nl">
   <A_WebViewer>
+    <AbbreviatedDayFriday>Vr</AbbreviatedDayFriday>
+    <AbbreviatedDayMonday>Ma</AbbreviatedDayMonday>
+    <AbbreviatedDaySaturday>Za</AbbreviatedDaySaturday>
+    <AbbreviatedDaySunday>Zo</AbbreviatedDaySunday>
+    <AbbreviatedDayThursday>Do</AbbreviatedDayThursday>
+    <AbbreviatedDayTuesday>Di</AbbreviatedDayTuesday>
+    <AbbreviatedDayWednesday>Wo</AbbreviatedDayWednesday>
     <DayFriday>Vrijdag</DayFriday>
     <DayMonday>Maandag</DayMonday>
     <DaySaturday>Zaterdag</DaySaturday>
@@ -9,8 +16,10 @@
     <DayTuesday>Dinsdag</DayTuesday>
     <DayWednesday>Woensdag</DayWednesday>
     <FirstPage>Eerste Pagina</FirstPage>
+    <Hours>Uren</Hours>
     <LastPage>Laatste Pagina</LastPage>
     <Loading>Laden...</Loading>
+    <Minutes>Minuten</Minutes>
     <MonthApril>April</MonthApril>
     <MonthAugust>Augustus</MonthAugust>
     <MonthDecember>December</MonthDecember>
@@ -42,7 +51,7 @@
     <AdapterBusinessObjects>Gegevens uit Business Objects</AdapterBusinessObjects>
     <AdapterConnection>Data van {0}</AdapterConnection>
     <AdapterCrossTabDataSource>Data van Draaitabel</AdapterCrossTabDataSource>
-    <AdapterCsvFiles>Gegevens uit Csv Verbinding</AdapterCsvFiles>
+    <AdapterCsvFiles>Gegevens uit CSV Verbinding</AdapterCsvFiles>
     <AdapterDataTables>Gegevens uit DataSet, DataTables</AdapterDataTables>
     <AdapterDataViews>Gegevens uit DataViews</AdapterDataViews>
     <AdapterDB2Connection>Gegevens uit DB2 Verbinding</AdapterDB2Connection>
@@ -50,13 +59,13 @@
     <AdapterFirebirdConnection>Gegevens uit Firebird Verbinding</AdapterFirebirdConnection>
     <AdapterInformixConnection>Gegevens uit Informix Verbinding</AdapterInformixConnection>
     <AdapterMySQLConnection>Gegevens uit MySQL Verbinding</AdapterMySQLConnection>
-    <AdapterOdbcConnection>Gegevens uit Odbc Verbinding</AdapterOdbcConnection>
-    <AdapterOleDbConnection>Gegevens uit OleDb Verbinding</AdapterOleDbConnection>
+    <AdapterOdbcConnection>Gegevens uit ODBC Verbinding</AdapterOdbcConnection>
+    <AdapterOleDbConnection>Gegevens uit OLE DB Verbinding</AdapterOleDbConnection>
     <AdapterOracleConnection>Gegevens uit Oracle Verbinding</AdapterOracleConnection>
     <AdapterOracleODPConnection>Data van Oracle ODP.NET Verbinding</AdapterOracleODPConnection>
     <AdapterPostgreSQLConnection>Gegevens uit PostgreSQL Verbinding</AdapterPostgreSQLConnection>
-    <AdapterSqlCeConnection>Gegevens uit SqlCe Verbinding</AdapterSqlCeConnection>
-    <AdapterSqlConnection>Gegevens uit Sql Verbinding</AdapterSqlConnection>
+    <AdapterSqlCeConnection>Gegevens uit SQL CE Verbinding</AdapterSqlCeConnection>
+    <AdapterSqlConnection>Gegevens uit SQL Verbinding</AdapterSqlConnection>
     <AdapterSQLiteConnection>Gegevens uit SQLite Verbinding</AdapterSQLiteConnection>
     <AdapterTeradataConnection>Gegevens via Teradata Verbinding</AdapterTeradataConnection>
     <AdapterUniDirectConnection>Gegevens van Uni Direct Verbinding</AdapterUniDirectConnection>
@@ -76,6 +85,7 @@
     <Duplicate>Duplicaat</Duplicate>
     <Export>Export</Export>
     <Help>Help</Help>
+    <LoadDataSet>DataSet Laden (*.data)</LoadDataSet>
     <MoveLeft>Naar Links</MoveLeft>
     <MoveRight>Naar Rechts</MoveRight>
     <No>&amp;Neen</No>
@@ -373,20 +383,46 @@
     <DatabaseFirebird>Firebird Verbinding</DatabaseFirebird>
     <DatabaseInformix>Informix Verbinding</DatabaseInformix>
     <DatabaseMySQL>MySQL Verbinding</DatabaseMySQL>
-    <DatabaseOdbc>Odbc Verbinding</DatabaseOdbc>
-    <DatabaseOleDb>OleDB Verbinding</DatabaseOleDb>
+    <DatabaseOdbc>ODBC Verbinding</DatabaseOdbc>
+    <DatabaseOleDb>OLE DB Verbinding</DatabaseOleDb>
     <DatabaseOracle>Oracle Verbinding</DatabaseOracle>
     <DatabaseOracleODP>Oracle ODP.NET Verbinding</DatabaseOracleODP>
     <DatabasePostgreSQL>PostgreSQL Verbinding</DatabasePostgreSQL>
-    <DatabaseSql>Sql Verbinding</DatabaseSql>
+    <DatabaseSql>SQL Verbinding</DatabaseSql>
     <DatabaseSqlCe>SQLServerCE Verbinding</DatabaseSqlCe>
     <DatabaseSQLite>SQLite Verbinding</DatabaseSQLite>
     <DatabaseTeradata>Teradata Verbinding</DatabaseTeradata>
     <DatabaseUniDirect>Uni Direct Verbinding</DatabaseUniDirect>
     <DatabaseVistaDB>VistaDB Verbinding</DatabaseVistaDB>
-    <DatabaseXml>Xml Data</DatabaseXml>
+    <DatabaseXml>XML Data</DatabaseXml>
   </Database>
+  <DatePickerRanges>
+    <CurrentMonth>Huidige maand</CurrentMonth>
+    <CurrentQuarter>Huidig kwartaal</CurrentQuarter>
+    <CurrentWeek>Huidige week</CurrentWeek>
+    <CurrentYear>Huidig jaar</CurrentYear>
+    <FirstQuarter>Eerste kwartaal</FirstQuarter>
+    <FourthQuarter>Vierde kwartaal</FourthQuarter>
+    <MonthToDate>Maand -tot nu</MonthToDate>
+    <NextMonth>Komende maand</NextMonth>
+    <NextQuarter>Komend kwartaal</NextQuarter>
+    <NextWeek>Komende week</NextWeek>
+    <NextYear>Komend jaar</NextYear>
+    <PreviousMonth>Vorige maand</PreviousMonth>
+    <PreviousQuarter>Vorig kwartaal</PreviousQuarter>
+    <PreviousWeek>Vorige week</PreviousWeek>
+    <PreviousYear>Vorig jaar</PreviousYear>
+    <QuarterToDate>Kwartaal -tot nu</QuarterToDate>
+    <SecondQuarter>Tweede kwartaal</SecondQuarter>
+    <ThirdQuarter>Derde kwartaal</ThirdQuarter>
+    <Today>Vandaag</Today>
+    <Tomorrow>Morgen</Tomorrow>
+    <WeekToDate>Week -tot nu</WeekToDate>
+    <YearToDate>Jaar -tot nu</YearToDate>
+    <Yesterday>Gisteren</Yesterday>
+  </DatePickerRanges>
   <DesignerFx>
+    <AlreadyExists>'{0}' bestaat reeds.</AlreadyExists>
     <CanNotLoadThisReportTemplate>Het rapportsjabloon kan niet geladen worden</CanNotLoadThisReportTemplate>
     <CloseDataSourceEditor>Wilt u de gegevensbron-editor sluiten?</CloseDataSourceEditor>
     <CloseEditor>Wilt u de editor sluiten?</CloseEditor>
@@ -481,7 +517,7 @@
     <FileNotFound>Veld "{0}" niet gevonden.</FileNotFound>
     <IdentifierIsNotValid>Sleutel '{0}' is niet geldig.</IdentifierIsNotValid>
     <ImpossibleFindDataSource>Onmogelijk om de Gegevensbron te vinden.</ImpossibleFindDataSource>
-    <NameExists>Er bestaat reeds een object genaamd '{0}'. Objecten moeten een unieke naam hebben, en de namem zijn hoofdlettergevoelig.</NameExists>
+    <NameExists>Er bestaat reeds een object genaamd '{0}'. Objecten moeten een unieke naam hebben.</NameExists>
     <NoServices>Diensten zijn niet gevonden in '{0}'</NoServices>
     <NotAssign>Gegevensbron is niet gespecifiëerd.</NotAssign>
     <NotCorrectFormat>Ingegeven tekst was niet van het juiste formaat</NotCorrectFormat>
@@ -528,9 +564,9 @@
     <ExportTypeCsvFile>CSV Bestand...</ExportTypeCsvFile>
     <ExportTypeDbfFile>DBF Bestand...</ExportTypeDbfFile>
     <ExportTypeDifFile>Data Interchange Format (DIF) Bestand...</ExportTypeDifFile>
-    <ExportTypeExcel2007File>Microsoft Excel 2007/2013 Bestand...</ExportTypeExcel2007File>
+    <ExportTypeExcel2007File>Microsoft Excel 2007 Bestand...</ExportTypeExcel2007File>
     <ExportTypeExcelFile>Microsoft Excel Bestand...</ExportTypeExcelFile>
-    <ExportTypeExcelXmlFile>Microsoft Excel Xml Bestand...</ExportTypeExcelXmlFile>
+    <ExportTypeExcelXmlFile>Microsoft Excel XML Bestand...</ExportTypeExcelXmlFile>
     <ExportTypeGifFile>GIF Afbeelding...</ExportTypeGifFile>
     <ExportTypeHtml5File>HTML5 Bestand...</ExportTypeHtml5File>
     <ExportTypeHtmlFile>HTML Bestand...</ExportTypeHtmlFile>
@@ -540,14 +576,14 @@
     <ExportTypePcxFile>PCX Afbeelding...</ExportTypePcxFile>
     <ExportTypePdfFile>Adobe PDF Bestand...</ExportTypePdfFile>
     <ExportTypePngFile>PNG Afbeelding...</ExportTypePngFile>
-    <ExportTypePpt2007File>Microsoft PowerPoint 2007/2013 Bestand...</ExportTypePpt2007File>
+    <ExportTypePpt2007File>Microsoft PowerPoint Bestand...</ExportTypePpt2007File>
     <ExportTypeRtfFile>Rich Text Bestand...</ExportTypeRtfFile>
     <ExportTypeSvgFile>Scalable Vector Graphics (SVG) bestand...</ExportTypeSvgFile>
     <ExportTypeSvgzFile>Gecomprimeerd SVG (SVGZ) bestand...</ExportTypeSvgzFile>
     <ExportTypeSylkFile>Symbolic Link (SYLK) Bestand...</ExportTypeSylkFile>
     <ExportTypeTiffFile>TIFF Afbeelding...</ExportTypeTiffFile>
     <ExportTypeTxtFile>Tekst Bestand...</ExportTypeTxtFile>
-    <ExportTypeWord2007File>Microsoft Word 2007/2013 Bestand...</ExportTypeWord2007File>
+    <ExportTypeWord2007File>Microsoft Word Bestand...</ExportTypeWord2007File>
     <ExportTypeWriterFile>OpenDocument Writer Bestand...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML Bestand...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS Bestand...</ExportTypeXpsFile>
@@ -702,6 +738,7 @@
   <FormColorBoxPopup>
     <Color>Kleur</Color>
     <Custom>Aangepast</Custom>
+    <NoColor>Geen Kleur</NoColor>
     <Others>Andere...</Others>
     <System>Systeem</System>
     <Web>Web</Web>
@@ -740,10 +777,10 @@
     <MySQLEdit>Bewerk MySQL Verbinding</MySQLEdit>
     <MySQLNew>Nieuwe MySQL Verbinding</MySQLNew>
     <NewConnection>Nieuwe {0} Verbinding</NewConnection>
-    <OdbcEdit>Bewerk Odbc Verbinding</OdbcEdit>
-    <OdbcNew>Nieuwe Odbc Verbinding</OdbcNew>
-    <OleDbEdit>Bewerk OleDb Verbinding</OleDbEdit>
-    <OleDbNew>Nieuwe OleDb Verbinding</OleDbNew>
+    <OdbcEdit>Bewerk ODBC Verbinding</OdbcEdit>
+    <OdbcNew>Nieuwe ODBC Verbinding</OdbcNew>
+    <OleDbEdit>Bewerk OLE DB Verbinding</OleDbEdit>
+    <OleDbNew>Nieuwe OLE DB Verbinding</OleDbNew>
     <OracleEdit>Bewerk Oracle Verbinding</OracleEdit>
     <OracleNew>Nieuwe Oracle Verbinding</OracleNew>
     <OracleODPEdit>Oracle ODP.NET Verbinding Bewerken</OracleODPEdit>
@@ -755,18 +792,18 @@
     <PromptUserNameAndPassword>Gebruikersnaam en Paswoord Vragen</PromptUserNameAndPassword>
     <SqlCeEdit>Bewerk SQLServerCE Verbinding</SqlCeEdit>
     <SqlCeNew>Nieuwe SQLServerCE Verbinding</SqlCeNew>
-    <SqlEdit>Bewerk Sql Verbinding</SqlEdit>
+    <SqlEdit>Bewerk SQL Verbinding</SqlEdit>
     <SQLiteEdit>Bewerk SQLite Verbinding</SQLiteEdit>
     <SQLiteNew>Nieuwe SQLite Verbinding</SQLiteNew>
-    <SqlNew>Nieuwe Sql Verbinding</SqlNew>
+    <SqlNew>Nieuwe SQL Verbinding</SqlNew>
     <TeradataEdit>Bewerken Teradata Verbinding</TeradataEdit>
     <TeradataNew>Nieuwe Teradata Verbinding</TeradataNew>
     <UniDirectEdit>Bewerk Uni Direct Verbinding</UniDirectEdit>
     <UniDirectNew>Nieuwe Uni Direct Verbinding</UniDirectNew>
     <VistaDBEdit>Bewerk VistaDB Verbinding</VistaDBEdit>
     <VistaDBNew>Nieuwe VistaDB Verbinding</VistaDBNew>
-    <XmlEdit>Bewerk Xml Data</XmlEdit>
-    <XmlNew>Nieuwe Xml Data</XmlNew>
+    <XmlEdit>Bewerk XML Data</XmlEdit>
+    <XmlNew>Nieuwe XML Data</XmlNew>
   </FormDatabaseEdit>
   <FormDesigner>
     <Code>Code</Code>
@@ -783,6 +820,7 @@
     <MarginsNormal>Normaal</MarginsNormal>
     <MarginsWide>Breed</MarginsWide>
     <OrderToolbars>Rangschik Werkbalken</OrderToolbars>
+    <Others>Andere</Others>
     <Pages>Pagina's</Pages>
     <Preview>Voorbeeld</Preview>
     <PropertyChange>Change of property '{0}'</PropertyChange>
@@ -791,7 +829,7 @@
     <ShowDescription>Toon Omschrijving</ShowDescription>
     <SLPreview>Silverlight Voorbeeld</SLPreview>
     <title>Ontwerper</title>
-    <WebPreview>Web Voorbeeld</WebPreview>
+    <WebPreview>Flash Voorbeeld</WebPreview>
   </FormDesigner>
   <FormDictionaryDesigner>
     <Actions>Acties</Actions>
@@ -809,6 +847,7 @@
     <DatabaseNew>Nieuwe Database</DatabaseNew>
     <DataParameterEdit>Bewerk Parameter</DataParameterEdit>
     <DataParameterNew>Nieuwe Parameter</DataParameterNew>
+    <DataSetToBusinessObjects>DataSet Naar Business Objects</DataSetToBusinessObjects>
     <DataSourceEdit>Bewerk Gegevensbron</DataSourceEdit>
     <DataSourceNew>Nieuwe Gegevensbron</DataSourceNew>
     <DataSourcesNew>Nieuwe Gegevensbronnen</DataSourcesNew>
@@ -895,7 +934,7 @@
   </FormGlobalizationEditor>
   <FormOptions>
     <AutoSave>Auto Bewaren</AutoSave>
-    <AutoSaveReportToReportClass>Automatisch Bewaren Rapport naar C# of Vb.Net Bestand</AutoSaveReportToReportClass>
+    <AutoSaveReportToReportClass>Automatisch Bewaren Rapport naar C# of VB.NET Bestand</AutoSaveReportToReportClass>
     <Default>Standaard</Default>
     <Drawing>Tekenen</Drawing>
     <DrawMarkersWhenMoving>Toon Markeerders tijdens het Verplaatsen</DrawMarkersWhenMoving>
@@ -1058,7 +1097,7 @@
     <PagesManagerForm>Paginamanager</PagesManagerForm>
     <PromptForm>Geef  informatie om  op de database aan te melden</PromptForm>
     <ServiceSelectForm>Selecteer Service</ServiceSelectForm>
-    <SqlExpressionsForm>Sql Expressies</SqlExpressionsForm>
+    <SqlExpressionsForm>SQL Expressies</SqlExpressionsForm>
     <SubReportPageSelectForm>Selecteer Sub Rapport Pagina</SubReportPageSelectForm>
     <TextEditorForm>Tekst Editor</TextEditorForm>
     <ViewDataForm>Bekijk Gegevens</ViewDataForm>
@@ -1100,7 +1139,7 @@
     <Print>Afdrukken...</Print>
     <qnPageDelete>Wilt u de pagina verwijderen?</qnPageDelete>
     <Save>Bewaren...</Save>
-    <SendEMail>E-Mail Versturen...</SendEMail>
+    <SendEMail>Email Versturen...</SendEMail>
     <StatusBar>Statusbalk</StatusBar>
     <Thumbnails>Thumbnails</Thumbnails>
     <title>Afdrukvoorbeeld</title>
@@ -1429,7 +1468,7 @@
     <Parameters>Weergegeven parameters paneel dat wordt bij het verslag van rendering gebruikt.</Parameters>
     <Print>Rapport afdrukken</Print>
     <Save>Bewaar een rapport voor verder gebruikt.</Save>
-    <SendEMail>Stuur een rapport per e-mail.</SendEMail>
+    <SendEMail>Stuur een rapport per Email.</SendEMail>
     <Thumbnails>Toon de miniaturen die gebruikt kunnen worden voor snelle navigatie naar de sectie van het rapport dat u wilt springen te vinden.</Thumbnails>
     <ToolEditor>Deze tool stelt u in staat direct te bewerken inhoud van de tekst componenten in het verslag kijker.</ToolEditor>
     <ViewModeContinuous>Toon alle pagina's rapport als een verticale lint</ViewModeContinuous>
@@ -1448,6 +1487,7 @@
     <menuDeleteColumn>Verwijderen Kolom</menuDeleteColumn>
     <menuDeleteRow>Verwijderen Rij</menuDeleteRow>
     <menuEdit>Be&amp;werken</menuEdit>
+    <menuEditBusinessObjectFromDataSetNew>Nieuw Business Object Van DataSet...</menuEditBusinessObjectFromDataSetNew>
     <menuEditBusinessObjectNew>Nieuw Business Object...</menuEditBusinessObjectNew>
     <menuEditCalcColumnNew>Nieuwe Berekende Kolom...</menuEditCalcColumnNew>
     <menuEditCantRedo>Herhalen onmogelijk</menuEditCantRedo>
@@ -1501,6 +1541,7 @@
     <menuFileReportSaveAsToGoogleDocs>Rapport Bewaren naar Google Docs...</menuFileReportSaveAsToGoogleDocs>
     <menuFileReportSetup>Rapport &amp;Instellingen...</menuFileReportSetup>
     <menuFileReportWizardNew>Nieuw Rapport via &amp;Wizard...</menuFileReportWizardNew>
+    <menuFileSave>&amp;Bewaar</menuFileSave>
     <menuFileSaveAs>Bewaar Als...</menuFileSaveAs>
     <menuHelp>&amp;Help</menuHelp>
     <menuHelpAboutProgramm>&amp;Info...</menuHelpAboutProgramm>
@@ -1915,6 +1956,8 @@
     <StiDockStyleNone>Geen</StiDockStyleNone>
     <StiDockStyleRight>Rechts</StiDockStyleRight>
     <StiDockStyleTop>Bovenaan</StiDockStyleTop>
+    <StiDrillDownModeMultiPage>Meerdere Pagina's</StiDrillDownModeMultiPage>
+    <StiDrillDownModeSinglePage>Enkele Pagina</StiDrillDownModeSinglePage>
     <StiEanSupplementTypeFiveDigit>VijfCijfers</StiEanSupplementTypeFiveDigit>
     <StiEanSupplementTypeNone>Geen</StiEanSupplementTypeNone>
     <StiEanSupplementTypeTwoDigit>TweeCijfers</StiEanSupplementTypeTwoDigit>
@@ -1948,6 +1991,11 @@
     <StiFilterItemArgument>Argument</StiFilterItemArgument>
     <StiFilterItemExpression>Expressie</StiFilterItemExpression>
     <StiFilterItemValue>Waarde</StiFilterItemValue>
+    <StiFilterItemValueClose>Sluitwaarde</StiFilterItemValueClose>
+    <StiFilterItemValueEnd>Eindwaarde</StiFilterItemValueEnd>
+    <StiFilterItemValueHigh>Hoge Waarde</StiFilterItemValueHigh>
+    <StiFilterItemValueLow>Lage Waarde</StiFilterItemValueLow>
+    <StiFilterItemValueOpen>Openingswaarde</StiFilterItemValueOpen>
     <StiFilterModeAnd>En</StiFilterModeAnd>
     <StiFilterModeOr>Of</StiFilterModeOr>
     <StiFormStartModeOnEnd>Op het Einde</StiFormStartModeOnEnd>
@@ -1972,6 +2020,10 @@
     <StiImageRotationRotate180>Draai 180°</StiImageRotationRotate180>
     <StiImageRotationRotate90CCW>Draai 90° TKW</StiImageRotationRotate90CCW>
     <StiImageRotationRotate90CW>Draai 90° KW</StiImageRotationRotate90CW>
+    <StiKeepDetailsKeepDetailsTogether>Houd Details Samen</StiKeepDetailsKeepDetailsTogether>
+    <StiKeepDetailsKeepFirstDetailTogether>Houd Eerste Details Samen</StiKeepDetailsKeepFirstDetailTogether>
+    <StiKeepDetailsKeepFirstRowTogether>Houd Eerste Rij Samen</StiKeepDetailsKeepFirstRowTogether>
+    <StiKeepDetailsNone>Geen</StiKeepDetailsNone>
     <StiLabelsPlacementNone>Geen</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>Een Lijn</StiLabelsPlacementOneLine>
     <StiLabelsPlacementTwoLines>Twee Lijnen</StiLabelsPlacementTwoLines>
@@ -2462,6 +2514,7 @@
     <DrawHatch>Teken Luik</DrawHatch>
     <DrawLine>Teken Lijn</DrawLine>
     <DrillDownEnabled>Drill-Down Actief</DrillDownEnabled>
+    <DrillDownMode>Drill-Down Modus</DrillDownMode>
     <DrillDownPage>Drill-Down Pagina</DrillDownPage>
     <DrillDownParameter1>Drill-Down Parameter 1</DrillDownParameter1>
     <DrillDownParameter2>Drill-Down Parameter 2</DrillDownParameter2>
@@ -2539,6 +2592,7 @@
     <GridLinesHorRight>Rasterlijnen Horizontaal Rechts</GridLinesHorRight>
     <GridLineStyle>Rasterlijn Stijl</GridLineStyle>
     <GridLinesVert>Rasterlijnen Verticaal</GridLinesVert>
+    <GridOutline>Raster Uitlijning</GridOutline>
     <GrowToHeight>Groei naar Hoogte</GrowToHeight>
     <HeaderBackColor>Hoofding Achtergrondkleur</HeaderBackColor>
     <HeaderCanBreak>Hoofding Kan Splitsen</HeaderCanBreak>
@@ -2596,6 +2650,7 @@
     <Items>Items</Items>
     <KeepChildTogether>Houd Kinderen Samen</KeepChildTogether>
     <KeepCrossTabTogether>Houd Draaitabel Samen</KeepCrossTabTogether>
+    <KeepDetails>Houd Details</KeepDetails>
     <KeepDetailsTogether>Houd Details Bijeen</KeepDetailsTogether>
     <KeepFooterTogether>Houd Voettekst Samen</KeepFooterTogether>
     <KeepGroupFooterTogether>Houd Voettekst Bijeen</KeepGroupFooterTogether>
@@ -2862,7 +2917,7 @@
     <SortType>Sorteer Type</SortType>
     <Space>Spatie</Space>
     <Spacing>Spatiëring</Spacing>
-    <SqlCommand>Sql Comando</SqlCommand>
+    <SqlCommand>SQL Comando</SqlCommand>
     <StartAngle>Start Hoek</StartAngle>
     <StartCap>Start Cap</StartCap>
     <StartColor>Start Kleur</StartColor>
@@ -3070,7 +3125,7 @@
     <SelectAllFromRight>Selecteer Alles van Rechts</SelectAllFromRight>
     <SwitchToDerivedTable>Schakel over naar Afgeleide Tabel</SwitchToDerivedTable>
     <Tables>Tabellen</Tables>
-    <UnexpectedTokenAt>Onverwacht teken \"{0}\" op lijn {1}, pos {2}!</UnexpectedTokenAt>
+    <UnexpectedTokenAt>Onverwacht teken "{0}" op lijn {1}, pos {2}!</UnexpectedTokenAt>
     <Unions>Unies</Unions>
     <UnionSubMenu>Unie</UnionSubMenu>
     <ViewQuery>Toon Query</ViewQuery>

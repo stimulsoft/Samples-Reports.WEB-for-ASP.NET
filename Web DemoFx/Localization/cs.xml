@@ -793,7 +793,7 @@
     <ShowDescription>Zobrazit popis</ShowDescription>
     <SLPreview>Silverlight náhled</SLPreview>
     <title>Návrhář</title>
-    <WebPreview>Webový náhled</WebPreview>
+    <WebPreview>Flash náhled</WebPreview>
   </FormDesigner>
   <FormDictionaryDesigner>
     <Actions>Akce</Actions>

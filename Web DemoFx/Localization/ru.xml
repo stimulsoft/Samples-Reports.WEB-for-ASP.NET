@@ -317,11 +317,13 @@
   </ChartRibbon>
   <Cloud>
     <AccountSettings>Настройки аккаунта</AccountSettings>
+    <AddAPlace>Добавление места</AddAPlace>
     <ButtonChangePassword>Изменить пароль</ButtonChangePassword>
     <ButtonDeleteAll>Удалить все</ButtonDeleteAll>
     <ButtonDesign>Редактировать отчет</ButtonDesign>
     <ButtonLogout>Выйти</ButtonLogout>
     <ButtonPublish>Опубликовать</ButtonPublish>
+    <ButtonPurchase>Купить</ButtonPurchase>
     <ButtonRecover>Восстановить</ButtonRecover>
     <ButtonRenew>Обновление</ButtonRenew>
     <ButtonResendEmail>Отправить Email еще раз</ButtonResendEmail>
@@ -344,6 +346,7 @@
     <DashboardWindowTitleNew>Новая панель инструментов</DashboardWindowTitleNew>
     <DeleteFile>Удалить файл</DeleteFile>
     <ExecutionError>Ошибка запуска</ExecutionError>
+    <ExpiredDate>Дата истечения срока</ExpiredDate>
     <FileStorageWindowTitleEdit>Редактирование хранилища файлов</FileStorageWindowTitleEdit>
     <FileStorageWindowTitleNew>Создание хранилища файлов</FileStorageWindowTitleNew>
     <FolderWindowTitleEdit>Изменение параметров папки</FolderWindowTitleEdit>
@@ -373,11 +376,14 @@
     <LabelNextTime>Следующий раз:</LabelNextTime>
     <labelPassword>Пароль:</labelPassword>
     <LabelPermission>Разрешение:</LabelPermission>
+    <LabelPicture>Изображение:</LabelPicture>
     <LabelRenderedReport>Построенный отчет</LabelRenderedReport>
     <LabelResponseAsFile>Ответ в виде файла</LabelResponseAsFile>
     <LabelSeparateReport>Отдельный файл отчета(и скриптов)</LabelSeparateReport>
     <LabelShowReport>Отобразить отчет:</LabelShowReport>
     <labelUserName>Имя пользователя:</labelUserName>
+    <License>Лицензия</License>
+    <LicenseInformation>Информация о лицензии</LicenseInformation>
     <Login>Войти</Login>
     <NofM>{0}: {1} из {2}</NofM>
     <Open>Открыть</Open>
@@ -390,6 +396,8 @@
     <OperationRename>Переименовать '{0}' в '{1}'</OperationRename>
     <OperationUpload>Отправить '{0}' на сервер</OperationUpload>
     <page>страница</page>
+    <Platforms>Платформы</Platforms>
+    <Products>Продукты</Products>
     <questionOpenThisFile>Вы действительно хотите открыть '{0}' файл?</questionOpenThisFile>
     <questionOverrideItem>Вы действительно хотите  перезаписать '{0}' файл?</questionOverrideItem>
     <questionRemoveItem>Вы действительно хотите удалить '{0}' файл?</questionRemoveItem>
@@ -408,10 +416,12 @@
     <SaveFile>Сохранить файл</SaveFile>
     <ShareWindowTitleNew>Доступ</ShareWindowTitleNew>
     <ShowAllFiles>Показать все файлы</ShowAllFiles>
+    <Subscriptions>Подписки</Subscriptions>
     <TabItemEmbedCode>Код встраивания</TabItemEmbedCode>
     <TabItemQRCode>QR код</TabItemQRCode>
     <TabItemShare>Ссылка</TabItemShare>
     <TextActivated>Активирована</TextActivated>
+    <TextActivationDate>Дата активации</TextActivationDate>
     <TextDelete>Удаление</TextDelete>
     <TextDeletingItems>Удаление элементов...</TextDeletingItems>
     <TextFirstName>Имя</TextFirstName>
@@ -420,6 +430,7 @@
     <TextLastName>Фамилия</TextLastName>
     <TextModify>Изменение</TextModify>
     <TextNoNotifications>Нет уведомлений</TextNoNotifications>
+    <TextOwner>Владелец</TextOwner>
     <TextProfile>Профиль</TextProfile>
     <TextReports>Отчеты</TextReports>
     <TextRestoringItems>Восстановление элементов...</TextRestoringItems>
@@ -1017,6 +1028,7 @@
     <CompilingReport>Компиляция отчета</CompilingReport>
     <DockingPanels>Панели</DockingPanels>
     <HtmlPreview>HTML просмотр</HtmlPreview>
+    <JsPreview>JS просмотр</JsPreview>
     <labelPleaseSelectTypeOfInterface>Пожалуйста, выберите тип интерфейса</labelPleaseSelectTypeOfInterface>
     <LoadImage>Загрузить изображение...</LoadImage>
     <LocalizePropertyGrid>Переводить имена свойств</LocalizePropertyGrid>
@@ -1033,7 +1045,7 @@
     <ShowDescription>Показывать описание</ShowDescription>
     <SLPreview>Silverlight просмотр</SLPreview>
     <title>Дизайнер</title>
-    <WebPreview>Web просмотр</WebPreview>
+    <WebPreview>Flash просмотр</WebPreview>
   </FormDesigner>
   <FormDictionaryDesigner>
     <Actions>Действия</Actions>
@@ -1399,7 +1411,7 @@
   </FormViewerFind>
   <Gauge>
     <AddNewItem>Добавить новый элемент</AddNewItem>
-    <BarRangeList>Панель диапазонная ряда</BarRangeList>
+    <BarRangeList>Панель диапазонного ряда</BarRangeList>
     <GaugeEditorForm>Редактор измерительного прибора</GaugeEditorForm>
     <Kind>Вид</Kind>
     <LinearBar>Линейная панель</LinearBar>
@@ -1417,7 +1429,7 @@
     <RadialBar>Радиальная панель</RadialBar>
     <RadialMarker>Радиальный маркер</RadialMarker>
     <RadialRange>Радиальный диапазон</RadialRange>
-    <RadialRangeList>Радиальная диапазонная ряд</RadialRangeList>
+    <RadialRangeList>Радиальный диапазонный ряд</RadialRangeList>
     <RadialScale>Радиальная шкала</RadialScale>
     <RadialTickLabelCustom>Заголовки пользовательских радиальных меток</RadialTickLabelCustom>
     <RadialTickLabelMajor>Заголовки основных радиальных меток</RadialTickLabelMajor>
@@ -1812,6 +1824,12 @@
     <ZoomTwoPages>Установить такой масштаб отображения отчета, чтобы в окне просмотра отображались две страницы рядом.</ZoomTwoPages>
     <ZoomTxt>Размер (масштаб) отчета: X - изменить масштаб по горизонтали, Y - изменить масштаб по вертикали.</ZoomTxt>
   </HelpViewer>
+  <Interface>
+    <Mouse>Мышь</Mouse>
+    <MouseDescription>Оптимизировано для использования мыши.</MouseDescription>
+    <Touch>Сенсорное Управление</Touch>
+    <TouchDescription>Оптимизировано для использования сенсорного экрана.</TouchDescription>
+  </Interface>
   <MainMenu>
     <menuCheckIssues>Проверить отчет</menuCheckIssues>
     <menuContextClone>Клонировать...</menuContextClone>
@@ -1920,8 +1938,10 @@
     <menuViewQuickInfoShowFieldsOnly>Показывать только поля</menuViewQuickInfoShowFieldsOnly>
     <menuViewShowGrid>Сетка</menuViewShowGrid>
     <menuViewShowHeaders>Заголовки</menuViewShowHeaders>
+    <menuViewShowInsertTab>Показать вкладку 'Вставить'</menuViewShowInsertTab>
     <menuViewShowOrder>Показывать порядок</menuViewShowOrder>
     <menuViewShowRulers>Линейка</menuViewShowRulers>
+    <menuViewShowToolbox>Показать инструментарий</menuViewShowToolbox>
     <menuViewToolbars>Панели &amp;инструментов</menuViewToolbars>
   </MainMenu>
   <Map>
@@ -2085,6 +2105,7 @@
     <WindowClosePreventWhileUploading>Некоторые файлы загружаются сейчас, если страница будет закрыта сейчас, эти файлы будут утеряны! Вы действительно хотите закрыть страницу?</WindowClosePreventWhileUploading>
     <WithSpecifiedKeyIsNotFound>"{0}" с указанным ключом не найден!</WithSpecifiedKeyIsNotFound>
     <YourTimeSessionHasExpired>Время сессии истекло!</YourTimeSessionHasExpired>
+    <YouUsingTrialVersion>Вы используете тестовую версию!</YouUsingTrialVersion>
   </Notices>
   <NuGet>
     <AlreadyDownloaded>Уже скачано</AlreadyDownloaded>
@@ -2094,6 +2115,7 @@
     <Dependencies>Зависимости:</Dependencies>
     <Download>Скачать</Download>
     <DownloadAll>Скачать все</DownloadAll>
+    <DownloadAndInstall>Скачать и Установить</DownloadAndInstall>
     <Downloads>Скачиваний:</Downloads>
     <IAccept>Я Согласен</IAccept>
     <IDecline>Я Отказываюсь</IDecline>
@@ -2105,7 +2127,7 @@
     <ReportAbuse>Сообщить о нарушениях:</ReportAbuse>
     <RetrievingInformation>Получение информации ...</RetrievingInformation>
     <Tags>Ключевые слова:</Tags>
-    <Title>Скачать адаптер данных</Title>
+    <Title>Адаптер данных с NuGet</Title>
     <ViewLicense>Просмотреть лицензию</ViewLicense>
   </NuGet>
   <Panels>
@@ -2224,6 +2246,7 @@
     <PrimitiveCategory>Примитив</PrimitiveCategory>
     <PrintEventsCategory>Печать</PrintEventsCategory>
     <RenderEventsCategory>Построение</RenderEventsCategory>
+    <SeriesCategory>Серии</SeriesCategory>
     <SeriesLabelsCategory>Заголовки рядов</SeriesLabelsCategory>
     <ShapeCategory>Геометрия</ShapeCategory>
     <Size>Размер</Size>
@@ -3097,6 +3120,7 @@
     <Columns>Колонки</Columns>
     <ColumnWidth>Ширина колонки</ColumnWidth>
     <CommandTimeout>Предельное время исполнения команды</CommandTimeout>
+    <CompanyPrefix>Префикс Компании</CompanyPrefix>
     <ComponentStyle>Стиль компонента</ComponentStyle>
     <Condition>Условие</Condition>
     <ConditionOptions>Параметры условия</ConditionOptions>
@@ -3195,6 +3219,7 @@
     <Exponential>Экспоненциальная</Exponential>
     <ExportAsImage>Экспортировать как изображение</ExportAsImage>
     <Expression>Выражение</Expression>
+    <ExtensionDigit>Дополнительный Разряд</ExtensionDigit>
     <FaqPage>FAQ страница</FaqPage>
     <FieldIs>Поле</FieldIs>
     <File>Файл</File>
@@ -3548,6 +3573,7 @@
     <SelectionEnabled>Выбор включен</SelectionEnabled>
     <SelectionForeColor>Цвет текста выбора</SelectionForeColor>
     <SelectionMode>Способ выбора</SelectionMode>
+    <SerialNumber>Серийный Номер</SerialNumber>
     <Series>Ряды</Series>
     <SeriesLabels>Заголовки рядов</SeriesLabels>
     <SeriesLabelsBorderColor>Цвет границы</SeriesLabelsBorderColor>
@@ -3873,6 +3899,7 @@
     <Dashboard>Панель инструментов</Dashboard>
     <Dialogs>Элементы управления</Dialogs>
     <EditStyles>[Редактировать стили]</EditStyles>
+    <Enhancements>Улучшения</Enhancements>
     <Errors>Ошибки</Errors>
     <EventsTab>События</EventsTab>
     <ExpandAll>Развернуть все</ExpandAll>
@@ -3880,6 +3907,7 @@
     <FilterOr>Или</FilterOr>
     <FinishingReport>Завершение отчета</FinishingReport>
     <FirstPass>Первый проход</FirstPass>
+    <FixedBugs>Исправленные ошибки</FixedBugs>
     <Gallery>Галерея</Gallery>
     <GenerateNewCode>Сгенерировать новый код</GenerateNewCode>
     <History>История</History>
@@ -3917,8 +3945,12 @@
     <LabelValue>Значение:</LabelValue>
     <LoadingReport>Загрузка отчета</LoadingReport>
     <nameAssembly>Сборка</nameAssembly>
+    <NewFeatures>Новые возможности
+Новые возможности</NewFeatures>
     <No>Нет</No>
+    <NoFixes>Исправления или обновления для этой версии отсутствуют!</NoFixes>
     <NoIssues>Нет проблем</NoIssues>
+    <NoNewVersions>Новые версии не обнаружены!</NoNewVersions>
     <NotAssigned>Не назначено</NotAssigned>
     <Office2010Back>Назад</Office2010Back>
     <PageNofM>Страница {0} из {1}</PageNofM>
@@ -3953,6 +3985,7 @@
     <StyleNote>Примечание</StyleNote>
     <StyleWarning>Предупреждение</StyleWarning>
     <Warnings>Предупреждения</Warnings>
+    <WhatsNewInVersion>Что нового в {0}</WhatsNewInVersion>
     <When>если {0} {1}</When>
     <WhenAnd>если {0} {1} и</WhenAnd>
     <WhenValueIs>если значение равно</WhenValueIs>
@@ -4187,7 +4220,7 @@
     <LabelWidth>Ширина:</LabelWidth>
     <Layout>Формат</Layout>
     <MarkAll>Отметить &amp;Все</MarkAll>
-    <MasterDetailReport>Master-Detail Отчет</MasterDetailReport>
+    <MasterDetailReport>Master-Detail отчет</MasterDetailReport>
     <NoFunction>[Нет]</NoFunction>
     <OpenExistingReport>Открыть отчет</OpenExistingReport>
     <Preview>Предварительный просмотр</Preview>

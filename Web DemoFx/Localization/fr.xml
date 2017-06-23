@@ -993,7 +993,7 @@
     <ShowDescription>Afficher les descriptions</ShowDescription>
     <SLPreview>Aperçu Silverlight</SLPreview>
     <title>Concepteur</title>
-    <WebPreview>Aperçu Web</WebPreview>
+    <WebPreview>Aperçu Flash</WebPreview>
   </FormDesigner>
   <FormDictionaryDesigner>
     <Actions>Actions</Actions>
