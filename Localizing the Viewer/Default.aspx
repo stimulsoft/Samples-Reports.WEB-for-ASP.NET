@@ -43,7 +43,8 @@
             <asp:ListItem Value="sk">Slovak</asp:ListItem>
             <asp:ListItem Value="sv">Swedish</asp:ListItem>
             <asp:ListItem Value="tr">Turkish</asp:ListItem>
-            <asp:ListItem Value="ua">Ukrainian</asp:ListItem>
+            <asp:ListItem Value="uk">Ukrainian</asp:ListItem>
+            <asp:ListItem Value="vi">Vietnamese</asp:ListItem>
             <asp:ListItem Value="zh-CHS">Chinese (Simplified)</asp:ListItem>
             <asp:ListItem Value="zh-CHT">Chinese (Traditional)</asp:ListItem>
         </asp:DropDownList>
