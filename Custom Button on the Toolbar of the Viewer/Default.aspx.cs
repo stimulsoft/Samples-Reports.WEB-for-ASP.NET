@@ -8,6 +8,7 @@ namespace Custom_Button_on_the_Toolbar_of_the_Viewer
     {
         static Default()
         {
+            // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
             //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);

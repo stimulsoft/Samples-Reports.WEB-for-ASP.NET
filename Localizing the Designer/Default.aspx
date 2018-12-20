@@ -30,8 +30,9 @@
             <asp:ListItem Value="hu">Hungarian</asp:ListItem>
             <asp:ListItem Value="id">Indonesian</asp:ListItem>
             <asp:ListItem Value="it">Italian</asp:ListItem>
+            <asp:ListItem Value="ja">Japanese</asp:ListItem>
             <asp:ListItem Value="ka">Georgian</asp:ListItem>
-            <asp:ListItem Value="Lt-sr-SP">Serbian (Latin)</asp:ListItem>
+            <asp:ListItem Value="ko">Korean</asp:ListItem>
             <asp:ListItem Value="lt">Lithuanian</asp:ListItem>
             <asp:ListItem Value="nb-NO">Norwegian (Bokmål)</asp:ListItem>
             <asp:ListItem Value="nl">Dutch</asp:ListItem>
@@ -41,6 +42,7 @@
             <asp:ListItem Value="ro">Romanian</asp:ListItem>
             <asp:ListItem Value="ru">Russian</asp:ListItem>
             <asp:ListItem Value="sk">Slovak</asp:ListItem>
+            <asp:ListItem Value="sr">Srpski-Latinica</asp:ListItem>
             <asp:ListItem Value="sv">Swedish</asp:ListItem>
             <asp:ListItem Value="tr">Turkish</asp:ListItem>
             <asp:ListItem Value="uk">Ukrainian</asp:ListItem>
