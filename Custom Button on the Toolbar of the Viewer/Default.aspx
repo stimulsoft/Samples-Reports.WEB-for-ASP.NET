@@ -14,16 +14,18 @@
     </form>
 
     <script type="text/javascript">
-        var customButton = jsStiWebViewer1.SmallButton("customButton", "Custom Button", "emptyImage");
-        customButton.image.src = "https://www.stimulsoft.com/images/logo_16.png";
-        customButton.action = function () {
-            alert("Custom Button Event");
+        jsStiWebViewer1.onready = function () {
+            var customButton = jsStiWebViewer1.SmallButton("customButton", "Custom Button", "emptyImage");
+            customButton.image.src = "https://www.stimulsoft.com/images/logo_16.png";
+            customButton.action = function () {
+                alert("Custom Button Event");
+            }
+
+            var toolbarTable = jsStiWebViewer1.controls.toolbar.firstChild.firstChild;
+            var buttonsTable = toolbarTable.rows[0].firstChild.firstChild;
+            var customButtonCell = buttonsTable.rows[0].insertCell(0);
+            customButtonCell.appendChild(customButton);
         }
- 
-        var toolbarTable = jsStiWebViewer1.controls.toolbar.firstChild.firstChild;
-        var buttonsTable = toolbarTable.rows[0].firstChild.firstChild;
-        var customButtonCell = buttonsTable.rows[0].insertCell(0);
-        customButtonCell.appendChild(customButton);
     </script>
 </body>
 </html>
