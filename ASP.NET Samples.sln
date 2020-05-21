@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web Demo", "Web Demo\Web Demo.csproj", "{069D83FC-72EE-4EA5-B4E3-344605C2C745}"
 EndProject
@@ -25,19 +25,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globalized Reports", "Globa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customize the Viewer", "Customize the Viewer\Customize the Viewer.csproj", "{F262B38D-1A97-43F1-8430-726AE930FA73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Show Report in the ViewerFx", "Show Report in the ViewerFx\Show Report in the ViewerFx.csproj", "{2CD2D8A2-A28E-4CC7-9CED-B07994F7100A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customize the ViewerFx", "Customize the ViewerFx\Customize the ViewerFx.csproj", "{F32BC869-31EA-4229-BBFE-579D60D013C9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using the DesignerFx", "Using the DesignerFx\Using the DesignerFx.csproj", "{1797FBEA-0A2D-47E6-AF30-640CFEA1200F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Load and Save Report in the DesignerFx", "Load and Save Report in the DesignerFx\Load and Save Report in the DesignerFx.csproj", "{427BB2AA-41EA-4589-ADB1-BE30955D2208}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Button on the Toolbar of the Viewer", "Custom Button on the Toolbar of the Viewer\Custom Button on the Toolbar of the Viewer.csproj", "{0D1D2226-CC55-48EF-A335-7E7D07FBFFB9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Print Report from Code", "Print Report from Code\Print Report from Code.csproj", "{5F3E7735-0A8A-4A8B-A50C-E2BE24B06005}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web DemoFx", "Web DemoFx\Web DemoFx.csproj", "{A2A24F20-03FB-45B7-B582-7BFB39426E65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,22 +79,6 @@ Global
 		{F262B38D-1A97-43F1-8430-726AE930FA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F262B38D-1A97-43F1-8430-726AE930FA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F262B38D-1A97-43F1-8430-726AE930FA73}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2CD2D8A2-A28E-4CC7-9CED-B07994F7100A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2CD2D8A2-A28E-4CC7-9CED-B07994F7100A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2CD2D8A2-A28E-4CC7-9CED-B07994F7100A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2CD2D8A2-A28E-4CC7-9CED-B07994F7100A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F32BC869-31EA-4229-BBFE-579D60D013C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F32BC869-31EA-4229-BBFE-579D60D013C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F32BC869-31EA-4229-BBFE-579D60D013C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F32BC869-31EA-4229-BBFE-579D60D013C9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1797FBEA-0A2D-47E6-AF30-640CFEA1200F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1797FBEA-0A2D-47E6-AF30-640CFEA1200F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1797FBEA-0A2D-47E6-AF30-640CFEA1200F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1797FBEA-0A2D-47E6-AF30-640CFEA1200F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{427BB2AA-41EA-4589-ADB1-BE30955D2208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{427BB2AA-41EA-4589-ADB1-BE30955D2208}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{427BB2AA-41EA-4589-ADB1-BE30955D2208}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{427BB2AA-41EA-4589-ADB1-BE30955D2208}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0D1D2226-CC55-48EF-A335-7E7D07FBFFB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0D1D2226-CC55-48EF-A335-7E7D07FBFFB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D1D2226-CC55-48EF-A335-7E7D07FBFFB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -113,15 +87,12 @@ Global
 		{5F3E7735-0A8A-4A8B-A50C-E2BE24B06005}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F3E7735-0A8A-4A8B-A50C-E2BE24B06005}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F3E7735-0A8A-4A8B-A50C-E2BE24B06005}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A2A24F20-03FB-45B7-B582-7BFB39426E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A2A24F20-03FB-45B7-B582-7BFB39426E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A2A24F20-03FB-45B7-B582-7BFB39426E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A2A24F20-03FB-45B7-B582-7BFB39426E65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {C75039E0-9AA4-4328-9E30-E2189ECD30A2}
 	EndGlobalSection
 EndGlobal

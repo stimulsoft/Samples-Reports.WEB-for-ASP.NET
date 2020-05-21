@@ -1,26 +1,21 @@
 # ASP.NET WebForms C# samples for Stimulsoft Reports.Web
 
-#### This repository contains the source code of the examples of usage Stimulsoft Reports.Web reporting tool in the ASP.NET WebForms applications, using C# code and HTML5/Flash components.
+#### This repository contains the source code of the examples of usage Stimulsoft Reports.Web reporting tool in the ASP.NET WebForms applications, using C# code and HTML5 components.
 
 # Overview
 This repository has some examples (Visual Studio Projects) each in different folders:
 * Custom Button on the Toolbar of the Viewer
 * Customize the Viewer
-* Customize the ViewerFx
 * Export Report from Code
 * Globalized Reports
-* Load and Save Report in the DesignerFx
 * Localizing the Designer
 * Localizing the Viewer
 * Print Report from Code
 * Runtime Report Creation
 * Show Report in the Viewer
-* Show Report in the ViewerFx
 * Using the Designer
-* Using the DesignerFx
 * Using Variables in the Report
 * Web Demo
-* Web DemoFx
 * Web Viewer with Scroll Bars
 
 
