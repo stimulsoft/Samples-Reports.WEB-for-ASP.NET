@@ -4,6 +4,7 @@
 
 # Overview
 This repository has some examples (Visual Studio Projects) each in different folders:
+* Add Custom Function to the Designer
 * Custom Button on the Toolbar of the Viewer
 * Customize the Viewer
 * Export Report from Code

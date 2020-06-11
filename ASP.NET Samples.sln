@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Button on the Toolba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Print Report from Code", "Print Report from Code\Print Report from Code.csproj", "{5F3E7735-0A8A-4A8B-A50C-E2BE24B06005}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add Custom Function to the Designer", "Add Custom Function to the Designer\Add Custom Function to the Designer.csproj", "{C8CBECA5-3B80-404A-8469-C804CF424A3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{5F3E7735-0A8A-4A8B-A50C-E2BE24B06005}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F3E7735-0A8A-4A8B-A50C-E2BE24B06005}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F3E7735-0A8A-4A8B-A50C-E2BE24B06005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8CBECA5-3B80-404A-8469-C804CF424A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8CBECA5-3B80-404A-8469-C804CF424A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8CBECA5-3B80-404A-8469-C804CF424A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8CBECA5-3B80-404A-8469-C804CF424A3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
