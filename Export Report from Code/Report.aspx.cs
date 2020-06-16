@@ -15,12 +15,8 @@ namespace Export_Report_from_Code
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            StiReport report = new StiReport();
-            DataSet data = new DataSet();
-            report.Load(Server.MapPath(String.Format("Reports\\{0}.mrt", (string)Session["reportname"])));
-            data.ReadXml(Server.MapPath(@"Data\Demo.xml"));
-
-            report.RegData(data);
+            var report = new StiReport();
+            report.Load(Server.MapPath($"Reports\\{Session["reportname"]}.mrt"));
             
             StiWebViewer1.Report = report;
         }

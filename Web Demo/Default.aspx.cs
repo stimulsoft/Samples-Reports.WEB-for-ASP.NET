@@ -23,8 +23,7 @@ namespace Web_Demo
             if (Page != null && !Page.IsPostBack)
             {
                 // Get the report name fror URL query
-                string keyValue = Page.Request.QueryString.Get("reportname");
-                if (keyValue == null) keyValue = "SimpleList";
+                var keyValue = Page.Request.QueryString.Get("reportname") ?? "SimpleList";
 
                 // Load the rendered report document prom packed MDZ file, or report template from MRT file
                 if (keyValue != null && keyValue.Length > 0)
@@ -44,10 +43,12 @@ namespace Web_Demo
 
                         // {Today} function is used
                         case "MultiColumnListContainers":
-                            report.Load(string.Format("{0}\\ReportTemplates\\{1}.mrt", AppDirectory, keyValue));
+                            report.Load($"{AppDirectory}\\ReportTemplates\\{keyValue}.mrt");
                             break;
 
-                        default: report.LoadPackedDocument(string.Format("{0}\\ReportSnapshots\\{1}.mdz", AppDirectory, keyValue)); break;
+                        default:
+                            report.LoadPackedDocument($"{AppDirectory}\\ReportSnapshots\\{keyValue}.mdz");
+                            break;
                     }
                     
                     StiWebViewer1.Report = report;
@@ -66,10 +67,8 @@ namespace Web_Demo
 
         protected void StiWebViewer1_ReportDesign(object sender, EventArgs e)
         {
-            string keyValue = Page.Request.QueryString.Get("reportname");
-            if (keyValue == null) keyValue = "SimpleList";
-
-            this.Response.Redirect("Designer.aspx?reportname=" + keyValue, true);
+            var keyValue = Page.Request.QueryString.Get("reportname") ?? "SimpleList";
+            Response.Redirect("Designer.aspx?reportname=" + keyValue, true);
         }
     }
 }

@@ -16,16 +16,10 @@ namespace Localizing_the_Viewer
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            StiReport report = new StiReport();
-            report.Load(Server.MapPath(@"Reports\Invoice.mrt"));
-            report.Compile();
+            var report = new StiReport();
+            report.Load(Server.MapPath("Reports\\Invoice.mrt"));
 
-            DataSet data = new DataSet();
-            data.ReadXml(Server.MapPath(@"Data\Demo.xml"));
-
-            report.RegData(data);
-
-            StiWebViewer1.Localization = string.Format("Localization/{0}.xml", (string)Session["lang"]);
+            StiWebViewer1.Localization = $"Localization/{Session["lang"]}.xml";
             StiWebViewer1.Report = report;
         }
     }

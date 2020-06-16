@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Print Report from Code", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add Custom Function to the Designer", "Add Custom Function to the Designer\Add Custom Function to the Designer.csproj", "{C8CBECA5-3B80-404A-8469-C804CF424A3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connect to Data from the Code", "Connect to Data from the Code\Connect to Data from the Code.csproj", "{AF934647-49C9-4121-8EFF-01DB86806C63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,12 +95,16 @@ Global
 		{C8CBECA5-3B80-404A-8469-C804CF424A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8CBECA5-3B80-404A-8469-C804CF424A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8CBECA5-3B80-404A-8469-C804CF424A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF934647-49C9-4121-8EFF-01DB86806C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF934647-49C9-4121-8EFF-01DB86806C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF934647-49C9-4121-8EFF-01DB86806C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF934647-49C9-4121-8EFF-01DB86806C63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		VisualSVNWorkingCopyRoot = .
 		SolutionGuid = {C75039E0-9AA4-4328-9E30-E2189ECD30A2}
+		VisualSVNWorkingCopyRoot = .
 	EndGlobalSection
 EndGlobal

@@ -18,14 +18,14 @@ namespace Using_the_Designer
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            StiReport report = new StiReport();
+            var report = new StiReport();
             report.Load(Server.MapPath(@"Reports\Invoice.mrt"));
             StiWebDesigner1.Report = report;
         }
         
         protected void StiWebDesigner1_CreateReport(object sender, StiReportDataEventArgs e)
         {
-            DataSet data = new DataSet();
+            var data = new DataSet();
             data.ReadXmlSchema(Server.MapPath(@"Data\Demo.xsd"));
             data.ReadXml(Server.MapPath(@"Data\Demo.xml"));
 
@@ -35,16 +35,16 @@ namespace Using_the_Designer
 
         protected void StiWebDesigner1_PreviewReport(object sender, StiReportDataEventArgs e)
         {
-            DataSet data = new DataSet();
+            /*var data = new DataSet();
             data.ReadXmlSchema(Server.MapPath(@"Data\Demo.xsd"));
             data.ReadXml(Server.MapPath(@"Data\Demo.xml"));
 
-            e.Report.RegData(data);
+            e.Report.RegData(data);*/
         }
 
         protected void StiWebDesigner1_SaveReport(object sender, StiSaveReportEventArgs e)
         {
-            StiReport report = e.Report;
+            var report = e.Report;
             report.Save(Server.MapPath(@"Reports\" + report.ReportName + ".mrt"));
         }
     }

@@ -17,30 +17,27 @@ namespace Globalized_Reports
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Page != null)
-            {
-                // Apply Localization to WebViewer
-                StiWebViewer1.Localization = "\\Localizations\\en.xml";
-            }
+            // Apply Localization to WebViewer
+            var locFile = DropDownList1.SelectedValue.Substring(0, 2);
+            StiWebViewer1.Localization = $"\\Localization\\{locFile}.xml";
+
+            // Get Report
+            var report = new StiReport();
+            report.Load(Server.MapPath("\\Reports\\SimpleList.mrt"));
+            report.GlobalizationManager = new GlobalizationManager(new CultureInfo(DropDownList1.SelectedValue));
+
+            // Get Report Data
+            var data = new DataSet();
+            data.ReadXml(Server.MapPath("\\Data\\Demo.xml"));
+            report.RegData(data);
+
+            // Assign Report
+            StiWebViewer1.Report = report;
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string appPath = Server.MapPath(string.Empty);
-            string cultureName = DropDownList1.SelectedValue;
-
-            // Get Report Data
-            DataSet data = new DataSet();
-            data.ReadXml(appPath + "\\Data\\Demo.xml");
-
-            // Get Report
-            StiReport report = new StiReport();
-            report.GlobalizationManager = new GlobalizationManager(new CultureInfo(cultureName));
-            report.RegData(data);
-            report.Load(appPath + "\\Reports\\SimpleList.mrt");
-
-            // Show Report
-            StiWebViewer1.Report = report;
+            
         }
     }
 }

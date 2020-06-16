@@ -22,29 +22,20 @@ namespace Print_Report_from_Code
 
         private StiReport GetReport()
         {
-            string reportPath = Server.MapPath("Reports/SimpleList.mrt");
-            StiReport report = new StiReport();
-            report.Load(reportPath);
-
-            string dataPath = Server.MapPath("Data/Demo.xml");
-            DataSet data = new DataSet();
-            data.ReadXml(dataPath);
-            report.RegData(data);
-
+            var report = new StiReport();
+            report.Load(Server.MapPath("Reports/SimpleList.mrt"));
             return report;
         }
 
         protected void ButtonPrintPdf_Click(object sender, EventArgs e)
         {
-            StiReport report = this.GetReport();
-
+            var report = this.GetReport();
             StiReportResponse.PrintAsPdf(report);
         }
 
         protected void ButtonPrintHtml_Click(object sender, EventArgs e)
         {
-            StiReport report = this.GetReport();
-            
+            var report = this.GetReport();
             StiReportResponse.PrintAsHtml(report);
         }
     }

@@ -25,7 +25,7 @@ namespace Add_Custom_Function_to_the_Designer
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
             //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
-            
+
             var ParamNames = new string[1];
             var ParamTypes = new Type[1];
             var ParamDescriptions = new string[1];
@@ -42,7 +42,7 @@ namespace Add_Custom_Function_to_the_Designer
                 "Description",
                 typeof(_Default),
                 typeof(string),
-                "Return Description", 
+                "Return Description",
                 ParamTypes,
                 ParamNames,
                 ParamDescriptions);
@@ -63,13 +63,6 @@ namespace Add_Custom_Function_to_the_Designer
             Array.Copy(report.ReferencedAssemblies, assemblies, report.ReferencedAssemblies.Length);
             assemblies[assemblies.Length - 1] = "System.Web.dll";
             report.ReferencedAssemblies = assemblies;
-
-            var data = new DataSet();
-            data.ReadXmlSchema(Server.MapPath(@"Data\Demo.xsd"));
-            data.ReadXml(Server.MapPath(@"Data\Demo.xml"));
-
-            report.RegData(data);
-            //report.Dictionary.Synchronize();
 
             e.Report = report;
         }

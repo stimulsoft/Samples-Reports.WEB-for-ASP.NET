@@ -15,6 +15,7 @@
             <asp:ListItem Value="ar">Arabic</asp:ListItem>
             <asp:ListItem Value="be">Belarusian</asp:ListItem>
             <asp:ListItem Value="bg">Bulgarian</asp:ListItem>
+            <asp:ListItem Value="bh">Srpski-Latinica</asp:ListItem>
             <asp:ListItem Value="ca-ES">Catalan</asp:ListItem>
             <asp:ListItem Value="cs">Czech</asp:ListItem>
             <asp:ListItem Value="de">Deutsch</asp:ListItem>

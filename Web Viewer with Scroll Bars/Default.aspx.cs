@@ -1,4 +1,5 @@
 ﻿using Stimulsoft.Report;
+using Stimulsoft.Report.Web;
 using System;
 using System.Data;
 
@@ -19,16 +20,10 @@ namespace Web_Viewer_with_Scroll_Bars
 
         }
 
-        protected void StiWebViewer1_GetReport(object sender, Stimulsoft.Report.Web.StiReportDataEventArgs e)
+        protected void StiWebViewer1_GetReport(object sender, StiReportDataEventArgs e)
         {
-            string reportPath = Server.MapPath("Reports/SimpleList.mrt");
-            StiReport report = new StiReport();
-            report.Load(reportPath);
-
-            string dataPath = Server.MapPath("Data/Demo.xml");
-            DataSet data = new DataSet();
-            data.ReadXml(dataPath);
-            report.RegData(data);
+            var report = new StiReport();
+            report.Load(Server.MapPath("Reports/Images.mrt"));
 
             e.Report = report;
         }

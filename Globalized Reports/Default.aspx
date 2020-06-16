@@ -13,13 +13,13 @@
         <asp:Label ID="Label1" runat="server" Font-Names="Arial" Font-Size="14px" Text="Select Country"></asp:Label>
         <br />
         <asp:DropDownList ID="DropDownList1" runat="server" Width="150">
+            <asp:ListItem Value="en-US">United States</asp:ListItem>
             <asp:ListItem Value="fr-FR">France</asp:ListItem>
             <asp:ListItem Value="de-DE">Germany</asp:ListItem>
             <asp:ListItem Value="it-IT">Italy</asp:ListItem>
             <asp:ListItem Value="ru-RU">Russia</asp:ListItem>
             <asp:ListItem Value="es-ES">Spain</asp:ListItem>
             <asp:ListItem Value="en-GB">United Kingdom</asp:ListItem>
-            <asp:ListItem Value="en-US">United States</asp:ListItem>
         </asp:DropDownList>
         <br />
         <br />

@@ -16,38 +16,15 @@ namespace Using_Variables_in_the_Report
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            StiReport report = new StiReport();
-            DataSet data = new DataSet();
-
+            var report = new StiReport();
             report.Load(Server.MapPath(@"Reports\Variables.mrt"));
             report.Compile();
 
-            data.ReadXml(Server.MapPath(@"Data\Demo.xml"));
-
-            if (Request.QueryString["name"] != null) report["Name"] = Request.QueryString["name"];
-            else report["Name"] = "";
-
-            if (Request.QueryString["surname"] != null) report["Surname"] = Request.QueryString["surname"];
-            else report["Surname"] = "";
-
-            if (Request.QueryString["email"] != null) report["Email"] = Request.QueryString["email"];
-            else report["Email"] = "";
-
-            if (Request.QueryString["address"] != null) report["Address"] = Request.QueryString["address"];
-            else report["Address"] = "";
-
-            if (Request.QueryString["sex"] != null)
-            {
-                bool isMale = true;
-                Boolean.TryParse(Request.QueryString["sex"], out isMale);
-                report["Sex"] = isMale;
-            }
-            else
-            {
-                report["Sex"] = false;
-            }
-
-            report.RegData(data);
+            report["Name"] = Request.QueryString["name"] ?? string.Empty;
+            report["Surname"] = Request.QueryString["surname"] ?? string.Empty;
+            report["Email"] = Request.QueryString["email"] ?? string.Empty;
+            report["Address"] = Request.QueryString["address"] ?? string.Empty;
+            report["Sex"] = Request.QueryString["sex"] != null && Convert.ToBoolean(Request.QueryString["sex"]);
 
             StiWebViewer1.Report = report;
         }

@@ -16,7 +16,7 @@ namespace Using_Variables_in_the_Report
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            StiReport report = new StiReport();
+            var report = new StiReport();
             report.Load(Server.MapPath(@"Reports\Variables.mrt"));
             StiWebDesigner1.Report = report;
         }
