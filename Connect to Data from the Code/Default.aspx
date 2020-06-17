@@ -3,9 +3,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     
-    <br />
-
-    <cc1:StiWebViewer ID="StiWebViewer1" runat="server"
-            OnGetReport="StiWebViewer1_GetReport" />
+    <br /><asp:LinkButton ID="LinkButtonViewer" runat="server" OnClick="LinkButtonViewer_Click">View Report</asp:LinkButton>
+    <br /><asp:LinkButton ID="LinkButtonDesigner" runat="server" OnClick="LinkButtonDesigner_Click">Design Report</asp:LinkButton>
 
 </asp:Content>

@@ -11,25 +11,16 @@ namespace Connect_to_Data_from_the_Code
 {
 
 
-    public partial class _Default
+    public partial class Designer
     {
 
         /// <summary>
-        /// LinkButtonViewer control.
+        /// StiWebDesigner1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LinkButtonViewer;
-
-        /// <summary>
-        /// LinkButtonDesigner control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LinkButtonDesigner;
+        protected global::Stimulsoft.Report.Web.StiWebDesigner StiWebDesigner1;
     }
 }
