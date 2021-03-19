@@ -1,25 +1,19 @@
-﻿using Stimulsoft.Data.Extensions;
-using Stimulsoft.Report;
+﻿using Stimulsoft.Report;
 using Stimulsoft.Report.Dictionary;
 using Stimulsoft.Report.Web;
 using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace Add_Custom_Function_to_the_Designer
 {
-    public partial class _Default : Page
+    public partial class Default : System.Web.UI.Page
     {
         public static string MyFunc(string value)
         {
             return value.ToUpper();
         }
 
-        static _Default()
+        static Default()
         {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
@@ -40,7 +34,7 @@ namespace Add_Custom_Function_to_the_Designer
                 "MyFunc",
                 "MyFunc",
                 "Description",
-                typeof(_Default),
+                typeof(Default),
                 typeof(string),
                 "Return Description",
                 ParamTypes,

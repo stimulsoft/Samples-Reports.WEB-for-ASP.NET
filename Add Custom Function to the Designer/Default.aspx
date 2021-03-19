@@ -1,10 +1,17 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Add_Custom_Function_to_the_Designer._Default" %>
-<%@ Register Assembly="Stimulsoft.Report.WebDesign" Namespace="Stimulsoft.Report.Web" TagPrefix="cc1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Add_Custom_Function_to_the_Designer.Default" %>
+<%@ Register assembly="Stimulsoft.Report.WebDesign" namespace="Stimulsoft.Report.Web" tagprefix="cc1" %>
 
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+<!DOCTYPE html>
 
-    <cc1:StiWebDesigner ID="StiWebDesigner1" runat="server"
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Add Custom Function to the Designer</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <cc1:StiWebDesigner ID="StiWebDesigner1" runat="server"
             OnGetReport="StiWebDesigner1_GetReport"
             OnSaveReport="StiWebDesigner1_SaveReport" />
-
-</asp:Content>
+    </form>
+</body>
+</html>

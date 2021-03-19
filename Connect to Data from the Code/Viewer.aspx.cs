@@ -1,16 +1,12 @@
 ﻿using Stimulsoft.Report;
 using Stimulsoft.Report.Web;
 using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace Connect_to_Data_from_the_Code
 {
-    public partial class Viewer : System.Web.UI.Page
+    public partial class Viewer : Page
     {
         static Viewer()
         {

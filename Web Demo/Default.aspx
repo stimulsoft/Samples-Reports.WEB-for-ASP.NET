@@ -50,7 +50,7 @@
                     <cc1:StiWebViewer ID="StiWebViewer1" runat="server"
                         Width="100%" Height="100%" BackgroundColor="#e8e8e8" ShowDesignButton="True" ScrollbarsMode="true" ToolbarDisplayMode="Separated"
                         OnGetReportData="StiWebViewer1_GetReportData"
-                        OnReportDesign="StiWebViewer1_ReportDesign" />
+                        OnDesignReport="StiWebViewer1_DesignReport" />
                 </td>
             </tr>
         </table>

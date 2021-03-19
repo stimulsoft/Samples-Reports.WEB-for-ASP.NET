@@ -20,39 +20,36 @@ namespace Web_Demo
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Page != null && !Page.IsPostBack)
+            // Get the report name fror URL query
+            var keyValue = Page.Request.QueryString.Get("reportname") ?? "SimpleList";
+
+            // Load the rendered report document prom packed MDZ file, or report template from MRT file
+            if (keyValue != null && keyValue.Length > 0)
             {
-                // Get the report name fror URL query
-                var keyValue = Page.Request.QueryString.Get("reportname") ?? "SimpleList";
-
-                // Load the rendered report document prom packed MDZ file, or report template from MRT file
-                if (keyValue != null && keyValue.Length > 0)
+                var report = new StiReport();
+                switch (keyValue)
                 {
-                    var report = new StiReport();
-                    switch (keyValue)
-                    {
-                        // Interactive Reports
-                        case "DrillDownSorting":
+                    // Interactive Reports
+                    case "DrillDownSorting":
 
-                        // Parameters
-                        case "ParametersDetailedCategories":
-                        case "ParametersDetailedOrders":
-                        case "ParametersHighlightCondition":
-                        case "ParametersSelectingCountry":
-                        case "ParametersInvoice":
+                    // Parameters
+                    case "ParametersDetailedCategories":
+                    case "ParametersDetailedOrders":
+                    case "ParametersHighlightCondition":
+                    case "ParametersSelectingCountry":
+                    case "ParametersInvoice":
 
-                        // {Today} function is used
-                        case "MultiColumnListContainers":
-                            report.Load($"{AppDirectory}\\ReportTemplates\\{keyValue}.mrt");
-                            break;
+                    // {Today} function is used
+                    case "MultiColumnListContainers":
+                        report.Load($"{AppDirectory}\\ReportTemplates\\{keyValue}.mrt");
+                        break;
 
-                        default:
-                            report.LoadPackedDocument($"{AppDirectory}\\ReportSnapshots\\{keyValue}.mdz");
-                            break;
-                    }
-                    
-                    StiWebViewer1.Report = report;
+                    default:
+                        report.LoadPackedDocument($"{AppDirectory}\\ReportSnapshots\\{keyValue}.mdz");
+                        break;
                 }
+                    
+                StiWebViewer1.Report = report;
             }
         }
 
@@ -65,7 +62,7 @@ namespace Web_Demo
             e.Report.RegData(data);
         }
 
-        protected void StiWebViewer1_ReportDesign(object sender, EventArgs e)
+        protected void StiWebViewer1_DesignReport(object sender, EventArgs e)
         {
             var keyValue = Page.Request.QueryString.Get("reportname") ?? "SimpleList";
             Response.Redirect("Designer.aspx?reportname=" + keyValue, true);
