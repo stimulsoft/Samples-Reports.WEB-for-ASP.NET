@@ -98,6 +98,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="icon.png" />
     <Content Include="Reports\SimpleList.mrt" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
