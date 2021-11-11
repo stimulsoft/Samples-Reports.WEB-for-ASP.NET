@@ -1,37 +1,37 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30104.148
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31710.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web Demo", "Web Demo\Web Demo.csproj", "{069D83FC-72EE-4EA5-B4E3-344605C2C745}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Show Report in the Viewer", "Show Report in the Viewer\Show Report in the Viewer.csproj", "{9FEB55C3-D713-49EF-B8B8-DDA74AF6F87C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Showing a Report in the Viewer", "Showing a Report in the Viewer\Showing a Report in the Viewer.csproj", "{9FEB55C3-D713-49EF-B8B8-DDA74AF6F87C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web Viewer with Scroll Bars", "Web Viewer with Scroll Bars\Web Viewer with Scroll Bars.csproj", "{DE8AE865-FF5D-4710-ABEB-66D5625DF688}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using a Scroll Bar in the Web Viewer", "Using a Scroll Bar in the Web Viewer\Using a Scroll Bar in the Web Viewer.csproj", "{DE8AE865-FF5D-4710-ABEB-66D5625DF688}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runtime Report Creation", "Runtime Report Creation\Runtime Report Creation.csproj", "{2E671286-9975-431E-AA48-1D85F646BB11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creating Report at Runtime", "Creating Report at Runtime\Creating Report at Runtime.csproj", "{2E671286-9975-431E-AA48-1D85F646BB11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Export Report from Code", "Export Report from Code\Export Report from Code.csproj", "{09F8449B-CB90-458F-B0B7-BB1E1C5218BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exporting a Report from Code", "Exporting a Report from Code\Exporting a Report from Code.csproj", "{09F8449B-CB90-458F-B0B7-BB1E1C5218BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localizing the Viewer", "Localizing the Viewer\Localizing the Viewer.csproj", "{03A02CBB-B970-4765-B5A7-3D7B082D30CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using the Designer", "Using the Designer\Using the Designer.csproj", "{A26D639A-4CBF-4C0F-A38A-95FBCCD15553}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using Designer Events", "Using Designer Events\Using Designer Events.csproj", "{A26D639A-4CBF-4C0F-A38A-95FBCCD15553}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localizing the Designer", "Localizing the Designer\Localizing the Designer.csproj", "{5E377215-A2C1-4BBD-BAD2-8304009940E5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using Variables in the Report", "Using Variables in the Report\Using Variables in the Report.csproj", "{8520C5CE-23E4-42DE-9504-043182508366}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globalized Reports", "Globalized Reports\Globalized Reports.csproj", "{27770520-E088-4AD4-B9CD-CE686CBE9400}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globalizing Reports", "Globalizing Reports\Globalizing Reports.csproj", "{27770520-E088-4AD4-B9CD-CE686CBE9400}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customize the Viewer", "Customize the Viewer\Customize the Viewer.csproj", "{F262B38D-1A97-43F1-8430-726AE930FA73}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customizing the Viewer", "Customizing the Viewer\Customizing the Viewer.csproj", "{F262B38D-1A97-43F1-8430-726AE930FA73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Button on the Toolbar of the Viewer", "Custom Button on the Toolbar of the Viewer\Custom Button on the Toolbar of the Viewer.csproj", "{0D1D2226-CC55-48EF-A335-7E7D07FBFFB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creating a Custom Button on the Viewer Toolbar", "Creating a Custom Button on the Viewer Toolbar\Creating a Custom Button on the Viewer Toolbar.csproj", "{0D1D2226-CC55-48EF-A335-7E7D07FBFFB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Print Report from Code", "Print Report from Code\Print Report from Code.csproj", "{5F3E7735-0A8A-4A8B-A50C-E2BE24B06005}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Printing the Report Template from Code", "Printing the Report Template from Code\Printing the Report Template from Code.csproj", "{5F3E7735-0A8A-4A8B-A50C-E2BE24B06005}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add Custom Function to the Designer", "Add Custom Function to the Designer\Add Custom Function to the Designer.csproj", "{C8CBECA5-3B80-404A-8469-C804CF424A3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adding a Custom Function to the Designer", "Adding a Custom Function to the Designer\Adding a Custom Function to the Designer.csproj", "{C8CBECA5-3B80-404A-8469-C804CF424A3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connect to Data from the Code", "Connect to Data from the Code\Connect to Data from the Code.csproj", "{AF934647-49C9-4121-8EFF-01DB86806C63}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connecting to Data from Code", "Connecting to Data from Code\Connecting to Data from Code.csproj", "{AF934647-49C9-4121-8EFF-01DB86806C63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -104,7 +104,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C75039E0-9AA4-4328-9E30-E2189ECD30A2}
 		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {C75039E0-9AA4-4328-9E30-E2189ECD30A2}
 	EndGlobalSection
 EndGlobal
