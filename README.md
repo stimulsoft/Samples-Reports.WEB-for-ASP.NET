@@ -4,21 +4,21 @@
 
 # Overview
 This repository has some examples (Visual Studio Projects) each in different folders:
-* Add Custom Function to the Designer
-* Connect to Data from the Code
-* Custom Button on the Toolbar of the Viewer
-* Customize the Viewer
-* Export Report from Code
-* Globalized Reports
+* Adding a Custom Function to the Designer
+* Connecting to Data from Code
+* Creating a Custom Button on the Viewer Toolbar
+* Customizing the Viewer
+* Exporting a Report from Code
+* Globalizing Reports
 * Localizing the Designer
 * Localizing the Viewer
-* Print Report from Code
-* Runtime Report Creation
-* Show Report in the Viewer
-* Using the Designer
+* Printing the Report Template from Code
+* Creating Report at Runtime
+* Showing a Report in the Viewer
+* Using Designer Events
 * Using Variables in the Report
 * Web Demo
-* Web Viewer with Scroll Bars
+* Using a Scroll Bar in the Web Viewer
 
 
 They are all combined in a Visual Studio solution (.sln-file).
