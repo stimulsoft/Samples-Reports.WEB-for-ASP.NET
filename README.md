@@ -5,6 +5,7 @@
 # Overview
 This repository has some examples (Visual Studio Projects) each in different folders:
 * Adding a Custom Function to the Designer
+* Adding a Font to the Resource
 * Connecting to Data from Code
 * Creating a Custom Button on the Viewer Toolbar
 * Customizing the Viewer
