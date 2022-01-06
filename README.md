@@ -16,6 +16,7 @@ This repository has some examples (Visual Studio Projects) each in different fol
 * Printing the Report Template from Code
 * Creating Report at Runtime
 * Showing a Report in the Viewer
+* Using a Custom Data Adapter
 * Using Designer Events
 * Using Variables in the Report
 * Web Demo
