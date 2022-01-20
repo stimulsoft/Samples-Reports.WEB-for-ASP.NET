@@ -11,7 +11,6 @@
     <form id="form1" runat="server">
     <div>
         <cc1:StiWebDesigner ID="StiWebDesigner1" runat="server" ShowFileMenuExit="true"
-            OnPreviewReport="StiWebDesigner1_PreviewReport"
             OnSaveReport="StiWebDesigner1_SaveReport"
             OnExit="StiWebDesigner1_Exit" />
     </div>

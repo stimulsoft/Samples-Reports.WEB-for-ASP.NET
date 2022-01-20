@@ -98,180 +98,174 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Data\Demo.xml" />
     <Content Include="Designer.aspx" />
-    <Content Include="Images\hyperlink.png" />
-    <Content Include="Images\line.png" />
-    <Content Include="Images\logoweb.png" />
-    <Content Include="Images\Tree\empty.gif" />
-    <Content Include="Images\Tree\folder.gif" />
-    <Content Include="Images\Tree\folderopen.gif" />
-    <Content Include="Images\Tree\join.gif" />
-    <Content Include="Images\Tree\joinbottom.gif" />
-    <Content Include="Images\Tree\line.gif" />
-    <Content Include="Images\Tree\minus.gif" />
-    <Content Include="Images\Tree\minusbottom.gif" />
-    <Content Include="Images\Tree\nolines_minus.gif" />
-    <Content Include="Images\Tree\nolines_plus.gif" />
-    <Content Include="Images\Tree\plus.gif" />
-    <Content Include="Images\Tree\plusbottom.gif" />
-    <Content Include="Images\Tree\report.gif" />
-    <Content Include="Data\Demo.xsc">
-      <DependentUpon>Demo.xsd</DependentUpon>
-    </Content>
-    <None Include="Data\Demo.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>Demo.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <Content Include="Data\Demo.xss">
-      <DependentUpon>Demo.xsd</DependentUpon>
-    </Content>
-    <Content Include="ReportSnapshots\AllGroupFootersAtEnd.mdz" />
-    <Content Include="ReportSnapshots\Anchors.mdz" />
-    <Content Include="ReportSnapshots\BarCodes.mdz" />
-    <Content Include="ReportSnapshots\BookmarksHyperlinks.mdz" />
-    <Content Include="ReportSnapshots\ChartForeignOfficialReservesInEuro.mdz" />
-    <Content Include="ReportSnapshots\ChartGDPGrowth20052010.mdz" />
-    <Content Include="ReportSnapshots\ChartGlobalGrowth20062008.mdz" />
-    <Content Include="ReportSnapshots\ChartGlobalGrowth2008.mdz" />
-    <Content Include="ReportSnapshots\ChartMigrationByDecadeInUSA.mdz" />
-    <Content Include="ReportSnapshots\ChartOilExtractionByCountries.mdz" />
-    <Content Include="ReportSnapshots\ChartOnDataBand.mdz" />
-    <Content Include="ReportSnapshots\ChartPopulation.mdz" />
-    <Content Include="ReportSnapshots\ChartProducedCars.mdz" />
-    <Content Include="ReportSnapshots\ChartStyles.mdz" />
-    <Content Include="ReportSnapshots\CrossTabOnDataBand.mdz" />
-    <Content Include="ReportSnapshots\CrossTabWithHighlightCondition.mdz" />
-    <Content Include="ReportSnapshots\CrossTabWithoutColumns.mdz" />
-    <Content Include="ReportSnapshots\CrossTabWithoutRows.mdz" />
-    <Content Include="ReportSnapshots\CrossTabWithTwoSummaries.mdz" />
-    <Content Include="ReportSnapshots\GroupsTopSales.mdz" />
-    <Content Include="ReportSnapshots\GroupsWithRanges.mdz" />
-    <Content Include="ReportSnapshots\HighlightCondition.mdz" />
-    <Content Include="ReportSnapshots\HtmlTags.mdz" />
-    <Content Include="ReportSnapshots\Images.mdz" />
-    <Content Include="ReportSnapshots\Indicators.mdz" />
-    <Content Include="ReportSnapshots\Invoice.mdz" />
-    <Content Include="ReportSnapshots\InvoiceWithEmptyBand.mdz" />
-    <Content Include="ReportSnapshots\InvoiceWithGroups.mdz" />
-    <Content Include="ReportSnapshots\Labels.mdz" />
-    <Content Include="ReportSnapshots\LargeCrossTab.mdz" />
-    <Content Include="ReportSnapshots\MasterDetail.mdz" />
-    <Content Include="ReportSnapshots\MasterDetailCards.mdz" />
-    <Content Include="ReportSnapshots\MasterDetailOnDataBand.mdz" />
-    <Content Include="ReportSnapshots\MasterDetailSubdetail.mdz" />
-    <Content Include="ReportSnapshots\MasterDetailWithColumns.mdz" />
-    <Content Include="ReportSnapshots\MasterDetailWithEmptyLines.mdz" />
-    <Content Include="ReportSnapshots\MasterDetailWithGroups.mdz" />
-    <Content Include="ReportSnapshots\MasterDetailWithSubReports.mdz" />
-    <Content Include="ReportSnapshots\MasterDetailWithZeroHeight.mdz" />
-    <Content Include="ReportSnapshots\MultiColumnBandsAcrossThenDown.mdz" />
-    <Content Include="ReportSnapshots\MultiColumnBandsDownThenAcross.mdz" />
-    <Content Include="ReportSnapshots\MultiColumnGroup.mdz" />
-    <Content Include="ReportSnapshots\MultiColumnList.mdz" />
-    <Content Include="ReportSnapshots\MultiContainers.mdz" />
-    <Content Include="ReportSnapshots\NestedGroups.mdz" />
-    <Content Include="ReportSnapshots\RichText.mdz" />
-    <Content Include="ReportSnapshots\SalesInvoice.mdz" />
-    <Content Include="ReportSnapshots\Shapes.mdz" />
-    <Content Include="ReportSnapshots\SideBySideGroupWithContainers.mdz" />
-    <Content Include="ReportSnapshots\SideBySideGroupWithSubReports.mdz" />
-    <Content Include="ReportSnapshots\SideBySideListWithContainers.mdz" />
-    <Content Include="ReportSnapshots\SideBySideListWithSubReports.mdz" />
-    <Content Include="ReportSnapshots\SideBySideListWithSubReportsOnDataBand.mdz" />
-    <Content Include="ReportSnapshots\SimpleGroup.mdz" />
-    <Content Include="ReportSnapshots\SimpleGroupWithColumns.mdz" />
-    <Content Include="ReportSnapshots\SimpleList.mdz" />
-    <Content Include="ReportSnapshots\SimpleListWithEmptyLines.mdz" />
-    <Content Include="ReportSnapshots\StandardCrossTab.mdz" />
-    <Content Include="ReportSnapshots\Tree.mdz" />
-    <Content Include="ReportSnapshots\TreeWithHeadersFooters.mdz" />
-    <Content Include="ReportSnapshots\TreeWithLockedComponents.mdz" />
-    <Content Include="ReportSnapshots\TreeWithTotals.mdz" />
-    <Content Include="ReportSnapshots\TreeWithTotalsAllLevels.mdz" />
-    <Content Include="ReportSnapshots\TwoCrossTabs.mdz" />
-    <Content Include="ReportSnapshots\TwoMastersOnOneDetail.mdz" />
-    <Content Include="ReportSnapshots\TwoSimpleLists.mdz" />
-    <Content Include="ReportSnapshots\Watermark.mdz" />
-    <Content Include="ReportSnapshots\WrappedCrossTab.mdz" />
-    <Content Include="ReportTemplates\AllGroupFootersAtEnd.mrt" />
-    <Content Include="ReportTemplates\Anchors.mrt" />
-    <Content Include="ReportTemplates\BarCodes.mrt" />
-    <Content Include="ReportTemplates\BookmarksHyperlinks.mrt" />
-    <Content Include="ReportTemplates\ChartForeignOfficialReservesInEuro.mrt" />
-    <Content Include="ReportTemplates\ChartGDPGrowth20052010.mrt" />
-    <Content Include="ReportTemplates\ChartGlobalGrowth20062008.mrt" />
-    <Content Include="ReportTemplates\ChartGlobalGrowth2008.mrt" />
-    <Content Include="ReportTemplates\ChartMigrationByDecadeInUSA.mrt" />
-    <Content Include="ReportTemplates\ChartOilExtractionByCountries.mrt" />
-    <Content Include="ReportTemplates\ChartOnDataBand.mrt" />
-    <Content Include="ReportTemplates\ChartPopulation.mrt" />
-    <Content Include="ReportTemplates\ChartProducedCars.mrt" />
-    <Content Include="ReportTemplates\ChartStyles.mrt" />
-    <Content Include="ReportTemplates\CrossTabOnDataBand.mrt" />
-    <Content Include="ReportTemplates\CrossTabWithHighlightCondition.mrt" />
-    <Content Include="ReportTemplates\CrossTabWithoutColumns.mrt" />
-    <Content Include="ReportTemplates\CrossTabWithoutRows.mrt" />
-    <Content Include="ReportTemplates\CrossTabWithTwoSummaries.mrt" />
-    <Content Include="ReportTemplates\DrillDownListOfProducts.mrt" />
-    <Content Include="ReportTemplates\DrillDownSorting.mrt" />
-    <Content Include="ReportTemplates\GroupsTopSales.mrt" />
-    <Content Include="ReportTemplates\GroupsWithRanges.mrt" />
-    <Content Include="ReportTemplates\HighlightCondition.mrt" />
-    <Content Include="ReportTemplates\HtmlTags.mrt" />
-    <Content Include="ReportTemplates\Images.mrt" />
-    <Content Include="ReportTemplates\Indicators.mrt" />
-    <Content Include="ReportTemplates\Invoice.mrt" />
-    <Content Include="ReportTemplates\InvoiceWithEmptyBand.mrt" />
-    <Content Include="ReportTemplates\InvoiceWithGroups.mrt" />
-    <Content Include="ReportTemplates\Labels.mrt" />
-    <Content Include="ReportTemplates\LargeCrossTab.mrt" />
-    <Content Include="ReportTemplates\MasterDetail.mrt" />
-    <Content Include="ReportTemplates\MasterDetailCards.mrt" />
-    <Content Include="ReportTemplates\MasterDetailOnDataBand.mrt" />
-    <Content Include="ReportTemplates\MasterDetailSubdetail.mrt" />
-    <Content Include="ReportTemplates\MasterDetailWithColumns.mrt" />
-    <Content Include="ReportTemplates\MasterDetailWithEmptyLines.mrt" />
-    <Content Include="ReportTemplates\MasterDetailWithGroups.mrt" />
-    <Content Include="ReportTemplates\MasterDetailWithSubReports.mrt" />
-    <Content Include="ReportTemplates\MasterDetailWithZeroHeight.mrt" />
-    <Content Include="ReportTemplates\MultiColumnBandsAcrossThenDown.mrt" />
-    <Content Include="ReportTemplates\MultiColumnBandsDownThenAcross.mrt" />
-    <Content Include="ReportTemplates\MultiColumnGroup.mrt" />
-    <Content Include="ReportTemplates\MultiColumnList.mrt" />
-    <Content Include="ReportTemplates\MultiColumnListContainers.mrt" />
-    <Content Include="ReportTemplates\MultiContainers.mrt" />
-    <Content Include="ReportTemplates\NestedGroups.mrt" />
-    <Content Include="ReportTemplates\ParametersDetailedCategories.mrt" />
-    <Content Include="ReportTemplates\ParametersDetailedOrders.mrt" />
-    <Content Include="ReportTemplates\ParametersHighlightCondition.mrt" />
-    <Content Include="ReportTemplates\ParametersInvoice.mrt" />
-    <Content Include="ReportTemplates\ParametersSelectingCountry.mrt" />
-    <Content Include="ReportTemplates\RichText.mrt" />
-    <Content Include="ReportTemplates\SalesInvoice.mrt" />
-    <Content Include="ReportTemplates\Shapes.mrt" />
-    <Content Include="ReportTemplates\SideBySideGroupWithContainers.mrt" />
-    <Content Include="ReportTemplates\SideBySideGroupWithSubReports.mrt" />
-    <Content Include="ReportTemplates\SideBySideListWithContainers.mrt" />
-    <Content Include="ReportTemplates\SideBySideListWithSubReports.mrt" />
-    <Content Include="ReportTemplates\SideBySideListWithSubReportsOnDataBand.mrt" />
-    <Content Include="ReportTemplates\SimpleGroup.mrt" />
-    <Content Include="ReportTemplates\SimpleGroupWithColumns.mrt" />
-    <Content Include="ReportTemplates\SimpleList.mrt" />
-    <Content Include="ReportTemplates\SimpleListWithEmptyLines.mrt" />
-    <Content Include="ReportTemplates\StandardCrossTab.mrt" />
-    <Content Include="ReportTemplates\Tree.mrt" />
-    <Content Include="ReportTemplates\TreeWithHeadersFooters.mrt" />
-    <Content Include="ReportTemplates\TreeWithLockedComponents.mrt" />
-    <Content Include="ReportTemplates\TreeWithTotals.mrt" />
-    <Content Include="ReportTemplates\TreeWithTotalsAllLevels.mrt" />
-    <Content Include="ReportTemplates\TwoCrossTabs.mrt" />
-    <Content Include="ReportTemplates\TwoMastersOnOneDetail.mrt" />
-    <Content Include="ReportTemplates\TwoSimpleLists.mrt" />
-    <Content Include="ReportTemplates\Watermark.mrt" />
-    <Content Include="ReportTemplates\WrappedCrossTab.mrt" />
+    <Content Include="Images\Report_x2.png" />
     <None Include="packages.config" />
+    <EmbeddedResource Include="Reports\AlibabaRevenueStats.mrt" />
+    <EmbeddedResource Include="Reports\AllGroupFootersAtEnd.mrt" />
+    <EmbeddedResource Include="Reports\Anchors.mrt" />
+    <EmbeddedResource Include="Reports\Area.mrt" />
+    <EmbeddedResource Include="Reports\ArrivalCard.mrt" />
+    <EmbeddedResource Include="Reports\AutosAndLightTrucksUnitsSalesInUSA.mrt" />
+    <EmbeddedResource Include="Reports\BarCodes.mrt" />
+    <EmbeddedResource Include="Reports\BillingStatement.mrt" />
+    <EmbeddedResource Include="Reports\Bitcoin.mrt" />
+    <EmbeddedResource Include="Reports\BookmarksAndHyperlinks.mrt" />
+    <EmbeddedResource Include="Reports\BRICGDPStats.mrt" />
+    <EmbeddedResource Include="Reports\Bubble.mrt" />
+    <EmbeddedResource Include="Reports\BusinessInvoice.mrt" />
+    <EmbeddedResource Include="Reports\ChartOnDatabandWithTOC.mrt" />
+    <EmbeddedResource Include="Reports\ChinaConstructionBank.mrt" />
+    <EmbeddedResource Include="Reports\ChinasExpensiveBuildings.mrt" />
+    <EmbeddedResource Include="Reports\ChineseRestaurant.mrt" />
+    <EmbeddedResource Include="Reports\Christmas.mrt" />
+    <EmbeddedResource Include="Reports\ClusteredBar.mrt" />
+    <EmbeddedResource Include="Reports\ClusteredColumn.mrt" />
+    <EmbeddedResource Include="Reports\Covid-19PCRTest.mrt" />
+    <EmbeddedResource Include="Reports\CrossTabAndCrossBands.mrt" />
+    <EmbeddedResource Include="Reports\CrossTabOnDataBand.mrt" />
+    <EmbeddedResource Include="Reports\CrossTabOnPage.mrt" />
+    <EmbeddedResource Include="Reports\CrossTabWithCollapsing.mrt" />
+    <EmbeddedResource Include="Reports\CrossTabWithDetailing.mrt" />
+    <EmbeddedResource Include="Reports\CrossTabWithHighlightCondition1.mrt" />
+    <EmbeddedResource Include="Reports\CrossTabWithHighlightCondition2.mrt" />
+    <EmbeddedResource Include="Reports\CrossTabWithImages.mrt" />
+    <EmbeddedResource Include="Reports\CrossTabWithoutColumns.mrt" />
+    <EmbeddedResource Include="Reports\CrossTabWithoutRows.mrt" />
+    <EmbeddedResource Include="Reports\CrossTabWithTwoSummaries.mrt" />
+    <EmbeddedResource Include="Reports\Doughnut.mrt" />
+    <EmbeddedResource Include="Reports\DriversVehicleInspectionReport.mrt" />
+    <EmbeddedResource Include="Reports\EditableReport.mrt" />
+    <EmbeddedResource Include="Reports\EmployeeCards.mrt" />
+    <EmbeddedResource Include="Reports\EmptyRowsInvoice.mrt" />
+    <EmbeddedResource Include="Reports\EmptyRowsMasterDetail.mrt" />
+    <EmbeddedResource Include="Reports\EmptyRowsSimpleList.mrt" />
+    <EmbeddedResource Include="Reports\Finance.mrt" />
+    <EmbeddedResource Include="Reports\Financial.mrt" />
+    <EmbeddedResource Include="Reports\ForeignOfficialReserves.mrt" />
+    <EmbeddedResource Include="Reports\Funnel.mrt" />
+    <EmbeddedResource Include="Reports\Gantt.mrt" />
+    <EmbeddedResource Include="Reports\GaugeLinear.mrt" />
+    <EmbeddedResource Include="Reports\GaugeRadial.mrt" />
+    <EmbeddedResource Include="Reports\GDPGrowth2007-2017.mrt" />
+    <EmbeddedResource Include="Reports\GlobalGrowth2015-2017.mrt" />
+    <EmbeddedResource Include="Reports\GlobalGrowth2017.mrt" />
+    <EmbeddedResource Include="Reports\GrayCHart.mrt" />
+    <EmbeddedResource Include="Reports\GroupsWithRanges.mrt" />
+    <EmbeddedResource Include="Reports\GroupWithCollapsing.mrt" />
+    <EmbeddedResource Include="Reports\GroupWithCollapsingWithoutFooter.mrt" />
+    <EmbeddedResource Include="Reports\HighlightCondition.mrt" />
+    <EmbeddedResource Include="Reports\Histogram.mrt" />
+    <EmbeddedResource Include="Reports\HospitalConstructionOfChina.mrt" />
+    <EmbeddedResource Include="Reports\HtmlTags.mrt" />
+    <EmbeddedResource Include="Reports\Images.mrt" />
+    <EmbeddedResource Include="Reports\Indicators.mrt" />
+    <EmbeddedResource Include="Reports\Infographics.mrt" />
+    <EmbeddedResource Include="Reports\Insurance-Light.mrt" />
+    <EmbeddedResource Include="Reports\InsuranceWithSelectingCountry.mrt" />
+    <EmbeddedResource Include="Reports\InteractiveCharts.mrt" />
+    <EmbeddedResource Include="Reports\InventorySummary.mrt" />
+    <EmbeddedResource Include="Reports\Invoice.mrt" />
+    <EmbeddedResource Include="Reports\InvoiceWithGroups.mrt" />
+    <EmbeddedResource Include="Reports\Labels.mrt" />
+    <EmbeddedResource Include="Reports\LargeCrossTab.mrt" />
+    <EmbeddedResource Include="Reports\Line.mrt" />
+    <EmbeddedResource Include="Reports\ListOfProducts.mrt" />
+    <EmbeddedResource Include="Reports\ManufactureInChina.mrt" />
+    <EmbeddedResource Include="Reports\MasterDetail.mrt" />
+    <EmbeddedResource Include="Reports\MasterDetailOnDataBand.mrt" />
+    <EmbeddedResource Include="Reports\MasterDetailReportWithTOC.mrt" />
+    <EmbeddedResource Include="Reports\MasterDetailSubdetail.mrt" />
+    <EmbeddedResource Include="Reports\MasterDetailWithCollapsing.mrt" />
+    <EmbeddedResource Include="Reports\MasterDetailWithColumns.mrt" />
+    <EmbeddedResource Include="Reports\MasterDetailWithGroups.mrt" />
+    <EmbeddedResource Include="Reports\MasterDetailWithZeroHeight.mrt" />
+    <EmbeddedResource Include="Reports\MigrationByDecadeInUSA.mrt" />
+    <EmbeddedResource Include="Reports\MultiColumnBandsAcrossThenDown.mrt" />
+    <EmbeddedResource Include="Reports\MultiColumnBandsDownThenAcross.mrt" />
+    <EmbeddedResource Include="Reports\MultiColumnGroup.mrt" />
+    <EmbeddedResource Include="Reports\MultiColumnList.mrt" />
+    <EmbeddedResource Include="Reports\MultiColumnListWithTOC.mrt" />
+    <EmbeddedResource Include="Reports\MultiSelection.mrt" />
+    <EmbeddedResource Include="Reports\NaturalGasProduction.mrt" />
+    <EmbeddedResource Include="Reports\NestedGroups.mrt" />
+    <EmbeddedResource Include="Reports\NestedGroupsWithTOC.mrt" />
+    <EmbeddedResource Include="Reports\Order.mrt" />
+    <EmbeddedResource Include="Reports\PanelsMasterDetailCards.mrt" />
+    <EmbeddedResource Include="Reports\PanelsMultiColumnList.mrt" />
+    <EmbeddedResource Include="Reports\PanelsMultiPanels.mrt" />
+    <EmbeddedResource Include="Reports\PanelsSideBySideGroups.mrt" />
+    <EmbeddedResource Include="Reports\PanelsSideBySideLists.mrt" />
+    <EmbeddedResource Include="Reports\PanelsWithTOC.mrt" />
+    <EmbeddedResource Include="Reports\ParametersDependentParameter.mrt" />
+    <EmbeddedResource Include="Reports\ParametersDetailedCategories.mrt" />
+    <EmbeddedResource Include="Reports\ParametersDetailedOrders.mrt" />
+    <EmbeddedResource Include="Reports\ParametersHighlightCondition.mrt" />
+    <EmbeddedResource Include="Reports\ParametersInvoice.mrt" />
+    <EmbeddedResource Include="Reports\ParametersSelectingCountry.mrt" />
+    <EmbeddedResource Include="Reports\ParametersTwoDependentParameters.mrt" />
+    <EmbeddedResource Include="Reports\Pareto.mrt" />
+    <EmbeddedResource Include="Reports\Payroll.mrt" />
+    <EmbeddedResource Include="Reports\PhoneShopCheck.mrt" />
+    <EmbeddedResource Include="Reports\Pictorial.mrt" />
+    <EmbeddedResource Include="Reports\Pie.mrt" />
+    <EmbeddedResource Include="Reports\Population.mrt" />
+    <EmbeddedResource Include="Reports\PopulationInChina.mrt" />
+    <EmbeddedResource Include="Reports\ProductsChartByCategories.mrt" />
+    <EmbeddedResource Include="Reports\Quotation.mrt" />
+    <EmbeddedResource Include="Reports\Radar.mrt" />
+    <EmbeddedResource Include="Reports\Range.mrt" />
+    <EmbeddedResource Include="Reports\RecurringInvoice.mrt" />
+    <EmbeddedResource Include="Reports\RichText.mrt" />
+    <EmbeddedResource Include="Reports\SalesInvoice.mrt" />
+    <EmbeddedResource Include="Reports\Scatter.mrt" />
+    <EmbeddedResource Include="Reports\Selection.mrt" />
+    <EmbeddedResource Include="Reports\ServiceInvoice.mrt" />
+    <EmbeddedResource Include="Reports\Shapes.mrt" />
+    <EmbeddedResource Include="Reports\SimpleGroup.mrt" />
+    <EmbeddedResource Include="Reports\SimpleGroupWithColumns.mrt" />
+    <EmbeddedResource Include="Reports\SimpleList.mrt" />
+    <EmbeddedResource Include="Reports\SimpleListWithTOC.mrt" />
+    <EmbeddedResource Include="Reports\Sorting.mrt" />
+    <EmbeddedResource Include="Reports\StandardCrossTab.mrt" />
+    <EmbeddedResource Include="Reports\Statistics.mrt" />
+    <EmbeddedResource Include="Reports\StatisticsAndForecastOfChinaGDP.mrt" />
+    <EmbeddedResource Include="Reports\SubReportsMasterDetail.mrt" />
+    <EmbeddedResource Include="Reports\SubReportsSideBySideGroups.mrt" />
+    <EmbeddedResource Include="Reports\SubReportsSideBySideLists.mrt" />
+    <EmbeddedResource Include="Reports\SubReportsSideBySideListsOnDataBand.mrt" />
+    <EmbeddedResource Include="Reports\SubReportsWithTOC.mrt" />
+    <EmbeddedResource Include="Reports\Sunburst.mrt" />
+    <EmbeddedResource Include="Reports\SwitzerlandInvoice.mrt" />
+    <EmbeddedResource Include="Reports\TableFixedWidthOfColumns.mrt" />
+    <EmbeddedResource Include="Reports\TableImages.mrt" />
+    <EmbeddedResource Include="Reports\TableInvoiceWithGroups.mrt" />
+    <EmbeddedResource Include="Reports\TableMasterDetailSubdetail.mrt" />
+    <EmbeddedResource Include="Reports\TableSimpleGroup.mrt" />
+    <EmbeddedResource Include="Reports\TableSimpleTable.mrt" />
+    <EmbeddedResource Include="Reports\TableWithSorting.mrt" />
+    <EmbeddedResource Include="Reports\TableWithTOC.mrt" />
+    <EmbeddedResource Include="Reports\TaiwanConstructionService.mrt" />
+    <EmbeddedResource Include="Reports\TasksByDate.mrt" />
+    <EmbeddedResource Include="Reports\TopAutoSalesInUSA16.mrt" />
+    <EmbeddedResource Include="Reports\TopCountriesByGDPIn2019.mrt" />
+    <EmbeddedResource Include="Reports\TopSales.mrt" />
+    <EmbeddedResource Include="Reports\TopSellersOfCars.mrt" />
+    <EmbeddedResource Include="Reports\Tree.mrt" />
+    <EmbeddedResource Include="Reports\Treemap.mrt" />
+    <EmbeddedResource Include="Reports\TreeWithCollapsing.mrt" />
+    <EmbeddedResource Include="Reports\TreeWithHeadersAndFooters.mrt" />
+    <EmbeddedResource Include="Reports\TreeWithLockedComponents.mrt" />
+    <EmbeddedResource Include="Reports\TreeWithTotals.mrt" />
+    <EmbeddedResource Include="Reports\TreeWithTotalsAllLevels.mrt" />
+    <EmbeddedResource Include="Reports\TwoCrossTabs.mrt" />
+    <EmbeddedResource Include="Reports\TwoMastersOnOneDetail.mrt" />
+    <EmbeddedResource Include="Reports\TwoSimpleLists.mrt" />
+    <EmbeddedResource Include="Reports\TwoSimpleListsWithTOC.mrt" />
+    <EmbeddedResource Include="Reports\VehicleSalesWorldwide.mrt" />
+    <EmbeddedResource Include="Reports\Waterfall.mrt" />
+    <EmbeddedResource Include="Reports\Watermark.mrt" />
+    <EmbeddedResource Include="Reports\WrappedCrossTabs.mrt" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -319,20 +313,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
-    <Content Include="Scripts\dtree.js" />
-    <Content Include="Scripts\reports.js" />
-    <Content Include="Styles\dtree.css" />
-    <Content Include="Styles\webviewer.css" />
+    <Content Include="Scripts\demo.js" />
+    <Content Include="Styles\demo.css" />
+    <Content Include="Viewer.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Data\Demo.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Demo.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -348,7 +336,15 @@
       <DependentUpon>Designer.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Viewer.aspx.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Viewer.aspx.designer.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -1,7 +1,6 @@
 ﻿using Stimulsoft.Report;
 using Stimulsoft.Report.Web;
 using System;
-using System.Data;
 using System.Web;
 using System.Web.UI;
 
@@ -9,7 +8,7 @@ namespace Web_Demo
 {
     public partial class Designer : Page
     {
-        private static string AppDirectory = HttpContext.Current.Server.MapPath(string.Empty);
+        private static string appDirectory = HttpContext.Current.Server.MapPath(string.Empty);
 
         static Designer()
         {
@@ -26,22 +25,13 @@ namespace Web_Demo
             if (keyValue == null) keyValue = "SimpleList";
 
             var report = new StiReport();
-            report.Load(string.Format("{0}\\ReportTemplates\\{1}.mrt", AppDirectory, keyValue));
+            report.Load(string.Format("{0}\\Reports\\{1}.mrt", appDirectory, keyValue));
             StiWebDesigner1.Report = report;
-        }
-
-        protected void StiWebDesigner1_PreviewReport(object sender, StiReportDataEventArgs e)
-        {
-            var data = new DataSet();
-            data.ReadXmlSchema(AppDirectory + "\\Data\\Demo.xsd");
-            data.ReadXml(AppDirectory + "\\Data\\Demo.xml");
-
-            e.Report.RegData(data);
         }
 
         protected void StiWebDesigner1_SaveReport(object sender, StiSaveReportEventArgs e)
         {
-            StiReport report = e.Report;
+            var report = e.Report;
 
             // string packedReport = report.SavePackedReportToString();
             // ...
@@ -54,7 +44,7 @@ namespace Web_Demo
             string keyValue = Page.Request.QueryString.Get("reportname");
             if (keyValue == null) keyValue = "SimpleList";
 
-            this.Response.Redirect("Default.aspx?reportname=" + keyValue, true);
+            this.Response.Redirect("Viewer.aspx?reportname=" + keyValue, true);
         }
     }
 }
