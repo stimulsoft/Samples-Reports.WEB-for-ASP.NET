@@ -1,21 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<StiSerializer version="1.0" application="StiReport">
+<StiSerializer version="1.02" type="Net" application="StiReport">
   <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
     <Databases isList="true" count="0" />
     <DataSources isList="true" count="0" />
     <Relations isList="true" count="0" />
     <Report isRef="0" />
+    <Resources isList="true" count="0" />
     <Variables isList="true" count="6">
-      <value>Category,Name,Name,System.String,_x0022__x0022_,False,False</value>
-      <value>Category,Surname,Surname,System.String,_x0022__x0022_,False,False</value>
-      <value>Category,Email,E-mail,System.String,_x0022__x0022_,False,False</value>
-      <value>Category,Address,Address,System.String,_x0022__x0022_,False,False</value>
-      <value>Category,BirthDay,BirthDay,System.DateTime,DateTime.Now,False,True</value>
-      <value>Category,Sex,Sex,System.Boolean,true,False,False</value>
+      <value>Category,Address,Address,,System.String,_x0022__x0022_,False,False,False,False</value>
+      <value>Category,BirthDay,BirthDay,,System.DateTime,DateTime.Now,False,True,False,False</value>
+      <value>Category,Email,E-mail,,System.String,_x0022__x0022_,False,False,False,False</value>
+      <value>Category,Name,Name,,System.String,_x0022__x0022_,False,False,False,False</value>
+      <value>Category,Sex,Sex,,System.Boolean,true,False,False,False,False</value>
+      <value>Category,Surname,Surname,,System.String,_x0022__x0022_,False,False,False,False</value>
     </Variables>
   </Dictionary>
-  <EngineVersion>EngineV1</EngineVersion>
+  <EngineVersion>EngineV2</EngineVersion>
   <GlobalizationStrings isList="true" count="0" />
+  <Key>cd0cd68144364c9e9d2fe5d4a7385d30</Key>
+  <MetaTags isList="true" count="0" />
   <Pages isList="true" count="1">
     <Page1 Ref="2" type="Page" isKey="true">
       <Border>None;Black;2;Solid;False;4;Black</Border>
@@ -25,6 +29,7 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>0.6,2.2,7.6,1</ClientRectangle>
           <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
           <HorAlignment>Right</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -39,6 +44,7 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>0.6,3.6,7.6,1</ClientRectangle>
           <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
           <HorAlignment>Right</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -53,6 +59,7 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>0.6,5,7.6,1</ClientRectangle>
           <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
           <HorAlignment>Right</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -67,6 +74,7 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>0.6,6.4,7.6,1</ClientRectangle>
           <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
           <HorAlignment>Right</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -82,6 +90,7 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>8.6,2.2,7.6,1</ClientRectangle>
           <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text7</Name>
@@ -96,6 +105,7 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>8.6,3.6,7.6,1</ClientRectangle>
           <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text8</Name>
@@ -110,6 +120,7 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>8.6,5,7.6,1</ClientRectangle>
           <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text9</Name>
@@ -124,6 +135,7 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>8.6,6.4,7.6,1</ClientRectangle>
           <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text11</Name>
@@ -137,6 +149,7 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>5.42,0.6,8.2,0.8</ClientRectangle>
           <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,24</Font>
           <HorAlignment>Center</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -150,6 +163,7 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>0.6,7.8,7.6,1</ClientRectangle>
           <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
           <HorAlignment>Right</HorAlignment>
           <Margins>0,0,0,0</Margins>
@@ -165,6 +179,7 @@
           <Brush>Transparent</Brush>
           <ClientRectangle>8.6,7.8,7.6,1</ClientRectangle>
           <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Font>Arial,16,Bold</Font>
           <Margins>0,0,0,0</Margins>
           <Name>Text6</Name>
@@ -182,20 +197,15 @@
         </Text6>
       </Components>
       <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
       <Guid>5105c92c8dad437f9e7ee54504c8fbbd</Guid>
       <Margins>0.99,0.99,0.99,0.99</Margins>
       <Name>Page1</Name>
-      <Page isRef="2" />
       <PageHeight>29.69</PageHeight>
       <PageWidth>21.01</PageWidth>
       <Report isRef="0" />
-      <Watermark Ref="15" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
-        <Font>Arial,100</Font>
-        <TextBrush>[50:0:0:0]</TextBrush>
-      </Watermark>
     </Page1>
   </Pages>
-  <PrinterSettings Ref="16" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
   <ReferencedAssemblies isList="true" count="7">
     <value>System.Dll</value>
     <value>System.Drawing.Dll</value>
@@ -207,14 +217,14 @@
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
   <ReportAuthor isNull="true" />
-  <ReportChanged>6/25/2009 11:02:43 PM</ReportChanged>
+  <ReportChanged>2/14/2022 4:28:41 PM</ReportChanged>
   <ReportCreated>12/13/2004 12:12:00 AM</ReportCreated>
   <ReportDescription isNull="true" />
-  <ReportFile>..\..\Variables.mrt</ReportFile>
-  <ReportGuid>d4076912be73454e885a4ffbca671854</ReportGuid>
+  <ReportFile>D:\Stimulsoft\Samples\Samples-ASP.NET-CSharp\Using Variables in the Report\Reports\Variables.mrt</ReportFile>
+  <ReportGuid>93d4d21a81cf40bb88ec0d735db73f22</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
-  <ReportVersion>2009.2.423</ReportVersion>
+  <ReportVersion>2022.1.6.0</ReportVersion>
   <Script />
   <ScriptLanguage>CSharp</ScriptLanguage>
   <Styles isList="true" count="0" />
