@@ -6,7 +6,7 @@ using Stimulsoft.Report.Dictionary;
 using Stimulsoft.Report.Web;
 using System;
 using System.Data;
-using System.Drawing;
+using System.Linq;
 
 namespace Using_a_Custom_Data_Adapter
 {
@@ -35,6 +35,11 @@ namespace Using_a_Custom_Data_Adapter
         protected void StiWebDesigner1_GetReport(object sender, StiReportDataEventArgs e)
         {
             var report = new StiReport();
+
+            //Adding a reference to this project using a custom adapter class
+            var assemblies = report.ReferencedAssemblies.ToList();
+            assemblies.Add("Using_a_Custom_Data_Adapter.dll");
+            report.ReferencedAssemblies = assemblies.ToArray();
 
             //Adding a connection to the report from code
             var database = new CustomPostgreSQLDatabase("CustomData1", "Server=127.0.0.1; Port=5432; Database=myDataBase; User Id=myUsername; Password=myPassword;");
