@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Using_Variables_in_the_Report {
-    
-    
-    public partial class Report {
-        
+namespace Using_Variables_in_the_Report
+{
+
+
+    public partial class ReportPOST
+    {
+
         /// <summary>
         /// formViewer control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace Using_Variables_in_the_Report {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm formViewer;
-        
+
         /// <summary>
         /// StiWebViewer1 control.
         /// </summary>

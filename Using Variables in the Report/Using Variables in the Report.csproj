@@ -99,7 +99,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Design.aspx" />
-    <Content Include="Report.aspx" />
+    <Content Include="ReportGET.aspx" />
+    <Content Include="ReportPOST.aspx" />
     <Content Include="Reports\Variables.mrt" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
@@ -169,12 +170,19 @@
     <Compile Include="Design.aspx.designer.cs">
       <DependentUpon>Design.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Report.aspx.cs">
-      <DependentUpon>Report.aspx</DependentUpon>
+    <Compile Include="ReportGET.aspx.cs">
+      <DependentUpon>ReportGET.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Report.aspx.designer.cs">
-      <DependentUpon>Report.aspx</DependentUpon>
+    <Compile Include="ReportGET.aspx.designer.cs">
+      <DependentUpon>ReportGET.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportPOST.aspx.cs">
+      <DependentUpon>ReportPOST.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReportPOST.aspx.designer.cs">
+      <DependentUpon>ReportPOST.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
