@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using a Custom Data Adapter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creating a Custom Parameter Panel for the Viewer", "Creating a Custom Parameter Panel for the Viewer\Creating a Custom Parameter Panel for the Viewer.csproj", "{0713551E-040E-47F4-AFD5-5D1CBF8ACACF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuring Report caching", "Configuring Report caching\Configuring Report caching.csproj", "{5BFD0796-E42F-43BE-B15F-4FB72EEFE0C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,12 +119,16 @@ Global
 		{0713551E-040E-47F4-AFD5-5D1CBF8ACACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0713551E-040E-47F4-AFD5-5D1CBF8ACACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0713551E-040E-47F4-AFD5-5D1CBF8ACACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BFD0796-E42F-43BE-B15F-4FB72EEFE0C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFD0796-E42F-43BE-B15F-4FB72EEFE0C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFD0796-E42F-43BE-B15F-4FB72EEFE0C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFD0796-E42F-43BE-B15F-4FB72EEFE0C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C75039E0-9AA4-4328-9E30-E2189ECD30A2}
 		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {C75039E0-9AA4-4328-9E30-E2189ECD30A2}
 	EndGlobalSection
 EndGlobal
