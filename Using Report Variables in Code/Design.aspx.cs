@@ -2,7 +2,7 @@
 using System;
 using System.Web.UI;
 
-namespace Using_Variables_in_the_Report
+namespace Using_Report_Variables_in_Code
 {
     public partial class Design : System.Web.UI.Page
     {

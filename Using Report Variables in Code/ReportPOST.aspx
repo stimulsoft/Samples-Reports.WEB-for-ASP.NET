@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ReportGET.aspx.cs" Inherits="Using_Variables_in_the_Report.ReportGET" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ReportPOST.aspx.cs" Inherits="Using_Report_Variables_in_Code.ReportPOST" %>
 <%@ Register assembly="Stimulsoft.Report.Web" namespace="Stimulsoft.Report.Web" tagprefix="cc1" %>
 
 <!DOCTYPE html>
@@ -10,7 +10,7 @@
 <body>
     <form id="formViewer" runat="server">
     <div>
-        <cc1:StiWebViewer ID="StiWebViewer1" runat="server" PassQueryParametersToReport="true" />
+        <cc1:StiWebViewer ID="StiWebViewer1" runat="server" />
     </div>
     </form>
 </body>

@@ -7,27 +7,29 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Using_Variables_in_the_Report {
-    
-    
-    public partial class Design {
-        
+namespace Using_Report_Variables_in_Code
+{
+
+
+    public partial class ReportGET
+    {
+
         /// <summary>
-        /// formDesigner control.
+        /// formViewer control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm formDesigner;
-        
+        protected global::System.Web.UI.HtmlControls.HtmlForm formViewer;
+
         /// <summary>
-        /// StiWebDesigner1 control.
+        /// StiWebViewer1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Stimulsoft.Report.Web.StiWebDesigner StiWebDesigner1;
+        protected global::Stimulsoft.Report.Web.StiWebViewer StiWebViewer1;
     }
 }

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Using_Variables_in_the_Report
+namespace Using_Report_Variables_in_Code
 {
 
 
