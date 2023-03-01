@@ -399,6 +399,7 @@
     <DashboardWindowTitleNew>New Dashboard</DashboardWindowTitleNew>
     <DeleteFile>Delete File</DeleteFile>
     <DoNotAskMe>Do not ask me again</DoNotAskMe>
+    <EnterUserNameToLogin>Enter User Name (email) to log in.</EnterUserNameToLogin>
     <ExecutionError>Execution error</ExecutionError>
     <ExpiredDate>Expired Date</ExpiredDate>
     <FileStorageWindowTitleEdit>Edit File Storage</FileStorageWindowTitleEdit>
@@ -477,6 +478,7 @@
     <RequestChangesWhenSavingToCloud>Request Changes when Saving to Stimulsoft Cloud</RequestChangesWhenSavingToCloud>
     <RibbonButtonAddRole>Add Role</RibbonButtonAddRole>
     <RibbonButtonAddUser>Add User</RibbonButtonAddUser>
+	<RibbonButtonAddUserParameter>Add User Parameter</RibbonButtonAddUserParameter>
     <RibbonButtonAddWorkspace>Add Workspace</RibbonButtonAddWorkspace>
     <RibbonButtonFolder>Folder</RibbonButtonFolder>
     <RibbonTabUsers>Users</RibbonTabUsers>
@@ -567,6 +569,8 @@
     <WindowTitleSignUp>Sign Up</WindowTitleSignUp>
     <WindowTitleUserEdit>Edit User</WindowTitleUserEdit>
     <WindowTitleUserNew>New User</WindowTitleUserNew>
+	<WindowTitleUserParameterEdit>Edit User Parameter</WindowTitleUserParameterEdit>
+    <WindowTitleUserParameterNew>New User Parameter</WindowTitleUserParameterNew>
     <WindowTitleWorkspaceEdit>Edit Workspace</WindowTitleWorkspaceEdit>
     <WindowTitleWorkspaceNew>New Workspace</WindowTitleWorkspaceNew>
     <WizardBlankReportDescription>Create a blank report</WizardBlankReportDescription>
@@ -626,6 +630,8 @@
     <StiListBox>List Box</StiListBox>
     <StiMap>Map</StiMap>
     <StiMathFormula>Math Formula</StiMathFormula>
+    <StiMultipleSelection>Multiple Selection</StiMultipleSelection>
+    <StiNumberBox>Number Box</StiNumberBox>
     <StiOnlineMap>Online Map</StiOnlineMap>
     <StiOverlayBand>Overlay</StiOverlayBand>
     <StiPage>Page</StiPage>
@@ -648,6 +654,7 @@
     <StiScreen>Screen</StiScreen>
     <StiShape>Shape</StiShape>
     <StiSignature>Signature</StiSignature>
+    <StiSingleSelection>Single Selection</StiSingleSelection>
     <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Sub-Report</StiSubReport>
     <StiSystemText>System Text</StiSystemText>
@@ -815,7 +822,7 @@
   </DatePickerRanges>
   <DesignerFx>
     <AlreadyExists>'{0}' already exists.</AlreadyExists>
-    <CanNotLoadThisReportTemplate>Can't load this report template.</CanNotLoadThisReportTemplate>
+    <CanNotLoadThisReportTemplate>Can't load this template.</CanNotLoadThisReportTemplate>
     <CloseDataSourceEditor>Do you want to close data source editor?</CloseDataSourceEditor>
     <CloseEditor>Do you want to close editor?</CloseEditor>
     <CompilingReport>Compiling Report</CompilingReport>
@@ -1098,18 +1105,18 @@
     <BitmapFiles>Bitmap Files</BitmapFiles>
     <BmpFiles>BMP Images (*.bmp)|*.bmp</BmpFiles>
     <CalcFiles>OpenDocument Calc Files (*.ods)|*.ods</CalcFiles>
+    <ConditionsFiles>Stimulsoft Conditions (*.stc)|*.stc</ConditionsFiles>
     <CsvFiles>CSV Files (*.csv)|*.csv</CsvFiles>
-    <DashboardTemplates>Dashboard Templates (*.sbi)|*.sbi</DashboardTemplates>
     <DataSetXmlData>DataSet XML Data (*.xml)|*.xml</DataSetXmlData>
     <DataSetXmlSchema>DataSet XML Schema (*.xsd)|*.xsd</DataSetXmlSchema>
     <DbfFiles>DBF Files (*.dbf)|*.dbf</DbfFiles>
-    <DictionaryFiles>Report Dictionaries (*.dct)|*.dct</DictionaryFiles>
+    <DictionaryFiles>Stimulsoft Dictionaries (*.dct)|*.dct</DictionaryFiles>
     <DifFiles>DIF Files (*.dif)|*.dif</DifFiles>
     <DllFiles>DLL Files (*.dll)|*.dll</DllFiles>
-    <DocumentFiles>Report Documents (*.mdc)|*.mdc</DocumentFiles>
+    <DocumentFiles>Stimulsoft Documents (*.mdc)|*.mdc</DocumentFiles>
     <EmfFiles>Metafiles (*.emf)|*.emf</EmfFiles>
-    <EncryptedDocumentFiles>Encrypted Report Documents (*.mdx)|*.mdx</EncryptedDocumentFiles>
-    <EncryptedReportFiles>Encrypted Report Templates (*.mrx)|*.mrx</EncryptedReportFiles>
+    <EncryptedDocumentFiles>Stimulsoft Encrypted Documents (*.mdx)|*.mdx</EncryptedDocumentFiles>
+    <EncryptedReportFiles>Stimulsoft Encrypted Templates (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Microsoft Excel files (*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelAllFiles>Microsoft Excel files (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
     <ExcelFiles>Microsoft Excel 97-2003 files (*.xls)|*.xls</ExcelFiles>
@@ -1119,25 +1126,25 @@
     <HtmlFiles>HTML Files (*.html)|*.html</HtmlFiles>
     <InheritedLanguageFiles>{0} Classes for Inherited Reports (*.{1})|*.{2}</InheritedLanguageFiles>
     <JpegFiles>JPEG image (*.jpg;*.jpeg)|*.jpg;*.jpeg</JpegFiles>
-    <JsonDocumentFiles>JSON Report Documents (*.mdc)|*.mdc</JsonDocumentFiles>
+    <JsonDocumentFiles>Stimulsoft JSON Documents (*.mdc)|*.mdc</JsonDocumentFiles>
     <JsonFiles>JSON Files (*.json)|*.json</JsonFiles>
-    <JsonReportFiles>JSON Report Templates (*.mrt)|*.mrt</JsonReportFiles>
+    <JsonReportFiles>Stimulsoft JSON Templates (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} Classes (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} Classes for Silverlight Reports (*.{1})|*.{2}</LanguageForSilverlightFiles>
     <MetaFiles>Metafiles</MetaFiles>
     <MhtFiles>MHT Web Archives (*.mht)|*.mht</MhtFiles>
-    <PackedDocumentFiles>Packed Report Documents (*.mdz)|*.mdz</PackedDocumentFiles>
-    <PackedReportFiles>Packed Report Templates (*.mrz)|*.mrz</PackedReportFiles>
-    <PageFiles>Report Pages (*.pg)|*.pg</PageFiles>
+    <PackedDocumentFiles>Stimulsoft Packed Documents (*.mdz)|*.mdz</PackedDocumentFiles>
+    <PackedReportFiles>Stimulsoft Packed Templates (*.mrz)|*.mrz</PackedReportFiles>
+    <PageFiles>Stimulsoft Pages (*.pg)|*.pg</PageFiles>
     <PcxFiles>PCX Images (*.pcx)|*.pcx</PcxFiles>
     <PdfFiles>Adobe PDF Files (*.pdf)|*.pdf</PdfFiles>
     <PngFiles>PNG Images (*.png)|*.png</PngFiles>
     <Ppt2007Files>Microsoft PowerPoint 2007/2013 Files (*.pptx)|*.pptx</Ppt2007Files>
-    <ReportEmbededDataFiles>Report Templates with Embedded Data (*.mrt)|*.mrt</ReportEmbededDataFiles>
-    <ReportFiles>Report Templates (*.mrt)|*.mrt</ReportFiles>
+    <ReportEmbededDataFiles>Stimulsoft Templates with Embedded Data (*.mrt)|*.mrt</ReportEmbededDataFiles>
+    <ReportFiles>Stimulsoft Templates (*.mrt)|*.mrt</ReportFiles>
     <RtfFiles>Rich Text (*.rtf)|*.rtf</RtfFiles>
-    <StandaloneReportFiles>Standalone Reports (*.exe)|*.exe</StandaloneReportFiles>
-    <StylesFiles>Report Styles (*.sts)|*.sts</StylesFiles>
+    <StandaloneReportFiles>Stimulsoft Standalone Files (*.exe)|*.exe</StandaloneReportFiles>
+    <StylesFiles>Stimulsoft Styles (*.sts)|*.sts</StylesFiles>
     <SvgFiles>SVG Images (*.svg)|*.svg</SvgFiles>
     <SvgzFiles>Compressed SVG Images (*.svgz)|*.svgz</SvgzFiles>
     <SylkFiles>SYLK Files (*.slk)|*.slk</SylkFiles>
@@ -2367,19 +2374,26 @@
   <Notices>
     <AccessDenied>Access Denied!</AccessDenied>
     <AccountLocked>Your account is locked! In order to resolve it, please send your request to sales@stimulsoft.com!</AccountLocked>
+    <ActivationContact1>Please contact our sales department at </ActivationContact1>
+    <ActivationContact2> to resolve this.</ActivationContact2>
     <ActivationExpiriedBeforeFirstRelease>Your Subscription of Stimulsoft Reports.Ultimate expired earlier than the first version of our Stimulsoft Server was released!</ActivationExpiriedBeforeFirstRelease>
     <ActivationLicenseIsNotCorrect>License file is not correct! Please contact our sales department at sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
     <ActivationLockedAccount>Your account is locked. Please contact our sales department at sales@stimulsoft.com!</ActivationLockedAccount>
     <ActivationLockedAccountExt>Your account is locked.</ActivationLockedAccountExt>
     <ActivationMaxActivationsReached>You reached the maximum number of activations. Please contact our sales department at sales@stimulsoft.com!</ActivationMaxActivationsReached>
+    <ActivationMaxActivationsReached1>You can manage the registered computers from your </ActivationMaxActivationsReached1>
+    <ActivationMaxActivationsReached2>Stimulsoft Account.</ActivationMaxActivationsReached2>
     <ActivationMaxComputersReached>You’ve already registered the maximum number of computers available for your subscription.</ActivationMaxComputersReached>
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server is not available now! Please try again later.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>You cannot activate this version of Stimulsoft Server because your Subscription Program expired! Please log in to your account and check which version of the Stimulsoft Server you can install and activate.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>An error occurred during activation. Please try again later.</ActivationSomeTroublesOccurred>
     <ActivationTrialExpired>You can continue to use Stimulsoft Designer by purchasing the software.</ActivationTrialExpired>
+    <ActivationTrialExtend1>If you are interested in extending your trial, please </ActivationTrialExtend1>
+    <ActivationTrialExtend2>tell us why.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Your user name (Email) or password is wrong!</ActivationUserNameOrPasswordIsWrong>
     <ActivationWrongAccountType>Your account type does not allow to activate Stimulsoft Server!</ActivationWrongAccountType>
     <Alert>Alert</Alert>
+    <AuthAccountAlreadyExists>The account with this User Name (email) already exists. To associate it with your {0} account, please use your Stimulsoft account password.</AuthAccountAlreadyExists>
     <AuthAccountCantBeUsedNow>The account cannot be used now!</AuthAccountCantBeUsedNow>
     <AuthAccountIsNotActivated>The account is not activated yet! Please follow the instructions sent to the Email during registration.</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>The user role cannot be changed because this is the last administrator user in this workspace!</AuthCantChangeRoleBecauseLastAdministratorUser>
@@ -2412,6 +2426,7 @@
     <AuthWorkspaceNameAlreadyInUse>The workspace name is already in use!</AuthWorkspaceNameAlreadyInUse>
     <CommandTimeOut>Waiting time of processing the command is elapsed!</CommandTimeOut>
     <Congratulations>Congratulations!</Congratulations>
+    <DeveloperInformation>Developer Information</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>The end date should be greater than the current date!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>The end date should be greater than start date!</EndDateShouldBeGreaterThanStartDate>
     <ExecutionError>Execution error</ExecutionError>
@@ -2434,12 +2449,15 @@
     <NewDesignerAvailable>Stimulsoft Designer {0} is available.</NewDesignerAvailable>
     <NewProduct>The new product is added to your subscription!</NewProduct>
     <NewVersionsAvailable>New version</NewVersionsAvailable>
+    <NotificationConnectPackage>Connect the "{0}" package for the correct work.</NotificationConnectPackage>
     <NotificationFailed>Failed result!</NotificationFailed>
     <NotificationFailedAddFollowingFiles>Failed to add the following files. Exceeded the size {0} MB.</NotificationFailedAddFollowingFiles>
     <NotificationFilesUploadingComplete>The files uploaded successfully.</NotificationFilesUploadingComplete>
     <NotificationFileUploading>The file "{0}" is uploading.</NotificationFileUploading>
     <NotificationItemDelete>The items are deleting.</NotificationItemDelete>
     <NotificationItemDeleteComplete>The items are deleted successfully.</NotificationItemDeleteComplete>
+    <NotificationItemExtraComponentRequired>Extra component required</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallWebView>Please install the WebView2 Runtime to work with the Blockly editor correctly.</NotificationItemInstallWebView>
     <NotificationItemRestore>The items are restoring.</NotificationItemRestore>
     <NotificationItemRestoreComplete>The items are restored successfully.</NotificationItemRestoreComplete>
     <NotificationItemTransfer>The items are transferring.</NotificationItemTransfer>
@@ -2449,6 +2467,7 @@
     <NotificationMailingComplete>The mailing "{0}" is complete.</NotificationMailingComplete>
     <NotificationMailingWaitingProcessing>The mailing "{0}" is waiting processing.</NotificationMailingWaitingProcessing>
     <NotificationOperationAborted>Operation aborted!</NotificationOperationAborted>
+    <NotificationPackageRequiredToDisplay>To display this content, please download the "{0}" package from NuGet.</NotificationPackageRequiredToDisplay>
     <NotificationRecycleBinCleaning>The Recycle Bin is cleaning.</NotificationRecycleBinCleaning>
     <NotificationRecycleBinCleaningComplete>The Recycle Bin is cleaned successfully.</NotificationRecycleBinCleaningComplete>
     <NotificationRecycleBinWaitingProcessing>The Recycle Bin cleaning is waiting processing.</NotificationRecycleBinWaitingProcessing>
@@ -2457,6 +2476,7 @@
     <NotificationReportRendering>The report "{0}" is rendering</NotificationReportRendering>
     <NotificationReportRenderingComplete>The report "{0}" is rendered.</NotificationReportRenderingComplete>
     <NotificationReportWaitingProcessing>The report "{0}" is waiting processing.</NotificationReportWaitingProcessing>
+    <NotificationReturnToDesigner>Return to the Stimulsoft Designer to continue.</NotificationReturnToDesigner>
     <NotificationSchedulerRunning>The scheduler "{0}" is running.</NotificationSchedulerRunning>
     <NotificationSchedulerRunningComplete>The scheduler "{0}" running complete.</NotificationSchedulerRunningComplete>
     <NotificationSchedulerWaitingProcessing>The scheduler "{0}" is waiting processing.</NotificationSchedulerWaitingProcessing>
@@ -2489,7 +2509,9 @@
     <SpecifiedItemIsNot>The specified item is not "{0}"!</SpecifiedItemIsNot>
     <SubscriptionExpired>Your subscription has expired!</SubscriptionExpired>
     <SubscriptionExpiredDate>Your subscription will expire on {0}</SubscriptionExpiredDate>
+    <SubscriptionExpiredDays>Expires in {0} days</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Your subscription has expired. Update your subscription to get the last version.</SubscriptionExpiredExt>
+    <SubscriptionExpiredShort>Subscription expired</SubscriptionExpiredShort>
     <SubscriptionsOut10>10 days left when the subscription expires!</SubscriptionsOut10>
     <SubscriptionsOut20>The subscription period will expire in 20 days!</SubscriptionsOut20>
     <SuccessfullyRenewed>Your subscription has been successfully updated!</SuccessfullyRenewed>
@@ -2949,6 +2971,10 @@
     <StiBrushTypeGradient45>Gradient Brush, Angle 45</StiBrushTypeGradient45>
     <StiBrushTypeGradient90>Gradient Brush, Angle 90</StiBrushTypeGradient90>
     <StiBrushTypeSolid>Solid Brush</StiBrushTypeSolid>
+    <StiButtonSendTypeFDF>FDF</StiButtonSendTypeFDF>
+    <StiButtonSendTypeHTML>HTML</StiButtonSendTypeHTML>
+    <StiButtonSendTypePDF>PDF</StiButtonSendTypePDF>
+    <StiButtonSendTypeXFDF>XFDF</StiButtonSendTypeXFDF>
     <StiCalculationModeCompilation>Compilation</StiCalculationModeCompilation>
     <StiCalculationModeInterpretation>Interpretation</StiCalculationModeInterpretation>
     <StiCapStyleArrow>Arrow</StiCapStyleArrow>
@@ -3172,6 +3198,9 @@
     <StiLegendVertAlignmentCenter>Center</StiLegendVertAlignmentCenter>
     <StiLegendVertAlignmentTop>Top</StiLegendVertAlignmentTop>
     <StiLegendVertAlignmentTopOutside>Top Outside</StiLegendVertAlignmentTopOutside>
+    <StiLineWeightNormal>Normal</StiLineWeightNormal>
+    <StiLineWeightThick>Thick</StiLineWeightThick>
+    <StiLineWeightThin>Thin</StiLineWeightThin>
     <StiMapModeChoropleth>Choropleth</StiMapModeChoropleth>
     <StiMapModeOnline>Online</StiMapModeOnline>
     <StiMapTypeGroup>Group</StiMapTypeGroup>
@@ -3298,6 +3327,7 @@
     <StiReportUnitTypeInches>Inches</StiReportUnitTypeInches>
     <StiReportUnitTypeMillimeters>Millimeters</StiReportUnitTypeMillimeters>
     <StiReportUnitTypePixels>Pixels</StiReportUnitTypePixels>
+	<StiReportUnitTypePoints>Points</StiReportUnitTypePoints>
     <StiRestrictionsAll>All</StiRestrictionsAll>
     <StiRestrictionsAllowChange>Allow Change</StiRestrictionsAllowChange>
     <StiRestrictionsAllowDelete>Allow Delete</StiRestrictionsAllowDelete>
@@ -3412,6 +3442,12 @@
     <StiTypeModeNullableValue>Nullable Value</StiTypeModeNullableValue>
     <StiTypeModeRange>Range</StiTypeModeRange>
     <StiTypeModeValue>Value</StiTypeModeValue>
+    <StiUnitAlignmentPrefix>Prefix</StiUnitAlignmentPrefix>
+    <StiUnitAlignmentPrefixInside>Prefix Inside</StiUnitAlignmentPrefixInside>
+    <StiUnitAlignmentPrefixInsideWithSpace>Prefix Inside with Space</StiUnitAlignmentPrefixInsideWithSpace>
+    <StiUnitAlignmentSuffix>Suffix</StiUnitAlignmentSuffix>
+    <StiUnitAlignmentSuffixInside>Suffix Inside</StiUnitAlignmentSuffixInside>
+    <StiUnitAlignmentSuffixInsideWithSpace>Suffix Inside with Space</StiUnitAlignmentSuffixInsideWithSpace>
     <StiVertAlignmentBottom>Bottom</StiVertAlignmentBottom>
     <StiVertAlignmentCenter>Center</StiVertAlignmentCenter>
     <StiVertAlignmentTop>Top</StiVertAlignmentTop>
@@ -3575,6 +3611,7 @@
     <AllowApplyStyle>Allow Apply Style</AllowApplyStyle>
     <AllowExpressions>Allow Expressions</AllowExpressions>
     <AllowHtmlTags>Allow HTML Tags</AllowHtmlTags>
+    <AllowNull>Allow Null</AllowNull>
     <AllowSeries>Allow Series</AllowSeries>
     <AllowSeriesElements>Allow Series Elements</AllowSeriesElements>
     <AllowSorting>Allow Sorting</AllowSorting>
@@ -3604,6 +3641,7 @@
     <Anchor>Anchor</Anchor>
     <Angle>Angle</Angle>
     <Antialiasing>Antialiasing</Antialiasing>
+    <Apply>Apply</Apply>
     <Area>Area</Area>
     <Argument>Argument</Argument>
     <ArgumentDataColumn>Argument Data Column</ArgumentDataColumn>
@@ -3663,6 +3701,7 @@
     <BrushType>Brush Type</BrushType>
     <BubbleBackColor>Bubble Back Color</BubbleBackColor>
     <BubbleBorderColor>Bubble Border Color</BubbleBorderColor>
+    <BubbleScale>Bubble Scale</BubbleScale>
     <BusinessObject>Business Object</BusinessObject>
     <CacheAllData>Cache All Data</CacheAllData>
     <CacheTotals>Cache Totals</CacheTotals>
@@ -3676,6 +3715,7 @@
     <Categories>Categories</Categories>
     <Category>Category</Category>
     <CategoryConnections>Connections</CategoryConnections>
+    <CellAlignment>Cell Alignment</CellAlignment>
     <CellBackColor>Cell Back Color</CellBackColor>
     <CellDockStyle>Cell Dock Style</CellDockStyle>
     <CellForeColor>Cell Fore Color</CellForeColor>
@@ -3685,6 +3725,7 @@
     <Center>Center</Center>
     <CenterPoint>Center Point</CenterPoint>
     <ChartAreaBorderColor>Chart Area Border Color</ChartAreaBorderColor>
+    <ChartAreaBorderThickness>Chart Area Border Thickness</ChartAreaBorderThickness>
     <ChartAreaBrush>Chart Area Brush</ChartAreaBrush>
     <ChartAreaShowShadow>Chart Area Show Shadow</ChartAreaShowShadow>
     <ChartType>Chart Type</ChartType>
@@ -3703,6 +3744,7 @@
     <Child>Child</Child>
     <ChildColumns>Child Columns</ChildColumns>
     <ChildSource>Child Source</ChildSource>
+    <City>City</City>
     <ClearFormat>Clear Format</ClearFormat>
     <CloneContainer>Clone Container</CloneContainer>
     <CloseValues>Close Values</CloseValues>
@@ -3749,6 +3791,7 @@
     <CornerRadius>Corner Radius</CornerRadius>
     <Count>Count</Count>
     <CountData>Count Data</CountData>
+    <Country>Country</Country>
     <Create>Create</Create>
     <CreateFieldOnDoubleClick>Create Field on Double Click</CreateFieldOnDoubleClick>
     <CreateLabel>Create Label</CreateLabel>
@@ -3855,6 +3898,7 @@
     <FaqPage>FAQ Page</FaqPage>
     <Field>Field</Field>
     <FieldIs>Field Is</FieldIs>
+    <Fifth>Fifth</Fifth>
     <File>File</File>
     <Fill>Fill</Fill>
     <FillColor>Fill Color</FillColor>
@@ -3864,6 +3908,7 @@
     <FilterMode>Filter Mode</FilterMode>
     <FilterOn>Filter On</FilterOn>
     <Filters>Filters</Filters>
+    <First>First</First>
     <FirstTabOffset>First Tab Offset</FirstTabOffset>
     <FixedWidth>Fixed Width</FixedWidth>
     <Flat>Flat</Flat>
@@ -3896,6 +3941,8 @@
     <Footers>Footers</Footers>
     <ForeColor>Fore Color</ForeColor>
     <Format>Format</Format>
+    <FormSettings>Form Settings</FormSettings>
+    <Fourth>Fourth</Fourth>
     <From>From</From>
     <FrozenColumns>Frozen Columns</FrozenColumns>
     <FullConvertExpression>Full Convert Expression</FullConvertExpression>
@@ -3907,6 +3954,7 @@
     <GlobalizedName>Globalized Name</GlobalizedName>
     <GlyphColor>Glyph Color</GlyphColor>
     <GridColor>Grid Color</GridColor>
+    <GridColumns>Grid Columns</GridColumns>
     <GridLineColor>Grid Line Color</GridLineColor>
     <GridLinesHor>Grid Lines Horizontal</GridLinesHor>
     <GridLinesHorColor>Grid Lines Horizontal Color</GridLinesHorColor>
@@ -3915,6 +3963,7 @@
     <GridLinesVert>Grid Lines Vertical</GridLinesVert>
     <GridLinesVertColor>Grid Lines Vertical Color</GridLinesVertColor>
     <GridOutline>Grid Outline</GridOutline>
+    <GridVerticalStep>Grid Vertical Step</GridVerticalStep>
     <Group>Group</Group>
     <GroupDataColumn>Group Data Column</GroupDataColumn>
     <GroupMeter>Group Meter</GroupMeter>
@@ -3986,11 +4035,13 @@
     <ImportRelations>Import Relations</ImportRelations>
     <Increment>Increment</Increment>
     <Indent>Indent</Indent>
+    <Indicator>Indicator</Indicator>
     <IndividualColor>Individual Color</IndividualColor>
     <InitBy>Init by</InitBy>
     <Initials>Initials</Initials>
     <InitialSelection>Initial Selection</InitialSelection>
     <InitialSelectionSource>Initial Selection Source</InitialSelectionSource>
+    <InnerText>Inner Text</InnerText>
     <Insert>Insert</Insert>
     <Interaction>Interaction</Interaction>
     <InterlacedBrush>Interlaced Brush</InterlacedBrush>
@@ -4083,8 +4134,16 @@
     <Low>Low</Low>
     <LowValues>Low Values</LowValues>
     <MajorInterval>Major Interval</MajorInterval>
+    <MapAfrica>Africa</MapAfrica>
+    <MapAsia>Asia</MapAsia>
+    <MapCustom>Custom</MapCustom>
+    <MapEurope>Europe</MapEurope>
     <MapID>Map ID</MapID>
+    <MapNorthAmerica>North America</MapNorthAmerica>
+    <MapOceania>Oceania</MapOceania>
+    <MapPopularMaps>Popular maps</MapPopularMaps>
     <Maps>Maps</Maps>
+    <MapSouthAmerica>South America</MapSouthAmerica>
     <MapStyle>Map Style</MapStyle>
     <MapType>Map Type</MapType>
     <Margin>Margin</Margin>
@@ -4178,6 +4237,7 @@
     <Options3D>Options 3D</Options3D>
     <Orientation>Orientation</Orientation>
     <OthersText>Others Text</OthersText>
+    <OverlappedColor>Overlapped Color</OverlappedColor>
     <Padding>Padding</Padding>
     <PageHeight>Page Height</PageHeight>
     <PageNumbers>Page Numbers</PageNumbers>
@@ -4200,6 +4260,8 @@
     <PathData>Path Data</PathData>
     <PathSchema>Path Schema</PathSchema>
     <Pattern>Pattern</Pattern>
+    <PDFPreview>PDF Preview</PDFPreview>
+    <PenColor>Pen Color</PenColor>
     <Placeholder>Placeholder</Placeholder>
     <Placement>Placement</Placement>
     <PlaceOnToolbox>Place on Toolbox</PlaceOnToolbox>
@@ -4273,6 +4335,7 @@
     <ReportUnit>Report Unit</ReportUnit>
     <RequestFromUser>Request from User</RequestFromUser>
     <RequestParameters>Request Parameters</RequestParameters>
+    <Required>Required</Required>
     <ResetAllFilters>Reset All Filters</ResetAllFilters>
     <ResetDataSource>Reset Data Source</ResetDataSource>
     <ResetPageNumber>Reset Page Number</ResetPageNumber>
@@ -4301,6 +4364,7 @@
     <Scale>Scale</Scale>
     <ScaleHor>Scale Hor</ScaleHor>
     <ScriptLanguage>Script Language</ScriptLanguage>
+    <Second>Second</Second>
     <SegmentPerHeight>Segment per Height</SegmentPerHeight>
     <SegmentPerWidth>Segment per Width</SegmentPerWidth>
     <SelectedBackColor>Selected Back Color</SelectedBackColor>
@@ -4319,10 +4383,13 @@
     <SelectionEnabled>Selection Enabled</SelectionEnabled>
     <SelectionForeColor>Selection Fore Color</SelectionForeColor>
     <SelectionMode>Selection Mode</SelectionMode>
+    <SelectionType>Selection Type</SelectionType>
     <SelectStyle>Select Style</SelectStyle>
+    <SendType>Send Type</SendType>
     <SeparatorColor>Separator Color</SeparatorColor>
     <SerialNumber>Serial Number</SerialNumber>
     <Series>Series</Series>
+    <SeriesBorderColor>Series Border Color</SeriesBorderColor>
     <SeriesBorderThickness>Series Border Thickness</SeriesBorderThickness>
     <SeriesColors>Series Colors</SeriesColors>
     <SeriesCornerRadius>Series Corner Radius</SeriesCornerRadius>
@@ -4400,6 +4467,7 @@
     <Sorted>Sorted</Sorted>
     <SortingColumn>Sorting Column</SortingColumn>
     <SortingEnabled>Sorting Enabled</SortingEnabled>
+    <SortLetters>A-Z</SortLetters>
     <SortType>Sort Type</SortType>
     <Space>Space</Space>
     <SpaceRatio>Space Ratio</SpaceRatio>
@@ -4415,11 +4483,13 @@
     <StartPosition>Start Position</StartPosition>
     <StartValue>Start Value</StartValue>
     <StartWidth>Start Width</StartWidth>
+    <State>State</State>
     <Step>Step</Step>
     <Stop>Stop</Stop>
     <StopBeforePage>Stop Before Page</StopBeforePage>
     <StopBeforePrint>Stop Before Print</StopBeforePrint>
     <StoreImagesInResources>Store Images in Resources</StoreImagesInResources>
+    <StreetAddress>Street Address</StreetAddress>
     <Stretch>Stretch</Stretch>
     <StretchToPrintArea>Stretch to Print Area</StretchToPrintArea>
     <Strikeout>Strikeout</Strikeout>
@@ -4431,6 +4501,7 @@
     <Style>Style</Style>
     <StyleColors>Style Colors</StyleColors>
     <Styles>Styles</Styles>
+    <SubmissionMessage>Submission Message</SubmissionMessage>
     <SubReportPage>Sub Report</SubReportPage>
     <Summaries>Summaries</Summaries>
     <Summary>Summary</Summary>
@@ -4466,6 +4537,7 @@
     <TextOnly>Text Only</TextOnly>
     <TextOptions>Text Options</TextOptions>
     <TextQuality>Text Quality</TextQuality>
+    <Third>Third</Third>
     <TickLabelMajorFont>Tick Label Major Font</TickLabelMajorFont>
     <TickLabelMajorTextBrush>Tick Label Major Text Brush</TickLabelMajorTextBrush>
     <TickLabelMinorFont>Tick Label Minor Font</TickLabelMinorFont>
@@ -4520,10 +4592,12 @@
     <Underline>Underline</Underline>
     <UndoLimit>Undo Limit</UndoLimit>
     <Unit>Unit</Unit>
+    <UnitAlignment>Unit Alignment</UnitAlignment>
     <UnlimitedBreakable>Unlimited Breakable</UnlimitedBreakable>
     <UnlimitedHeight>Unlimited Height</UnlimitedHeight>
     <UnlimitedWidth>Unlimited Width</UnlimitedWidth>
     <UpperMarks>Upper Marks</UpperMarks>
+    <URL>URL</URL>
     <UseAliases>Use Aliases</UseAliases>
     <UseExternalReport>Use External Report</UseExternalReport>
     <UseParentStyles>Use Parent Styles</UseParentStyles>
@@ -4557,9 +4631,11 @@
     <VertAlignment>Vertical Alignment</VertAlignment>
     <VertSpacing>Vertical Spacing</VertSpacing>
     <ViewMode>View Mode</ViewMode>
+    <Visibility>Visibility</Visibility>
     <Visible>Visible</Visible>
     <VisualStates>Visual States</VisualStates>
     <Watermark>Watermark</Watermark>
+	<WatermarkStyle>Watermark Style</WatermarkStyle>
     <Weight>Weight</Weight>
     <WeightDataColumn>Weight Data Column</WeightDataColumn>
     <Weights>Weights</Weights>
