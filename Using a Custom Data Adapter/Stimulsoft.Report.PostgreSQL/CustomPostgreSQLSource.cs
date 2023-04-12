@@ -107,7 +107,9 @@ namespace Stimulsoft.Report.Dictionary
             var npgsqlAdapter = DataAdapter as NpgsqlDataAdapter;
             foreach (StiDataParameter parameter in Parameters)
             {
+
                 npgsqlAdapter.SelectCommand.Parameters[parameter.Name].Value = parameter.GetParameterValue();
+
             }
 
             var dataTable = this.DataTable;
