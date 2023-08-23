@@ -23,6 +23,8 @@ This repository has a set of examples (Visual Studio projects), each in differen
 * [Using a Scroll Bar in the Web Viewer](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET/tree/master/Using%20a%20Scroll%20Bar%20in%20the%20Web%20Viewer)
 * [Using Designer Events](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET/tree/master/Using%20Designer%20Events)
 * [Using Report Variables in Code](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET/tree/master/Using%20Report%20Variables%20in%20Code)
+* [Using the Designer in Wisej.NET](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET/tree/master/Using%20the%20Designer%20in%20Wisej.NET)
+* [Using the Viewer in Wisej.NET](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET/tree/master/Using%20the%20Viewer%20in%20Wisej.NET)
 * [Web Demo](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET/tree/master/Web%20Demo)
 
 All examples are combined into Visual Studio solutions (.sln files). They are prepared only for LTS frameworks, any compatible ones can be selected in the project settings.
