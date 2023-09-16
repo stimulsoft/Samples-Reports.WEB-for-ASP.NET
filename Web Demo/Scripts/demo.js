@@ -1,5 +1,4 @@
-﻿
-var reportButtonsId = [];
+﻿var reportButtonsId = [];
 
 function createReportsButtons() {
     var reportsContainer = document.getElementById("stiReportsContainer");
@@ -8,13 +7,13 @@ function createReportsButtons() {
         {
             category: "Get Started Reports",
             reports: {
-                "Insurance-Light": "Insurance Light",
                 "BillingStatement": "Billing Statement",
                 "Order": "Order",
                 "InsuranceWithSelectingCountry": "Insurance By Country",
                 "ServiceInvoice": "Service Invoice",
                 "Quotation": "Quotation",
-                "BusinessInvoice": "Business Invoice"
+                "BusinessInvoice": "Business Invoice",
+                "SwitzerlandInvoice": "Switzerland Invoice"
             }
         },
         {
@@ -28,7 +27,6 @@ function createReportsButtons() {
                 "Watermark": "Watermark",
                 "BarCodes": "Bar-Codes",
                 "HtmlTags": "Html-Tags",
-                "Invoice": "Invoice",
                 "Indicators": "Indicators"
             }
         },
@@ -38,7 +36,7 @@ function createReportsButtons() {
                 "MultiColumnList": "Multi-Column List",
                 "MultiColumnBandsAcrossThenDown": "Multi-Column Bands - Across then Down",
                 "MultiColumnBandsDownThenAcross": "Multi-Column Bands - Down then Across",
-                "Labels": "Labels"
+                "VehicleProductionLabels": "Vehicle Production Labels"
             }
         },
         {
@@ -48,7 +46,6 @@ function createReportsButtons() {
                 "MasterDetailSubdetail": "Master-Detail-Subdetail",
                 "MasterDetailWithColumns": "Master-Detail with Columns",
                 "TwoMastersOnOneDetail": "Two Masters on One Detail",
-                "MasterDetailWithZeroHeight": "Master-Detail with Zero Height",
                 "MasterDetailOnDataBand": "Master-Detail on DataBand"
             }
         },
@@ -59,16 +56,13 @@ function createReportsButtons() {
                 "NestedGroups": "Nested Groups",
                 "MasterDetailWithGroups": "Master-Detail with Groups",
                 "MultiColumnGroup": "Multi-Column Group",
-                "AllGroupFootersAtEnd": "All Group Footers at End",
-                "InvoiceWithGroups": "Invoice with Groups",
-                "SalesInvoice": "Sales Invoice"
+                "AllGroupFootersAtEnd": "All Group Footers at End"
             }
         },
         {
             category: "Hierarchical Reports",
             reports: {
                 "Tree": "Tree",
-                "TreeWithHeadersAndFooters": "Tree with Headers and Footers",
                 "TreeWithTotals": "Tree with Totals",
                 "TreeWithTotalsAllLevels": "Tree with Totals - All Levels",
                 "TreeWithLockedComponents": "Tree with Locked Components"
@@ -78,8 +72,6 @@ function createReportsButtons() {
             category: "Parameters",
             reports: {
                 "ParametersDetailedCategories": "Detailed Categories",
-                "ParametersDetailedOrders": "Detailed Orders",
-                "ParametersHighlightCondition": "Highlight Condition",
                 "ParametersSelectingCountry": "Selecting Country",
                 "ParametersInvoice": "Invoice",
                 "ParametersDependentParameter": "Dependent Parameter"
@@ -91,10 +83,7 @@ function createReportsButtons() {
                 "ListOfProducts": "List of Products",
                 "CrossTabWithDetailing": "Cross-Tab with Detailing",
                 "Sorting": "Sorting",
-                "TableWithSorting": "Table with Sorting",
                 "GroupWithCollapsing": "Group with Collapsing",
-                "GroupWithCollapsingWithoutFooter": "Group with Collapsing without Footer",
-                "MasterDetailWithCollapsing": "Master-Detail with Collapsing",
                 "EditableReport": "Editable",
                 "BookmarksAndHyperlinks": "Bookmarks and Hyperlinks"
             }
@@ -103,32 +92,23 @@ function createReportsButtons() {
             category: "Table",
             reports: {
                 "TableSimpleTable": "Simple Table",
-                "TableMasterDetailSubdetail": "Master-Detail-Subdetail",
                 "TableSimpleGroup": "Simple Group",
-                "TableInvoiceWithGroups": "Invoice with Groups",
-                "TableImages": "Images",
                 "TableFixedWidthOfColumns": "Fixed Width of Columns"
             }
         },
         {
             category: "Real-life Charts",
             reports: {
-                "GlobalGrowth2015-2017": "Global Growth 2015-2017",
-                "Population": "Population",
-                "ProductsChartByCategories": "Products Chart By Categories",
-                "GDPGrowth2007-2017": "GDP Growth 2007-2017",
-                "GlobalGrowth2017": "Global Growth 2017",
-                "TasksByDate": "Tasks By Date",
-                "ForeignOfficialReserves": "Foreigh Official Reserves",
+                "GlobalGrowth": "Global Growth",
                 "MigrationByDecadeInUSA": "Migration By Decade In USA",
                 "NaturalGasProduction": "Natural Gas Production",
-                "TopSellersOfCars": "Top Sellers Of Cars",
                 "TopAutoSalesInUSA16": "Top Auto Sales In USA 16"
             }
         },
         {
             category: "Charts",
             reports: {
+                "3DPie": "3D Pie",
                 "Area": "Area",
                 "Bubble": "Bubble",
                 "ClusteredBar": "Clustered Bar",
@@ -145,6 +125,7 @@ function createReportsButtons() {
                 "Radar": "Radar",
                 "Range": "Range",
                 "Scatter": "Scatter",
+                "Stepped": "Stepped",
                 "Sunburst": "Sunburst",
                 "Treemap": "Treemap",
                 "Waterfall": "Waterfall",
@@ -156,16 +137,14 @@ function createReportsButtons() {
                 "StandardCrossTab": "Standard Cross-Tab",
                 "CrossTabWithoutColumns": " Cross-Tab without Columns",
                 "CrossTabWithoutRows": "Cross-Tab without Rows",
-                "CrossTabWithHighlightCondition1": "Cross-Tab with Highlight Condition 1",
-                "CrossTabWithHighlightCondition2": "Cross-Tab with Highlight Condition 2",
-                "CrossTabOnDataBand": "Cross-Tab on DataBand",
+                "CrossTabWithHighlightCondition1": "Cross-Tab with Highlight Condition",
+                "CrossTabAndCrossBands": "Cross-Tab and Cross Bands",
                 "CrossTabOnPage": "Cross-Tab on Page"
             }
         },
         {
             category: "Empty Rows",
             reports: {
-                "EmptyRowsSimpleList": "Simple List",
                 "EmptyRowsMasterDetail": " Master-Detail",
                 "EmptyRowsInvoice": "Invoice"
             }
@@ -174,17 +153,13 @@ function createReportsButtons() {
             category: "Panels",
             reports: {
                 "PanelsSideBySideLists": "Side-by-Side Lists",
-                "PanelsSideBySideGroups": "Side-by-Side Groups",
-                "PanelsMultiPanels": "Multi-Panels",
-                "PanelsMasterDetailCards": "Master-Detail Cards"
+                "PanelsSideBySideGroups": "Side-by-Side Groups"
             }
         },
         {
             category: "Sub-Reports",
             reports: {
-                "SubReportsSideBySideLists": "Side-by-Side Lists",
                 "SubReportsSideBySideListsOnDataBand": "Side-by-Side Lists on DataBand",
-                "SubReportsSideBySideGroups": "Side-by-Side Groups",
                 "SubReportsMasterDetail": "Master-Detail"
             }
         },
@@ -194,10 +169,7 @@ function createReportsButtons() {
                 "MasterDetailReportWithTOC": "Master-Detail Report With TOC",
                 "MultiColumnListWithTOC": "Multi-Column List With TOC",
                 "PanelsWithTOC": "Panels With TOC",
-                "SimpleListWithTOC": "Simple List With TOC",
-                "SubReportsWithTOC": "Sub-Reports With TOC",
-                "TableWithTOC": "Table With TOC",
-                "TwoSimpleListsWithTOC": "Two Simple Lists With TOC"
+                "TableWithTOC": "Table With TOC"
             }
         },
         {
@@ -206,15 +178,8 @@ function createReportsButtons() {
                 "AlibabaRevenueStats": "Alibaba Revenue Stats",
                 "BRICGDPStats": "BRIC GDP Stats",
                 "ChinaConstructionBank": "China Construction Bank",
-                "ChinasExpensiveBuildings": "China's Expensive Buildings",
                 "ManufactureInChina": "Manufacture in China",
-                "PopulationInChina": "Population in China",
-                "StatisticsAndForecastOfChinaGDP": "Statistics and Forecast of China GDP",
-                "TaiwanConstructionService": "Taiwan Construction Service",
                 "TopCountriesByGDPIn2019": "Top Countries by GDP in 2019",
-                "SwitzerlandInvoice": "Switzerland Invoice",
-                "AutosAndLightTrucksUnitsSalesInUSA": "Autos Units Sales in USA",
-                "EmployeeCards": "Employee Cards",
                 "Payroll": "Payroll",
                 "VehicleSalesWorldwide": "Vehicle Sales Worldwide"
             }
