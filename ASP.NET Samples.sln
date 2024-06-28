@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuring Report caching"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Changing the Viewer and Designer Theme", "Changing the Viewer and Designer Theme\Changing the Viewer and Designer Theme.csproj", "{7F9E053C-825C-4636-AA52-41836C366D82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using the Viewer in Wisej.NET", "Using the Viewer in Wisej.NET\Using the Viewer in Wisej.NET.csproj", "{F7F02E2A-E27F-4A10-B378-0ADC20F27A31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using the Designer in Wisej.NET", "Using the Designer in Wisej.NET\Using the Designer in Wisej.NET.csproj", "{4A379C47-B3FA-4A94-B3F6-85E12FED8038}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,12 +133,20 @@ Global
 		{7F9E053C-825C-4636-AA52-41836C366D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F9E053C-825C-4636-AA52-41836C366D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F9E053C-825C-4636-AA52-41836C366D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F02E2A-E27F-4A10-B378-0ADC20F27A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F02E2A-E27F-4A10-B378-0ADC20F27A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F02E2A-E27F-4A10-B378-0ADC20F27A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F02E2A-E27F-4A10-B378-0ADC20F27A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A379C47-B3FA-4A94-B3F6-85E12FED8038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A379C47-B3FA-4A94-B3F6-85E12FED8038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A379C47-B3FA-4A94-B3F6-85E12FED8038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A379C47-B3FA-4A94-B3F6-85E12FED8038}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C75039E0-9AA4-4328-9E30-E2189ECD30A2}
 		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {C75039E0-9AA4-4328-9E30-E2189ECD30A2}
 	EndGlobalSection
 EndGlobal

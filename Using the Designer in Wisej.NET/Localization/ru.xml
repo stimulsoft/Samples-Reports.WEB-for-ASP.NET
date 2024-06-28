@@ -189,6 +189,7 @@
     <Gantt>Ганта</Gantt>
     <GridInterlaced>Чередование</GridInterlaced>
     <GridLines>Линии сетки</GridLines>
+    <Heatmap>Тепловая карта</Heatmap>
     <Histogram>Гистограмм</Histogram>
     <LabelAlignment>Выравнивание:</LabelAlignment>
     <LabelAlignmentHorizontal>Горизонтальное:</LabelAlignmentHorizontal>
@@ -300,7 +301,7 @@
     <AxesArrowStyleNone>Нет</AxesArrowStyleNone>
     <AxesArrowStyleTriangle>Треугольник</AxesArrowStyleTriangle>
     <AxesLabel>Размещение подписей</AxesLabel>
-    <AxesLabelsNone>нет</AxesLabelsNone>
+    <AxesLabelsNone>Нет</AxesLabelsNone>
     <AxesLabelsOneLine>В одну линию</AxesLabelsOneLine>
     <AxesLabelsTwoLines>В две линии</AxesLabelsTwoLines>
     <AxesReverseHorizontal>Перевернуть по горизонтали</AxesReverseHorizontal>
@@ -379,6 +380,7 @@
     <ButtonRecover>Восстановить</ButtonRecover>
     <ButtonRenew>Обновление</ButtonRenew>
     <ButtonResendEmail>Отправить Email еще раз</ButtonResendEmail>
+    <ButtonResendInvitation>Пригласить повторно</ButtonResendInvitation>
     <ButtonResetPassword>Сбросить</ButtonResetPassword>
     <ButtonRun>Запустить</ButtonRun>
     <ButtonScheduler>Планировщик</ButtonScheduler>
@@ -455,6 +457,9 @@
     <LicenseInformation>Информация о лицензии</LicenseInformation>
     <LicenseKey>Лицензионный ключ</LicenseKey>
     <Login>Войти</Login>
+    <MyAccount>Мой аккаунт</MyAccount>
+    <MyCloud>Мое облако</MyCloud>
+    <MyPlan>Мой план</MyPlan>
     <MyTeam>Моя команда</MyTeam>
     <NofM>{0}: {1} из {2}</NofM>
     <Open>Открыть</Open>
@@ -646,6 +651,7 @@
     <StiPageHeaderBand>Заголовок страницы</StiPageHeaderBand>
     <StiPanel>Панель</StiPanel>
     <StiPdfDigitalSignature>Цифровая подпись PDF</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>PDF элемент</StiPdfDigitalSignatureElement>
     <StiPivotColumn>Сводная колонка</StiPivotColumn>
     <StiPivotRow>Сводная строка</StiPivotRow>
     <StiPivotSummary>Сводная сумма</StiPivotSummary>
@@ -672,6 +678,7 @@
     <StiTreeView>Дерево</StiTreeView>
     <StiTreeViewBox>Поле с деревом</StiTreeViewBox>
     <StiVerticalLinePrimitive>Вертикальная линия</StiVerticalLinePrimitive>
+    <StiWebContent>Web-контент</StiWebContent>
     <StiWinControl>Win компонент</StiWinControl>
     <StiZipCode>Почтовый индекс</StiZipCode>
   </Components>
@@ -897,9 +904,12 @@
     <StiPictureBoxControl>Рисунок</StiPictureBoxControl>
     <StiRadioButtonControl>Переключатель</StiRadioButtonControl>
     <StiRadioControl>Переключатель</StiRadioControl>
+    <StiRadioGroupControl>Radio группа</StiRadioGroupControl>
     <StiReportControl>Элемент управления</StiReportControl>
     <StiRichTextBoxControl>Rich текст</StiRichTextBoxControl>
+    <StiSliderControl>Слайдер</StiSliderControl>
     <StiTextBoxControl>Текстовое поле</StiTextBoxControl>
+    <StiToggleControl>Тогл</StiToggleControl>
     <StiTreeViewControl>Дерево</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1128,6 +1138,7 @@
     <EncryptedReportFiles>Закодированные Stimulsoft шаблоны (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Microsoft Excel 2007/2013 файлы (*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelAllFiles>Microsoft Excel файлы (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
+    <ExcelCsvAllFiles>Microsoft Excel файлы (*.xlsx;*.xls;*.csv)|*.xlsx;*.xls;*.csv</ExcelCsvAllFiles>
     <ExcelFiles>Microsoft Excel файлы (*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Microsoft Excel XML файлы (*.xls)|*.xls</ExcelXmlFiles>
     <ExeFiles>EXE файлы (*.exe)|*.exe</ExeFiles>
@@ -1419,6 +1430,8 @@
     <EnableDataMonitor>Включить монитор данных</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>Запрос SQL выполнен успешно</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>Новое выражение</ExpressionNew>
+    <FunctionEdit>Изменение функции</FunctionEdit>
+    <FunctionNew>Новая функция</FunctionNew>
     <GetColumnsFromAssembly>Взять колонки из сборки</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Скрыть неподдерживаемые источники данных</HideUnsupportedDatabases>
     <ImportRelations>Импортировать связи</ImportRelations>
@@ -1522,6 +1535,7 @@
     <BlankReport>Пустой отчет</BlankReport>
     <BlankScreen>Пустой экран</BlankScreen>
     <Default>По умолчанию</Default>
+    <DefaultSaveFormat>Формат сохранения по умолчанию</DefaultSaveFormat>
     <DefaultScriptMode>Режим скрипта по умолчанию</DefaultScriptMode>
     <Drawing>Отображение</Drawing>
     <DrawMarkersWhenMoving>Рисовать маркеры компонентов при передвижении</DrawMarkersWhenMoving>
@@ -1895,16 +1909,16 @@
   </Gui>
   <HelpComponents>
     <StiBarCode>Компонент используется для отображения в отчете штрих-кодов. Данные для кодирования штрих-кода устанавливаются в виде строки. Строка может содержать любые символы, но только разрешенные символы для указанного типа штрих-кода будут отображаться.</StiBarCode>
-    <StiButtonElement>Этот компонент используется для выполнения сценария события, при пользовательском взаимодействии.</StiButtonElement>
-    <StiCardsElement>Этот компонент используется для отображения сгруппированных данных в виде карточек.</StiCardsElement>
+    <StiButtonElement>Этот элемент используется для выполнения сценария события, при пользовательском взаимодействии.</StiButtonElement>
+    <StiCardsElement>Этот элемент используется для отображения сгруппированных данных в виде карточек.</StiCardsElement>
     <StiChart>Этот компонент используется для отображения диаграмм в отчете. Доступно множество различных типов диаграмм.</StiChart>
-    <StiChartElement>Этот компонент используется для отображения диаграмм в панели индикаторов. Доступно множество различных типов диаграмм.</StiChartElement>
+    <StiChartElement>Этот элемент используется для отображения диаграмм в панели индикаторов. Доступно множество различных типов диаграмм.</StiChartElement>
     <StiCheckBox>Компонент для отображения флажков в отчете. Он может менять свой внешний вид в зависимости от условия, которое может принимать два значения: "включено" или "выключено".</StiCheckBox>
     <StiChildBand>Подчиненный бэнд используется для вывода более одного бэнда для одной строки данных.</StiChildBand>
     <StiClone>Этот компонент используется для клонирования части отчета в другое место отчета. Клонирование может быть применено только к компоненту панель.</StiClone>
     <StiColumnFooterBand>Этот бэнд используется для вывода итога колонки данных. Бэнд выводится под каждой колонкой.</StiColumnFooterBand>
     <StiColumnHeaderBand>Этот бэнд используется для вывода заголовка колонки данных. Бэнд выводится над каждой колонкой.</StiColumnHeaderBand>
-    <StiComboBoxElement>Представляет элемент управления, предназначенный для выбора значения, с раскрывающимся списком, который можно отображать и скрывать нажатием принадлежащей этому элементу управления кнопки со стрелкой.</StiComboBoxElement>
+    <StiComboBoxElement>Элемент фильтрации, предназначенный для выбора значения, с раскрывающимся списком, который можно отображать и скрывать нажатием принадлежащей этому элементу кнопки со стрелкой.</StiComboBoxElement>
     <StiContainer>Это прямоугольная область, где другие компоненты, в том числе и бэнды, могут быть размещены. При перемещении контейнера компоненты размещенные в нем будут также перемещены. Контейнер может размещаться как на бэнде так и на странице.</StiContainer>
     <StiCrossDataBand>Бэнд выводится столько раз, сколько строк в источнике данных, который связан с ним. Бэнд кросс-данные выводится слева направо.</StiCrossDataBand>
     <StiCrossFooterBand>Бэнд используется для вывода итога для бэнда кросс-данные. Итог выводится сразу же после всех строк бэнда кросс-данные. Бэнд кросс-итог выводится слева направо.</StiCrossFooterBand>
@@ -1913,55 +1927,58 @@
     <StiCrossHeaderBand>Бэнд используется для вывода заголовка для бэнда кросс-данные. Заголовок выводится перед выводом строк бэнда кросс-данные. Бэнд кросс-заголовок выводится слева направо.</StiCrossHeaderBand>
     <StiCrossTab>Кросс компонент используется для представления структурированных данных в виде таблицы.</StiCrossTab>
     <StiDataBand>Бэнд выводится столько раз, сколько строк в источнике данных, который связан с ним.</StiDataBand>
-    <StiDatePickerElement>Представляет элемент управления, который позволяет выбрать дату и время.</StiDatePickerElement>
+    <StiDatePickerElement>Элемент фильтрации предназначенный для выбора даты и времени.</StiDatePickerElement>
     <StiElectronicSignature>Этот компонент используется для добавления графической подписи, изображения, инициалов и текста.</StiElectronicSignature>
     <StiEmptyBand>Бэнд используется для заполнения свободного пространства в нижней части страницы.</StiEmptyBand>
     <StiFilterCategory>Группа компонентов для выбора и фильтрации значений.</StiFilterCategory>
     <StiFooterBand>Бэнд используется для вывода итога для бэнда данные. Итог выводится сразу же после всех строк бэнда данные.</StiFooterBand>
     <StiGauge>Компонент отображает значение в пределах заранее определенного диапазона.</StiGauge>
-    <StiGaugeElement>Компонент отображает значение в пределах заранее определенного диапазона.</StiGaugeElement>
+    <StiGaugeElement>Этот элемент используется для отображения значения в пределах заранее определенного диапазона.</StiGaugeElement>
     <StiGroupFooterBand>Бэнд используется для вывода итога группы. Он размещается после бэнда данные. Каждый бэнд итог группы принадлежит к определенному заголовку группы.</StiGroupFooterBand>
     <StiGroupHeaderBand>Это основной бэнд для создания отчетов с группировкой. Компоненты для отображения информации по группе размещаются на бэнде заголовке группы. Это может быть название группы, даты, условия группировки и т.д. Бэнд заголовок группы выводится один раз в начале каждой группы.</StiGroupHeaderBand>
     <StiHeaderBand>Бэнд используется для вывода заголовка для бэнда данные. Заголовок выводится перед выводом строк бэнда данные.</StiHeaderBand>
     <StiHierarchicalBand>Бэнд выводится столько раз, сколько строк в источнике данных, который связан с ним. Данные выводятся в виде дерева.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Геометрический примитив - горизонтальная линия. Используется для визуального оформления отчетов.</StiHorizontalLinePrimitive>
-    <StiImage>Этот компонент используется для вывода изображений. Он поддерживает следующие графические форматы: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
-    <StiImageElement>Этот компонент используется для вывода изображений. Он поддерживает следующие графические форматы: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImageElement>
-    <StiIndicatorElement>Компонент отображает разницу значений между входными данными.</StiIndicatorElement>
-    <StiListBoxElement>Компонент отображает список элементов для выбора.</StiListBoxElement>
+    <StiImage>Этот компонент используется для вывода изображений. Он поддерживает следующие графические форматы: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF, SVG.</StiImage>
+    <StiImageElement>Этот элемент используется для вывода изображений. Он поддерживает следующие графические форматы: BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF, SVG.</StiImageElement>
+    <StiIndicatorElement>Этот элемент используется для отображения разницы значений между входными данными.</StiIndicatorElement>
+    <StiListBoxElement>Элемент фильтрации предназначенный для отображения списка значений и их выбора.</StiListBoxElement>
     <StiMap>Этот компонент используется для отображения данных, привязанных к географическим локациям.</StiMap>
-    <StiMapCategory>Группа компонентов для работы с картами и данными.</StiMapCategory>
+    <StiMapCategory>Группа элементов для работы с картами и данными.</StiMapCategory>
     <StiMapElement>Этот компонент используется для отображения данных, привязанных к географическим локациям.</StiMapElement>
     <StiMathFormula>Этот компонент используется для отображения математических формул в отчете.</StiMathFormula>
-    <StiOnlineMapElement>Этот компонент используется для отображения географических маркеров на онлайн-карте.</StiOnlineMapElement>
+    <StiNumberBoxElement>Элемент фильтрации предназначенный для выбора числового значения или установки диапазона числовых значений.</StiNumberBoxElement>
+    <StiOnlineMapElement>Этот элемент используется для отображения географических маркеров на онлайн-карте.</StiOnlineMapElement>
     <StiOverlayBand>Этот бэнд используется для вывода водяных знаков на странице.</StiOverlayBand>
     <StiPageFooterBand>Бэнд итог страницы используется для вывода информации в нижней части каждой страницы, и используется для вывода номеров страниц, дат и другой дополнительной информации.</StiPageFooterBand>
     <StiPageHeaderBand>Бэнд используется для вывода заголовка страницы. Он выводится в верхней части каждой страницы, и используется для вывода номеров страниц, дат и другой дополнительной информации.</StiPageHeaderBand>
     <StiPanel>Это прямоугольная область, где другие компоненты, в том числе и бэнды, могут быть размещены. При перемещении панели компоненты размещенные на ней будут также перемещены. Панель может размещаться как на бэнде так и на странице.</StiPanel>
     <StiPanelElement>Это прямоугольная область, где другие компоненты могут быть размещены. При перемещении панели компоненты размещенные на ней будут также перемещены.</StiPanelElement>
-    <StiPdfDigitalSignature>Этот компонент используется для указания места цифровой подписи после экспорта отчета в файл Adobe PDF.</StiPdfDigitalSignature>
-    <StiPivotTableElement>Компонент используется для представления структурированных данных в виде таблицы.</StiPivotTableElement>
-    <StiProgressElement>Компонент отображает процентное соотношение между входными данными. Может быть представлен в различном режиме: кольцо, круг, гистограмма.</StiProgressElement>
+    <StiPdfDigitalSignature>Этот интерактивный компонент используется для указания места цифровой подписи после экспорта отчета в файл Adobe PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Этот компонент используется для указания места цифровой подписи и полей из сертификата при экспорте отчета в файл Adobe PDF.</StiPdfDigitalSignatureElement>
+    <StiPivotTableElement>Этот элемент используется для представления структурированных данных в виде таблицы.</StiPivotTableElement>
+    <StiProgressElement>Этот элемент используется для отображения процентного соотношения между входными данными. Может быть представлен в различном режиме: кольцо, круг, гистограмма.</StiProgressElement>
     <StiRectanglePrimitive>Геометрический примитив - прямоугольник, используется для визуального оформления отчетов. Левый верхний угол прямоугольника может находится в области одного бэнда, а правый нижний угол - в области другого бэнда.</StiRectanglePrimitive>
-    <StiRegionMapElement>Этот компонент используется для отображения данных, привязанных к географическим локациям.</StiRegionMapElement>
+    <StiRegionMapElement>Этот элемент используется для отображения данных, привязанных к географическим локациям.</StiRegionMapElement>
     <StiReportSummaryBand>Этот бэнд используется для вывода итога по всему отчету. Бэнд выводится один раз в конце отчета.</StiReportSummaryBand>
     <StiReportTitleBand>Этот бэнд используется для вывода названия отчета. Он выводится в начале отчета перед другими бэндами.</StiReportTitleBand>
     <StiRichText>Компонент для вывода и редактирования текста RTF. Поддерживает загрузку и сохранение файлов в формате RTF.</StiRichText>
     <StiRoundedRectanglePrimitive>Геометрический примитив - закругленный прямоугольник. Этот примитив аналогичен примитиву прямоугольник за исключением того, что имеет закругленные углы. Примитив поддерживается не всеми видами экспорта.</StiRoundedRectanglePrimitive>
     <StiShape>Компонент предназначенный для отображения различных геометрических примитивов, таких как стрелки, линии, прямоугольники, треугольники.</StiShape>
-    <StiShapeElement>Компонент предназначенный для отображения различных геометрических фигур.</StiShapeElement>
+    <StiShapeElement>Этот элемент используется для отображения различных геометрических фигур.</StiShapeElement>
     <StiSignature>Этот компонент используется для добавления электронной или цифровой подписи к отчету.</StiSignature>
     <StiSparkline>Этот компонент используется для создания микрографиков в отчете. Он позволяет отслеживать динамически изменяющиеся данные в виде гистограмм, линий, областей, выигрышей/проигрышей.</StiSparkline>
     <StiSubReport>Этот компонент используется для вывода дополнительных данных в разных местах отчета.</StiSubReport>
     <StiTable>Этот компонент представляет собой набор элементов данных, организованных в виде таблицы.</StiTable>
-    <StiTableElement>Этот компонент представляет собой набор элементов данных, организованных в виде таблицы.</StiTableElement>
+    <StiTableElement>Этот элемент представляет собой набор элементов данных, организованных в виде таблицы.</StiTableElement>
     <StiTableOfContents>Этот компонент используется для создания оглавления в отчете.</StiTableOfContents>
     <StiText>Основной компонент для вывода текстовой информации в отчете.</StiText>
-    <StiTextElement>Основной компонент для вывода текстовой информации в панели индикаторов.</StiTextElement>
+    <StiTextElement>Основной элемент для вывода текстовой информации в панели индикаторов.</StiTextElement>
     <StiTextInCells>Компонент для вывода текста в виде ячеек. Обычно используется при печати бланков.</StiTextInCells>
-    <StiTreeViewBoxElement>Элемент управления используется для выбора значений с раскрывающимся списком в виде дерева.</StiTreeViewBoxElement>
-    <StiTreeViewElement>Представляет элемент управления, отображающий иерархические данные в структуре дерева с элементами, которые могут разворачиваться и сворачиваться.</StiTreeViewElement>
+    <StiTreeViewBoxElement>Элемент фильтрации предназначенный для выбора значений с раскрывающимся списком в виде дерева.</StiTreeViewBoxElement>
+    <StiTreeViewElement>Элемент фильтрации, предназначенный для отображения иерархии значений в виде дерева с элементами, которые могут разворачиваться и сворачиваться.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Геометрический примитив - вертикальная линия, используется для визуального оформления отчетов. Вертикальная линия может начинаться в области одного бэнда, а заканчиваться в области другого бэнда.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Этот элемент используется для вывода web-контента на панели индикаторов.</StiWebContentElement>
     <StiWinControl>Компонент предназначенный для отображения визуальных элементов управления .NET Framework.</StiWinControl>
     <StiZipCode>Компонент используется для вывода почтового индекса.</StiZipCode>
   </HelpComponents>
@@ -2021,6 +2038,8 @@
     <DockStyleNone>Не пристыковывать выделенные компоненты.</DockStyleNone>
     <DockStyleRight>Пристыковать выделенные компоненты к правому краю.</DockStyleRight>
     <DockStyleTop>Пристыковать выделенные компоненты к верхнему краю.</DockStyleTop>
+    <EventsAccess1>В этом документе используются события. Если документ получен из надежного источника, вы можете нажать кнопку «Открыть», чтобы получить к нему доступ.</EventsAccess1>
+    <EventsAccess2>Если вы не уверены в источнике документа, но все же хотите его просмотреть, вы можете нажать кнопку «Открыть в безопасном режиме». В этом случае сценарии событий не будут выполняться.</EventsAccess2>
     <FontGrow>Сделать размер шрифта текста больше.</FontGrow>
     <FontName>Шрифт текста.</FontName>
     <FontNameWatermark>Шрифт текста водяного знака.</FontNameWatermark>
@@ -2281,6 +2300,7 @@
     <menuEditDataTransformationNew>Новое преобразование данных...</menuEditDataTransformationNew>
     <menuEditDelete>&amp;Удалить</menuEditDelete>
     <menuEditEdit>Изменить</menuEditEdit>
+    <menuEditFunctionNew>Новая функция...</menuEditFunctionNew>
     <menuEditImportRelations>Импортировать связи...</menuEditImportRelations>
     <menuEditPaste>Вст&amp;авить</menuEditPaste>
     <menuEditRedo>Пов&amp;торить</menuEditRedo>
@@ -2393,9 +2413,11 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Время ожидания для SQL запросов превышает время ожидания запросов дизайнера. Установите время ожидания запросов дизайнера не менее {0} секунд.</ChangeRequestTimeout>
+    <DatabaseTypeChangeWarning>Будьте осторожны! Эта функция преобразует источник данных в {0}. Для успешного получения данных все имена таблиц и колонок должны совпадать. Запросы не будут преобразованы. Вы хотите продолжить?</DatabaseTypeChangeWarning>
     <DoNotShowAgain>Не показывать снова</DoNotShowAgain>
     <LatexFormat>Для отображения математических формул используется формат LaTeX.</LatexFormat>
     <MessageTimeOutExpired>Истекло время ожидания исполнения команды!</MessageTimeOutExpired>
+    <MustBeFile>Должен быть файл {0}.</MustBeFile>
     <RenderingWillOccurInTheInterpretationMode>При просмотре отчета c общим доступом его построение будет происходить в режиме интерпретации!</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>Ресурс "{0}" не может быть удален, т.к. он используется в отчете!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>URL доступа к элементу был обновлен!</ShareURLOfTheItemHasBeenUpdated>
@@ -2419,7 +2441,7 @@
     <ActivationMaxActivationsReached>Вы достигли максимального количества активаций лицензии. Пожалуйста, свяжитесь с нашим отделом продаж по sales@stimulsoft.com!</ActivationMaxActivationsReached>
     <ActivationMaxActivationsReached1>Вы можете управлять зарегистрированными компьютерами при помощи </ActivationMaxActivationsReached1>
     <ActivationMaxActivationsReached2>Stimulsoft аккаунта.</ActivationMaxActivationsReached2>
-    <ActivationMaxComputersReached>Вы уже зарегистрировали максимальное количество компьютеров, доступных для вашей подписки.</ActivationMaxComputersReached>
+    <ActivationMaxComputersReached>Вы уже зарегистрировали максимальное количество компьютеров, допустимое в рамках вашего плана подписки.</ActivationMaxComputersReached>
     <ActivationServerIsNotAvailableNow>Сервер активации сейчас недоступен! Пожалуйста, попробуйте активировать лицензию позднее.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Вы не можете активировать эту версию Stimulsoft Server, т.к. Ваша Программа Подписки истекла! Пожалуйста, войдите в Ваш аккаунт на нашем сайте и проверьте, какую версию Stimulsoft Server Вы можете установить и активировать.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Во время активации лицензии произошла ошибка. Пожалуйста, попробуйте активировать лицензию позднее.</ActivationSomeTroublesOccurred>
@@ -2452,12 +2474,14 @@
     <AuthPasswordIsTooLong>Пароль слишком длинный!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>Пароль слишком короткий (требуется минимум 6 символов)!</AuthPasswordIsTooShort>
     <AuthPasswordNotSpecified>Пароль не указан!</AuthPasswordNotSpecified>
+    <AuthRequestsLimitIsExceeded>Лимит запросов превышен! Пожалуйста, свяжитесь с нашим отделом продаж по адресу sales@stimulsoft.com!</AuthRequestsLimitIsExceeded>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>Нельзя удалить эту роль, поскольку она используется пользователями!</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>Роль с указанным именем "{0}" уже существует!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>Роль с указанным именем "{0}" это системная роль!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>На адрес электронной почты "{0}" отправлено сообщение с дальнейшими инструкциями!</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>Токен не верен!</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>Вы вышли из системы!</AuthUserHasLoggedOut>
+    <AuthUserHasLoggedOutPrevDevice>Ваш сеанс завершен, поскольку обнаружен вход с другого устройства!</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExist>Указанное имя пользователя уже используется!</AuthUserNameAlreadyExist>
     <AuthUserNameAlreadyExists>Имя пользователя (Email) уже используется!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>Использование данного почтового ящика невозможно!</AuthUserNameEmailIsBlocked>
@@ -2492,7 +2516,7 @@
     <ItemCantBeMovedToSpecifiedPlace>Элемент не может быть перемещен в указанное место!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>Элемент не поддерживает "{0}"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>Key и ToKey равны!</KeyAndToKeyAreEqual>
-    <MaximumComputers>Максимум компьютеров</MaximumComputers>
+    <MaximumComputers>Достигнут лимит подписки!</MaximumComputers>
     <MessageMaximumFileSizeExceeded>Внимание! Вы хотите добавить файл, но его размер превышает максимально-допустимый размер. Все равно добавить этот файл (обработка отчета может замедлиться)?</MessageMaximumFileSizeExceeded>
     <NewDesignerAvailable>Stimulsoft Designer {0} доступен.</NewDesignerAvailable>
     <NewProduct>К Вашей подписке добавлен новый продукт!</NewProduct>
@@ -2505,6 +2529,7 @@
     <NotificationItemDelete>Элементы удаляются.</NotificationItemDelete>
     <NotificationItemDeleteComplete>Удаление элементов завершено успешно.</NotificationItemDeleteComplete>
     <NotificationItemExtraComponentRequired>Требуется  установить дополнительный компонент</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallToRunWebView>Установите среду выполнения WebView2 для правильного запуска элемента web-контента.</NotificationItemInstallToRunWebView>
     <NotificationItemInstallWebView>Для корректной работы Blockly редактора, необходимо установить среду выполнения WebView2.</NotificationItemInstallWebView>
     <NotificationItemRestore>Элементы восстанавливаются.</NotificationItemRestore>
     <NotificationItemRestoreComplete>Восстановление элементов завершено успешно.</NotificationItemRestoreComplete>
@@ -3337,6 +3362,10 @@
     <StiOrientationVertical>Вертикальный</StiOrientationVertical>
     <StiPageOrientationLandscape>Альбом</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Портрет</StiPageOrientationPortrait>
+    <StiPdfDigitalSignatureAppearanceTypeDraw>Рисовать</StiPdfDigitalSignatureAppearanceTypeDraw>
+    <StiPdfDigitalSignatureAppearanceTypeImage>Изображение</StiPdfDigitalSignatureAppearanceTypeImage>
+    <StiPdfDigitalSignatureAppearanceTypeNone>Нет</StiPdfDigitalSignatureAppearanceTypeNone>
+    <StiPdfDigitalSignatureAppearanceTypeText>Текст</StiPdfDigitalSignatureAppearanceTypeText>
     <StiPenStyleDash>Штрихованная</StiPenStyleDash>
     <StiPenStyleDashDot>Штрих-пунктирная</StiPenStyleDashDot>
     <StiPenStyleDashDotDot>Штрих-пунктирная с двумя точками</StiPenStyleDashDotDot>
@@ -3450,6 +3479,9 @@
     <StiShiftModeIncreasingSize>При увеличении размера</StiShiftModeIncreasingSize>
     <StiShiftModeNone>Нет</StiShiftModeNone>
     <StiShiftModeOnlyInWidthOfComponent>Только в пределах ширины компонента</StiShiftModeOnlyInWidthOfComponent>
+    <StiShowEmptyCellsAsConnectPointsWithLine>Соединять точки линией</StiShowEmptyCellsAsConnectPointsWithLine>
+    <StiShowEmptyCellsAsGap>Промежуток</StiShowEmptyCellsAsGap>
+    <StiShowEmptyCellsAsZero>Ноль</StiShowEmptyCellsAsZero>
     <StiShowSeriesLabelsFromChart>Из диаграммы</StiShowSeriesLabelsFromChart>
     <StiShowSeriesLabelsFromSeries>Из ряда</StiShowSeriesLabelsFromSeries>
     <StiShowSeriesLabelsNone>Нет</StiShowSeriesLabelsNone>
@@ -3459,6 +3491,8 @@
     <StiShowYAxisBoth>Обе</StiShowYAxisBoth>
     <StiShowYAxisCenter>По центру</StiShowYAxisCenter>
     <StiShowYAxisLeft>Левая</StiShowYAxisLeft>
+    <StiSignatureModeDraw>Рисовать</StiSignatureModeDraw>
+    <StiSignatureModeType>Тип</StiSignatureModeType>
     <StiSignatureTypeDigitalSignature>Цифровая подпись</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Рисовать</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Выбрать стиль</StiSignatureTypeSelectStyle>
@@ -3707,6 +3741,7 @@
     <AllowApplyColorNegative>Разрешить цвет негативных значений</AllowApplyColorNegative>
     <AllowApplyLineColor>Разрешить цвет линии</AllowApplyLineColor>
     <AllowApplyStyle>Разрешить применять стили</AllowApplyStyle>
+    <AllowCleanSignature>Разрешить очистку подписи</AllowCleanSignature>
     <AllowExpressions>Разрешить выражения</AllowExpressions>
     <AllowHtmlTags>Разрешить HTML теги</AllowHtmlTags>
     <AllowNull>Разрешить null</AllowNull>
@@ -3739,6 +3774,7 @@
     <Anchor>Привязка</Anchor>
     <Angle>Угол</Angle>
     <Antialiasing>Сглаживание</Antialiasing>
+    <Appearance>Вид</Appearance>
     <Apply>Применить</Apply>
     <Area>Область</Area>
     <Argument>Аргумент</Argument>
@@ -3942,6 +3978,7 @@
     <DisplayValue>Отображаемое значение</DisplayValue>
     <Distance>Дистанция</Distance>
     <DistanceBetweenTabs>Дистанция между</DistanceBetweenTabs>
+    <DistinguishedName>Известное наименование</DistinguishedName>
     <Dock>Докировка</Dock>
     <DockableTable>Стыковка таблицы</DockableTable>
     <DockStyle>Стиль стыковки</DockStyle>
@@ -4012,6 +4049,7 @@
     <Filters>Фильтры</Filters>
     <First>Первая</First>
     <FirstTabOffset>Позиция первого символа</FirstTabOffset>
+    <FixedHeight>Фиксированная высота</FixedHeight>
     <FixedWidth>Фиксированная ширина</FixedWidth>
     <Flat>Плоский</Flat>
     <FlatMode>Плоский режим</FlatMode>
@@ -4042,6 +4080,7 @@
     <FooterRowsCount>Количество строк итога</FooterRowsCount>
     <Footers>Итоги</Footers>
     <ForeColor>Цвет текста</ForeColor>
+    <Foreground>Цвет</Foreground>
     <Format>Формат</Format>
     <FormName>Наименование формы</FormName>
     <FormSettings>Настройки формы</FormSettings>
@@ -4107,6 +4146,7 @@
     <HotColumnHeaderBackColor>Цвет фона заголовка колонки при наведении</HotColumnHeaderBackColor>
     <HotForeColor>Цвет текста при наведении</HotForeColor>
     <HotGlyphColor>Цвет символа при наведении</HotGlyphColor>
+    <HotHeaderBackColor>Цвет фона заголовка при наведении</HotHeaderBackColor>
     <HotHeaderColor>Цвет заголовка при наведении</HotHeaderColor>
     <HotkeyPrefix>Префикс горячей клавиши</HotkeyPrefix>
     <HotRowHeaderBackColor>Цвет фона заголовка строки при наведении</HotRowHeaderBackColor>
@@ -4345,6 +4385,7 @@
     <OnePointZoom>Одноточечный масштаб</OnePointZoom>
     <OnHover>При наведении</OnHover>
     <OnlyText>Только текст</OnlyText>
+    <OnSelect>При выборе</OnSelect>
     <Opacity>Непрозрачность</Opacity>
     <OpenValues>Значения открытия</OpenValues>
     <Operation>Операция</Operation>
@@ -4363,6 +4404,7 @@
     <PaperSourceOfFirstPage>Источник бумаги для первой страницы</PaperSourceOfFirstPage>
     <PaperSourceOfOtherPages>Источник бумаги для остальных страниц</PaperSourceOfOtherPages>
     <Parameter>Параметр</Parameter>
+    <ParameterAlignment>Выравнивание параметров</ParameterAlignment>
     <Parameters>Параметры</Parameters>
     <ParametersDateFormat>Формат даты параметров</ParametersDateFormat>
     <ParametersOrientation>Расположение параметров</ParametersOrientation>
@@ -4439,6 +4481,7 @@
     <Relations>Связи</Relations>
     <RelativeHeight>Относительная высота</RelativeHeight>
     <RelativeWidth>Относительная ширина</RelativeWidth>
+    <RememberSelection>Запомнить выбор</RememberSelection>
     <RemoveUnusedDataBeforeStart>Спрятать неиспользуемые данные перед построением</RemoveUnusedDataBeforeStart>
     <RenderTo>Выводить в</RenderTo>
     <ReportAlias>Псевдоним отчета</ReportAlias>
@@ -4500,7 +4543,7 @@
     <SelectionBackColor>Цвет выбора</SelectionBackColor>
     <SelectionEnabled>Выбор включен</SelectionEnabled>
     <SelectionForeColor>Цвет текста выбора</SelectionForeColor>
-    <SelectionMode>Способ выбора</SelectionMode>
+    <SelectionMode>Режим выбора</SelectionMode>
     <SelectionType>Тип выбора</SelectionType>
     <SelectStyle>Выбрать стиль</SelectStyle>
     <SendType>Отправить тип</SendType>
@@ -4617,8 +4660,8 @@
     <StripBrush>Кисть полосы</StripBrush>
     <Strips>Полосы</Strips>
     <Stroke>Зачеркнутый</Stroke>
-    <StructuredAppendPosition>Structured Append Position</StructuredAppendPosition>
-    <StructuredAppendTotal>StructuredAppendTotal</StructuredAppendTotal>
+    <StructuredAppendPosition>Структурированное добавление позиции</StructuredAppendPosition>
+    <StructuredAppendTotal>Структурированное добавление итога</StructuredAppendTotal>
     <Style>Стиль</Style>
     <StyleColors>Цвета стиля</StyleColors>
     <Styles>Стили</Styles>
@@ -4661,6 +4704,7 @@
     <TextFormat>Формат</TextFormat>
     <TextOnly>Только текст</TextOnly>
     <TextOptions>Параметры текста</TextOptions>
+    <TextPlacement>Размещение текста</TextPlacement>
     <TextQuality>Качество текста</TextQuality>
     <TextRightToLeft>Текст справа налево</TextRightToLeft>
     <TextShowBehind>Показывать текст позади</TextShowBehind>
@@ -4669,7 +4713,7 @@
     <TickLabelMajorTextBrush>Кисть подписи основной метки</TickLabelMajorTextBrush>
     <TickLabelMinorFont>Шрифт подписи вспомогательной метки</TickLabelMinorFont>
     <TickLabelMinorTextBrush>Кисть подписи вспомогательной метки</TickLabelMinorTextBrush>
-    <TickMarkMajorBorder>Кисть границы подписи основной метки </TickMarkMajorBorder>
+    <TickMarkMajorBorder>Кисть границы подписи основной метки</TickMarkMajorBorder>
     <TickMarkMajorBorderWidth>Толщина границы маркера главной метки</TickMarkMajorBorderWidth>
     <TickMarkMajorBrush>Кисть маркера главной метки</TickMarkMajorBrush>
     <TickMarkMinorBorder>Граница маркера вспомогательной метки</TickMarkMinorBorder>
@@ -4729,6 +4773,7 @@
     <UseExternalReport>Использовать внешний отчет</UseExternalReport>
     <UseParentStyles>Исп. стили владельца</UseParentStyles>
     <UseRangeColor>Использовать цветовую гамму</UseRangeColor>
+    <UserBingKey>Пользовательский ключ Bing</UserBingKey>
     <UseRectangularSymbols>Использовать прямоугольные символы</UseRectangularSymbols>
     <UseSeriesColor>Использовать цвета рядов</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Использовать стиль итога в итоге колонки</UseStyleOfSummaryInColumnTotal>
@@ -4961,6 +5006,7 @@
     <Enhancements>Улучшения</Enhancements>
     <EnterDataManually>Введите данные вручную</EnterDataManually>
     <Errors>Ошибки</Errors>
+    <EventsAccess>Доступ к событиям</EventsAccess>
     <EventsTab>События</EventsTab>
     <ExpandAll>Развернуть все</ExpandAll>
     <FilterAnd>И</FilterAnd>
@@ -5055,6 +5101,7 @@
     <VisualChecked>Отмеченный</VisualChecked>
     <VisualDefault>По умолчанию</VisualDefault>
     <VisualDisabled>Заблокированный</VisualDisabled>
+    <VisualFocused>В фокусе</VisualFocused>
     <VisualHover>Состояние наведения</VisualHover>
     <VisualPressed>Нажатый</VisualPressed>
     <Warnings>Предупреждения</Warnings>
@@ -5207,14 +5254,15 @@
     <VerticalLine>Вертикальная линия</VerticalLine>
   </Shapes>
   <Signature>
+    <ClearSignature>Очистить подпись</ClearSignature>
     <DigitalSignatureEmptyWatermark>Место для цифровой подписи в PDF вьювере</DigitalSignatureEmptyWatermark>
     <FullName>Полное имя</FullName>
-    <IncludeText>Включать текст</IncludeText>
     <Initials>Инициалы</Initials>
     <InsertImage>Вставить изображение</InsertImage>
     <InsertText>Вставить текст</InsertText>
     <LoadSignature>Загрузить подпись</LoadSignature>
     <NoSavedItems>Нет сохраненных элементов</NoSavedItems>
+    <PdfDigitalSignatureTitle>Выберите объекты, которые вы хотите отобразить в подписи PDF файла.</PdfDigitalSignatureTitle>
     <SaveSignature>Сохранить подпись</SaveSignature>
     <SignatureSavedSuccessfully>Подпись успешно сохранена.</SignatureSavedSuccessfully>
     <UseBrush>Использовать кисть</UseBrush>
@@ -5298,6 +5346,9 @@
     <MoveBackward>Переместить назад</MoveBackward>
     <MoveForward>Переместить вперед</MoveForward>
     <Order>Порядок</Order>
+    <RibbonClassic>Классический UI</RibbonClassic>
+    <RibbonLayout>Макет ленты</RibbonLayout>
+    <RibbonSingleLine>UI в одну полосу</RibbonSingleLine>
     <SendToBack>Поместить на задний план</SendToBack>
     <Size>Размер</Size>
     <StyleDesigner>Редактор стилей</StyleDesigner>
@@ -5332,6 +5383,15 @@
     <TextEditor>Редактор текста</TextEditor>
     <title>Инструментарий</title>
   </Toolbox>
+  <UserFunctionEditor>
+    <ArgumentName>Наименование аргумента</ArgumentName>
+    <ArgumentType>Тип аргумента</ArgumentType>
+    <CustomCategory>Пользовательская категория</CustomCategory>
+    <ReturnType>Тип возвращаемого значения</ReturnType>
+    <Script>Сценарий</Script>
+    <ScriptMode>Режим сценария</ScriptMode>
+    <Title>Пользовательская функция</Title>
+  </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Вы уверены, что хотите закрыть это окно? Все загрузки будут отменены.</AllDownloadsWillCanceled>
     <Description>Мы отобрали для вас отчеты, которые по нашему мнению, лучше всего подоходят для быстрого старта.</Description>

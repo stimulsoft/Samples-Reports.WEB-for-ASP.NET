@@ -142,6 +142,7 @@
     <Submit>Enviar</Submit>
     <SwitchTo>Troque para {0}</SwitchTo>
     <Test>Teste</Test>
+    <TryToReconnect>Tente se reconectar</TryToReconnect>
     <Up>Cima</Up>
     <Upgrade>Atualização</Upgrade>
     <UpgradeNow>Atualize agora</UpgradeNow>
@@ -188,6 +189,7 @@
     <Gantt>Gantt</Gantt>
     <GridInterlaced>Entrelaçado</GridInterlaced>
     <GridLines>Linhas da grade</GridLines>
+    <Heatmap>Mapa de calor</Heatmap>
     <Histogram>Histograma</Histogram>
     <LabelAlignment>Alinhamento:</LabelAlignment>
     <LabelAlignmentHorizontal>Horizontal:</LabelAlignmentHorizontal>
@@ -378,6 +380,7 @@
     <ButtonRecover>Recuperar</ButtonRecover>
     <ButtonRenew>Renovar</ButtonRenew>
     <ButtonResendEmail>Reenviar Email</ButtonResendEmail>
+    <ButtonResendInvitation>Reenviar convite</ButtonResendInvitation>
     <ButtonResetPassword>Resetar</ButtonResetPassword>
     <ButtonRun>Executar</ButtonRun>
     <ButtonScheduler>Agendador</ButtonScheduler>
@@ -453,6 +456,9 @@
     <LicenseInformation>Informações de Licença</LicenseInformation>
     <LicenseKey>Chave de licença</LicenseKey>
     <Login>Login</Login>
+    <MyAccount>Minha conta</MyAccount>
+    <MyCloud>Minha nuvem</MyCloud>
+    <MyPlan>Meu plano</MyPlan>
     <MyTeam>Meu time</MyTeam>
     <NofM>{0}: {1} de {2}</NofM>
     <Open>Abrir</Open>
@@ -643,6 +649,7 @@
     <StiPageHeaderBand>Cabeçalho da Página</StiPageHeaderBand>
     <StiPanel>Painel</StiPanel>
     <StiPdfDigitalSignature>PDF Assinatura Digital</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Elemento PDF</StiPdfDigitalSignatureElement>
     <StiPivot>Pivô</StiPivot>
     <StiPivotColumn>Coluna de Pivô</StiPivotColumn>
     <StiPivotRow>Linha de Pivô</StiPivotRow>
@@ -670,6 +677,7 @@
     <StiTreeView>Árvore</StiTreeView>
     <StiTreeViewBox>Caixa Árvore</StiTreeViewBox>
     <StiVerticalLinePrimitive>Linha vertical</StiVerticalLinePrimitive>
+    <StiWebContent>Conteúdo web</StiWebContent>
     <StiWinControl>Controle Windows</StiWinControl>
     <StiZipCode>Cep</StiZipCode>
   </Components>
@@ -896,9 +904,12 @@ sucedida</ConnectionSuccessfull>
     <StiPictureBoxControl>Caixa de Imagem</StiPictureBoxControl>
     <StiRadioButtonControl>Botão Rádio</StiRadioButtonControl>
     <StiRadioControl>Radio</StiRadioControl>
+    <StiRadioGroupControl>Grupo de Rádio</StiRadioGroupControl>
     <StiReportControl>Relatório</StiReportControl>
     <StiRichTextBoxControl>Rich Text Box</StiRichTextBoxControl>
+    <StiSliderControl>Controle deslizante</StiSliderControl>
     <StiTextBoxControl>Caixa de Texto</StiTextBoxControl>
+    <StiToggleControl>Alternar</StiToggleControl>
     <StiTreeViewControl>Visão de Árvore</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1126,6 +1137,7 @@ sucedida</ConnectionSuccessfull>
     <EncryptedReportFiles>Relatório Arquivos Criptografados (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Arquivos Microsoft Excel 2007/2013 (*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelAllFiles>Arquivos do Microsoft Excel (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
+    <ExcelCsvAllFiles>Microsoft Excel files (*.xlsx;*.xls;*.csv)|*.xlsx;*.xls;*.csv</ExcelCsvAllFiles>
     <ExcelFiles>Arquivo Microsoft Excel(*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Arquivos do Microsoft Excel XML (*.xls)|*.xls</ExcelXmlFiles>
     <ExeFiles>Arquivos EXE (*.exe)|*.exe</ExeFiles>
@@ -1418,6 +1430,8 @@ sucedida</ConnectionSuccessfull>
     <EnableDataMonitor>Ativar monitor de dados</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>Declaração SQL executada com sucesso</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>Nova Expressão</ExpressionNew>
+    <FunctionEdit>Editar função</FunctionEdit>
+    <FunctionNew>Nova Função</FunctionNew>
     <GetColumnsFromAssembly>Obtenha Colunas do Assembly</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Ocultar fontes de dados não suportadas</HideUnsupportedDatabases>
     <ImportRelations>Importar Relações</ImportRelations>
@@ -1519,6 +1533,7 @@ sucedida</ConnectionSuccessfull>
     <BlankReport>Relatório em branco</BlankReport>
     <BlankScreen>Tela em branco</BlankScreen>
     <Default>Padrão</Default>
+    <DefaultSaveFormat>Formato de salvamento padrão</DefaultSaveFormat>
     <DefaultScriptMode>Modo de script padrão</DefaultScriptMode>
     <Drawing>Desenho</Drawing>
     <DrawMarkersWhenMoving>Desenhar Marcadores ao Mover</DrawMarkersWhenMoving>
@@ -1930,6 +1945,7 @@ sucedida</ConnectionSuccessfull>
     <StiMapCategory>Grupo de elementos para trabalhar com mapas e dados.</StiMapCategory>
     <StiMapElement>Esse elemento é usado para exibir dados segmentados geograficamente.</StiMapElement>
     <StiMathFormula>Este componente é usado para exibir fórmulas matemáticas em um relatório.</StiMathFormula>
+    <StiNumberBoxElement>Este elemento é usado para selecionar um valor numérico ou definir um intervalo de valores numéricos.</StiNumberBoxElement>
     <StiOnlineMapElement>Este elemento é usado para exibir marcadores geográficos no mapa online.</StiOnlineMapElement>
     <StiOverlayBand>Esta faixa é usado para saída d'água em uma página.</StiOverlayBand>
     <StiPageFooterBand>Esta faixa é usada para enviar as informações sobre o fundo de cada página. Esta faixa é usada para produção de números, datas e outras informações adicionais.</StiPageFooterBand>
@@ -1937,6 +1953,7 @@ sucedida</ConnectionSuccessfull>
     <StiPanel>É a região retangular, de que outros componentes, incluindo faixas, será colocado. Ao mover o painel, os componentes que estão movendo-se demasiado. O painel pode ser colocado tanto em uma faixa ou em uma página.</StiPanel>
     <StiPanelElement>Uma região retangular que pode conter outros elementos. Quando o painel é movido, os elementos nele também são movidos.</StiPanelElement>
     <StiPdfDigitalSignature>Este componente é usado para especificar um local para a assinatura digital após a exportação do relatório para Adobe PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Este componente é utilizado para especificar um espaço para a assinatura digital e campos do certificado ao exportar para PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>O Pivô de tabela dinâmica é usado para a representação de dados estruturados como uma tabela.</StiPivotTableElement>
     <StiProgressElement>O elemento exibe a proporção dos dados de entrada. Pode ser apresentado em diferentes modos - uma torta, círculo, barras.</StiProgressElement>
     <StiRectanglePrimitive>Este componente é utilizado para rectângulos de saída.</StiRectanglePrimitive>
@@ -1959,6 +1976,7 @@ sucedida</ConnectionSuccessfull>
     <StiTreeViewBoxElement>O elemento é usado para selecionar valores com uma lista suspensa como uma árvore.</StiTreeViewBoxElement>
     <StiTreeViewElement>Representa o elemento que é usado para mostrar os dados hierárquicos como uma árvore.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Este componente é usado para saída de linhas verticais.</StiVerticalLinePrimitive>
+    <StiWebContentElement>O componente permite adicionar conteúdo da web aos painéis.</StiWebContentElement>
     <StiWinControl>O componente permite mostrar controles visuais. NET Framework.</StiWinControl>
     <StiZipCode>Este componente é usado para a saída do código postal.</StiZipCode>
   </HelpComponents>
@@ -2019,6 +2037,8 @@ sucedida</ConnectionSuccessfull>
     <DockStyleNone>Desencaixar componentes selecionados.</DockStyleNone>
     <DockStyleRight>Dock componentes selecionados para o lado direito.</DockStyleRight>
     <DockStyleTop>Dock componentes selecionados para cima.</DockStyleTop>
+    <EventsAccess1>Este documento usa Eventos. Se o documento for de uma fonte confiável, você pode clicar no botão “Abrir” para acessá-lo.</EventsAccess1>
+    <EventsAccess2>Se não tiver certeza sobre a origem do documento, mas ainda quiser visualizá-lo, clique no botão "Abrir em modo de segurança". Neste caso, os eventos serão ignorados e não executados.</EventsAccess2>
     <FontGrow>Verifique o tamanho do texto maior.</FontGrow>
     <FontName>A fonte do texto.</FontName>
     <FontNameWatermark>A fonte do texto marca d'água.</FontNameWatermark>
@@ -2270,6 +2290,7 @@ sucedida</ConnectionSuccessfull>
     <menuEditDataTransformationNew>Nova Transformação de Dados...</menuEditDataTransformationNew>
     <menuEditDelete>&amp;Excluir</menuEditDelete>
     <menuEditEdit>Editar</menuEditEdit>
+    <menuEditFunctionNew>Nova função...</menuEditFunctionNew>
     <menuEditImportRelations>Importar Relações...</menuEditImportRelations>
     <menuEditPaste>C&amp;olar</menuEditPaste>
     <menuEditRedo>&amp;Refazer</menuEditRedo>
@@ -2388,9 +2409,11 @@ sucedida</ConnectionSuccessfull>
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>O tempo limite da solicitação para consultas SQL excede o tempo limite da solicitação do designer de relatório. Defina o tempo limite da solicitação para o componente designer em não menos que {0} segundos.</ChangeRequestTimeout>
+    <DatabaseTypeChangeWarning>Tome cuidado! Esta função converte a fonte de dados em {0}. Para recuperar dados com êxito, todos os nomes de tabelas e colunas devem corresponder. As consultas não serão convertidas. Você quer prosseguir?</DatabaseTypeChangeWarning>
     <DoNotShowAgain>Não mostre novamente</DoNotShowAgain>
     <LatexFormat>O formato LaTeX é usado para exibir fórmulas matemáticas.</LatexFormat>
     <MessageTimeOutExpired>Command timeout has expired!</MessageTimeOutExpired>
+    <MustBeFile>Deve ser o arquivo {0}.</MustBeFile>
     <RenderingWillOccurInTheInterpretationMode>Ao visualizar o relatório compartilhado, a renderização ocorrerá no modo de interpretação</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>O recurso "{0}" não pode ser excluído, porque é usado no relatório!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>A URL de compartilhamento do item foi atualizado!</ShareURLOfTheItemHasBeenUpdated>
@@ -2446,12 +2469,14 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <AuthPasswordIsNotSpecified>A senha não foi especificada!</AuthPasswordIsNotSpecified>
     <AuthPasswordIsTooLong>A senha é muito longa!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>A senha é muito curta (a tamanho mínimo é de 6 caracteres)!</AuthPasswordIsTooShort>
+    <AuthRequestsLimitIsExceeded>Limite de solicitações excedido! Entre em contato com nosso departamento de vendas em sales@stimulsoft.com!</AuthRequestsLimitIsExceeded>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>Você não pode excluir a regra porque ele é usado por outros usuários.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>A regra com o nome especificado "{0}" já existe!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>A regra com o nome especificado "{0}" é uma regra do sistema!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>Uma mensagem com mais instruções é enviado para "{0}"!</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>O token não está correto!</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>Você efetuou logout!</AuthUserHasLoggedOut>
+    <AuthUserHasLoggedOutPrevDevice>Você foi desconectado porque foi detectado um login em outro dispositivo!</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExists>O nome de usuário (e-mail) já está em uso!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>Este endereço de e-mail não pode ser usado!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>O nome de usuário (e-mail) não está especificado!</AuthUserNameIsNotSpecified>
@@ -2494,6 +2519,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <NotificationItemDelete>Os itens serão deletados.</NotificationItemDelete>
     <NotificationItemDeleteComplete>Os itens foram deletados com sucesso.</NotificationItemDeleteComplete>
     <NotificationItemExtraComponentRequired>Componente extra necessário</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallToRunWebView>Instale o WebView2 Runtime para executar o elemento Web Content corretamente.</NotificationItemInstallToRunWebView>
     <NotificationItemInstallWebView>Instale o WebView2 Runtime para funcionar corretamente com o editor Blockly.</NotificationItemInstallWebView>
     <NotificationItemRestore>Os itens serão restaurados.</NotificationItemRestore>
     <NotificationItemRestoreComplete>Os itens foram restaurados com sucesso.</NotificationItemRestoreComplete>
@@ -3322,6 +3348,10 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <StiOrientationVertical>Vertical</StiOrientationVertical>
     <StiPageOrientationLandscape>Paisagem</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Retrato</StiPageOrientationPortrait>
+    <StiPdfDigitalSignatureAppearanceTypeDraw>Empate</StiPdfDigitalSignatureAppearanceTypeDraw>
+    <StiPdfDigitalSignatureAppearanceTypeImage>Imagem</StiPdfDigitalSignatureAppearanceTypeImage>
+    <StiPdfDigitalSignatureAppearanceTypeNone>Nenhum</StiPdfDigitalSignatureAppearanceTypeNone>
+    <StiPdfDigitalSignatureAppearanceTypeText>Texto</StiPdfDigitalSignatureAppearanceTypeText>
     <StiPenStyleDash>Linha</StiPenStyleDash>
     <StiPenStyleDashDot>Linha Ponto</StiPenStyleDashDot>
     <StiPenStyleDashDotDot>Linha Ponto Ponto</StiPenStyleDashDotDot>
@@ -3435,6 +3465,9 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <StiShiftModeIncreasingSize>Tamanho crescente</StiShiftModeIncreasingSize>
     <StiShiftModeNone>Nenhum</StiShiftModeNone>
     <StiShiftModeOnlyInWidthOfComponent>Largura do Componente</StiShiftModeOnlyInWidthOfComponent>
+    <StiShowEmptyCellsAsConnectPointsWithLine>Conecte pontos com linha</StiShowEmptyCellsAsConnectPointsWithLine>
+    <StiShowEmptyCellsAsGap>Brecha</StiShowEmptyCellsAsGap>
+    <StiShowEmptyCellsAsZero>Zero</StiShowEmptyCellsAsZero>
     <StiShowSeriesLabelsFromChart>Do Gráfico</StiShowSeriesLabelsFromChart>
     <StiShowSeriesLabelsFromSeries>Da Séries</StiShowSeriesLabelsFromSeries>
     <StiShowSeriesLabelsNone>Nenhum</StiShowSeriesLabelsNone>
@@ -3444,6 +3477,8 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <StiShowYAxisBoth>Ambos</StiShowYAxisBoth>
     <StiShowYAxisCenter>Centro</StiShowYAxisCenter>
     <StiShowYAxisLeft>Esquerdo</StiShowYAxisLeft>
+    <StiSignatureModeDraw>Empate</StiSignatureModeDraw>
+    <StiSignatureModeType>Tipo</StiSignatureModeType>
     <StiSignatureTypeDigitalSignature>Assinatura digital</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Desenhar</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Selecionar estilo</StiSignatureTypeSelectStyle>
@@ -3480,6 +3515,8 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <StiTableAutoWidthTypeFullTable>Tabela completa</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>Últimas colunas</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>Nenhum</StiTableAutoWidthTypeNone>
+    <StiTableSizeModeAutoSize>Tamanho automático</StiTableSizeModeAutoSize>
+    <StiTableSizeModeFit>Ajustar</StiTableSizeModeFit>
     <StiTargetModePercentage>Percentagem</StiTargetModePercentage>
     <StiTargetModeVariation>Variação</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>Centro</StiTextHorAlignmentCenter>
@@ -3686,6 +3723,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <AllowApplyColorNegative>Permitir Aplicar Negativo Colorido</AllowApplyColorNegative>
     <AllowApplyLineColor>Permitir Aplicar Cor da Linha</AllowApplyLineColor>
     <AllowApplyStyle>Permitir Aplicar Estilo</AllowApplyStyle>
+    <AllowCleanSignature>Permitir assinatura limpa</AllowCleanSignature>
     <AllowExpressions>Permitir Expressões</AllowExpressions>
     <AllowHtmlTags>Permitir Tags Html</AllowHtmlTags>
     <AllowNull>Permitir Null</AllowNull>
@@ -3718,6 +3756,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <Anchor>Âncora</Anchor>
     <Angle>Ângulo</Angle>
     <Antialiasing>Suavização</Antialiasing>
+    <Appearance>Aparência</Appearance>
     <Apply>Aplicar</Apply>
     <Area>Area</Area>
     <Argument>Argumento</Argument>
@@ -3920,6 +3959,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <DisplayValue>Valor de exibição</DisplayValue>
     <Distance>distância</Distance>
     <DistanceBetweenTabs>Distância Entre Etiquetas</DistanceBetweenTabs>
+    <DistinguishedName>Nome Distinto</DistinguishedName>
     <Dock>Ligar</Dock>
     <DockableTable>Ancoragem</DockableTable>
     <DockStyle>Ancoragem</DockStyle>
@@ -3990,6 +4030,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <Filters>Filtros</Filters>
     <First>Primeiro</First>
     <FirstTabOffset>Compensação Primeiro Aba</FirstTabOffset>
+    <FixedHeight>Altura Fixa</FixedHeight>
     <FixedWidth>Largura Fixa</FixedWidth>
     <Flat>Superfície Lisa</Flat>
     <FlatMode>Superfície Lisa Modo</FlatMode>
@@ -4020,6 +4061,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <FooterRowsCount>Contar as Linhas do Rodapé</FooterRowsCount>
     <Footers>Rodapés</Footers>
     <ForeColor>Cor de Frente</ForeColor>
+    <Foreground>Primeiro plano</Foreground>
     <Format>Formatar</Format>
     <FormName>Nome do formulario</FormName>
     <FormSettings>Configurações do formulário</FormSettings>
@@ -4073,6 +4115,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <HeatmapColors>Cores do Heatmap</HeatmapColors>
     <HeatmapWithGroup>Mapa de calor com grupo</HeatmapWithGroup>
     <Height>Altura</Height>
+    <Hidden>Escondido</Hidden>
     <HideSeriesWithEmptyTitle>Esconder Séries com Título Vázio</HideSeriesWithEmptyTitle>
     <HideZeros>Esconder Zeros</HideZeros>
     <High>Alto</High>
@@ -4084,6 +4127,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <HotColumnHeaderBackColor>Cor de volta de cabeçalho de coluna quente</HotColumnHeaderBackColor>
     <HotForeColor>Cor dianteira quente</HotForeColor>
     <HotGlyphColor>Cor de glifo quente</HotGlyphColor>
+    <HotHeaderBackColor>Cor traseira do cabeçalho quente</HotHeaderBackColor>
     <HotHeaderColor>Cor do encabeçamento quente</HotHeaderColor>
     <HotkeyPrefix>Tecla de Prefixo</HotkeyPrefix>
     <HotRowHeaderBackColor>Cor traseira do encabeçamento quente da fileira</HotRowHeaderBackColor>
@@ -4218,6 +4262,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <Locked>Fechado</Locked>
     <Logarithmic>Logarítmica</Logarithmic>
     <LogarithmicScale>Escala Logarítmica</LogarithmicScale>
+    <Logo>Logotipo</Logo>
     <Longitude>Longitude</Longitude>
     <Low>Baixo</Low>
     <LowValues>Valores baixos</LowValues>
@@ -4316,8 +4361,10 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <OffsetAngle>Deslocamento Angular</OffsetAngle>
     <OnClick>No clique</OnClick>
     <OnDataManipulation>Na manipulação de dados</OnDataManipulation>
+    <OnePointZoom>Zoom de um ponto</OnePointZoom>
     <OnHover>Em pairar</OnHover>
     <OnlyText>Só Texto</OnlyText>
+    <OnSelect>Ao selecionar</OnSelect>
     <Opacity>Opacidade</Opacity>
     <OpenValues>Valores Abertos</OpenValues>
     <Operation>Operação</Operation>
@@ -4338,6 +4385,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <PaperSourceOfOtherPages>Origem do papel de outras páginas</PaperSourceOfOtherPages>
     <PaperSourceOtherPages>Livro Fonte outras páginas</PaperSourceOtherPages>
     <Parameter>P_PARAM</Parameter>
+    <ParameterAlignment>Alinhamento de parâmetros</ParameterAlignment>
     <Parameters>Parâmetros</Parameters>
     <ParametersDateFormat>Parâmetros Data Formato</ParametersDateFormat>
     <ParametersOrientation>Orientação dos Parâmetros</ParametersOrientation>
@@ -4402,6 +4450,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <Ratio>Proporção</Ratio>
     <RatioY>Proporção Y</RatioY>
     <ReadOnly>Somente Leitura</ReadOnly>
+    <Reason>Razão</Reason>
     <RecentFonts>Fontes Recentes</RecentFonts>
     <ReconnectOnEachRow>Reconecte em Cada Linha</ReconnectOnEachRow>
     <ReferencedAssemblies>Referência do Assemblies</ReferencedAssemblies>
@@ -4413,6 +4462,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <Relations>Relações</Relations>
     <RelativeHeight>Altura relativa</RelativeHeight>
     <RelativeWidth>Largura relativa</RelativeWidth>
+    <RememberSelection>Lembre-se da seleção</RememberSelection>
     <RemoveUnusedDataBeforeStart>Remover Dados Novos Antes de Iniciar</RemoveUnusedDataBeforeStart>
     <RenderTo>Renda a</RenderTo>
     <ReportAlias>Apelido do Relatório</ReportAlias>
@@ -4616,6 +4666,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <TagValue>Valor da Etiqueta</TagValue>
     <Target>Alvo</Target>
     <TargetColor>Cor Alvo</TargetColor>
+    <TargetFormat>Formato de destino</TargetFormat>
     <TargetIcon>Ícone Alvo</TargetIcon>
     <TargetMode>Modo Alvo</TargetMode>
     <TargetSettings>Alvo</TargetSettings>
@@ -4633,6 +4684,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <TextFormat>Formato de Texto</TextFormat>
     <TextOnly>Só Texto</TextOnly>
     <TextOptions>Opções de texto</TextOptions>
+    <TextPlacement>Posicionamento de texto</TextPlacement>
     <TextQuality>Qualidade do Texto</TextQuality>
     <TextRightToLeft>Texto da direita para a esquerda</TextRightToLeft>
     <TextShowBehind>Texto Mostrar Atrás</TextShowBehind>
@@ -4701,6 +4753,7 @@ Ele contém um link para confirmar seu registro. Para completar o registro por f
     <UseExternalReport>Relatório de Uso Externo</UseExternalReport>
     <UseParentStyles>Use estilos do pai </UseParentStyles>
     <UseRangeColor>Usar gama de cores</UseRangeColor>
+    <UserBingKey>Chave do usuário Bing</UserBingKey>
     <UseRectangularSymbols>Usar Simbolos Retangulares</UseRectangularSymbols>
     <UseSeriesColor>Usar Cor de Séries</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Usar Estilo para Somatória na Coluna Total</UseStyleOfSummaryInColumnTotal>
@@ -4937,6 +4990,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <Enhancements>Melhorias</Enhancements>
     <EnterDataManually>Insira os dados manualmente</EnterDataManually>
     <Errors>Erros</Errors>
+    <EventsAccess>Acesso a eventos</EventsAccess>
     <EventsTab>Aba de Eventos</EventsTab>
     <ExpandAll>Expandir Tudo</ExpandAll>
     <FilterAnd>E</FilterAnd>
@@ -5032,6 +5086,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <VisualChecked>Verificada</VisualChecked>
     <VisualDefault>Padrão</VisualDefault>
     <VisualDisabled>Desativada</VisualDisabled>
+    <VisualFocused>Com Foco</VisualFocused>
     <VisualHover>Pairar(Hovered)</VisualHover>
     <VisualPressed>Pressionado</VisualPressed>
     <Warnings>Avisos</Warnings>
@@ -5185,6 +5240,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <VerticalLine>Linha Vertical</VerticalLine>
   </Shapes>
   <Signature>
+    <ClearSignature>Assinatura limpa</ClearSignature>
     <DigitalSignatureEmptyWatermark>Local para assinatura digital no PDF Viewer</DigitalSignatureEmptyWatermark>
     <FullName>Nome completo</FullName>
     <Initials>Iniciais</Initials>
@@ -5192,6 +5248,7 @@ contexto do painel de propriedades.</qnConfiguration>
     <InsertText>Inserir texto</InsertText>
     <LoadSignature>Carregar assinatura</LoadSignature>
     <NoSavedItems>Nenhum item salvo</NoSavedItems>
+    <PdfDigitalSignatureTitle>Selecione os objetos que deseja exibir na assinatura do arquivo PDF.</PdfDigitalSignatureTitle>
     <SaveSignature>Salvar assinatura</SaveSignature>
     <SignatureSavedSuccessfully>Assinatura salva com sucesso.</SignatureSavedSuccessfully>
     <UseBrush>Usar pincel</UseBrush>
@@ -5275,6 +5332,9 @@ contexto do painel de propriedades.</qnConfiguration>
     <MoveBackward>Mover para trás</MoveBackward>
     <MoveForward>Mover para frente</MoveForward>
     <Order>Ordem</Order>
+    <RibbonClassic>Ribbon Classico</RibbonClassic>
+    <RibbonLayout>Layout da fita</RibbonLayout>
+    <RibbonSingleLine>Linha Simples Ribbon</RibbonSingleLine>
     <SendToBack>Enviar para trás</SendToBack>
     <Size>Tamanho</Size>
     <StyleDesigner>Estilo do Designer</StyleDesigner>
@@ -5309,6 +5369,15 @@ contexto do painel de propriedades.</qnConfiguration>
     <TextEditor>Editor de Texto</TextEditor>
     <title>Caixa de Ferramentas</title>
   </Toolbox>
+  <UserFunctionEditor>
+    <ArgumentName>Nome do argumento</ArgumentName>
+    <ArgumentType>Tipo de argumento</ArgumentType>
+    <CustomCategory>Categoria personalizada</CustomCategory>
+    <ReturnType>Return Type</ReturnType>
+    <Script>Script</Script>
+    <ScriptMode>Modo de script</ScriptMode>
+    <Title>Função do usuário</Title>
+  </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Tem certeza de que deseja fechar esta janela? Todos os downloads serão cancelados.</AllDownloadsWillCanceled>
     <Description>Selecionamos para você relatórios que acreditamos serem os melhores para um início rápido.</Description>
