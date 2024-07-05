@@ -142,6 +142,7 @@
     <Submit>დადასტურება</Submit>
     <SwitchTo>გადართვა {0}-ზე</SwitchTo>
     <Test>შემოწმება</Test>
+    <TryToReconnect>ხელახალი ჩართვის ცდა</TryToReconnect>
     <Up>ზევით</Up>
     <Upgrade>გაუმჯობესება</Upgrade>
     <UpgradeNow>გაუმჯობესება ახლა</UpgradeNow>
@@ -378,6 +379,7 @@
     <ButtonRecover>აღდგენა</ButtonRecover>
     <ButtonRenew>განახლება</ButtonRenew>
     <ButtonResendEmail>წერილის ხელახლა გაგზავნა</ButtonResendEmail>
+    <ButtonResendInvitation>ხელახლა დაპატიჟება</ButtonResendInvitation>
     <ButtonResetPassword>პაროლის ჩამოყრა</ButtonResetPassword>
     <ButtonRun>გაშვება</ButtonRun>
     <ButtonScheduler>დამგეგმავი</ButtonScheduler>
@@ -645,6 +647,7 @@
     <StiPageHeaderBand>გვერდის სათაური</StiPageHeaderBand>
     <StiPanel>პანელი</StiPanel>
     <StiPdfDigitalSignature>PDF-ის ელექტრონული ხელმოწერა</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>PDF ელემენტი</StiPdfDigitalSignatureElement>
     <StiPivot>პივოტ</StiPivot>
     <StiPivotColumn>Pivot სვეტი</StiPivotColumn>
     <StiPivotRow>Pivot სტრიქონი</StiPivotRow>
@@ -672,6 +675,7 @@
     <StiTreeView>ხე</StiTreeView>
     <StiTreeViewBox>ხე მოსანიშნი ელემენტებით</StiTreeViewBox>
     <StiVerticalLinePrimitive>ვერტიკალური ზოლი</StiVerticalLinePrimitive>
+    <StiWebContent>Web-კონტენტი</StiWebContent>
     <StiWinControl>Win კონტროლი</StiWinControl>
     <StiZipCode>საფოსტო ინდექსი</StiZipCode>
   </Components>
@@ -901,7 +905,9 @@
     <StiRadioControl>გადამრთველი</StiRadioControl>
     <StiReportControl>მართვის ელემენტი</StiReportControl>
     <StiRichTextBoxControl>ტექსტის ფორმატირების ველი</StiRichTextBoxControl>
+    <StiSliderControl>სლაიდერი</StiSliderControl>
     <StiTextBoxControl>ტექსტური ველი</StiTextBoxControl>
+    <StiToggleControl>გადამრთველი</StiToggleControl>
     <StiTreeViewControl>ხე</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1130,6 +1136,7 @@
     <EncryptedReportFiles>დაშიფრული რეპორტის ფაილი (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Excel 2007/2013 ფაილი (*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelAllFiles>Microsoft Excel ფაილები (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
+    <ExcelCsvAllFiles>Microsoft Excel ფაილები (*.xlsx;*.xls;*.csv)|*.xlsx;*.xls;*.csv</ExcelCsvAllFiles>
     <ExcelFiles>Excel ფაილი (*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Excel XML ფაილი (*.xls)|*.xls</ExcelXmlFiles>
     <ExeFiles>EXE ფაილი (*.exe)|*.exe</ExeFiles>
@@ -1421,6 +1428,8 @@
     <EnableDataMonitor>მონაცემთა მონიტორინგის ჩართვა</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>SQL მოთხოვნა წარმატებულად შესრულებულია</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>ახალი გამოთქმა</ExpressionNew>
+    <FunctionEdit>ფუნქციის რედაქტირება</FunctionEdit>
+    <FunctionNew>ახალი ფუნქცია</FunctionNew>
     <GetColumnsFromAssembly>მონაცემთა კრებულიდან სვეტების აღება</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>დამალეთ მრახდაუჭერელი მონაცემთა წყაროები</HideUnsupportedDatabases>
     <ImportRelations>კავშირების იმპორტი</ImportRelations>
@@ -1935,6 +1944,7 @@
     <StiMapCategory>ელემენტთა ჯგუფი გამოიყენება რუკებთან და მონაცემებთან სამუშაოდ.</StiMapCategory>
     <StiMapElement>ელემენტი გამოიყენება გეოგრაფიული მონაცემების გამოსატანად.</StiMapElement>
     <StiMathFormula>ეს კომპონენტი გამოიყენება ანგარიშში მათემატიკური ფორმულების გამოსატანად.</StiMathFormula>
+    <StiNumberBoxElement>ფილტრაციის ელემენტი, რომელიც გათვალისწინებულია რიცხობრივი მნიშვნელობის ასარჩევად ან რიცხობრივი მნიშვნელობების დიაპაზონის დასაყენებლად.</StiNumberBoxElement>
     <StiOnlineMapElement>ელემენტი გამოიყენება გეოგრაფიული მარკერების გამოსატანად online რუკაზე.</StiOnlineMapElement>
     <StiOverlayBand>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ წყლის ნიშნის გამოსახულება.</StiOverlayBand>
     <StiPageFooterBand>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ რეპორტის ქვედა კოლონტიტული. იბეჭდება გვერდის ბოლოში. ძირითადად გამოიყენება ფურცლის ნომრების, თარიღებისა და სხვა დამატებითი ინფორმაციის გამოსატანად.</StiPageFooterBand>
@@ -1942,6 +1952,7 @@
     <StiPanel>ამ კომპონენტში შეგიძლიათ განათავსოთ სხვა კომპონენტები. იგი გადაადგილდება მასში მოთავსებულ კომპონენტებთან ერთად.</StiPanel>
     <StiPanelElement>მართკუთხა ობიექტი, რომელიც შეიცავს სხვა ელემენტებს. მისი გადაადგილების დროს გადაადგილდება მასში განთავსებული ელემენტებიც.</StiPanelElement>
     <StiPdfDigitalSignature>ეს კომპონენტი გამოიყენება ანგარიშის Adobe PDF ფაილში ექსპორტირების შემდეგ ციფრული ხელმოწერის ადგილის მისათითებლად.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>ეს კომპონენტი გამოიყენება დოკუმენტში ციფრული ხელმოწერისა და სერტიფიკატის ველების მისათითებლად Adobe PDF-ში ექსპორტის დროს.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Pivot ცხრილის ელემენტი გამოიყენება სტრუქტურირებული მონაცემების ცხრილში გამოსატანად.</StiPivotTableElement>
     <StiProgressElement>ელემენტი გამოიყენება შეყვანილი მონაცემების თანაფარდობის საჩვენებლად. ხელმისაწვდომია შემდეგი დიზაინები: წრიული, მრგლოვანი, სვეტური.</StiProgressElement>
     <StiRectanglePrimitive>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ მართკუთხა.</StiRectanglePrimitive>
@@ -1964,6 +1975,7 @@
     <StiTreeViewBoxElement>ელემენტი გამოიყენება ჩამოსაშლელი იერარქიული სიის სტრუქტურის მონაცემთა გამოსატანად.</StiTreeViewBoxElement>
     <StiTreeViewElement>გამოიყენება იერარქიული მონაცემების გამოსატანად.</StiTreeViewElement>
     <StiVerticalLinePrimitive>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ ვერტიკალური ხაზი.</StiVerticalLinePrimitive>
+    <StiWebContentElement>ეს კომპონენტი გამოიყენება ინდიკატორთა პანელზე web-კონტენტის გამოსატანად.</StiWebContentElement>
     <StiWinControl>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ .NET Framework.-ის კომპონენტები.</StiWinControl>
     <StiZipCode>ამ კომპონენტის მეშვეობით შეგიძლიათ გამოიტანოთ საფოსტო კოდი.</StiZipCode>
   </HelpComponents>
@@ -2283,6 +2295,7 @@
     <menuEditDataTransformationNew>მონაცემების ახალი გარდაქმნა...</menuEditDataTransformationNew>
     <menuEditDelete>წაშლა</menuEditDelete>
     <menuEditEdit>შესწორება</menuEditEdit>
+    <menuEditFunctionNew>ახალი ფუნქცია...</menuEditFunctionNew>
     <menuEditImportRelations>კავშირების იმპორტი...</menuEditImportRelations>
     <menuEditPaste>ჩასმა</menuEditPaste>
     <menuEditRedo>Redo</menuEditRedo>
@@ -2401,9 +2414,11 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>SQL მოთხვნათა შესრულების დრო აჭარბებს რეპორტების დიზაინერში მითითებულ მაქსიმალურ დროს. გთხოვთ დიზაინერში მიუთითოთ არანაკლებ {0} წამისა.</ChangeRequestTimeout>
+    <DatabaseTypeChangeWarning>ყურადღება! ეს ფუნქცია გარდაქმნის მონაცემთა წყაროს {0}. მონაცემთა წარმატებული მიღებისთვის ყველა ცხრილი და სვეტების სახელები უნდა იყოს იდენტური. მოთხოვნები არ იქნება გარდაქმნილი. ნამდვილად გსურთ გაგრძელება?</DatabaseTypeChangeWarning>
     <DoNotShowAgain>აღარ მაჩვენოთ ხელმეორედ</DoNotShowAgain>
     <LatexFormat>მათემატიკური ფორმულების საჩვენებლად გამოიყენეთ LaTeX ფორმატი.</LatexFormat>
     <MessageTimeOutExpired>ბღძანების შესრულების დრო ამოწურულია!</MessageTimeOutExpired>
+    <MustBeFile>უნდა იყოს ფაილი {0}.</MustBeFile>
     <RenderingWillOccurInTheInterpretationMode>გაზიარებული რეპორტის დათვალიერებისას, რენდერინგი იმუშავებს ინტერპრეტაციის რეჟიმში!</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>"{0}" რესურსის წაშლა შეუძლებელია, ის გამოყენებულია რეპორტში!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>ობიექტის გაზიარების URL განახლდა!</ShareURLOfTheItemHasBeenUpdated>
@@ -2463,6 +2478,7 @@
     <AuthPasswordIsTooLong>პაროლი ზედმეტად გრძელია!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>პაროლი ზედმეტად მოკლეა (მინიმალური სიგრძე 6 სიმბოლო)!</AuthPasswordIsTooShort>
     <AuthPasswordNotSpecified>პაროლი არ არის მითითებული!</AuthPasswordNotSpecified>
+    <AuthRequestsLimitIsExceeded>მოთხოვნათა ლიმიტი ამოწურულია! გთხოვთ, დაუკავშირდით გაყიდვების განყოფილებას sales@stimulsoft.com!</AuthRequestsLimitIsExceeded>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>თქვენ არ შეგიძლიათ წაშალოთ როლი, რადგან ის გამოყენებულია სხვა მომხმარებლების მიერ.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>როლი "{0}" მითითებული სახელით უკვე არსებობს!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>როლი "{0}" მითითებული სახელით არის სისტემური როლი!</AuthRoleNameIsSystemRole>
@@ -2516,6 +2532,7 @@
     <NotificationItemDelete>მიმდინარეობს ელემენტების წაშლა.</NotificationItemDelete>
     <NotificationItemDeleteComplete>ელემენტები წარმატების წაიშალა.</NotificationItemDeleteComplete>
     <NotificationItemExtraComponentRequired>საჭიროა დამატებითი კომპონენტის დაყენება</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallToRunWebView>Web-კონტენტის სწორი გაშვებისთვის საჭიროა WebView2 გარემოს გამოყენება.</NotificationItemInstallToRunWebView>
     <NotificationItemInstallWebView>Blockly რედაქტორის კორექტული მუშაობისთვის, აუცილებელია WebView2 გაშვების გარემოს დაყენება.</NotificationItemInstallWebView>
     <NotificationItemRestore>მიმდინარეობს ელემენტების აღდგენა.</NotificationItemRestore>
     <NotificationItemRestoreComplete>ელემენტები წარმატებით აღდგა.</NotificationItemRestoreComplete>
@@ -3363,6 +3380,10 @@
     <StiOrientationVertical>ვერტიკალური</StiOrientationVertical>
     <StiPageOrientationLandscape>თარაზული</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>შვეული</StiPageOrientationPortrait>
+    <StiPdfDigitalSignatureAppearanceTypeDraw>ხატვა</StiPdfDigitalSignatureAppearanceTypeDraw>
+    <StiPdfDigitalSignatureAppearanceTypeImage>გამოსახულება</StiPdfDigitalSignatureAppearanceTypeImage>
+    <StiPdfDigitalSignatureAppearanceTypeNone>არა</StiPdfDigitalSignatureAppearanceTypeNone>
+    <StiPdfDigitalSignatureAppearanceTypeText>ტექსტი</StiPdfDigitalSignatureAppearanceTypeText>
     <StiPenStyleDash>პუნქტირით</StiPenStyleDash>
     <StiPenStyleDashDot>პუნქტირული ერთი წერტილით</StiPenStyleDashDot>
     <StiPenStyleDashDotDot>პუნქტირული ორი წერტილით</StiPenStyleDashDotDot>
@@ -3476,6 +3497,9 @@
     <StiShiftModeIncreasingSize>ზომის ზრდისას</StiShiftModeIncreasingSize>
     <StiShiftModeNone>None</StiShiftModeNone>
     <StiShiftModeOnlyInWidthOfComponent>მხოლოდ კომპონენტის სიგანის ფარგლებში</StiShiftModeOnlyInWidthOfComponent>
+    <StiShowEmptyCellsAsConnectPointsWithLine>ხაზით წერტილების შეერთება</StiShowEmptyCellsAsConnectPointsWithLine>
+    <StiShowEmptyCellsAsGap>შუალედი</StiShowEmptyCellsAsGap>
+    <StiShowEmptyCellsAsZero>ნული</StiShowEmptyCellsAsZero>
     <StiShowSeriesLabelsFromChart>გრაფიკიდან</StiShowSeriesLabelsFromChart>
     <StiShowSeriesLabelsFromSeries>სერიებიდან</StiShowSeriesLabelsFromSeries>
     <StiShowSeriesLabelsNone>None</StiShowSeriesLabelsNone>
@@ -3485,6 +3509,8 @@
     <StiShowYAxisBoth>ორივე</StiShowYAxisBoth>
     <StiShowYAxisCenter>ცენტრში</StiShowYAxisCenter>
     <StiShowYAxisLeft>მარცხენა</StiShowYAxisLeft>
+    <StiSignatureModeDraw>ხატვა</StiSignatureModeDraw>
+    <StiSignatureModeType>ტიპი</StiSignatureModeType>
     <StiSignatureTypeDigitalSignature>ციფრული ხელისმოწერა</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>დახატვა</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>სტილის არჩევა</StiSignatureTypeSelectStyle>
@@ -3524,6 +3550,8 @@
     <StiTableAutoWidthTypeFullTable>მთლიანი ცხრილი</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>ბოლო სვეტი</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>None</StiTableAutoWidthTypeNone>
+    <StiTableSizeModeAutoSize>ავტოზომა</StiTableSizeModeAutoSize>
+    <StiTableSizeModeFit>ჩატევა</StiTableSizeModeFit>
     <StiTargetModePercentage>წილი</StiTargetModePercentage>
     <StiTargetModeVariation>გადახრა</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>ცენტრში</StiTextHorAlignmentCenter>
@@ -3733,6 +3761,7 @@
     <AllowApplyColorNegative>უარყოფითი მნიშვნელობების ფერების დაშვება</AllowApplyColorNegative>
     <AllowApplyLineColor>ხაზის ფერის</AllowApplyLineColor>
     <AllowApplyStyle>სტილის მინიჭების დაშვება</AllowApplyStyle>
+    <AllowCleanSignature>ხელმოწერის წაშლის ნებართვა</AllowCleanSignature>
     <AllowExpressions>გამოთქმების დაშვება</AllowExpressions>
     <AllowHtmlTags>Html Tag-ების დაშვება</AllowHtmlTags>
     <AllowNull>null-ის ნებართვა</AllowNull>
@@ -3765,6 +3794,7 @@
     <Anchor>მიბმა</Anchor>
     <Angle>კუთხე</Angle>
     <Antialiasing>დაგლუვება</Antialiasing>
+    <Appearance>გამოსახულება</Appearance>
     <Apply>გამოყენება</Apply>
     <Area>ფართობი</Area>
     <Argument>არგუმენტი</Argument>
@@ -3968,6 +3998,7 @@
     <DisplayValue>ხილული მნიშვნელობა</DisplayValue>
     <Distance>დისტანცია</Distance>
     <DistanceBetweenTabs>დისტანცია Tab-ებს შორის</DistanceBetweenTabs>
+    <DistinguishedName>ცნობილი სახელწოდება</DistinguishedName>
     <Dock>მიმაგრება</Dock>
     <DockableTable>მისამაგრებელი ცხრილი</DockableTable>
     <DockStyle>მიმაგრების სტილი</DockStyle>
@@ -4068,6 +4099,7 @@
     <FooterRowsCount>ქვედა კოლონტიტულის სტრიქონების რაოდენობა</FooterRowsCount>
     <Footers>ქვედა კოლონტიტულები</Footers>
     <ForeColor>ტექსტის ფერი</ForeColor>
+    <Foreground>ფერი</Foreground>
     <Format>ფორმატი</Format>
     <FormName>ფორმის სახელწოდება</FormName>
     <FormSettings>ფორმის პარამეტრები</FormSettings>
@@ -4121,6 +4153,7 @@
     <HeatmapColors>ტემპერატურული რუკის ფერები</HeatmapColors>
     <HeatmapWithGroup>სითბური რუკა დაჯგუფებით</HeatmapWithGroup>
     <Height>სიმაღლე</Height>
+    <Hidden>ფარული</Hidden>
     <HideSeriesWithEmptyTitle>უსახელო სერიების დამალვა</HideSeriesWithEmptyTitle>
     <HideZeros>ნულოვანი მნიშვნელობების დამალვა</HideZeros>
     <High>მაღალი</High>
@@ -4268,6 +4301,7 @@
     <Locked>საკეტი</Locked>
     <Logarithmic>ლოგარითმული</Logarithmic>
     <LogarithmicScale>ლოგარითმული მასშტაბი</LogarithmicScale>
+    <Logo>ლოგოტიპი</Logo>
     <Longitude>გრძედი</Longitude>
     <Low>დაბალი</Low>
     <LowValues>დაბალი მნიშვნელობები</LowValues>
@@ -4366,8 +4400,10 @@
     <OffsetAngle>Offset-ის კუთხე</OffsetAngle>
     <OnClick>დაჭერისას</OnClick>
     <OnDataManipulation>მონაცემთა მართვისას</OnDataManipulation>
+    <OnePointZoom>ერთწერტილიანი მასშტაბი</OnePointZoom>
     <OnHover>მიტანისას</OnHover>
     <OnlyText>მხოლოდ ტექსტი</OnlyText>
+    <OnSelect>არჩევის დროს</OnSelect>
     <Opacity>გაუმჭვირვალობა</Opacity>
     <OpenValues>ღია მნიშვნელობები</OpenValues>
     <Operation>ოპერაცია</Operation>
@@ -4386,6 +4422,7 @@
     <PaperSourceOfFirstPage>პირველი გვერდის წყარო</PaperSourceOfFirstPage>
     <PaperSourceOfOtherPages>სხვა გვერდების წყარო</PaperSourceOfOtherPages>
     <Parameter>პარამეტრი</Parameter>
+    <ParameterAlignment>პარამეტრების სწორება</ParameterAlignment>
     <Parameters>პარამეტრები</Parameters>
     <ParametersDateFormat>თარიღის პარამეტრების ფორმატი</ParametersDateFormat>
     <ParametersOrientation>პარამეტრების ორიენტაცია</ParametersOrientation>
@@ -4450,6 +4487,7 @@
     <Ratio>კოეფიციენტი</Ratio>
     <RatioY>კოეფიციენტი Y</RatioY>
     <ReadOnly>მხოლოდ წასაკითხი</ReadOnly>
+    <Reason>საფუძვლები ხელმოწერისთვის</Reason>
     <RecentFonts>ბოლო გამოყენებული შრიფტები</RecentFonts>
     <ReconnectOnEachRow>განახლდეს თითოეულ ჩანაწერზე</ReconnectOnEachRow>
     <ReferencedAssemblies>ბმულები კრებულებზე</ReferencedAssemblies>
@@ -4461,6 +4499,7 @@
     <Relations>კავშირები</Relations>
     <RelativeHeight>Relative სიმაღლე</RelativeHeight>
     <RelativeWidth>Relative სიგანე</RelativeWidth>
+    <RememberSelection>არჩევნის დამახსოვრება</RememberSelection>
     <RemoveUnusedDataBeforeStart>გამოუყენებელი მონაცემების დამალვა დაწყებამდე</RemoveUnusedDataBeforeStart>
     <RenderTo>დარენდერდეს აქ</RenderTo>
     <ReportAlias>რეპორტის მეტსახელი</ReportAlias>
@@ -4665,6 +4704,7 @@
     <TagValue>ტეგის მნიშვნელობა</TagValue>
     <Target>სამიზნე</Target>
     <TargetColor>სამიზნე ფერი</TargetColor>
+    <TargetFormat>მიზნის ფორმატი</TargetFormat>
     <TargetIcon>მიზნის ხატულა</TargetIcon>
     <TargetMode>მიზნის რეჟიმი</TargetMode>
     <TargetSettings>მიზანი</TargetSettings>
@@ -4750,6 +4790,7 @@
     <UseExternalReport>გარე რეპორტის გამოყენება</UseExternalReport>
     <UseParentStyles>მშობლიური სტილების გამოყენება</UseParentStyles>
     <UseRangeColor>ფერთა დიაპაზონის გამოყენება</UseRangeColor>
+    <UserBingKey>მომხმარებლის Bing გასაღები</UserBingKey>
     <UseRectangularSymbols>მართკუთხა სიმბოლოების გამოყენება</UseRectangularSymbols>
     <UseSeriesColor>სერიების ფერების გამოყენება</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>სვეტის ჯამური სტილის გამოყენება სვეტის ჯამში</UseStyleOfSummaryInColumnTotal>
@@ -5076,6 +5117,7 @@
     <VisualChecked>შემოწმებული</VisualChecked>
     <VisualDefault>ნაგულისხმევი</VisualDefault>
     <VisualDisabled>გამორთული</VisualDisabled>
+    <VisualFocused>ფოკუსში</VisualFocused>
     <VisualHover>მდგომარეობა დამიზნებისას </VisualHover>
     <VisualPressed>დაჭერილი</VisualPressed>
     <Warnings>გაფრთხილებები</Warnings>
@@ -5229,6 +5271,7 @@
     <VerticalLine>ვერტიკალური ხაზი</VerticalLine>
   </Shapes>
   <Signature>
+    <ClearSignature>ხელმოწერის წაშლა</ClearSignature>
     <DigitalSignatureEmptyWatermark>ციფრული ხელმოწერის ადგილი PDF ვიუერში</DigitalSignatureEmptyWatermark>
     <FullName>სრული სახელი</FullName>
     <Initials>ინიციალები</Initials>
@@ -5236,6 +5279,7 @@
     <InsertText>ტექსტის ჩასმა</InsertText>
     <LoadSignature>ხელმოწერის ჩატვირთვა</LoadSignature>
     <NoSavedItems>შენახული ელემენტები არ მოიპოვება</NoSavedItems>
+    <PdfDigitalSignatureTitle>აირჩიეთ ობიექტები, რომლის გამოჩენაც გსურთ PDF ფაილის ხელმოწერაში.</PdfDigitalSignatureTitle>
     <SaveSignature>ხელმოწერის შენახვა</SaveSignature>
     <SignatureSavedSuccessfully>ხელისმოწერა წარმატებით შენახულია.</SignatureSavedSuccessfully>
     <UseBrush>ფუნჯის გამოყენება</UseBrush>
@@ -5319,6 +5363,9 @@
     <MoveBackward>უკან გადატანა</MoveBackward>
     <MoveForward>წინ გადმოტანა</MoveForward>
     <Order>თანმიმდევრობა</Order>
+    <RibbonClassic>კლასიკური Ribbon</RibbonClassic>
+    <RibbonLayout>ლენტის მაკეტი</RibbonLayout>
+    <RibbonSingleLine>Ribbon ერთ ხაზად</RibbonSingleLine>
     <SendToBack>ბოლოში გადატანა</SendToBack>
     <Size>ზომა</Size>
     <StyleDesigner>სტილების რედაქტორი</StyleDesigner>
@@ -5353,6 +5400,13 @@
     <TextEditor>ტექსტის რედაქტორი</TextEditor>
     <title>ინსტრუმენტები</title>
   </Toolbox>
+  <UserFunctionEditor>
+    <CustomCategory>სამომხმარებლო კატეგორია</CustomCategory>
+    <ReturnType>დასაბრუნებელი მნიშვნელობის ტიპი</ReturnType>
+    <Script>სცენარი</Script>
+    <ScriptMode>სცენარის რეჟიმი</ScriptMode>
+    <Title>სამომხმარებლო ფუნქცია</Title>
+  </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>დარწმუნებული ხართ, რომ გინდათ დახუროთ ეს ფანჯარა? ყველა ატვირთვა გაუქმდება.</AllDownloadsWillCanceled>
     <Description>ჩვენ შევარჩიეთ თქვენთვის რეპორტები, რომლებიც ჩვენი აზრით, ყველაზე კარგად გამოსადეგია სწრაფი სტარტისთვის.</Description>

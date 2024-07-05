@@ -142,6 +142,7 @@
     <Submit>Abschicken</Submit>
     <SwitchTo>Schalten auf {0}</SwitchTo>
     <Test>Testen</Test>
+    <TryToReconnect>Versuchen wieder zu verbinden</TryToReconnect>
     <Up>Nach oben</Up>
     <Upgrade>Aktualisieren</Upgrade>
     <UpgradeNow>Sofort aktualisieren</UpgradeNow>
@@ -188,6 +189,7 @@
     <Gantt>Gantt</Gantt>
     <GridInterlaced>Alternierend</GridInterlaced>
     <GridLines>Raster-Linien</GridLines>
+    <Heatmap>Heatmap</Heatmap>
     <Histogram>Histogramm</Histogram>
     <LabelAlignment>Ausrichtung:</LabelAlignment>
     <LabelAlignmentHorizontal>Horizontal:</LabelAlignmentHorizontal>
@@ -378,6 +380,7 @@
     <ButtonRecover>Wiederherstellen</ButtonRecover>
     <ButtonRenew>Erneuern</ButtonRenew>
     <ButtonResendEmail>E-Mail wieder senden</ButtonResendEmail>
+    <ButtonResendInvitation>Erneut einladen</ButtonResendInvitation>
     <ButtonResetPassword>Zurückstellen</ButtonResetPassword>
     <ButtonRun>Ausführen</ButtonRun>
     <ButtonScheduler>Scheduler</ButtonScheduler>
@@ -453,6 +456,9 @@
     <LicenseInformation>Lizenz-Information</LicenseInformation>
     <LicenseKey>Lizenzschlüssel</LicenseKey>
     <Login>Anmelden</Login>
+    <MyAccount>Mein Account</MyAccount>
+    <MyCloud>Meine Cloud</MyCloud>
+    <MyPlan>Mein Plan</MyPlan>
     <MyTeam>My Team</MyTeam>
     <NofM>{0}: {1} von {2}</NofM>
     <Open>Öffnen</Open>
@@ -643,6 +649,7 @@
     <StiPageHeaderBand>Seitenkopf</StiPageHeaderBand>
     <StiPanel>Leiste</StiPanel>
     <StiPdfDigitalSignature>Digitale PDF-Unterschrift</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>PDF-Element</StiPdfDigitalSignatureElement>
     <StiPivot>Pivot</StiPivot>
     <StiPivotColumn>Pivotspalte</StiPivotColumn>
     <StiPivotRow>Pivot-Reihe</StiPivotRow>
@@ -670,6 +677,7 @@
     <StiTreeView>Baumansicht</StiTreeView>
     <StiTreeViewBox>Baumansichtsfeld</StiTreeViewBox>
     <StiVerticalLinePrimitive>Vertikale Linie</StiVerticalLinePrimitive>
+    <StiWebContent>Webinhalt</StiWebContent>
     <StiWinControl>WinControl</StiWinControl>
     <StiZipCode>PLZ</StiZipCode>
   </Components>
@@ -895,9 +903,12 @@
     <StiPictureBoxControl>Profilbild</StiPictureBoxControl>
     <StiRadioButtonControl>RadioButton</StiRadioButtonControl>
     <StiRadioControl>Optionsfeld</StiRadioControl>
+    <StiRadioGroupControl>Radio-Gruppe</StiRadioGroupControl>
     <StiReportControl>Bericht</StiReportControl>
     <StiRichTextBoxControl>Rich Text Box</StiRichTextBoxControl>
+    <StiSliderControl>Schieberegler</StiSliderControl>
     <StiTextBoxControl>Textfeld</StiTextBoxControl>
+    <StiToggleControl>Umschaltfläche</StiToggleControl>
     <StiTreeViewControl>Baum</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1126,6 +1137,7 @@
     <EncryptedReportFiles>Stimulsoft-Dateien (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Microsoft Excel 2007/2013 Dateien (*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelAllFiles>Microsoft Excel-Dateien (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
+    <ExcelCsvAllFiles>Microsoft Excel-Dateien (*.xlsx;*.xls;*.csv)|*.xlsx;*.xls;*.csv</ExcelCsvAllFiles>
     <ExcelFiles>Microsoft Excel-Dateien (*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Microsoft Excel XML-Dateien (*.xls)|*.xls</ExcelXmlFiles>
     <ExeFiles>EXE-Dateien (*.exe)|*.exe</ExeFiles>
@@ -1417,6 +1429,8 @@
     <EnableDataMonitor>Datenmonitor aktivieren</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>Die SQL-Anweisung wurde erfolgreich ausgeführt</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>Neuer Ausdruck</ExpressionNew>
+    <FunctionEdit>Funktion ändern</FunctionEdit>
+    <FunctionNew>Neue Funktion</FunctionNew>
     <GetColumnsFromAssembly>Spalten aus Assembly</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Nicht unterstützte Datenquellen ausblenden</HideUnsupportedDatabases>
     <ImportRelations>Beziehungen importieren</ImportRelations>
@@ -1518,6 +1532,7 @@
     <BlankReport>Leerer Bericht</BlankReport>
     <BlankScreen>Leerer Bildschirm</BlankScreen>
     <Default>Standardwert</Default>
+    <DefaultSaveFormat>Standardmäßiges Speicherformat</DefaultSaveFormat>
     <DefaultScriptMode>Standard-Skript-Modus</DefaultScriptMode>
     <Drawing>Zeichnen</Drawing>
     <DrawMarkersWhenMoving>Komponenten-Marker beim Verschieben anzeigen</DrawMarkersWhenMoving>
@@ -1929,6 +1944,7 @@
     <StiMapCategory>Die Gruppe der Elemente für Arbeit mit Karten und Daten.</StiMapCategory>
     <StiMapElement>Dieses Element wird verwendet, um die geografisch ausgerichteten Daten anzuzeigen.</StiMapElement>
     <StiMathFormula>Diese Komponente wird für Anzeige von Mathematikformeln im Bericht verwendet.</StiMathFormula>
+    <StiNumberBoxElement>Dieses Element wird zur Auswahl vom Zahlenwert oder zum Festlegen vom Bereich von Zahlenwerten verwendet.</StiNumberBoxElement>
     <StiOnlineMapElement>Dieses Element wird verwendet, um die geografischen Marker auf der Online-Karte anzuzeigen.</StiOnlineMapElement>
     <StiOverlayBand>Dieses Band wird zur Darstellung von Wasserzeichen auf einer Seite verwendet. Es wird über alle anderen Elemente der Seite gelegt.</StiOverlayBand>
     <StiPageFooterBand>Das Seitenfuss-Band wird zur Darstellung von Informationen wie Seitenzahlen, Datum und anderer Zusatzinformationen am unteren Seitenrand verwendet.</StiPageFooterBand>
@@ -1936,6 +1952,7 @@
     <StiPanel>Das Panel ist eine Komponente, welche frei auf dem Bericht platziert werden kann. Darin können andere Komponenten, einschliesslich Bänder abgelegt werden. Das Panel dient quasi zur Gruppierung und Positionierung dieser anderen Kopmonenten. Das Panel kann auf einem Band oder direkt auf einer Seite des Berichtes platziert werden</StiPanel>
     <StiPanelElement>Eine rechteckige Region, die andere Elemente enthalten kann. Wenn das Panel verschoben wird, werden seine Elemente auch verschoben.</StiPanelElement>
     <StiPdfDigitalSignature>Diese Komponente wird verwendet, um ein Feld für digitale Unterschrift nach dem Export vom Bericht in Adobe PDF anzugeben.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Diese Komponente wird für die Angabe vom Standort der digitaler Unterschrift und der Zertifikat-Felder beim Export in PDF verwendet.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Das Pivot-Tabelle-Element wird verwendet, um die strukturierten Daten als Tabelle darzustellen.</StiPivotTableElement>
     <StiProgressElement>Das Element zeigt das Verhältnis der Eingabedaten an. Es kann in verschiedenen Modi - als Kreis-, Ring- oder Balkendiagramm, - dargestellt werden.</StiProgressElement>
     <StiRectanglePrimitive>Diese Komponente wird zu Ausgabe von Rechtecken verwendet.</StiRectanglePrimitive>
@@ -1958,6 +1975,7 @@
     <StiTreeViewBoxElement>Das Element wird verwendet, um die Werte mit Dropdown-Liste als Baumstruktur auszuwählen.</StiTreeViewBoxElement>
     <StiTreeViewElement>Dieses Element wird verwendet, um die  hierarchische Daten als Baumstruktur anzuzeigen.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Mit Hilfe dieser Komponente können vertikale Linien in einem Bereicht gezeichnet werden.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Diese Komponente erlaubt Webinhalte auf Dashboard hinzuzufügen.</StiWebContentElement>
     <StiWinControl>Mit Hilfe dieser Komponente können .NET Steuerelemente auf einem Bericht dargestellt werden.</StiWinControl>
     <StiZipCode>Diese Komponente wird für die Darstellung von Postleitzahlen verwendet.</StiZipCode>
   </HelpComponents>
@@ -1995,14 +2013,14 @@
     <CenterVertically>Vertikal zentrieren</CenterVertically>
     <Close>Designer schließen</Close>
     <Columns>Spalten</Columns>
-    <CompilationAccess1>Dieses Dokument verwendet den Kompilierungsprozess. Wenn das Dokument aus zuverlässiger Quelle ist, können Sie auf Schaltfläche "Öffnen" klicken, um darauf zuzugreifen.</CompilationAccess1>
-    <CompilationAccess2>Wenn Sie sich nicht sicher sind, woher das Dokument stammt, es aber dennoch ansehen möchten, können Sie auf Schaltfläche "Im abgesicherten Modus öffnen" klicken. In diesem Fall verwenden Sie Interpretierung statt der Kompilierung, was erlaubt Ihnen, das Dokument sicher auszuführen.</CompilationAccess2>
-    <CompilationAccess3>Dieses Dokument verwendet den Kompilierungsprozess und es kann unsicher sein. Sie können nicht es öffnen.</CompilationAccess3>
-    <CompilationAccessAllow>Ermöglicht das Dokument mit Kompilierung ohne Warnungen und Beschränkungen zu öffnen.</CompilationAccessAllow>
-    <CompilationAccessAsk>Wenn das Dokument den Kompilierungsprozess verwendet, wird das Fenster mit vordefinierten Aktionen angezeigt werden.</CompilationAccessAsk>
-    <CompilationAccessDeny>Das Öffnen jedes Dokumentes, das den Kompilierungsprozess verwendet, verweigern. Ein spezielles Fenster wird angezeigt werden.</CompilationAccessDeny>
-    <CompilationAccessForceInterpretation>Die Dokumente mit Kompilierung werden ohne zusätzliche Abfrage geöffnet werden, aber werden automatisch in den Interpretation-Modus, der keinen Kompilierungsprozess verwendet, umgewandelt.</CompilationAccessForceInterpretation>
-    <CompilationModeEnabling>Sie wechseln in den Kompilierungsmodus. Dieser Modus ermöglicht den unterschiedlichen Code auszuführen, und manchmal könnte es gefährlich sein. Verwenden Sie bitte diesen Modus nur wenn Sie alle Risiken verstehen und mit ihnen einverstanden sind. Klicken Sie auf Schaltfläche {0} zum Fortfahren.</CompilationModeEnabling>
+    <CompilationAccess1>Dieses Dokument verwendet den Kompilationsprozess. Wenn das Dokument aus zuverlässiger Quelle ist, können Sie auf Schaltfläche "Öffnen" klicken, um darauf zuzugreifen.</CompilationAccess1>
+    <CompilationAccess2>Wenn Sie sich nicht sicher sind, woher das Dokument stammt, es aber dennoch ansehen möchten, können Sie auf Schaltfläche "Im abgesicherten Modus öffnen" klicken. In diesem Fall verwenden Sie Interpretation statt der Kompilation, was erlaubt Ihnen, das Dokument sicher auszuführen.</CompilationAccess2>
+    <CompilationAccess3>Dieses Dokument verwendet den Kompilation-Modus und es kann unsicher sein. Sie können nicht es öffnen.</CompilationAccess3>
+    <CompilationAccessAllow>Ermöglicht das Dokument mit Kompilation ohne Warnungen und Beschränkungen zu öffnen.</CompilationAccessAllow>
+    <CompilationAccessAsk>Wenn das Dokument den Kompilation-Modus verwendet, wird das Fenster mit vordefinierten Aktionen angezeigt werden.</CompilationAccessAsk>
+    <CompilationAccessDeny>Das Öffnen jedes Dokumentes, das den Kompilation-Modus verwendet, verweigern. Ein spezielles Fenster wird angezeigt werden.</CompilationAccessDeny>
+    <CompilationAccessForceInterpretation>Die Dokumente mit Kompilation werden ohne zusätzliche Abfrage geöffnet werden, aber werden automatisch in den Interpretation-Modus, der keinen Kompilation-Modus verwendet, umgewandelt.</CompilationAccessForceInterpretation>
+    <CompilationModeEnabling>Sie wechseln in den Kompilation-Modus. Dieser Modus ermöglicht den unterschiedlichen Code auszuführen, und manchmal könnte es gefährlich sein. Verwenden Sie bitte diesen Modus nur wenn Sie alle Risiken verstehen und mit ihnen einverstanden sind. Klicken Sie auf Schaltfläche {0} zum Fortfahren.</CompilationModeEnabling>
     <ComponentSize>Grösse der Komponenten ändern</ComponentSize>
     <CopyStyle>Stil kopieren</CopyStyle>
     <CopyToClipboard>In Zwischenablage kopieren</CopyToClipboard>
@@ -2017,6 +2035,8 @@
     <DockStyleNone>Nicht andocken</DockStyleNone>
     <DockStyleRight>Rechts andocken</DockStyleRight>
     <DockStyleTop>Oben andocken</DockStyleTop>
+    <EventsAccess1>Dieses Dokument verwendet Ereignisse. Wenn das Dokument aus einer zuverlässigen Quelle empfangen wurde, können Sie für den Zugang auf Öffnen-Schaltfläche klicken.</EventsAccess1>
+    <EventsAccess2>Wenn Sie unsicher über die Quelle des Dokumentes sind, aber wollen dennoch es ansehen, klicken Sie auf die Schaltfläche "Im abgesicherten Modus öffnen". In diesem Fall werden die Ereignisse ignoriert und nicht ausgeführt werden.</EventsAccess2>
     <FontGrow>Schriftgrad vergrößern</FontGrow>
     <FontName>Schriftart</FontName>
     <FontNameWatermark>Schriftart Wasserzeichen</FontNameWatermark>
@@ -2217,7 +2237,7 @@
     <TiffCompressionScheme>Legt das Kompressionsschema für TIFF Grafikdateien fest.</TiffCompressionScheme>
     <ToolEditor>Ermöglicht das Editieren von Text direkt im Report Viewer.</ToolEditor>
     <TypeExport>Der Typ Datendatei, welcher durch den Export erstellt wird.</TypeExport>
-    <UnsafeCompilation1>ieses Dokument verwendet den Kompilierungsprozess. Manchmal könnte es gefährlich sein. Deshalb wird das Dokument im abgesicherten Modus geladen werden, um mögliche Risiken zu minimieren.</UnsafeCompilation1>
+    <UnsafeCompilation1>ieses Dokument verwendet den Kompilationsprozess. Manchmal könnte es gefährlich sein. Deshalb wird das Dokument im abgesicherten Modus geladen werden, um mögliche Risiken zu minimieren.</UnsafeCompilation1>
     <UnsafeCompilation2>Wenn Sie das Dokument in seiner ursprünglichen Form verwenden möchten, kontaktieren Sie Ihren Entwicklern.</UnsafeCompilation2>
     <UseDefaultSystemEncoding>Entweder die Standardcodierung des Systems verwenden oder eine Codierung festlegen.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Die Kopf- und Fuß-Bänder der Berichtseite als Kopf- bzw. Fußzeile im MS Word Dokument verwenden.</UseOnePageHeaderAndFooter>
@@ -2268,6 +2288,7 @@
     <menuEditDataTransformationNew>Neue Datenumwandlung...</menuEditDataTransformationNew>
     <menuEditDelete>&amp;Löschen</menuEditDelete>
     <menuEditEdit>&amp;Bearbeiten</menuEditEdit>
+    <menuEditFunctionNew>Neue Funktion...</menuEditFunctionNew>
     <menuEditImportRelations>Beziehungen importieren...</menuEditImportRelations>
     <menuEditPaste>E&amp;infügen</menuEditPaste>
     <menuEditRedo>Wiederholen</menuEditRedo>
@@ -2386,9 +2407,11 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Anforderungs-Timeout für SQL-Quellen überschreitet Anforderungs-Timeout des Berichtsdesigners. Stellen Sie Anforderungs-Timeout für Designer-Komponente nicht weniger als {0} Sekunden ein.</ChangeRequestTimeout>
+    <DatabaseTypeChangeWarning>Vorsicht! Diese Funktion wandelt die Datenquelle in {0} um. Um die Daten erfolgreich zu erhalten, sollen alle Namen der Tabellen und der Spalten zusammenpassen. Die Anfragen werden nicht umgewandelt werden. Wollen Sie fortfahren?</DatabaseTypeChangeWarning>
     <DoNotShowAgain>Mehr nicht anzeigen</DoNotShowAgain>
     <LatexFormat>Das LaTeX-Format wird für Anzeige von Mathematikformeln verwendet.</LatexFormat>
     <MessageTimeOutExpired>Befehl-Timeout ist abgelaufen!</MessageTimeOutExpired>
+    <MustBeFile>Die {0}-Datei muss sein.</MustBeFile>
     <RenderingWillOccurInTheInterpretationMode>Bei der Anzeige des geteilten Berichtes wird das Rendering im Interpretation-Modus erfolgt.</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>Die Ressource "{0}" kann nicht gelöscht werden, weil sie im Bericht verwendet wird!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>Die URL-Adresse des Elementes ist aktualisiert!</ShareURLOfTheItemHasBeenUpdated>
@@ -2446,12 +2469,14 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <AuthPasswordIsNotSpecified>Das Passwort ist nicht angegeben!</AuthPasswordIsNotSpecified>
     <AuthPasswordIsTooLong>Das Passwort ist zu lang!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>Das Passwort ist zu kurz (minimale Länge ist 6 Zeichen)!</AuthPasswordIsTooShort>
+    <AuthRequestsLimitIsExceeded>Anfrage-Limit ist überschritten! Bitte, kontaktieren Sie unsere Vertriebsabteilung unter: sales@stimulsoft.com!</AuthRequestsLimitIsExceeded>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>Sie können nicht die Rolle entfernen, weil diese Rolle jetzt von anderen Benutzern verwendet wird.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>Die Rolle mit angegebenen Namen "{0}" existiert schon!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>Die Rolle mit angegebenen Namen "{0}" ist die System-Rolle!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>Die Nachricht mit weiteren Anweisung ist an "{0}" gesendet!</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>Token ist nicht korrekt!</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>Sie sind abgemeldet!</AuthUserHasLoggedOut>
+    <AuthUserHasLoggedOutPrevDevice>Sie sind ausgeloggt worden, weil Sie auf einem anderen Gerät eingeloggt sind!</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExist>Der Benutzername (E-Mail) ist schon verwendet!</AuthUserNameAlreadyExist>
     <AuthUserNameAlreadyExists>Der Benutzername (E-Mail) ist bereits verwendet!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>This Email address cannot be used!</AuthUserNameEmailIsBlocked>
@@ -2499,6 +2524,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <NotificationItemDelete>Die Elemente werden gelöscht.</NotificationItemDelete>
     <NotificationItemDeleteComplete>Die Elemente sind erfolgreich gelöscht.</NotificationItemDeleteComplete>
     <NotificationItemExtraComponentRequired>Extra-Komponente ist erforderlich</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallToRunWebView>Bitte, installieren Sie WebView2 Runtime, um Webinhalt-Element korrekt auszuführen.</NotificationItemInstallToRunWebView>
     <NotificationItemInstallWebView>Bitte, installieren Sie WebView2 Runtime, um mit dem Blockly-Editor korrekt zu arbeiten.</NotificationItemInstallWebView>
     <NotificationItemRestore>Die Elemente werden wiederhergestellt.</NotificationItemRestore>
     <NotificationItemRestoreComplete>Die Elemente sind erfolgreich wiederhergestellt.</NotificationItemRestoreComplete>
@@ -3045,8 +3071,8 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiButtonSendTypeHTML>HTML</StiButtonSendTypeHTML>
     <StiButtonSendTypePDF>PDF</StiButtonSendTypePDF>
     <StiButtonSendTypeXFDF>XFDF</StiButtonSendTypeXFDF>
-    <StiCalculationModeCompilation>Kompilieren</StiCalculationModeCompilation>
-    <StiCalculationModeInterpretation>Interpreter</StiCalculationModeInterpretation>
+    <StiCalculationModeCompilation>Kompilation</StiCalculationModeCompilation>
+    <StiCalculationModeInterpretation>Interpretation</StiCalculationModeInterpretation>
     <StiCapStyleArrow>Pfeil</StiCapStyleArrow>
     <StiCapStyleDiamond>Pfeil mit Raute</StiCapStyleDiamond>
     <StiCapStyleNone>Kein</StiCapStyleNone>
@@ -3096,7 +3122,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiCompilationAccessAllow>Erlauben</StiCompilationAccessAllow>
     <StiCompilationAccessAsk>Fragen</StiCompilationAccessAsk>
     <StiCompilationAccessDeny>Verweigern</StiCompilationAccessDeny>
-    <StiCompilationAccessForceInterpretation>Interpretationsmodus erzwingen</StiCompilationAccessForceInterpretation>
+    <StiCompilationAccessForceInterpretation>Interpretation-Modus erzwingen</StiCompilationAccessForceInterpretation>
     <StiCrossHorAlignmentCenter>Zentriert</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>Links</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>Kein</StiCrossHorAlignmentNone>
@@ -3341,6 +3367,10 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiOrientationVertical>Vertikal</StiOrientationVertical>
     <StiPageOrientationLandscape>Querformat</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Hochformat</StiPageOrientationPortrait>
+    <StiPdfDigitalSignatureAppearanceTypeDraw>Zeichnen</StiPdfDigitalSignatureAppearanceTypeDraw>
+    <StiPdfDigitalSignatureAppearanceTypeImage>Bild</StiPdfDigitalSignatureAppearanceTypeImage>
+    <StiPdfDigitalSignatureAppearanceTypeNone>Nein</StiPdfDigitalSignatureAppearanceTypeNone>
+    <StiPdfDigitalSignatureAppearanceTypeText>Text</StiPdfDigitalSignatureAppearanceTypeText>
     <StiPenStyleDash>Strich</StiPenStyleDash>
     <StiPenStyleDashDot>Strich Punkt</StiPenStyleDashDot>
     <StiPenStyleDashDotDot>Strich Punkt Punkt</StiPenStyleDashDotDot>
@@ -3454,6 +3484,9 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiShiftModeIncreasingSize>Beim Vergrößern</StiShiftModeIncreasingSize>
     <StiShiftModeNone>Kein</StiShiftModeNone>
     <StiShiftModeOnlyInWidthOfComponent>Nur innerhalb der Komponenten-Breite</StiShiftModeOnlyInWidthOfComponent>
+    <StiShowEmptyCellsAsConnectPointsWithLine>Die Punkte durch Linie verbinden</StiShowEmptyCellsAsConnectPointsWithLine>
+    <StiShowEmptyCellsAsGap>Abstand</StiShowEmptyCellsAsGap>
+    <StiShowEmptyCellsAsZero>Null</StiShowEmptyCellsAsZero>
     <StiShowSeriesLabelsFromChart>Reihen-Überschriftung sichtbar</StiShowSeriesLabelsFromChart>
     <StiShowSeriesLabelsFromSeries>Marker anzeigen</StiShowSeriesLabelsFromSeries>
     <StiShowSeriesLabelsNone>Keine</StiShowSeriesLabelsNone>
@@ -3463,6 +3496,8 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiShowYAxisBoth>Beide</StiShowYAxisBoth>
     <StiShowYAxisCenter>Zentrum</StiShowYAxisCenter>
     <StiShowYAxisLeft>Links</StiShowYAxisLeft>
+    <StiSignatureModeDraw>Zeichnen</StiSignatureModeDraw>
+    <StiSignatureModeType>Typ</StiSignatureModeType>
     <StiSignatureTypeDigitalSignature>Digitale Unterschreibung</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Zeichnen</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Stil auswählen</StiSignatureTypeSelectStyle>
@@ -3499,6 +3534,8 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiTableAutoWidthTypeFullTable>Ganze Tabelle</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>Letzte Spalten</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>Kein</StiTableAutoWidthTypeNone>
+    <StiTableSizeModeAutoSize>Automatische Größe</StiTableSizeModeAutoSize>
+    <StiTableSizeModeFit>Fit</StiTableSizeModeFit>
     <StiTargetModePercentage>Prozentsatz</StiTargetModePercentage>
     <StiTargetModeVariation>Variation</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>Mitte</StiTextHorAlignmentCenter>
@@ -3705,6 +3742,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <AllowApplyColorNegative>Farbe für negative Werte verwenden</AllowApplyColorNegative>
     <AllowApplyLineColor>Linienfarbe erlauben</AllowApplyLineColor>
     <AllowApplyStyle>Angewendete Stil</AllowApplyStyle>
+    <AllowCleanSignature>Erlauben, die Unterschrift zu leeren</AllowCleanSignature>
     <AllowExpressions>Ausdrücke zulaßen</AllowExpressions>
     <AllowHtmlTags>Html-Tags auswerten</AllowHtmlTags>
     <AllowNull>Null erlauben</AllowNull>
@@ -3737,6 +3775,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Anchor>Anker</Anchor>
     <Angle>Winkel</Angle>
     <Antialiasing>Antialiasing</Antialiasing>
+    <Appearance>Gestaltung</Appearance>
     <Apply>Anwenden</Apply>
     <Area>Fläche</Area>
     <Argument>Argument</Argument>
@@ -3939,6 +3978,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <DisplayValue>Angezeigter Wert</DisplayValue>
     <Distance>Abstand</Distance>
     <DistanceBetweenTabs>Entfernung zwischen Tabs</DistanceBetweenTabs>
+    <DistinguishedName>Eindeutiger Name</DistinguishedName>
     <Dock>Andocken</Dock>
     <DockableTable>Andockbare Tabelle</DockableTable>
     <DockStyle>Andocken-Stil</DockStyle>
@@ -4009,6 +4049,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Filters>Filter</Filters>
     <First>Erste</First>
     <FirstTabOffset>Abstand des ersten Tabs</FirstTabOffset>
+    <FixedHeight>Feste Höhe</FixedHeight>
     <FixedWidth>Feste Breite</FixedWidth>
     <Flat>Flach</Flat>
     <FlatMode>Flach Modus</FlatMode>
@@ -4039,6 +4080,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <FooterRowsCount>Anzahl Fußzeilen</FooterRowsCount>
     <Footers>Fußzeile</Footers>
     <ForeColor>Textfarbe</ForeColor>
+    <Foreground>Vordergrund</Foreground>
     <Format>Format</Format>
     <FormName>Formularname</FormName>
     <FormSettings>Aus Einstellungen</FormSettings>
@@ -4092,6 +4134,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <HeatmapColors>Heatmapfarben</HeatmapColors>
     <HeatmapWithGroup>Heatmap mit Gruppe</HeatmapWithGroup>
     <Height>Höhe</Height>
+    <Hidden>Versteckt</Hidden>
     <HideSeriesWithEmptyTitle>Reihen ohne Titel ausblenden</HideSeriesWithEmptyTitle>
     <HideZeros>0-Werte unterdrücken</HideZeros>
     <High>Hoch</High>
@@ -4103,6 +4146,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <HotColumnHeaderBackColor>Hintergrundfarbe der Spaltenkopfzeile beim Daraufzeigen</HotColumnHeaderBackColor>
     <HotForeColor>Vordergrundfarbe beim Daraufzeigen</HotForeColor>
     <HotGlyphColor>Glyphenfarbe beim Daraufzeigen</HotGlyphColor>
+    <HotHeaderBackColor>Hintergrundfarbe der Kopfzeile beim Schweben</HotHeaderBackColor>
     <HotHeaderColor>Kopfzeilenfarbe beim Daraufzeigen</HotHeaderColor>
     <HotkeyPrefix>Hotkey-Präfix</HotkeyPrefix>
     <HotRowHeaderBackColor>Hintergrundfarbe der Reihenkopfzeile beim Daraufzeigen</HotRowHeaderBackColor>
@@ -4238,6 +4282,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Locked>Gesperrt</Locked>
     <Logarithmic>Logarithmisch</Logarithmic>
     <LogarithmicScale>Logarithmische Skala</LogarithmicScale>
+    <Logo>Logo</Logo>
     <Longitude>Längengrad</Longitude>
     <Low>Niedrig</Low>
     <LowValues>Niedrige Werte</LowValues>
@@ -4336,8 +4381,10 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <OffsetAngle>Versatzwinkel</OffsetAngle>
     <OnClick>Beim Klicken</OnClick>
     <OnDataManipulation>Bei der Datenmanipulation</OnDataManipulation>
+    <OnePointZoom>Ein-Punkt-Zoom</OnePointZoom>
     <OnHover>Bei der Berührung</OnHover>
     <OnlyText>Nur Text</OnlyText>
+    <OnSelect>Bei der Auswahl</OnSelect>
     <Opacity>Opazität</Opacity>
     <OpenValues>Offene Werte</OpenValues>
     <Operation>Operation</Operation>
@@ -4358,6 +4405,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <PaperSourceOfOtherPages>Papierquelle anderer Seiten</PaperSourceOfOtherPages>
     <PaperSourceOtherPages>Papierquelle übrige Seiten</PaperSourceOtherPages>
     <Parameter>Parameter</Parameter>
+    <ParameterAlignment>Parameter-Ausrichtung</ParameterAlignment>
     <Parameters>Parameter</Parameters>
     <ParametersDateFormat>Datenparameter Format</ParametersDateFormat>
     <ParametersOrientation>Orientierung-Parameter</ParametersOrientation>
@@ -4422,6 +4470,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Ratio>Verhältnis</Ratio>
     <RatioY>Verhältnis Y</RatioY>
     <ReadOnly>Schreibschutz</ReadOnly>
+    <Reason>Grund</Reason>
     <RecentFonts>Letzte Schriftarten</RecentFonts>
     <ReconnectOnEachRow>Bei jeder Zeile erneut verbinden</ReconnectOnEachRow>
     <ReferencedAssemblies>Verweise auf Assemblies</ReferencedAssemblies>
@@ -4433,6 +4482,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Relations>Beziehungen</Relations>
     <RelativeHeight>Relative Höhe</RelativeHeight>
     <RelativeWidth>Relative Breite</RelativeWidth>
+    <RememberSelection>Auswahl speichern</RememberSelection>
     <RemoveUnusedDataBeforeStart>Ungenutzte Daten vor Beginn entfernen</RemoveUnusedDataBeforeStart>
     <RenderTo>Ausgeben in</RenderTo>
     <ReportAlias>Bericht-Alias</ReportAlias>
@@ -4636,6 +4686,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <TagValue>Tag-Wert</TagValue>
     <Target>Ziel</Target>
     <TargetColor>Zielfarbe</TargetColor>
+    <TargetFormat>Zielformat</TargetFormat>
     <TargetIcon>Zielsymbol</TargetIcon>
     <TargetMode>Ziel-Modus</TargetMode>
     <TargetSettings>Ziel</TargetSettings>
@@ -4653,6 +4704,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <TextFormat>Textformat</TextFormat>
     <TextOnly>Nur Text</TextOnly>
     <TextOptions>Text-Parameter</TextOptions>
+    <TextPlacement>Text Platzierung</TextPlacement>
     <TextQuality>Textqualität</TextQuality>
     <TextRightToLeft>Text von rechts nach links</TextRightToLeft>
     <TextShowBehind>Der Text hinter anzeigen</TextShowBehind>
@@ -4721,6 +4773,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <UseExternalReport>Aus Datei laden</UseExternalReport>
     <UseParentStyles>Elternstile verwenden</UseParentStyles>
     <UseRangeColor>Farbenbereich verwenden</UseRangeColor>
+    <UserBingKey>Bing-Benutzerschlüssel</UserBingKey>
     <UseRectangularSymbols>Rechteckige Symbole benutzen</UseRectangularSymbols>
     <UseSeriesColor>Reihen-Farben verwenden</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Für die 'Kreuz Spalte Gesamt' den Stil der 'Kreuz Zelle' verwenden</UseStyleOfSummaryInColumnTotal>
@@ -4938,7 +4991,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <ClickForMoreDetails>klicken, um weitere Informationen zu erhalten</ClickForMoreDetails>
     <CollapseAll>Alle Ebenen reduzieren</CollapseAll>
     <Collection>Sammlung</Collection>
-    <CompilationAccess>Kompilierungszugang</CompilationAccess>
+    <CompilationAccess>Zugang zur Kompilation</CompilationAccess>
     <CompilingReport>Bericht wird kompiliert</CompilingReport>
     <Complete>Vollständig</Complete>
     <Components>Komponenten</Components>
@@ -4953,6 +5006,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Enhancements>Erweiterungen</Enhancements>
     <EnterDataManually>Daten manuell eingeben</EnterDataManually>
     <Errors>Fehler</Errors>
+    <EventsAccess>Zugang zu Ereignissen</EventsAccess>
     <EventsTab>Ereignisse</EventsTab>
     <ExpandAll>Alle Ebenen erweitern</ExpandAll>
     <FilterAnd>Und</FilterAnd>
@@ -5047,6 +5101,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <VisualChecked>Überprüft</VisualChecked>
     <VisualDefault>Standard</VisualDefault>
     <VisualDisabled>Deaktiviert</VisualDisabled>
+    <VisualFocused>Im Fokus</VisualFocused>
     <VisualHover>Geschwebt</VisualHover>
     <VisualPressed>Gedrückt</VisualPressed>
     <Warnings>Warnungen</Warnings>
@@ -5200,6 +5255,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <VerticalLine>Vertikale Linie</VerticalLine>
   </Shapes>
   <Signature>
+    <ClearSignature>Unterschrift leeren</ClearSignature>
     <DigitalSignatureEmptyWatermark>Platz für digitale Unterschreibung im PDF-Viewer</DigitalSignatureEmptyWatermark>
     <FullName>Voller Name</FullName>
     <Initials>Initialen</Initials>
@@ -5207,6 +5263,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <InsertText>Text einfügen</InsertText>
     <LoadSignature>Unterschrift laden</LoadSignature>
     <NoSavedItems>Keine gespeicherten Elemente</NoSavedItems>
+    <PdfDigitalSignatureTitle>Wählen Sie die Objekte, die Sie in der Unterschrift in PDF-Datei anzeigen wollen.</PdfDigitalSignatureTitle>
     <SaveSignature>Unterschrift speichern</SaveSignature>
     <SignatureSavedSuccessfully>Die Unterschreibung ist erfolgreich gespeichert.</SignatureSavedSuccessfully>
     <UseBrush>Bürste verwenden</UseBrush>
@@ -5290,6 +5347,9 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <MoveBackward>Nach hinten</MoveBackward>
     <MoveForward>Nach vorne</MoveForward>
     <Order>Reihenfolge</Order>
+    <RibbonClassic>Klassisches Ribbon</RibbonClassic>
+    <RibbonLayout>Ribbon-Layout</RibbonLayout>
+    <RibbonSingleLine>Einzeiliges Ribbon</RibbonSingleLine>
     <SendToBack>In den Hintergrund</SendToBack>
     <Size>Größe</Size>
     <StyleDesigner>Stil-Editor</StyleDesigner>
@@ -5324,6 +5384,15 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <TextEditor>Text-Editor</TextEditor>
     <title>Toolbox</title>
   </Toolbox>
+  <UserFunctionEditor>
+    <ArgumentName>Argument-Name</ArgumentName>
+    <ArgumentType>Argument-Typ</ArgumentType>
+    <CustomCategory>Benutzerdefinierte Kategorie</CustomCategory>
+    <ReturnType>Rückgabetyp</ReturnType>
+    <Script>Skript</Script>
+    <ScriptMode>Skript-Modus</ScriptMode>
+    <Title>Benutzerfunktion</Title>
+  </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Möchten Sie wirklich dieses Fenster schließen? Alle Downloads werden abgebrochen werden.</AllDownloadsWillCanceled>
     <Description>Wir haben für Sie die Berichte, die, wir meinen, am besten für den Schnellstart geeignet sind, ausgewählt.</Description>

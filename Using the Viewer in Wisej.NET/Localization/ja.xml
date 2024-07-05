@@ -142,6 +142,7 @@
     <Submit>サブミット</Submit>
     <SwitchTo>{0}に切り替えます</SwitchTo>
     <Test>テスト</Test>
+    <TryToReconnect>再接続</TryToReconnect>
     <Up>アップ</Up>
     <Upgrade>アップグレード</Upgrade>
     <UpgradeNow>今すぐアップグレード</UpgradeNow>
@@ -188,6 +189,7 @@
     <Gantt>ガント</Gantt>
     <GridInterlaced>インターレース</GridInterlaced>
     <GridLines>グリッド線</GridLines>
+    <Heatmap>ヒートマップ</Heatmap>
     <Histogram>ヒストグラム</Histogram>
     <LabelAlignment>アライメント：</LabelAlignment>
     <LabelAlignmentHorizontal>水平：</LabelAlignmentHorizontal>
@@ -378,6 +380,7 @@
     <ButtonRecover>回復します</ButtonRecover>
     <ButtonRenew>更新</ButtonRenew>
     <ButtonResendEmail>メールを再送</ButtonResendEmail>
+    <ButtonResendInvitation>招待状の再送</ButtonResendInvitation>
     <ButtonResetPassword>パスワードを再設定</ButtonResetPassword>
     <ButtonRun>走る</ButtonRun>
     <ButtonScheduler>スケジューラー</ButtonScheduler>
@@ -453,6 +456,9 @@
     <LicenseInformation>ライセンス情報</LicenseInformation>
     <LicenseKey>ライセンスキー</LicenseKey>
     <Login>ログイン</Login>
+    <MyAccount>マイアカウント</MyAccount>
+    <MyCloud>マイクラウド</MyCloud>
+    <MyPlan>マイプラン</MyPlan>
     <MyTeam>自分のチーム</MyTeam>
     <NofM>{0}：{2}の{1}</NofM>
     <Open>開いた</Open>
@@ -643,6 +649,7 @@
     <StiPageHeaderBand>ページ&lt;br&gt;ヘッダ</StiPageHeaderBand>
     <StiPanel>パネル</StiPanel>
     <StiPdfDigitalSignature>PDF電子署名</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>PDFエレメント</StiPdfDigitalSignatureElement>
     <StiPivotColumn>ピボット列</StiPivotColumn>
     <StiPivotRow>ピボットロウ</StiPivotRow>
     <StiPivotSummary>ピボットの集計</StiPivotSummary>
@@ -669,6 +676,7 @@
     <StiTreeView>ツリー表示</StiTreeView>
     <StiTreeViewBox>ツリービューボックス</StiTreeViewBox>
     <StiVerticalLinePrimitive>垂直線</StiVerticalLinePrimitive>
+    <StiWebContent>ウェブコンテンツ</StiWebContent>
     <StiWinControl>勝利のコントロール</StiWinControl>
     <StiZipCode>Zipコード</StiZipCode>
   </Components>
@@ -894,9 +902,12 @@
     <StiPictureBoxControl>ピクチャーボックス</StiPictureBoxControl>
     <StiRadioButtonControl>ラジオボタン</StiRadioButtonControl>
     <StiRadioControl>ラジオ</StiRadioControl>
+    <StiRadioGroupControl>ラジオグループ</StiRadioGroupControl>
     <StiReportControl>レポートコントロール</StiReportControl>
     <StiRichTextBoxControl>リッチテキストボックス</StiRichTextBoxControl>
+    <StiSliderControl>スライダー</StiSliderControl>
     <StiTextBoxControl>テキストボックス</StiTextBoxControl>
+    <StiToggleControl>トグル</StiToggleControl>
     <StiTreeViewControl>ツリー表示</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1124,6 +1135,7 @@
     <EncryptedReportFiles>暗号化されたレポートテンプレート(*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Microsoft Excelファイル(*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelAllFiles>Microsoft Excelファイル(*.xlsx; *.xls)|*.xlsx;*.xls</ExcelAllFiles>
+    <ExcelCsvAllFiles>マイクロソフト・エクセルファイル（*.xlsx</ExcelCsvAllFiles>
     <ExcelFiles>Microsoft Excel 97-2003ファイル(*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Microsoft Excel XMLファイル(*.xml)|*.xml</ExcelXmlFiles>
     <ExeFiles>EXEファイル(*.exe)|*.exe</ExeFiles>
@@ -1415,6 +1427,8 @@
     <EnableDataMonitor>データモニターを有効にする</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>SQL文を正常に実行しました</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>新規式</ExpressionNew>
+    <FunctionEdit>編集</FunctionEdit>
+    <FunctionNew>新規</FunctionNew>
     <GetColumnsFromAssembly>アセンブリから列を取得</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>サポートされていないデータソースを非表示にする</HideUnsupportedDatabases>
     <ImportRelations>リレーションをインポート</ImportRelations>
@@ -1516,6 +1530,7 @@
     <BlankReport>空白レポート</BlankReport>
     <BlankScreen>空白の画面</BlankScreen>
     <Default>デフォルト</Default>
+    <DefaultSaveFormat>デフォルト保存形式</DefaultSaveFormat>
     <DefaultScriptMode>デフォルトのスクリプトモード</DefaultScriptMode>
     <Drawing>お絵かき</Drawing>
     <DrawMarkersWhenMoving>移動時にマーカーを描く</DrawMarkersWhenMoving>
@@ -1925,6 +1940,7 @@
     <StiMapCategory>地図やデータを扱うための部品群。</StiMapCategory>
     <StiMapElement>この部品は、地理的にターゲットとされているデータを表示するために使用されます。</StiMapElement>
     <StiMathFormula>このコンポーネントは、レポートに数式を表示するために使用されます。</StiMathFormula>
+    <StiNumberBoxElement>この要素は、数値を選択したり、数値の範囲を設定するために使われます。</StiNumberBoxElement>
     <StiOnlineMapElement>この部品は、オンラインマップ上に地理的マーカーを表示するために使用されます。</StiOnlineMapElement>
     <StiOverlayBand>このバンドは、ページ上に透かしを出力するために使用されます。</StiOverlayBand>
     <StiPageFooterBand>このバンドは、ページ番号、日付、およびその他の追加情報など、各ページの下部にある情報を出力するために使用されます。</StiPageFooterBand>
@@ -1932,6 +1948,7 @@
     <StiPanel>バンドを含む他の部品を含むことができる長方形の領域。 パネルが移動されると、パネル内の部品も移動されます。 パネルは、バンドまたはページ上に配置できます。</StiPanel>
     <StiPanelElement>他の部品を含むことができる長方形の領域。 パネルが移動されると、パネル内の部品も移動されます。</StiPanelElement>
     <StiPdfDigitalSignature>このコンポーネントは、レポートがAdobe PDFにエクスポートされた後に、デジタル署名の場所を指定するために使用されます。</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>このコンポーネントは、PDFにエクスポートする際に、電子署名と証明書のフィールドのためのスペースを指定するために使用されます。</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>ピボット・部品は、構造化されたデータ表現を表として使用します。</StiPivotTableElement>
     <StiProgressElement>部品には、入力データの比率が表示されます。 これは、パイ、円、棒など、さまざまなモードで表示できます。</StiProgressElement>
     <StiRectanglePrimitive>この部品は、長方形を出力するために使用されます。</StiRectanglePrimitive>
@@ -1954,6 +1971,7 @@
     <StiTreeViewBoxElement>コントロールは、ドロップダウンリストを使用して値をツリーとして選択するために使用されます。</StiTreeViewBoxElement>
     <StiTreeViewElement>階層データをツリーとして表示するために使用されるコントロールを表します。</StiTreeViewElement>
     <StiVerticalLinePrimitive>この部品は、垂直線を出力するために使用されます。</StiVerticalLinePrimitive>
+    <StiWebContentElement>このコンポーネントは、ダッシュボードにウェブコンテンツを追加することができます。</StiWebContentElement>
     <StiWinControl>この部品により、.NET Frameworkからのビジュアルコントロールを表示できます。</StiWinControl>
     <StiZipCode>この部品は、Zipコードを出力するために使用されます。</StiZipCode>
   </HelpComponents>
@@ -2013,6 +2031,8 @@
     <DockStyleNone>選択した部品の選択を解除します。</DockStyleNone>
     <DockStyleRight>選択した部品を右側にドッキングします。</DockStyleRight>
     <DockStyleTop>選択した部品を上面にドッキングします。</DockStyleTop>
+    <EventsAccess1>このドキュメントはイベントを使用しています。このドキュメントが信頼できるソースからのものである場合は、「開く」ボタンをクリックしてアクセスできます。</EventsAccess1>
+    <EventsAccess2>ドキュメントのソースが不明であっても表示したい場合は、「セーフモードで開く」ボタンをクリックできます。この場合、イベントは無視され、実行されません。</EventsAccess2>
     <FontGrow>テキストサイズを大きくします。</FontGrow>
     <FontName>テキストフォント。</FontName>
     <FontNameWatermark>ウォーターマークのテキストフォント。</FontNameWatermark>
@@ -2264,6 +2284,7 @@
     <menuEditDataTransformationNew>新規データ変換...</menuEditDataTransformationNew>
     <menuEditDelete>削除</menuEditDelete>
     <menuEditEdit>編集</menuEditEdit>
+    <menuEditFunctionNew>新機能...</menuEditFunctionNew>
     <menuEditImportRelations>リレーションをインポート...</menuEditImportRelations>
     <menuEditPaste>貼付け</menuEditPaste>
     <menuEditRedo>やり直す</menuEditRedo>
@@ -2376,9 +2397,11 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>SQLクエリの要求タイムアウトが、レポートデザイナの要求タイムアウトを超えています。 デザイナー部品の要求タイムアウトを{0}秒以上に設定します。</ChangeRequestTimeout>
+    <DatabaseTypeChangeWarning>注意してください！この関数はデータソースを{0}に変換します。データを正常に取得するには、すべてのテーブル名と列名が一致する必要があります。クエリは変換されません。続行しますか？</DatabaseTypeChangeWarning>
     <DoNotShowAgain>再び表示しない</DoNotShowAgain>
     <LatexFormat>LaTeX形式は、数式を表示するために使用されます。</LatexFormat>
     <MessageTimeOutExpired>コマンドのタイムアウトが切れました！</MessageTimeOutExpired>
+    <MustBeFile>{0}ファイルでなければならない。</MustBeFile>
     <RenderingWillOccurInTheInterpretationMode>共有レポートを表示すると、解釈モードでレンダリングが行われます。</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>リソース "{0}"はレポートで使用されているため、削除できません。</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>アイテムの共有URLが更新されました！</ShareURLOfTheItemHasBeenUpdated>
@@ -2417,7 +2440,7 @@
     <ActivationUserNameOrPasswordIsWrong>あなたのユーザー名（電子メール）またはパスワードが間違っています！</ActivationUserNameOrPasswordIsWrong>
     <ActivationWrongAccountType>あなたのアカウントタイプはStimulsoft Serverを有効にすることができません！</ActivationWrongAccountType>
     <Alert>アラート</Alert>
-    <AuthAccountAlreadyExists>このユーザー名（Eメール）のアカウントはすでに存在します。0}アカウントと関連付けるには、Stimulsoftアカウントのパスワードを使用してください。</AuthAccountAlreadyExists>
+    <AuthAccountAlreadyExists>このユーザー名（Eメール）のアカウントはすでに存在します。{0}アカウントと関連付けるには、Stimulsoftアカウントのパスワードを使用してください。</AuthAccountAlreadyExists>
     <AuthAccountCantBeUsedNow>アカウントは今使用できません！</AuthAccountCantBeUsedNow>
     <AuthAccountIsNotActivated>アカウントはまだ有効になっていません！ 登録時にEメールに送られた指示に従ってください。</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>このワークスペースの最後の管理者ユーザーであるため、ユーザーロールは変更できません。</AuthCantChangeRoleBecauseLastAdministratorUser>
@@ -2436,12 +2459,14 @@
     <AuthPasswordIsNotSpecified>パスワードは指定されていません！</AuthPasswordIsNotSpecified>
     <AuthPasswordIsTooLong>パスワードが長すぎる！</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>パスワードが短すぎます（最小文字数は6文字です）。</AuthPasswordIsTooShort>
+    <AuthRequestsLimitIsExceeded>リクエストの上限を超えました！弊社までご連絡ください！</AuthRequestsLimitIsExceeded>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>ロールは他のユーザーによって使用されているため、削除できません。</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>指定された名前「{0}」のロールはすでに存在します。</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>指定された名前 "{0}"を持つロールはシステムロールです！</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>さらに詳しい指示があるメッセージが「{0}」に送信されます。</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>トークンが正しくありません！</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>あなたはログアウトしました！</AuthUserHasLoggedOut>
+    <AuthUserHasLoggedOutPrevDevice>他のデバイスからログインが検出されたため、ログアウトされました！</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExists>ユーザー名（Email）はすでに使用中です！</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>このメールアドレスは使用できません！</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>ユーザー名（電子メール）は指定されていません！</AuthUserNameIsNotSpecified>
@@ -2484,6 +2509,7 @@
     <NotificationItemDelete>アイテムが削除されています。</NotificationItemDelete>
     <NotificationItemDeleteComplete>項目は正常に削除されます。</NotificationItemDeleteComplete>
     <NotificationItemExtraComponentRequired>追加コンポーネントが必要</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallToRunWebView>WebView2 Runtimeをインストールして、ウェブコンテンツエレメントを正しく実行してください。</NotificationItemInstallToRunWebView>
     <NotificationItemInstallWebView>Blocklyエディターと正しく連携するために、WebView2 Runtimeをインストールしてください。</NotificationItemInstallWebView>
     <NotificationItemRestore>アイテムはリストア中です。</NotificationItemRestore>
     <NotificationItemRestoreComplete>アイテムは正常に復元されます。</NotificationItemRestoreComplete>
@@ -3283,6 +3309,10 @@
     <StiOrientationVertical>垂直</StiOrientationVertical>
     <StiPageOrientationLandscape>横置</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>縦置</StiPageOrientationPortrait>
+    <StiPdfDigitalSignatureAppearanceTypeDraw>ドロー</StiPdfDigitalSignatureAppearanceTypeDraw>
+    <StiPdfDigitalSignatureAppearanceTypeImage>画像</StiPdfDigitalSignatureAppearanceTypeImage>
+    <StiPdfDigitalSignatureAppearanceTypeNone>なし</StiPdfDigitalSignatureAppearanceTypeNone>
+    <StiPdfDigitalSignatureAppearanceTypeText>テキスト</StiPdfDigitalSignatureAppearanceTypeText>
     <StiPenStyleDash>ダッシュ</StiPenStyleDash>
     <StiPenStyleDashDot>ダッシュドット</StiPenStyleDashDot>
     <StiPenStyleDashDotDot>ダッシュドットドット</StiPenStyleDashDotDot>
@@ -3396,6 +3426,9 @@
     <StiShiftModeIncreasingSize>サイズ増加</StiShiftModeIncreasingSize>
     <StiShiftModeNone>なし</StiShiftModeNone>
     <StiShiftModeOnlyInWidthOfComponent>部品の幅のみ</StiShiftModeOnlyInWidthOfComponent>
+    <StiShowEmptyCellsAsConnectPointsWithLine>点と点を線で結ぶ</StiShowEmptyCellsAsConnectPointsWithLine>
+    <StiShowEmptyCellsAsGap>ギャップ</StiShowEmptyCellsAsGap>
+    <StiShowEmptyCellsAsZero>ゼロ</StiShowEmptyCellsAsZero>
     <StiShowSeriesLabelsFromChart>グラフから</StiShowSeriesLabelsFromChart>
     <StiShowSeriesLabelsFromSeries>シリーズから</StiShowSeriesLabelsFromSeries>
     <StiShowSeriesLabelsNone>なし</StiShowSeriesLabelsNone>
@@ -3405,6 +3438,8 @@
     <StiShowYAxisBoth>両方</StiShowYAxisBoth>
     <StiShowYAxisCenter>中央</StiShowYAxisCenter>
     <StiShowYAxisLeft>左</StiShowYAxisLeft>
+    <StiSignatureModeDraw>ドロー</StiSignatureModeDraw>
+    <StiSignatureModeType>タイプ</StiSignatureModeType>
     <StiSignatureTypeDigitalSignature>デジタル署名</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>描画</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>スタイル選択</StiSignatureTypeSelectStyle>
@@ -3441,6 +3476,8 @@
     <StiTableAutoWidthTypeFullTable>全テーブル</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>最後の列</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>なし</StiTableAutoWidthTypeNone>
+    <StiTableSizeModeAutoSize>オートサイズ</StiTableSizeModeAutoSize>
+    <StiTableSizeModeFit>フィット</StiTableSizeModeFit>
     <StiTargetModePercentage>パーセンテージ</StiTargetModePercentage>
     <StiTargetModeVariation>バリエーション</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>センター</StiTextHorAlignmentCenter>
@@ -3647,6 +3684,7 @@
     <AllowApplyColorNegative>カラーネガティブの適用を許可</AllowApplyColorNegative>
     <AllowApplyLineColor>ラインカラー適用を許可</AllowApplyLineColor>
     <AllowApplyStyle>適用スタイルを許可</AllowApplyStyle>
+    <AllowCleanSignature>クリーンな署名を許可する</AllowCleanSignature>
     <AllowExpressions>式を許可</AllowExpressions>
     <AllowHtmlTags>HTMLタグを許可</AllowHtmlTags>
     <AllowNull>Nullを許可</AllowNull>
@@ -3679,6 +3717,7 @@
     <Anchor>アンカー</Anchor>
     <Angle>角度</Angle>
     <Antialiasing>アンチエイリアシング</Antialiasing>
+    <Appearance>外観</Appearance>
     <Apply>適用</Apply>
     <Area>エリア</Area>
     <Argument>引数</Argument>
@@ -3880,6 +3919,7 @@
     <DisplayValue>表示値</DisplayValue>
     <Distance>距離</Distance>
     <DistanceBetweenTabs>タブ間の距離</DistanceBetweenTabs>
+    <DistinguishedName>識別名</DistinguishedName>
     <Dock>ドック</Dock>
     <DockableTable>ドッキング可能なテーブル</DockableTable>
     <DockStyle>ドックスタイル</DockStyle>
@@ -3950,6 +3990,7 @@
     <Filters>フィルタ</Filters>
     <First>1番</First>
     <FirstTabOffset>最初のタブオフセット</FirstTabOffset>
+    <FixedHeight>固定高さ</FixedHeight>
     <FixedWidth>固定幅</FixedWidth>
     <Flat>フラット</Flat>
     <FlatMode>フラットモード</FlatMode>
@@ -3980,6 +4021,7 @@
     <FooterRowsCount>フッタ行数</FooterRowsCount>
     <Footers>フッタ</Footers>
     <ForeColor>フォアカラー</ForeColor>
+    <Foreground>前景</Foreground>
     <Format>フォーマット</Format>
     <FormName>フォーム名</FormName>
     <FormSettings>フォーム設定</FormSettings>
@@ -4033,6 +4075,7 @@
     <HeatmapColors>ヒートマップ色</HeatmapColors>
     <HeatmapWithGroup>グループ化ヒートマップ</HeatmapWithGroup>
     <Height>高さ</Height>
+    <Hidden>ヒドゥン</Hidden>
     <HideSeriesWithEmptyTitle>空のタイトルでシリーズを非表示</HideSeriesWithEmptyTitle>
     <HideZeros>ゼロ非表示</HideZeros>
     <High>高い</High>
@@ -4044,6 +4087,7 @@
     <HotColumnHeaderBackColor>ホットカラムヘッダ背景色</HotColumnHeaderBackColor>
     <HotForeColor>ホット前景色</HotForeColor>
     <HotGlyphColor>ホットグリフ色</HotGlyphColor>
+    <HotHeaderBackColor>ホットヘッダーバックカラー</HotHeaderBackColor>
     <HotHeaderColor>ホットヘッダ色</HotHeaderColor>
     <HotkeyPrefix>ホットキープレフィックス</HotkeyPrefix>
     <HotRowHeaderBackColor>ホット行ヘッダ背景色</HotRowHeaderBackColor>
@@ -4178,6 +4222,7 @@
     <Locked>ロックする</Locked>
     <Logarithmic>対数</Logarithmic>
     <LogarithmicScale>対数スケール</LogarithmicScale>
+    <Logo>ロゴ</Logo>
     <Longitude>経度</Longitude>
     <Low>低い</Low>
     <LowValues>低い値</LowValues>
@@ -4276,8 +4321,10 @@
     <OffsetAngle>オフセット角</OffsetAngle>
     <OnClick>クリック時</OnClick>
     <OnDataManipulation>データ操作</OnDataManipulation>
+    <OnePointZoom>ワンポイント・ズーム</OnePointZoom>
     <OnHover>ホバー時</OnHover>
     <OnlyText>テキストのみ</OnlyText>
+    <OnSelect>オン・セレクト</OnSelect>
     <Opacity>不透明度</Opacity>
     <OpenValues>オープンな価値</OpenValues>
     <Operation>操作</Operation>
@@ -4296,6 +4343,7 @@
     <PaperSourceOfFirstPage>最初のページの用紙ソース</PaperSourceOfFirstPage>
     <PaperSourceOfOtherPages>他のページの給紙元</PaperSourceOfOtherPages>
     <Parameter>パラメータ</Parameter>
+    <ParameterAlignment>パラメーター・アライメント</ParameterAlignment>
     <Parameters>パラメーター</Parameters>
     <ParametersDateFormat>パラメータ日付形式</ParametersDateFormat>
     <ParametersOrientation>パラメータの方向</ParametersOrientation>
@@ -4360,6 +4408,7 @@
     <Ratio>比</Ratio>
     <RatioY>比率Y</RatioY>
     <ReadOnly>読み取り専用</ReadOnly>
+    <Reason>理由</Reason>
     <RecentFonts>最近のフォント</RecentFonts>
     <ReconnectOnEachRow>各行に再接続</ReconnectOnEachRow>
     <ReferencedAssemblies>参照アセンブリ</ReferencedAssemblies>
@@ -4371,6 +4420,7 @@
     <Relations>リレーション</Relations>
     <RelativeHeight>相対的な高さ</RelativeHeight>
     <RelativeWidth>相対幅</RelativeWidth>
+    <RememberSelection>リメンバー・セレクション</RememberSelection>
     <RemoveUnusedDataBeforeStart>開始前に未使用データを削除</RemoveUnusedDataBeforeStart>
     <RenderTo>レンダリング</RenderTo>
     <ReportAlias>レポートエイリアス</ReportAlias>
@@ -4573,6 +4623,7 @@
     <TagValue>タグ値</TagValue>
     <Target>ターゲット</Target>
     <TargetColor>ターゲットカラー</TargetColor>
+    <TargetFormat>ターゲット・フォーマット</TargetFormat>
     <TargetIcon>ターゲットアイコン</TargetIcon>
     <TargetMode>ターゲットモード</TargetMode>
     <TargetSettings>目標</TargetSettings>
@@ -4590,6 +4641,7 @@
     <TextFormat>テキスト形式</TextFormat>
     <TextOnly>テキストのみ</TextOnly>
     <TextOptions>テキストオプション</TextOptions>
+    <TextPlacement>テキスト配置</TextPlacement>
     <TextQuality>テキスト品質</TextQuality>
     <TextRightToLeft>テキスト 右から左へ</TextRightToLeft>
     <TextShowBehind>背後のテキスト表示</TextShowBehind>
@@ -4658,6 +4710,7 @@
     <UseExternalReport>外部レポートを使用</UseExternalReport>
     <UseParentStyles>親スタイルを使用</UseParentStyles>
     <UseRangeColor>範囲カラーを使用</UseRangeColor>
+    <UserBingKey>ユーザー・ビング・キー</UserBingKey>
     <UseRectangularSymbols>長方形の記号を使用</UseRectangularSymbols>
     <UseSeriesColor>シリーズカラーを使用</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>列の合計に集計のスタイルを使用</UseStyleOfSummaryInColumnTotal>
@@ -4889,6 +4942,7 @@
     <Enhancements>強化</Enhancements>
     <EnterDataManually>手動でデータを入力する</EnterDataManually>
     <Errors>エラー</Errors>
+    <EventsAccess>イベントアクセス</EventsAccess>
     <EventsTab>[イベント]タブ</EventsTab>
     <ExpandAll>すべて展開</ExpandAll>
     <FilterAnd>そして</FilterAnd>
@@ -4983,6 +5037,7 @@
     <VisualChecked>チェック済み</VisualChecked>
     <VisualDefault>デフォルト</VisualDefault>
     <VisualDisabled>無効</VisualDisabled>
+    <VisualFocused>フォーカス</VisualFocused>
     <VisualHover>ホバー</VisualHover>
     <VisualHovered>ホバーされた</VisualHovered>
     <VisualPressed>押された</VisualPressed>
@@ -5136,6 +5191,7 @@
     <VerticalLine>垂直線</VerticalLine>
   </Shapes>
   <Signature>
+    <ClearSignature>クリアサイン</ClearSignature>
     <DigitalSignatureEmptyWatermark>PDFビューアにデジタル署名を配置</DigitalSignatureEmptyWatermark>
     <FullName>フルネーム</FullName>
     <Initials>イニシャル</Initials>
@@ -5143,6 +5199,7 @@
     <InsertText>テキストを挿入</InsertText>
     <LoadSignature>署名のロード</LoadSignature>
     <NoSavedItems>保存されたアイテムはありません</NoSavedItems>
+    <PdfDigitalSignatureTitle>PDFファイルの署名に表示したいオブジェクトを選択します。</PdfDigitalSignatureTitle>
     <SaveSignature>署名の保存</SaveSignature>
     <SignatureSavedSuccessfully>署名が正常に保存されました。</SignatureSavedSuccessfully>
     <UseBrush>ブラシを使用する</UseBrush>
@@ -5226,6 +5283,9 @@
     <MoveBackward>背面へ移動</MoveBackward>
     <MoveForward>前面へ移動</MoveForward>
     <Order>順序</Order>
+    <RibbonClassic>クラシック・リボン</RibbonClassic>
+    <RibbonLayout>リボンレイアウト</RibbonLayout>
+    <RibbonSingleLine>シングルライン・リボン</RibbonSingleLine>
     <SendToBack>最背面</SendToBack>
     <Size>サイズ</Size>
     <StyleDesigner>スタイル&lt;br&gt;デザイナ</StyleDesigner>
@@ -5260,6 +5320,15 @@
     <TextEditor>テキストエディタ</TextEditor>
     <title>ツールボックス</title>
   </Toolbox>
+  <UserFunctionEditor>
+    <ArgumentName>引数名</ArgumentName>
+    <ArgumentType>引数タイプ</ArgumentType>
+    <CustomCategory>カスタム・カテゴリー</CustomCategory>
+    <ReturnType>リターン・タイプ</ReturnType>
+    <Script>スクリプト</Script>
+    <ScriptMode>スクリプトモード</ScriptMode>
+    <Title>ユーザー機能</Title>
+  </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>このウィンドウを閉じてもよろしいですか？すべてのダウンロードはキャンセルされます。</AllDownloadsWillCanceled>
     <Description>素早くスタートするために最善と考えられるレポートを選択しました。</Description>

@@ -1103,6 +1103,7 @@
     <EncryptedReportFiles>Fichiers rapport chiffré (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Fichiers Microsoft Excel 2007/2013(*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelAllFiles>Fichers Microsoft (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
+    <ExcelCsvAllFiles>Fichers Microsoft Excel (*.xlsx;*.xls;*.csv)|*.xlsx;*.xls;*.csv</ExcelCsvAllFiles>
     <ExcelFiles>Fichiers Microsoft Excel (*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Fichiers Microsoft Excel XML (*.xls)|*.xls</ExcelXmlFiles>
     <ExeFiles>Fichiers EXE (*.exe)|*.exe</ExeFiles>
@@ -4244,6 +4245,7 @@ Il contient un lien pour confirmer votre enregistrement. Pour terminer votre enr
     <ReportUnit>Unité du rapport</ReportUnit>
     <RequestFromUser>Requête de l'utilisateur</RequestFromUser>
     <RequestParameters>RequestParameters</RequestParameters>
+    <ResetAllFilters>Réinitialiser tous les filtres</ResetAllFilters>
     <ResetDataSource>Réinitialiser la source de données</ResetDataSource>
     <ResetPageNumber>Réinitialiser le nombre de pages</ResetPageNumber>
     <Resize>Redimensionner</Resize>
