@@ -29,7 +29,7 @@ namespace Using_the_Designer_in_Wisej_NET
             }
             set
             {
-                this.Designer.Report = value;
+                if (this.Designer != null) this.Designer.Report = value;
             }
         }
         #endregion
