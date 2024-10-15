@@ -16,7 +16,8 @@ namespace Changing_the_Viewer_and_Designer_Theme
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            StiWebViewer1.Theme = (StiViewerTheme)Enum.Parse(typeof(StiViewerTheme), Session["theme"] as string);
+            if (Session["theme"] != null)
+                StiWebViewer1.Theme = (StiViewerTheme)Enum.Parse(typeof(StiViewerTheme), Session["theme"] as string);
         }
 
         protected void StiWebViewer1_GetReport(object sender, StiReportDataEventArgs e)

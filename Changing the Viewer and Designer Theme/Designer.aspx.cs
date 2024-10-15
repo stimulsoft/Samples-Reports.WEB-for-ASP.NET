@@ -20,7 +20,9 @@ namespace Changing_the_Viewer_and_Designer_Theme_and_viewer
             var report = new StiReport();
             report.Load(Server.MapPath(@"Reports\Invoice.mrt"));
 
-            StiWebDesigner1.Theme = (StiDesignerTheme)Enum.Parse(typeof(StiDesignerTheme), Session["theme"] as string);
+            if (Session["theme"] != null)
+                StiWebDesigner1.Theme = (StiDesignerTheme)Enum.Parse(typeof(StiDesignerTheme), Session["theme"] as string);
+
             StiWebDesigner1.Report = report;
         }
 
