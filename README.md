@@ -6,6 +6,7 @@
 This repository has a set of examples (Visual Studio projects), each in different folders:
 * [Adding a Custom Function to the Designer](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET/tree/master/Adding%20a%20Custom%20Function%20to%20the%20Designer)
 * [Adding a Font to the Resource](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET/tree/master/Adding%20a%20Font%20to%20the%20Resource)
+* [Changing Database Type](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET/tree/master/Changing%20Database%20Type)
 * [Changing the Viewer and Designer Theme](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET/tree/master/Changing%20the%20Viewer%20and%20Designer%20Theme)
 * [Configuring Report caching](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET/tree/master/Configuring%20Report%20caching)
 * [Connecting to Data from Code](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET/tree/master/Connecting%20to%20Data%20from%20Code)

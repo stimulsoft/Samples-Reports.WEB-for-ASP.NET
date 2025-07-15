@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using the Viewer in Wisej.N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using the Designer in Wisej.NET", "Using the Designer in Wisej.NET\Using the Designer in Wisej.NET.csproj", "{4A379C47-B3FA-4A94-B3F6-85E12FED8038}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Changing Database Type", "Changing Database Type\Changing Database Type.csproj", "{6DD897D1-4ECD-4B14-9E05-0F484F4AA03C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,12 +143,16 @@ Global
 		{4A379C47-B3FA-4A94-B3F6-85E12FED8038}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A379C47-B3FA-4A94-B3F6-85E12FED8038}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A379C47-B3FA-4A94-B3F6-85E12FED8038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD897D1-4ECD-4B14-9E05-0F484F4AA03C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD897D1-4ECD-4B14-9E05-0F484F4AA03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD897D1-4ECD-4B14-9E05-0F484F4AA03C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD897D1-4ECD-4B14-9E05-0F484F4AA03C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		VisualSVNWorkingCopyRoot = .
 		SolutionGuid = {C75039E0-9AA4-4328-9E30-E2189ECD30A2}
+		VisualSVNWorkingCopyRoot = .
 	EndGlobalSection
 EndGlobal
