@@ -11,7 +11,7 @@ namespace Globalizing_Reports
         {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
         }
 
@@ -37,7 +37,7 @@ namespace Globalizing_Reports
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            
+
         }
     }
 }

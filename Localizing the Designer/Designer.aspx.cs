@@ -12,7 +12,7 @@ namespace Localizing_the_Designer
         {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
         }
 
@@ -24,7 +24,7 @@ namespace Localizing_the_Designer
             StiWebDesigner1.Localization = $"Localization/{Session["lang"]}.xml";
             StiWebDesigner1.Report = report;
         }
-        
+
         protected void StiWebDesigner1_CreateReport(object sender, StiReportDataEventArgs e)
         {
             var data = new DataSet();

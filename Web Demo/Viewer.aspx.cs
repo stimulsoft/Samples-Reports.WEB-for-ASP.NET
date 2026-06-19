@@ -14,7 +14,7 @@ namespace Web_Demo
         {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
         }
 
@@ -33,7 +33,7 @@ namespace Web_Demo
                 reportName = Page.Request.QueryString.Get("reportname");
             }
 
-            report.Load(string.Format("{0}\\Reports\\{1}.mrt", appDirectory, reportName));            
+            report.Load(string.Format("{0}\\Reports\\{1}.mrt", appDirectory, reportName));
 
             e.Report = report;
         }

@@ -12,7 +12,7 @@ namespace Using_Designer_Events
         {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
         }
 
@@ -22,7 +22,7 @@ namespace Using_Designer_Events
             report.Load(Server.MapPath(@"Reports\Invoice.mrt"));
             StiWebDesigner1.Report = report;
         }
-        
+
         protected void StiWebDesigner1_CreateReport(object sender, StiReportDataEventArgs e)
         {
             var data = new DataSet();
