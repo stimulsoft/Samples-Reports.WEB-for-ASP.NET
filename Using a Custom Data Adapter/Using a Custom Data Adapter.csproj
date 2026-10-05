@@ -44,9 +44,6 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="LibExcel, Version=2026.2.1.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.LibExcel.2026.2.1\lib\net452\LibExcel.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Npgsql, Version=4.0.17.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
       <HintPath>..\packages\Npgsql.4.0.17\lib\net451\Npgsql.dll</HintPath>
@@ -83,38 +80,44 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="Stimulsoft.Base, Version=2026.3.4.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2026.3.4\lib\net472\Stimulsoft.Base.dll</HintPath>
+    <Reference Include="LibExcel, Version=2026.4.1.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.LibExcel.2026.4.1\lib\net462\LibExcel.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Blockly, Version=2026.3.4.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2026.3.4\lib\net472\Stimulsoft.Blockly.dll</HintPath>
+    <Reference Include="Stimulsoft.Base, Version=2026.4.1.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2026.4.1\lib\net472\Stimulsoft.Base.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Data, Version=2026.3.4.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2026.3.4\lib\net472\Stimulsoft.Data.dll</HintPath>
+    <Reference Include="Stimulsoft.Blockly, Version=2026.4.1.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2026.4.1\lib\net472\Stimulsoft.Blockly.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Map, Version=2026.3.4.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2026.3.4\lib\net472\Stimulsoft.Map.dll</HintPath>
+    <Reference Include="Stimulsoft.Data, Version=2026.4.1.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2026.4.1\lib\net472\Stimulsoft.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Check, Version=2026.3.4.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2026.3.4\lib\net472\Stimulsoft.Report.Check.dll</HintPath>
+    <Reference Include="Stimulsoft.Map, Version=2026.4.1.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2026.4.1\lib\net472\Stimulsoft.Map.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report, Version=2026.3.4.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2026.3.4\lib\net472\Stimulsoft.Report.dll</HintPath>
+    <Reference Include="Stimulsoft.Markdown, Version=2026.4.1.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2026.4.1\lib\net472\Stimulsoft.Markdown.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Helper, Version=2026.3.4.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Engine.2026.3.4\lib\net472\Stimulsoft.Report.Helper.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Check, Version=2026.4.1.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2026.4.1\lib\net472\Stimulsoft.Report.Check.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Mvc, Version=2026.3.4.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Web.2026.3.4\lib\net472\Stimulsoft.Report.Mvc.dll</HintPath>
+    <Reference Include="Stimulsoft.Report, Version=2026.4.1.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2026.4.1\lib\net472\Stimulsoft.Report.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.Web, Version=2026.3.4.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Web.2026.3.4\lib\net472\Stimulsoft.Report.Web.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Helper, Version=2026.4.1.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Engine.2026.4.1\lib\net472\Stimulsoft.Report.Helper.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report.WebDesign, Version=2026.3.4.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Reports.Web.2026.3.4\lib\net472\Stimulsoft.Report.WebDesign.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Mvc, Version=2026.4.1.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Web.2026.4.1\lib\net472\Stimulsoft.Report.Mvc.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Svg, Version=2026.3.4.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Svg.2026.3.4\lib\net472\Stimulsoft.Svg.dll</HintPath>
+    <Reference Include="Stimulsoft.Report.Web, Version=2026.4.1.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Web.2026.4.1\lib\net472\Stimulsoft.Report.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.WebDesign, Version=2026.4.1.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Web.2026.4.1\lib\net472\Stimulsoft.Report.WebDesign.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Svg, Version=2026.4.1.0, Culture=neutral, PublicKeyToken=73df5cf8c5255bdd, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Svg.2026.4.1\lib\net472\Stimulsoft.Svg.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
